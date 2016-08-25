@@ -2039,14 +2039,20 @@ body {
 
 /* line 51, ../sass/components/_fonts.scss */
 .subsection-title {
-  color: #8492A6;
+  color: #3C4858;
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 8px;
+  margin-top: 34px;
   text-transform: uppercase;
 }
 
-/* line 59, ../sass/components/_fonts.scss */
+/* line 60, ../sass/components/_fonts.scss */
+.subsection-title:first-of-type {
+  margin-top: 0;
+}
+
+/* line 64, ../sass/components/_fonts.scss */
 p {
   color: rgba(60, 72, 88, 0.8);
   font-size: 16px;
@@ -2054,12 +2060,12 @@ p {
   margin-bottom: 18px;
 }
 
-/* line 66, ../sass/components/_fonts.scss */
+/* line 71, ../sass/components/_fonts.scss */
 .paragraph--light {
   color: #E0E6ED;
 }
 
-/* line 70, ../sass/components/_fonts.scss */
+/* line 75, ../sass/components/_fonts.scss */
 a,
 .link {
   color: #3498db;
@@ -2067,42 +2073,42 @@ a,
   font-weight: 500;
   text-decoration: none;
 }
-/* line 77, ../sass/components/_fonts.scss */
+/* line 82, ../sass/components/_fonts.scss */
 a:hover,
 .link:hover {
   text-decoration: underline;
 }
 
-/* line 82, ../sass/components/_fonts.scss */
+/* line 87, ../sass/components/_fonts.scss */
 .link--light {
   color: #F9FAFC;
 }
 
 @media (max-width: 991px) {
-  /* line 87, ../sass/components/_fonts.scss */
+  /* line 92, ../sass/components/_fonts.scss */
   .class-title {
     font-size: 40px;
   }
 
-  /* line 91, ../sass/components/_fonts.scss */
+  /* line 96, ../sass/components/_fonts.scss */
   .class-semester {
     position: relative;
     font-size: 32px;
   }
 }
 @media (max-width: 768px) {
-  /* line 98, ../sass/components/_fonts.scss */
+  /* line 103, ../sass/components/_fonts.scss */
   .section-title {
     font-size: 22px;
   }
 
-  /* line 102, ../sass/components/_fonts.scss */
+  /* line 107, ../sass/components/_fonts.scss */
   .class-title {
     font-size: 26px;
     line-height: 1.2;
   }
 
-  /* line 107, ../sass/components/_fonts.scss */
+  /* line 112, ../sass/components/_fonts.scss */
   .class-semester {
     display: block;
     font-size: 18px;

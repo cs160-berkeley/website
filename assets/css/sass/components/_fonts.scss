@@ -49,11 +49,16 @@ body {
 }
 
 .subsection-title {
-  color: $slate;
+  color: $black;
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 8px;
+  margin-top: 34px;
   text-transform: uppercase;
+}
+
+.subsection-title:first-of-type {
+  margin-top: 0;
 }
 
 p {
