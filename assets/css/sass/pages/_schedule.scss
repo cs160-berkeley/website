@@ -1,0 +1,99 @@
+.schedule-col {
+  padding-right: 50px;
+}
+
+.syllabus-week-label {
+  font-size: 22px;
+  margin-bottom: 18px;
+  position: relative;
+  .week {
+    background: $snow;
+    float: left;
+    font-weight: 900;
+  }
+
+  .day {
+    background: $snow;
+    color: $slate;
+    font-weight: 400;
+    padding: 0 15px;
+    text-transform: none;
+  }
+
+  &:after {
+    background: $slate-40;
+    content: '';
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    z-index: -1;
+    @include transform(translateY(-50%));
+  }
+}
+
+.active-week {
+  color: $blue;
+}
+
+.lec-container {
+  margin-bottom: 18px;
+  overflow: hidden;
+}
+
+.lec-num {
+  clear: both;
+  float: left;
+  width: 80px;
+  padding-right: 15px;
+  text-align: right;
+}
+
+.lec-details {
+  float: left;
+  width: calc(100% - 100px);
+}
+
+.lec-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.lec-material {
+  margin-bottom: 18px;
+
+  &:first-of-type {
+    padding-left: 0;
+  }
+
+  h4 {
+    color: $slate;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+  }
+
+  ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .schedule-col {
+    padding-right: 15px;
+  }
+
+  .syllabus-week-label {
+    font-size: 19px;
+    margin-bottom: 10px;
+  }
+
+  .lec-num {
+    width: auto;
+  }
+}

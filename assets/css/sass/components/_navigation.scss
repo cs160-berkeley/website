@@ -117,4 +117,9 @@
   .scroll-nav.active {
     display: none;
   }
+
+  .main-nav {
+    overflow: scroll;
+    white-space: nowrap;
+  }
 }
