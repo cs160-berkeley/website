@@ -1,0 +1,181 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>CS160 :: SPRING 2016</title>
+		<meta charset="utf-8" />
+		
+		<script src="assets/js/jquery.min.js"></script>
+		<link rel="stylesheet" href="assets/css/bootstrap.css" />
+		<script src="assets/js/bootstrap.min.js"></script>
+				<script src="assets/js/underscore.js"></script>
+		<script src="assets/js/format.js"></script>
+		<script src="assets/js/staff.js"></script>
+		<link rel="stylesheet" href="assets/css/style.css" />
+		
+		<style>
+			
+		.quick {
+	font-size: 24px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+		
+		</style>
+		<script>
+		$(function(){
+			sortByDate();
+			var staffDOM = _.map(staff, function(el, i, arr){
+				return staff2DOM(el, i);
+			});
+			$('#staff').append(staffDOM);
+			$('[data-toggle="popover"]').popover()
+		})
+		</script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div id="banner-wrapper" class="row">
+				<div class="col-sm-offset-1 col-sm-10 col-xs-12">
+					<img src="images/banner.jpg">
+				</div>
+			</div>
+		</div>
+		<div class="shadow light">
+		<div class="container">
+			<div class="navbar-header">
+			  <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+			   <span class="glyphicon glyphicon-th-list"></span>
+			  </button>
+			</div>
+			<nav id="bs-navbar" class="collapse navbar-collapse">
+			  <ul class="nav navbar-nav">
+			   <li><a href="index.html">Home</a></li>
+			    <li><a href="showcase.html">Showcase</a></li>
+				<li><a href="requirements.html">Requirements</a></li>
+				<li><a href="grading.html">Grading</a></li>
+			    <li><a href="syllabus.html">Syllabus</a></li>
+			  </ul>
+			  <ul class="nav navbar-nav navbar-right">
+			    <li><a href="https://bcourses.berkeley.edu/courses/1412197">bCourses</a></li>
+			    <li><a href="https://piazza.com/class/ijddlu9pcyk1sk#">Piazza</a></li>
+			  </ul>
+			</nav>
+		</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+						<br>
+					<div class="alert alert-info" role="alert"> 
+						<span class="glyphicon glyphicon-globe"></span> &nbsp;ATTENTION: Final Project Showcase Wed 4 May 2016 from 12:00–1:30pm 
+
+and
+
+2:00–3:30pm 310 Jacobs Hall</div>
+					<div class="col-xs-12 col-sm-6">
+				
+                <table width="99%" border="0">
+                    <tbody>
+                      <tr>
+                        <td width="42%"><a href="160-showcase-tabloid.pdf"><img width="300" src="160-showcase-tabloid.jpg" alt=""/></a></td>
+                        <td width="58%" align="center"><p class="quick">Final Public Showcase<br>
+                        Posters and Live Demos
+                       </p>
+                          <p class="quick">Wed 4 May 2016                          </p>
+                          <p>&nbsp;</p>
+                          <p class="quick">12:00 –1:30pm                         </p>
+                          <p class="quick">and</p>
+                          <p class="quick">2:00 – 3:30pm</p>
+                          <p class="quick">&nbsp;</p>
+                          <p class="quick"> 310 Jacobs Hall<br>
+                          UC Berkeley</p></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  
+					<h2> Course Description </h2> 
+					<p> CS160 is an introduction to Human Computer Interaction (HCI). You will learn to prototype, evaluate, and design a user interface. You will be expected to work within a group of four or five students in this project-based course. Your project topic will be proposed by your group and your project design and implementation will follow a human-centered process. The final result will be an interactive prototype of a novel user experience carefully tailored to the needs of your intended users. </p>
+
+					<p>In contrast to most of the other CS classes at Berkeley, CS160 does not primarily focus on particular algorithmic techniques or computer technologies. Instead, the focus of the course is on developing a broad set of skills needed for user-centered design. These skills include ideation, needs assessment, communication, rapid prototyping, algorithmic implementation and evaluation.
+					</p>
+
+					<h2> Useful Links </h2> 
+						<div class="list-group">
+						  <a class="list-group-item" href="android-list.html"> Android Recommendation List</a>
+						  <a class="list-group-item" href="installation.html"> Android Studio &amp; Genymotion Installation Guide</a>
+<!-- 						  <a class="list-group-item" href="reading-grading-rubric.html"> Reading Responses Guide &amp; Rubric </a>
+						  <a class="list-group-item" href="programming-setup.html"> Submitting a Programming Assignment  </a> -->
+						  
+						</div>
+					</div>
+
+
+
+					<div id="home" class="col-xs-12 col-sm-6">
+					<h1 class="page-header"> 
+						<a href="index.html" id="logo">CS160</a></h1>
+
+					<table class="basicInfo" cellspacing="0">
+					<tbody><tr>
+					<td class="name">Lectures:</td>
+					<td class="value">Mon+Wed 2:30PM - 4:00PM in 310 Jacobs Hall</td>
+					</tr>
+					<tr>
+					<td class="name">Instructor:</td>
+					<td class="value">Professor <a href="http://www.paulos.net">Eric Paulos </a></td>
+					</tr>
+					<!-- <tr>
+					<td class="name">Sections:</td>
+					<td class="value">Fri 1:15-2:05, 530-127<br>
+					Mon 12:15-1:05, Mitchell B67<br>
+					Tue 10:00-10:50, Hewlett 102<br></td>
+					</tr> -->
+					<!--  <tr>
+					<td class="name">Online discussions:</td>
+					<td class="value">
+					<a href="https://piazza.com/stanford/winter2015/cs142">Piazza</a>
+					</td>
+					</tr> -->
+					<tr>
+					<td class="name">Contacting GSIs:</td>
+					<td class="value">via <a href="https://piazza.com/class/ijddlu9pcyk1sk"> Piazza </a></td>
+					</tr>
+					<tr>
+					<td class="name">Midterm Exam:</td>
+					<td class="value">16 March 2:30-4pm</td>
+					</tr>
+					<tr>
+					<td class="name">Public Showcase:</td>
+					<td class="value">TBD during RRR week 2-6 May in 310 Jacobs </td>
+					</tr>
+					<tr>
+					<td class="name">Final Presentations:</td>
+					<td class="value">TBD </td>
+					</tr>
+					<tr>
+					<td class="name">Final Materials</td>
+					<td class="value">6 May at 11:59PM </td>
+					</tr>
+					</tbody></table>
+					<hr/>
+
+
+					<h2> Course Staff </h2> 
+						   
+							<table id="staff" class=" table">
+								<tr> 
+									<th>  </th> 
+									<th>  </th> 
+									<th> <span class="glyphicon glyphicon-time"></span> Office Hour </th> 
+									<th> <span class="glyphicon glyphicon-book"></span> Section </th> </tr>
+							</table>
+							<!-- <span class="glyphicon glyphicon-chevron-right"></span> = Next OH; -->
+						 
+					</div>
+				
+				 </div>
+			</div>
+		</div>
+		</div>			
+	</body>
+</html>

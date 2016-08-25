@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>CS160 :: FALL 2015 :: PROGRAMMING :: SETUP</title>
+		<meta charset="utf-8" />
+		
+		<script src="assets/js/jquery.min.js"></script>
+		<link rel="stylesheet" href="assets/css/bootstrap.css" />
+		<script src="assets/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="assets/css/style.css" />
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div id="banner-wrapper" class="row">
+				<div class="col-sm-offset-1 col-sm-10 col-xs-12">
+					<img src="images/banner.jpg">
+				</div>
+			</div>
+		</div>
+		<div class="shadow light">
+		<div class="container">
+			<div class="navbar-header">
+			  <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+			   <span class="glyphicon glyphicon-th-list"></span>
+			  </button>
+			</div>
+			<nav id="bs-navbar" class="collapse navbar-collapse">
+			  <ul class="nav navbar-nav">
+			   <li><a href="index.html">Home</a></li>
+			    <li><a href="showcase.html">Showcase</a></li>
+				<li><a href="requirements.html">Requirements</a></li>
+				<li><a href="grading.html">Grading</a></li>
+			    <li><a href="syllabus.html">Syllabus</a></li>
+			  </ul>
+			  <ul class="nav navbar-nav navbar-right">
+			    <li><a href="https://bcourses.berkeley.edu/courses/1363972">bCourses</a></li>
+			    <li><a href="https://piazza.com/class/idasjkg910j6sb">Piazza</a></li>
+			    <li><a href="https://www.hackster.io/courses/uc-berkeley/user-interface-design/fall-2015">Hackster</a></li>
+			  </ul>
+			</nav>
+		</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<h1 class="page-header">Submitting a Programming Assignment</h1>
+				 	<h2><strong>Setting up to submit assignments</strong></h2>
+					<p class="lead"> High level description. You have a bitbucket repo specifically for submitting assignments. You will be adding us (cs160-staff) as a collaborator in your private repo. We would like your repo directory to have a similar structure. For that, we'd like you to clone our example repo at <a href="https://bitbucket.org/cs160-staff/hw-prog-submissions">hw-prog-submissions</a>.
+					<p class="lead"> Why BitBucket? BitBucket allows accounts to have unlimited private repos. GitHub limits this to 5 per (student) user. Since many of you have already used those 5, we decided to use BitBucket. 
+					</p>
+					<p class="lead"> New to <code>git</code> version control? Take the 15 minute <a href="https://try.github.io/levels/1/challenges/1">crash course</a>.</p>
+
+	<h3><strong>One-time process</strong></h3>
+	<ul>
+        <li><strong><span>If you don&rsquo;t have a bitbucket account, create a
+        bitbucket account.</span></strong></li>
+    </ul>
+
+    <ul>
+        <li><span>Create a new repo called</span><strong>:</strong>
+        <span>hw-prog-submissions-firstname-lastname</span></li>
+    </ul>
+
+    <ul>
+        <li><span>Do not clone that repo.</span></li>
+    </ul>
+
+    <ul>
+        <li>
+            <a href=
+            "https://confluence.atlassian.com/bitbucket/add-an-ssh-key-to-an-account-302811853.html">
+            Set up your SSH keys</a> if you have not done so already. If you choose to skip this step, use the https:// version of the clone signature. Setting up SSH keys is a way of the computer "remembering your password" to your bitbucket account. That way, you won't be prompted each time you push/pull for your credentials. Security wise, it is an example of symmetric encryption. Check out this video to learn more: <a href="https://www.youtube.com/watch?v=ERp8420ucGs">VID</a>.
+        </li>
+
+        <li>Clone the following repo:: <a href=
+        "https://bitbucket.org/cs160-staff/hw-prog-submissions">hw-prog-submissions</a>
+        </li>
+    </ul>
+
+    <div style="margin-left: 2em">
+        <ul>
+            <li><span>Change the remote of that repo to
+            hw-prog-submissions-firstname-lastname</span></li>
+
+            <li style="list-style: none; display: inline">
+                <ul>
+                    <li><span>git remote rm origin</span></li>
+
+                    <li>
+                        <span>git remote add origin</span> <a href=
+                        "mailto:git@bitbucket.org"><span>git@bitbucket.org</span></a><span>:&lt;username&gt;/hw-prog-submissions-firstname-lastname.git</span>
+                    </li>
+                </ul>
+            </li>
+
+            <li><span>Navigate to your Bitbucket repo settings page</span></li>
+
+            <li style="list-style: none; display: inline">
+                <ul>
+                    <li>
+                        <a href=
+                        "https://bitbucket.org/"><span>https://bitbucket.org/</span></a><span>&lt;bitbucketid&gt;/hw-prog-submissions-firstname-lastname</span>
+                    </li>
+
+                    <li><span>Settings &rarr; Access Management</span></li>
+
+                    <li><span>Give cs160-staff admin access to your
+                    repo.</span></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <ul>
+        <li><strong><strong>Do not give access to anyone else to your
+        repo.</strong></strong></li>
+    </ul>
+
+    <ul>
+        <li><span>Update the repo main directory README.</span></li>
+    </ul>
+
+    <h3><strong>Submitting assignments</strong></h3>
+
+    <ul>
+        <li><span>Push to your repo.</span></li>
+
+        <li><span>GSIs and Readers will look at the most recent
+        commit.</span></li>
+
+       
+    </ul>
+     <p class="alert alert-danger"><span>Update the README file of the specific assignment if you are deciding to use a late day.</span>
+        </p>
+					
+					
+				 </div>
+			</div>
+		</div>
+		</div>			
+	</body>
+</html>
