@@ -1941,12 +1941,16 @@ body {
   text-decoration: none;
 }
 /* line 24, ../sass/components/_navigation.scss */
+.main-nav a:first-of-type {
+  padding-left: 0;
+}
+/* line 28, ../sass/components/_navigation.scss */
 .main-nav .nav-active {
   color: #3C4858;
   font-weight: 600;
   position: relative;
 }
-/* line 29, ../sass/components/_navigation.scss */
+/* line 33, ../sass/components/_navigation.scss */
 .main-nav .nav-active:after {
   background: rgba(60, 72, 88, 0.8);
   bottom: -8px;
@@ -1962,6 +1966,21 @@ body {
   transform: translateX(-50%);
 }
 
+@media (max-width: 991px) {
+  /* line 47, ../sass/components/_navigation.scss */
+  .main-nav {
+    margin-bottom: 30px;
+  }
+  /* line 50, ../sass/components/_navigation.scss */
+  .main-nav li {
+    font-size: 18px;
+  }
+
+  /* line 55, ../sass/components/_navigation.scss */
+  .nav-active:after {
+    display: none;
+  }
+}
 /* line 3, ../sass/components/_fonts.scss */
 body {
   color: #3C4858;
@@ -1984,7 +2003,7 @@ body {
 
 /* line 20, ../sass/components/_fonts.scss */
 .class-name {
-  color: rgba(25, 118, 185, 0.8);
+  color: rgba(52, 152, 219, 0.8);
   font-weight: 400;
 }
 
@@ -1999,18 +2018,11 @@ body {
 }
 
 /* line 34, ../sass/components/_fonts.scss */
-.page-description {
-  font-size: 22px;
-  font-weight: 300;
-  max-width: 750px;
-}
-
-/* line 40, ../sass/components/_fonts.scss */
 .page-title--light {
   color: #F9FAFC;
 }
 
-/* line 44, ../sass/components/_fonts.scss */
+/* line 38, ../sass/components/_fonts.scss */
 .section-title {
   color: #3C4858;
   font-size: 26px;
@@ -2018,14 +2030,14 @@ body {
   margin-bottom: 15px;
 }
 
-/* line 51, ../sass/components/_fonts.scss */
+/* line 45, ../sass/components/_fonts.scss */
 .section-description {
   color: rgba(60, 72, 88, 0.8);
   font-size: 22px;
   font-weight: 300;
 }
 
-/* line 57, ../sass/components/_fonts.scss */
+/* line 51, ../sass/components/_fonts.scss */
 p {
   color: rgba(60, 72, 88, 0.8);
   font-size: 16px;
@@ -2033,30 +2045,62 @@ p {
   margin-bottom: 18px;
 }
 
-/* line 64, ../sass/components/_fonts.scss */
+/* line 58, ../sass/components/_fonts.scss */
 .paragraph--light {
   color: #E0E6ED;
 }
 
-/* line 68, ../sass/components/_fonts.scss */
+/* line 62, ../sass/components/_fonts.scss */
 a,
 .link {
-  color: #1976B9;
+  color: #3498db;
   font-size: inherit;
   font-weight: 500;
   text-decoration: none;
 }
-/* line 75, ../sass/components/_fonts.scss */
+/* line 69, ../sass/components/_fonts.scss */
 a:hover,
 .link:hover {
   text-decoration: underline;
 }
 
-/* line 80, ../sass/components/_fonts.scss */
+/* line 74, ../sass/components/_fonts.scss */
 .link--light {
   color: #F9FAFC;
 }
 
+@media (max-width: 991px) {
+  /* line 79, ../sass/components/_fonts.scss */
+  .class-title {
+    font-size: 40px;
+  }
+
+  /* line 83, ../sass/components/_fonts.scss */
+  .class-semester {
+    position: relative;
+    font-size: 32px;
+  }
+}
+@media (max-width: 768px) {
+  /* line 90, ../sass/components/_fonts.scss */
+  .section-title {
+    font-size: 22px;
+  }
+
+  /* line 94, ../sass/components/_fonts.scss */
+  .class-title {
+    font-size: 26px;
+    line-height: 1.2;
+  }
+
+  /* line 99, ../sass/components/_fonts.scss */
+  .class-semester {
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 9px;
+  }
+}
 /* Styles for buttons go here
  * Every button should have the .button class,
  * and can be modified using additional styles */
@@ -2067,8 +2111,8 @@ a:hover,
   -ms-appearance: none;
   -o-appearance: none;
   appearance: none;
-  background: #1976B9;
-  border: 1px solid #1976B9;
+  background: #3498db;
+  border: 1px solid #3498db;
   border-radius: 3px;
   color: #F9FAFC;
   display: inline-block;
@@ -2106,7 +2150,7 @@ a:hover,
 .button--white {
   background: #F9FAFC;
   border-color: #F9FAFC;
-  color: #1976B9;
+  color: #3498db;
   font-weight: 700;
   opacity: 0.95;
 }
@@ -2114,12 +2158,12 @@ a:hover,
 /* line 44, ../sass/components/_buttons.scss */
 .button--outline {
   background: transparent;
-  border-color: rgba(25, 118, 185, 0.6);
-  color: #1976B9;
+  border-color: rgba(52, 152, 219, 0.6);
+  color: #3498db;
 }
 /* line 49, ../sass/components/_buttons.scss */
 .button--outline:hover {
-  border-color: #1976B9;
+  border-color: #3498db;
 }
 
 /* line 54, ../sass/components/_buttons.scss */
@@ -2147,7 +2191,7 @@ a:hover,
   -o-appearance: none;
   appearance: none;
   background: #F9FAFC;
-  border: 1px solid rgba(25, 118, 185, 0.2);
+  border: 1px solid rgba(52, 152, 219, 0.2);
   border-radius: 3px;
   color: #3C4858;
   font-size: 14px;
@@ -2158,7 +2202,7 @@ a:hover,
 }
 /* line 17, ../sass/components/_forms.scss */
 .input:focus {
-  border-color: rgba(25, 118, 185, 0.8);
+  border-color: rgba(52, 152, 219, 0.8);
 }
 
 /* line 22, ../sass/components/_forms.scss */
@@ -2232,7 +2276,7 @@ a:hover,
 }
 /* line 39, ../sass/pages/_splash.scss */
 .staff-name .fa:hover {
-  color: #1976B9;
+  color: #3498db;
   text-decoration: none;
 }
 /* line 44, ../sass/pages/_splash.scss */
@@ -2249,4 +2293,23 @@ a:hover,
 .staff-detail .detail-label {
   font-weight: 600;
   padding-right: 15px;
+}
+
+@media (max-width: 768px) {
+  /* line 64, ../sass/pages/_splash.scss */
+  .home-col-container {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  /* line 69, ../sass/pages/_splash.scss */
+  .home-text-col {
+    padding-right: 15px;
+    order: 2;
+  }
+
+  /* line 74, ../sass/pages/_splash.scss */
+  .home-info-col {
+    order: 1;
+  }
 }

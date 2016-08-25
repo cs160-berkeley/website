@@ -21,6 +21,10 @@
     }
   }
 
+  a:first-of-type {
+    padding-left: 0;
+  }
+
   .nav-active {
     color: $black;
     font-weight: 600;
@@ -36,5 +40,19 @@
       width: 40px;
       @include transform(translateX(-50%));
     }
+  }
+}
+
+@media (max-width: 991px) {
+  .main-nav {
+    margin-bottom: 30px;
+
+    li {
+      font-size: 18px;
+    }
+  }
+
+  .nav-active:after {
+    display: none;
   }
 }
