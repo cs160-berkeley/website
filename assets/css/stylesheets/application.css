@@ -2050,6 +2050,12 @@ body {
     display: none;
   }
 }
+@media (max-width: 768px) {
+  /* line 117, ../sass/components/_navigation.scss */
+  .scroll-nav.active {
+    display: none;
+  }
+}
 /* line 3, ../sass/components/_fonts.scss */
 body {
   color: #3C4858;
@@ -2407,6 +2413,7 @@ a:hover,
 
   /* line 86, ../sass/pages/_splash.scss */
   .home-info-col {
+    max-width: 480px;
     order: 1;
   }
 }
