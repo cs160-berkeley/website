@@ -1,0 +1,82 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900';
+
+body {
+  color: $black;
+  font-family: $font-stack;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.class-title {
+  font-size: 48px;
+  margin-top: 40px;
+  position: relative;
+}
+
+.class-num {
+  font-weight: 800;
+}
+
+.class-name {
+  color: $blue-80;
+  font-weight: 400;
+}
+
+.class-semester {
+  bottom: 0;
+  color: $slate-60;
+  font-size: 40px;
+  font-weight: 300;
+  position: absolute;
+  right: 0;
+}
+
+.page-description {
+  font-size: 22px;
+  font-weight: 300;
+  max-width: 750px;
+}
+
+.page-title--light {
+  color: $snow;
+}
+
+.section-title {
+  color: $black;
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.section-description {
+  color: $black-80;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+p {
+  color: $black-80;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+
+.paragraph--light {
+  color: $smoke;
+}
+
+a,
+.link {
+  color: $blue;
+  font-size: inherit;
+  font-weight: 500;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.link--light {
+  color: $snow;
+}

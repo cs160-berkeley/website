@@ -1,0 +1,40 @@
+.main-nav {
+  margin: 15px 0 60px;
+  padding: 10px 0;
+  width: 100%;
+
+  li {
+    display: inline-block;
+    font-size: 24px;
+  }
+
+  a {
+    color: $slate-60;
+    display: inline-block;
+    font-weight: 400;
+    padding: 0 6px;
+    transition: 100ms;
+
+    &:hover {
+      color: $black-80;
+      text-decoration: none;
+    }
+  }
+
+  .nav-active {
+    color: $black;
+    font-weight: 600;
+    position: relative;
+
+    &:after {
+      background: $black-80;
+      bottom: -8px;
+      content: '';
+      height: 4px;
+      left: 50%;
+      position: absolute;
+      width: 40px;
+      @include transform(translateX(-50%));
+    }
+  }
+}

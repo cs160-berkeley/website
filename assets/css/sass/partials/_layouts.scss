@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $snow;
+}
+
+$side-list: "top", "right", "bottom", "left";
+$xs: 10px;
+$sm: 14px;
+$md: 18px;
+$lg: 28px;
+$xl: 40px;
+$xxl: 54px;
+
+.margin--xs { margin: $xs; }
+.margin--sm { margin: $sm; }
+.margin--md { margin: $md; }
+.margin--lg { margin: $lg; }
+.margin--xl { margin: $xl; }
+.margin--xxl { margin: $xxl; }
+
+@each $side in $side-list {
+  .margin-#{$side}--xs {
+    margin-#{$side}: $xs;
+  }
+  .margin-#{$side}--sm {
+    margin-#{$side}: $sm;
+  }
+  .margin-#{$side}--md {
+    margin-#{$side}: $md;
+  }
+  .margin-#{$side}--lg {
+    margin-#{$side}: $lg;
+  }
+  .margin-#{$side}--xl {
+    margin-#{$side}: $xl;
+  }
+  .margin-#{$side}--xxl {
+    margin-#{$side}: $xxl;
+  }
+}
+
+.img-container {
+  img {
+    border-radius: 3px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}

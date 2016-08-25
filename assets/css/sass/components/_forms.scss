@@ -1,0 +1,41 @@
+.input-container {
+  margin: 20px auto;
+}
+
+.input {
+  @include appearance(none);
+  background: $snow;
+  border: 1px solid $blue-20;
+  border-radius: 3px;
+  color: $black;
+  font-size: 14px;
+  font-weight: 400;
+  outline: none;
+  padding: 10px 15px;
+  transition: 100ms;
+
+  &:focus {
+    border-color: $blue-80;
+  }
+}
+
+.input--lg {
+  font-size: 16px;
+  padding: 14px 18px;
+}
+
+.input--sm {
+  font-size: 12px;
+  padding: 5px 15px;
+}
+
+
+.input--light {
+  background: $snow-20;
+  border: 1px solid $snow-40;
+  color: $snow;
+
+  &:focus {
+    border-color: $snow-80;
+  }
+}

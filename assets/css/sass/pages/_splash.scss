@@ -1,0 +1,57 @@
+.home-text-col {
+  padding-right: 60px;
+}
+
+.quick-info-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.quick-info {
+  width: 50%;
+}
+
+.info-label {
+  color: $slate;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.info-text {
+  font-size: 20px;
+}
+
+.staff {
+  margin-bottom: 15px;
+}
+
+.staff-name {
+  font-size: 18px;
+
+  .fa {
+    color: $black-80;
+    float: right;
+    font-size: 15px;
+    margin-top: 5px;
+    padding: 0 3px;
+  }
+
+  .fa:hover {
+    color: $blue;
+    text-decoration: none;
+  }
+
+  .fa:first-of-type {
+    margin-left: 13px;
+  }
+}
+
+.staff-detail {
+  color: $slate;
+  font-size: 14px;
+
+  .detail-label {
+    font-weight: 600;
+    padding-right: 15px;
+  }
+}

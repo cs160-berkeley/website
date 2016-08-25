@@ -1,0 +1,63 @@
+/* Styles for buttons go here
+ * Every button should have the .button class,
+ * and can be modified using additional styles */
+
+.button {
+  @include appearance(none);
+  background: $blue;
+  border: 1px solid $blue;
+  border-radius: 3px;
+  color: $snow;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  outline: none;
+  padding: 8px 25px;
+  text-transform: uppercase;
+  transition: 100ms;
+
+  &:hover {
+    @include transform(scale(1.04, 1.04));
+  }
+}
+
+.button--lg {
+  font-size: 16px;
+  padding: 12px 25px;
+}
+
+.button--sm {
+  font-size: 12px;
+  padding: 5px 25px;
+}
+
+/* Button colors */
+.button--white {
+  background: $snow;
+  border-color: $snow;
+  color: $blue;
+  font-weight: 700;
+  opacity: 0.95;
+}
+
+.button--outline {
+  background: transparent;
+  border-color: $blue-60;
+  color: $blue;
+
+  &:hover {
+    border-color: $blue;
+  }
+}
+
+.button--ghost {
+  background: transparent;
+  border-color: $snow-40;
+  color: $snow;
+  font-weight: 500;
+
+  &:hover {
+    border-color: $snow;
+  }
+}

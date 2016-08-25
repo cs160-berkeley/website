@@ -1,181 +1,126 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>CS160 :: SPRING 2016</title>
-		<meta charset="utf-8" />
-		
-		<script src="assets/js/jquery.min.js"></script>
-		<link rel="stylesheet" href="assets/css/bootstrap.css" />
-		<script src="assets/js/bootstrap.min.js"></script>
-				<script src="assets/js/underscore.js"></script>
-		<script src="assets/js/format.js"></script>
-		<script src="assets/js/staff.js"></script>
-		<link rel="stylesheet" href="assets/css/style.css" />
-		
-		<style>
-			
-		.quick {
-	font-size: 24px;
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-}
-		
-		</style>
-		<script>
-		$(function(){
-			sortByDate();
-			var staffDOM = _.map(staff, function(el, i, arr){
-				return staff2DOM(el, i);
-			});
-			$('#staff').append(staffDOM);
-			$('[data-toggle="popover"]').popover()
-		})
-		</script>
-	</head>
-	<body>
-		<div class="container-fluid">
-			<div id="banner-wrapper" class="row">
-				<div class="col-sm-offset-1 col-sm-10 col-xs-12">
-					<img src="images/banner.jpg">
-				</div>
-			</div>
-		</div>
-		<div class="shadow light">
-		<div class="container">
-			<div class="navbar-header">
-			  <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
-			   <span class="glyphicon glyphicon-th-list"></span>
-			  </button>
-			</div>
-			<nav id="bs-navbar" class="collapse navbar-collapse">
-			  <ul class="nav navbar-nav">
-			   <li><a href="index.html">Home</a></li>
-			    <li><a href="showcase.html">Showcase</a></li>
-				<li><a href="requirements.html">Requirements</a></li>
-				<li><a href="grading.html">Grading</a></li>
-			    <li><a href="syllabus.html">Syllabus</a></li>
-			  </ul>
-			  <ul class="nav navbar-nav navbar-right">
-			    <li><a href="https://bcourses.berkeley.edu/courses/1412197">bCourses</a></li>
-			    <li><a href="https://piazza.com/class/ijddlu9pcyk1sk#">Piazza</a></li>
-			  </ul>
-			</nav>
-		</div>
-		</div>
+  <head>
+    <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/stylesheets/application.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="col-md-12">
+        <h1 class="class-title">
+          <span class="class-num">CS160</span>
+          <span class="class-name">User Interface Design</span>
+          <span class="class-semester">Fall 2016</span>
+        </h1>
+        <nav class="main-nav">
+          <ul>
+            <li><a class="nav-active" href="index.html">Home</a></li>
+            <li><a href="">Requirements</a></li>
+            <li><a href="">Grading</a></li>
+            <li><a href="">Syllabus</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="container">
+      <div class="col-md-8 home-text-col">
+        <h2 class="section-title">Course Description</h2>
+        <p>CS160 is an introduction to Human Computer Interaction (HCI). You will learn to prototype, evaluate, and design a user interface. You will be expected to work within a group of four or five students in this project-based course. Your project topic will be proposed by your group and your project design and implementation will follow a human-centered process. The final result will be an interactive prototype of a novel user experience carefully tailored to the needs of your intended users.</p>
+        <p>In contrast to most of the other CS classes at Berkeley, CS160 does not primarily focus on particular algorithmic techniques or computer technologies. Instead, the focus of the course is on developing a broad set of skills needed for user-centered design. These skills include ideation, needs assessment, communication, rapid prototyping, algorithmic implementation and evaluation.</p>
 
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12">
-						<br>
-					<div class="alert alert-info" role="alert"> 
-						<span class="glyphicon glyphicon-globe"></span> &nbsp;ATTENTION: Final Project Showcase Wed 4 May 2016 from 12:00–1:30pm 
+        <h2 class="section-title margin-top--xl">Project Theme</h2>
+        <p>This semester's project theme is companion apps - mobile applications used to interact with and configure consumer electronics. The <a href="https://web.archive.org/web/20150611023007/https://en.wikipedia.org/wiki/Internet_of_Things">Internet of Things</a> is exploding in importance. Connected devices are everywhere: <a href="https://web.archive.org/web/20150611023007/https://nest.com/">smart thermostats</a>, <a href="https://web.archive.org/web/20150611023007/http://lifx.co/">WiFi-enabled light bulbs</a>, <a href="https://web.archive.org/web/20150611023007/http://www.fitbit.com/">activity monitors</a>, <a href="https://web.archive.org/web/20150611023007/https://www.samsung.com/us/topic/apps-on-your-fridge">touch screens on refrigerators</a>, <a href="https://web.archive.org/web/20150611023007/http://fuzdesigns.com/pages/noke">Bluetooth padlocks</a>... the list is becoming endless.</p>
 
-and
-
-2:00–3:30pm 310 Jacobs Hall</div>
-					<div class="col-xs-12 col-sm-6">
-				
-                <table width="99%" border="0">
-                    <tbody>
-                      <tr>
-                        <td width="42%"><a href="160-showcase-tabloid.pdf"><img width="300" src="160-showcase-tabloid.jpg" alt=""/></a></td>
-                        <td width="58%" align="center"><p class="quick">Final Public Showcase<br>
-                        Posters and Live Demos
-                       </p>
-                          <p class="quick">Wed 4 May 2016                          </p>
-                          <p>&nbsp;</p>
-                          <p class="quick">12:00 –1:30pm                         </p>
-                          <p class="quick">and</p>
-                          <p class="quick">2:00 – 3:30pm</p>
-                          <p class="quick">&nbsp;</p>
-                          <p class="quick"> 310 Jacobs Hall<br>
-                          UC Berkeley</p></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  
-					<h2> Course Description </h2> 
-					<p> CS160 is an introduction to Human Computer Interaction (HCI). You will learn to prototype, evaluate, and design a user interface. You will be expected to work within a group of four or five students in this project-based course. Your project topic will be proposed by your group and your project design and implementation will follow a human-centered process. The final result will be an interactive prototype of a novel user experience carefully tailored to the needs of your intended users. </p>
-
-					<p>In contrast to most of the other CS classes at Berkeley, CS160 does not primarily focus on particular algorithmic techniques or computer technologies. Instead, the focus of the course is on developing a broad set of skills needed for user-centered design. These skills include ideation, needs assessment, communication, rapid prototyping, algorithmic implementation and evaluation.
-					</p>
-
-					<h2> Useful Links </h2> 
-						<div class="list-group">
-						  <a class="list-group-item" href="android-list.html"> Android Recommendation List</a>
-						  <a class="list-group-item" href="installation.html"> Android Studio &amp; Genymotion Installation Guide</a>
-<!-- 						  <a class="list-group-item" href="reading-grading-rubric.html"> Reading Responses Guide &amp; Rubric </a>
-						  <a class="list-group-item" href="programming-setup.html"> Submitting a Programming Assignment  </a> -->
-						  
-						</div>
-					</div>
-
-
-
-					<div id="home" class="col-xs-12 col-sm-6">
-					<h1 class="page-header"> 
-						<a href="index.html" id="logo">CS160</a></h1>
-
-					<table class="basicInfo" cellspacing="0">
-					<tbody><tr>
-					<td class="name">Lectures:</td>
-					<td class="value">Mon+Wed 2:30PM - 4:00PM in 310 Jacobs Hall</td>
-					</tr>
-					<tr>
-					<td class="name">Instructor:</td>
-					<td class="value">Professor <a href="http://www.paulos.net">Eric Paulos </a></td>
-					</tr>
-					<!-- <tr>
-					<td class="name">Sections:</td>
-					<td class="value">Fri 1:15-2:05, 530-127<br>
-					Mon 12:15-1:05, Mitchell B67<br>
-					Tue 10:00-10:50, Hewlett 102<br></td>
-					</tr> -->
-					<!--  <tr>
-					<td class="name">Online discussions:</td>
-					<td class="value">
-					<a href="https://piazza.com/stanford/winter2015/cs142">Piazza</a>
-					</td>
-					</tr> -->
-					<tr>
-					<td class="name">Contacting GSIs:</td>
-					<td class="value">via <a href="https://piazza.com/class/ijddlu9pcyk1sk"> Piazza </a></td>
-					</tr>
-					<tr>
-					<td class="name">Midterm Exam:</td>
-					<td class="value">16 March 2:30-4pm</td>
-					</tr>
-					<tr>
-					<td class="name">Public Showcase:</td>
-					<td class="value">TBD during RRR week 2-6 May in 310 Jacobs </td>
-					</tr>
-					<tr>
-					<td class="name">Final Presentations:</td>
-					<td class="value">TBD </td>
-					</tr>
-					<tr>
-					<td class="name">Final Materials</td>
-					<td class="value">6 May at 11:59PM </td>
-					</tr>
-					</tbody></table>
-					<hr/>
-
-
-					<h2> Course Staff </h2> 
-						   
-							<table id="staff" class=" table">
-								<tr> 
-									<th>  </th> 
-									<th>  </th> 
-									<th> <span class="glyphicon glyphicon-time"></span> Office Hour </th> 
-									<th> <span class="glyphicon glyphicon-book"></span> Section </th> </tr>
-							</table>
-							<!-- <span class="glyphicon glyphicon-chevron-right"></span> = Next OH; -->
-						 
-					</div>
-				
-				 </div>
-			</div>
-		</div>
-		</div>			
-	</body>
+        <p>An oft overlooked element of the success and failure of these devices is the associated mobile app that is used during setup, remote access, and often daily operation of the device. Meticulous design and engineering of consumer electronics can be undone in the marketplace by a lackluster companion app experience. <b>This semester, we will focus on the design and implementation of these companion experiences</b>.</p>
+      </div>
+      <div class="col-md-4 home-info-col">
+        <h2 class="section-title">Quick Info</h2>
+        <div class="quick-info-container margin-bottom--md">
+          <div class="quick-info">
+            <h3 class="info-label">Lecture Time</h3>
+            <p class="info-text">Thurs. 2-5pm</p>
+          </div>
+          <div class="quick-info">
+            <h3 class="info-label">Lecture Room</h3>
+            <p class="info-text">310 Jacobs</p>
+          </div>
+          <div class="quick-info">
+            <h3 class="info-label">Midterm</h3>
+            <p class="info-text">TBD</p>
+          </div>
+          <div class="quick-info">
+            <h3 class="info-label">Final Project</h3>
+            <p class="info-text">TBD</p>
+          </div>
+        </div>
+        <h2 class="section-title">Staff</h2>
+        <ul class="staff-list">
+          <li class="staff">
+            <h3 class="staff-name">Andy Carle, PhD
+              <a href="" class="fa fa-link"></a>
+              <a href="" class="fa fa-envelope-o"></a>
+            </h3>
+            <table class="staff-detail">
+              <tr>
+                <td class="detail-label">Office Hours</td>
+                <td>Thurs 5-6pm (after lec)</td>
+              </tr>
+              <tr>
+                <td class="detail-label">Section</td>
+                <td>TBD</td>
+              </tr>
+            </table>
+          </li>
+          <li class="staff">
+            <h3 class="staff-name">Jasper O'Leary
+              <a href="" class="fa fa-link"></a>
+              <a href="" class="fa fa-envelope-o"></a>
+            </h3>
+            <table class="staff-detail">
+              <tr>
+                <td class="detail-label">Office Hours</td>
+                <td>TBD</td>
+              </tr>
+              <tr>
+                <td class="detail-label">Section</td>
+                <td>TBD</td>
+              </tr>
+            </table>
+          </li>
+          <li class="staff">
+            <h3 class="staff-name">Eric Liang
+              <a href="http://ericls.com" class="fa fa-link"></a>
+              <a href="mailto:liang.eric24@gmail.com" class="fa fa-envelope-o"></a>
+            </h3>
+            <table class="staff-detail">
+              <tr>
+                <td class="detail-label">Office Hours</td>
+                <td>TBD</td>
+              </tr>
+              <tr>
+                <td class="detail-label">Section</td>
+                <td>TBD</td>
+              </tr>
+            </table>
+          </li>
+          <li class="staff">
+            <h3 class="staff-name">Angira Shirahatti
+              <a href="" class="fa fa-link"></a>
+              <a href="" class="fa fa-envelope-o"></a>
+            </h3>
+            <table class="staff-detail">
+              <tr>
+                <td class="detail-label">Office Hours</td>
+                <td>TBD</td>
+              </tr>
+              <tr>
+                <td class="detail-label">Section</td>
+                <td>TBD</td>
+              </tr>
+            </table>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
 </html>
