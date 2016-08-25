@@ -1966,17 +1966,86 @@ body {
   transform: translateX(-50%);
 }
 
+/* line 46, ../sass/components/_navigation.scss */
+.scroll-nav {
+  background: #F9FAFC;
+  font-size: 18px;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  transition: 200ms;
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+/* line 57, ../sass/components/_navigation.scss */
+.scroll-nav .container {
+  padding: 0 30px;
+}
+
+/* line 62, ../sass/components/_navigation.scss */
+.active {
+  box-shadow: 0 0 15px rgba(60, 72, 88, 0.2);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+}
+
+/* line 67, ../sass/components/_navigation.scss */
+.scroll-nav-title {
+  display: inline-block;
+  font-weight: 800;
+  margin-right: 15px;
+}
+
+/* line 73, ../sass/components/_navigation.scss */
+.scroll-nav-right {
+  float: right;
+}
+
+/* line 77, ../sass/components/_navigation.scss */
+.scroll-nav-links {
+  display: inline-block;
+}
+/* line 80, ../sass/components/_navigation.scss */
+.scroll-nav-links li {
+  display: inline-block;
+}
+/* line 84, ../sass/components/_navigation.scss */
+.scroll-nav-links a {
+  color: rgba(60, 72, 88, 0.6);
+  font-weight: 400;
+  padding: 0 4px;
+  transition: 100ms;
+}
+/* line 90, ../sass/components/_navigation.scss */
+.scroll-nav-links a:hover {
+  color: #3C4858;
+  text-decoration: none;
+}
+/* line 96, ../sass/components/_navigation.scss */
+.scroll-nav-links .scroll-nav-active {
+  color: #3C4858;
+  font-weight: 600;
+}
+
 @media (max-width: 991px) {
-  /* line 47, ../sass/components/_navigation.scss */
+  /* line 103, ../sass/components/_navigation.scss */
   .main-nav {
     margin-bottom: 30px;
   }
-  /* line 50, ../sass/components/_navigation.scss */
+  /* line 106, ../sass/components/_navigation.scss */
   .main-nav li {
     font-size: 18px;
   }
 
-  /* line 55, ../sass/components/_navigation.scss */
+  /* line 111, ../sass/components/_navigation.scss */
   .nav-active:after {
     display: none;
   }
