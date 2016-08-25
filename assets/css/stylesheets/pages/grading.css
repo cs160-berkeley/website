@@ -1,0 +1,65 @@
+/* line 1, ../../sass/pages/grading.scss */
+.breakdown-bar {
+  border-radius: 2px;
+  height: 10px;
+  overflow: hidden;
+  width: 100%;
+}
+/* line 7, ../../sass/pages/grading.scss */
+.breakdown-bar .breakdown-bar-item {
+  float: left;
+  height: 100%;
+  opacity: 0.8;
+}
+/* line 13, ../../sass/pages/grading.scss */
+.breakdown-bar .project-bar {
+  background: #3498db;
+  width: 35%;
+}
+/* line 18, ../../sass/pages/grading.scss */
+.breakdown-bar .midterm-bar {
+  background: #2ecc71;
+  width: 25%;
+}
+/* line 23, ../../sass/pages/grading.scss */
+.breakdown-bar .participation-bar {
+  background: #e74c3c;
+  width: 20%;
+}
+/* line 28, ../../sass/pages/grading.scss */
+.breakdown-bar .assignments-bar {
+  background: #f39c12;
+  width: 20%;
+}
+
+/* line 34, ../../sass/pages/grading.scss */
+.breakdown-labels {
+  overflow: hidden;
+}
+/* line 37, ../../sass/pages/grading.scss */
+.breakdown-labels .breakdown-bar-label {
+  float: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 10px;
+}
+/* line 44, ../../sass/pages/grading.scss */
+.breakdown-labels .project-label {
+  color: #3498db;
+  width: 35%;
+}
+/* line 49, ../../sass/pages/grading.scss */
+.breakdown-labels .midterm-label {
+  color: #2ecc71;
+  width: 25%;
+}
+/* line 54, ../../sass/pages/grading.scss */
+.breakdown-labels .participation-label {
+  color: #e74c3c;
+  width: 20%;
+}
+/* line 59, ../../sass/pages/grading.scss */
+.breakdown-labels .assignments-label {
+  color: #f39c12;
+  width: 20%;
+}

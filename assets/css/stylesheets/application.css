@@ -1941,7 +1941,7 @@ body {
   text-decoration: none;
 }
 /* line 24, ../sass/components/_navigation.scss */
-.main-nav a:first-of-type {
+.main-nav li:first-of-type a {
   padding-left: 0;
 }
 /* line 28, ../sass/components/_navigation.scss */
@@ -2038,6 +2038,15 @@ body {
 }
 
 /* line 51, ../sass/components/_fonts.scss */
+.subsection-title {
+  color: #8492A6;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+/* line 59, ../sass/components/_fonts.scss */
 p {
   color: rgba(60, 72, 88, 0.8);
   font-size: 16px;
@@ -2045,12 +2054,12 @@ p {
   margin-bottom: 18px;
 }
 
-/* line 58, ../sass/components/_fonts.scss */
+/* line 66, ../sass/components/_fonts.scss */
 .paragraph--light {
   color: #E0E6ED;
 }
 
-/* line 62, ../sass/components/_fonts.scss */
+/* line 70, ../sass/components/_fonts.scss */
 a,
 .link {
   color: #3498db;
@@ -2058,42 +2067,42 @@ a,
   font-weight: 500;
   text-decoration: none;
 }
-/* line 69, ../sass/components/_fonts.scss */
+/* line 77, ../sass/components/_fonts.scss */
 a:hover,
 .link:hover {
   text-decoration: underline;
 }
 
-/* line 74, ../sass/components/_fonts.scss */
+/* line 82, ../sass/components/_fonts.scss */
 .link--light {
   color: #F9FAFC;
 }
 
 @media (max-width: 991px) {
-  /* line 79, ../sass/components/_fonts.scss */
+  /* line 87, ../sass/components/_fonts.scss */
   .class-title {
     font-size: 40px;
   }
 
-  /* line 83, ../sass/components/_fonts.scss */
+  /* line 91, ../sass/components/_fonts.scss */
   .class-semester {
     position: relative;
     font-size: 32px;
   }
 }
 @media (max-width: 768px) {
-  /* line 90, ../sass/components/_fonts.scss */
+  /* line 98, ../sass/components/_fonts.scss */
   .section-title {
     font-size: 22px;
   }
 
-  /* line 94, ../sass/components/_fonts.scss */
+  /* line 102, ../sass/components/_fonts.scss */
   .class-title {
     font-size: 26px;
     line-height: 1.2;
   }
 
-  /* line 99, ../sass/components/_fonts.scss */
+  /* line 107, ../sass/components/_fonts.scss */
   .class-semester {
     display: block;
     font-size: 18px;
@@ -2246,27 +2255,40 @@ a:hover,
 }
 
 /* line 14, ../sass/pages/_splash.scss */
+.quick-info-links {
+  width: 100%;
+}
+/* line 17, ../sass/pages/_splash.scss */
+.quick-info-links a {
+  margin: 0 8px;
+}
+/* line 21, ../sass/pages/_splash.scss */
+.quick-info-links a:first-of-type {
+  margin-left: 0;
+}
+
+/* line 26, ../sass/pages/_splash.scss */
 .info-label {
   color: #8492A6;
   font-size: 15px;
   font-weight: 600;
 }
 
-/* line 20, ../sass/pages/_splash.scss */
+/* line 32, ../sass/pages/_splash.scss */
 .info-text {
   font-size: 20px;
 }
 
-/* line 24, ../sass/pages/_splash.scss */
+/* line 36, ../sass/pages/_splash.scss */
 .staff {
   margin-bottom: 15px;
 }
 
-/* line 28, ../sass/pages/_splash.scss */
+/* line 40, ../sass/pages/_splash.scss */
 .staff-name {
   font-size: 18px;
 }
-/* line 31, ../sass/pages/_splash.scss */
+/* line 43, ../sass/pages/_splash.scss */
 .staff-name .fa {
   color: rgba(60, 72, 88, 0.8);
   float: right;
@@ -2274,42 +2296,107 @@ a:hover,
   margin-top: 5px;
   padding: 0 3px;
 }
-/* line 39, ../sass/pages/_splash.scss */
+/* line 51, ../sass/pages/_splash.scss */
 .staff-name .fa:hover {
   color: #3498db;
   text-decoration: none;
 }
-/* line 44, ../sass/pages/_splash.scss */
+/* line 56, ../sass/pages/_splash.scss */
 .staff-name .fa:first-of-type {
   margin-left: 13px;
 }
 
-/* line 49, ../sass/pages/_splash.scss */
+/* line 61, ../sass/pages/_splash.scss */
 .staff-detail {
   color: #8492A6;
   font-size: 14px;
 }
-/* line 53, ../sass/pages/_splash.scss */
+/* line 65, ../sass/pages/_splash.scss */
 .staff-detail .detail-label {
   font-weight: 600;
   padding-right: 15px;
 }
 
 @media (max-width: 768px) {
-  /* line 64, ../sass/pages/_splash.scss */
+  /* line 76, ../sass/pages/_splash.scss */
   .home-col-container {
     display: flex;
     flex-flow: row wrap;
   }
 
-  /* line 69, ../sass/pages/_splash.scss */
+  /* line 81, ../sass/pages/_splash.scss */
   .home-text-col {
     padding-right: 15px;
     order: 2;
   }
 
-  /* line 74, ../sass/pages/_splash.scss */
+  /* line 86, ../sass/pages/_splash.scss */
   .home-info-col {
     order: 1;
   }
+}
+/* line 1, ../sass/pages/grading.scss */
+.breakdown-bar {
+  border-radius: 2px;
+  height: 10px;
+  overflow: hidden;
+  width: 100%;
+}
+/* line 7, ../sass/pages/grading.scss */
+.breakdown-bar .breakdown-bar-item {
+  float: left;
+  height: 100%;
+  opacity: 0.8;
+}
+/* line 13, ../sass/pages/grading.scss */
+.breakdown-bar .project-bar {
+  background: #3498db;
+  width: 35%;
+}
+/* line 18, ../sass/pages/grading.scss */
+.breakdown-bar .midterm-bar {
+  background: #2ecc71;
+  width: 25%;
+}
+/* line 23, ../sass/pages/grading.scss */
+.breakdown-bar .participation-bar {
+  background: #e74c3c;
+  width: 20%;
+}
+/* line 28, ../sass/pages/grading.scss */
+.breakdown-bar .assignments-bar {
+  background: #f39c12;
+  width: 20%;
+}
+
+/* line 34, ../sass/pages/grading.scss */
+.breakdown-labels {
+  overflow: hidden;
+}
+/* line 37, ../sass/pages/grading.scss */
+.breakdown-labels .breakdown-bar-label {
+  float: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 10px;
+}
+/* line 44, ../sass/pages/grading.scss */
+.breakdown-labels .project-label {
+  color: #3498db;
+  width: 35%;
+}
+/* line 49, ../sass/pages/grading.scss */
+.breakdown-labels .midterm-label {
+  color: #2ecc71;
+  width: 25%;
+}
+/* line 54, ../sass/pages/grading.scss */
+.breakdown-labels .participation-label {
+  color: #e74c3c;
+  width: 20%;
+}
+/* line 59, ../sass/pages/grading.scss */
+.breakdown-labels .assignments-label {
+  color: #f39c12;
+  width: 20%;
 }

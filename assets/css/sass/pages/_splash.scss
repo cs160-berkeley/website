@@ -11,6 +11,18 @@
   width: 50%;
 }
 
+.quick-info-links {
+  width: 100%;
+
+  a {
+    margin: 0 8px;
+  }
+
+  a:first-of-type {
+    margin-left: 0;
+  }
+}
+
 .info-label {
   color: $slate;
   font-size: 15px;

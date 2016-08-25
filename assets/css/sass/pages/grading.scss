@@ -1,0 +1,63 @@
+.breakdown-bar {
+  border-radius: 2px;
+  height: 10px;
+  overflow: hidden;
+  width: 100%;
+
+  .breakdown-bar-item {
+    float: left;
+    height: 100%;
+    opacity: 0.8;
+  }
+
+  .project-bar {
+    background: #3498db;
+    width: 35%;
+  }
+
+  .midterm-bar {
+    background: #2ecc71;
+    width: 25%;
+  }
+
+  .participation-bar {
+    background: #e74c3c;
+    width: 20%;
+  }
+
+  .assignments-bar {
+    background: #f39c12;
+    width: 20%;
+  }
+}
+
+.breakdown-labels {
+  overflow: hidden;
+
+  .breakdown-bar-label {
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 10px;
+  }
+
+  .project-label {
+    color: #3498db;
+    width: 35%;
+  }
+
+  .midterm-label {
+    color: #2ecc71;
+    width: 25%;
+  }
+
+  .participation-label {
+    color: #e74c3c;
+    width: 20%;
+  }
+
+  .assignments-label {
+    color: #f39c12;
+    width: 20%;
+  }
+}
