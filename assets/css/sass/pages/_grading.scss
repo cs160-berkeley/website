@@ -1,3 +1,8 @@
+$project-percent: 50%;
+$midterm-percent: 20%;
+$assignments-percent: 20%;
+$participation-percent: 10%;
+
 .breakdown-bar {
   border-radius: 2px;
   height: 10px;
@@ -12,22 +17,22 @@
 
   .project-bar {
     background: #3498db;
-    width: 35%;
+    width: $project-percent;
   }
 
   .midterm-bar {
     background: #2ecc71;
-    width: 25%;
+    width: $midterm-percent;
   }
 
   .participation-bar {
     background: #e74c3c;
-    width: 20%;
+    width: $participation-percent;
   }
 
   .assignments-bar {
     background: #f39c12;
-    width: 20%;
+    width: $assignments-percent;
   }
 }
 
@@ -43,21 +48,21 @@
 
   .project-label {
     color: #3498db;
-    width: 35%;
+    width: $project-percent;
   }
 
   .midterm-label {
     color: #2ecc71;
-    width: 25%;
+    width: $midterm-percent;
   }
 
   .participation-label {
     color: #e74c3c;
-    width: 20%;
+    width: $participation-percent;
   }
 
   .assignments-label {
     color: #f39c12;
-    width: 20%;
+    width: $assignments-percent;
   }
 }
