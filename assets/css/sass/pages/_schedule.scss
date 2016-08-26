@@ -33,8 +33,14 @@
   }
 }
 
+.week-container {
+  margin-bottom: 45px;
+}
+
 .active-week {
-  color: $blue;
+  .week {
+    color: $blue;
+  }
 }
 
 .lec-container {
@@ -86,6 +92,11 @@
 .due-date {
   color: #e74c3c;
   margin-left: 10px;
+}
+
+.week-anchor-link {
+  display: block;
+  margin-bottom: 30px;
 }
 
 @media (max-width: 768px) {
