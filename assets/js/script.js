@@ -18,3 +18,80 @@ function scrollBarHandler() {
     }
   })
 }
+
+var schedule = [
+  {
+    lectureDay: "Aug 25",
+    lectures: [{
+        name: 'Introduction',
+        slideURL: '',
+        material: [{
+            title: 'Readings',
+            items: [{
+                title: 'The Task-Centered Design Process',
+                url: 'http://www.hcibib.org/tcuid/chap-1.html',
+                html: 'in <em>Task-Centered User Interface Design</em>. Chap 1. Lewis & Rieman'
+              }, {
+                title: 'Personas: Practice and Theory',
+                url: 'http://research.microsoft.com/en-us/um/people/jgrudin/publications/personas/designchapter.pdf',
+                html: 'by John Pruitt and Jonathan Grudin'
+              }, {
+                title: 'Principles of Contextual Inquiry',
+                url: 'files/readings/1/contextual_inquiry.pdf',
+                html: 'Chapter 3 from <em>Contextual Design</em> by Beyer & Holtzblatt'
+              },
+            ]
+          }, {
+            title: 'Assignments',
+            items: [{
+                title: 'Reading Response 1',
+                url: 'https://bcourses.berkeley.edu/courses/1454557/assignments/7736970',
+                html: '<span class="due-date">due before class Thurs, Sep 1</span>'
+              }, {
+                title: 'DESIGN 01: Interviewing',
+                url: 'https://bcourses.berkeley.edu/courses/1454557/assignments/7736272',
+                html: '<span class="due-date">due Fri, Sep 2</span>'
+              },
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    lectureDay: "Sep 1",
+    lectures: [
+
+    ]
+  },
+  {
+    lectureDay: "Sep 8",
+    lectures: [
+
+    ]
+  },
+  {
+    lectureDay: "Sep 15",
+    lectures: [
+
+    ]
+  },
+  {
+    lectureDay: "Sep 22",
+    lectures: [
+
+    ]
+  },
+  {
+    lectureDay: "Sep 29",
+    lectures: [
+
+    ]
+  }
+]
+
+var app = angular.module('app', ['ngSanitize']);
+
+app.controller('ScheduleController', ['$scope', function($scope) {
+  this.schedule = schedule;
+}]);
