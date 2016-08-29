@@ -24,7 +24,7 @@ var schedule = [
     lectureDay: "Aug 25",
     lectures: [{
         name: 'Introduction',
-        slideURL: '',
+        slideURL: 'https://drive.google.com/open?id=0B7qiT-cxa1ayTlJCUXN0S2RXbHM',
         material: [{
             title: 'Readings',
             items: [{

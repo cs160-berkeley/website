@@ -60,7 +60,7 @@
             <div class="lec-details">
               <h3 class="lec-title">
                 {{lecture.name}}
-                <a ng-if="lecture.slideURL" ng-href="{{lecture.slideURL}}">(slides)</a>
+                <a ng-if="lecture.slideURL" ng-href="{{lecture.slideURL}}" target="_blank">(slides)</a>
               </h3>
               <div class="lec-material" ng-repeat="material in lecture.material">
                 <h4>{{material.title}}</h4>
