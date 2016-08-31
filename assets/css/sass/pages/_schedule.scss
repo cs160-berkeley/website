@@ -48,23 +48,25 @@
   overflow: hidden;
 }
 
-.lec-num {
-  clear: both;
-  float: left;
-  width: 80px;
-  padding-right: 15px;
-  text-align: right;
+.lec-details {
+  padding-left: 35px;
 }
 
-.lec-details {
-  float: left;
-  width: calc(100% - 100px);
+.topic-num {
+  color: $slate-60;
+  font-size: 15px;
+  font-weight: 900;
+  margin-right: 5px;
 }
 
 .lec-title {
   font-size: 18px;
   font-weight: 600;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
+
+  &:last-of-type {
+    margin-bottom: 24px;
+  }
 }
 
 .lec-material {

@@ -46,27 +46,27 @@
     </div>
     <div class="container">
       <div class="col-md-9 col-sm-9 schedule-col">
-        <a class="week-anchor-link" href="#week1">Jump to current week</a>
+        <a class="week-anchor-link" href="#week2">Jump to current week</a>
         <!-- WEEK 1 -->
 
         <div class="week-container" ng-repeat="week in controller.schedule track by $index">
           <a class="anchor" id="week{{$index + 1}}"></a>
           <h2 class="syllabus-week-label">
-            <span class="week">Week {{$index + 1}}</span>
-            <span class="day">{{week.lectureDay}}</span>
+            <span class="week" ng-bind="'Week ' + ($index + 1)"></span>
+            <span class="day" ng-bind="week.lectureDay"></span>
           </h2>
-          <div class="lec-container" ng-repeat="lecture in week.lectures track by $index">
-            <div class="lec-num">Topic</div>
+          <div class="lec-container">
             <div class="lec-details">
-              <h3 class="lec-title">
-                {{lecture.name}}
-                <a ng-if="lecture.slideURL" ng-href="{{lecture.slideURL}}" target="_blank">(slides)</a>
+              <h3 class="lec-title" ng-repeat="topic in week.topics track by $index">
+                <span class="topic-num" ng-bind="$index + 1"></span>
+                <span ng-bind="topic.name"></span>
+                <a ng-if="topic.slides" ng-href="{{topic.slides}}" target="_blank">(slides)</a>
               </h3>
-              <div class="lec-material" ng-repeat="material in lecture.material">
-                <h4>{{material.title}}</h4>
+              <div class="lec-material" ng-repeat="material in week.material">
+                <h4 ng-bind="material.title"></h4>
                 <ul>
                   <li ng-repeat="item in material.items">
-                    <a ng-href="{{item.url}}" target="_blank">{{item.title}}</a>
+                    <a ng-href="{{item.url}}" target="_blank" ng-bind="item.title"></a>
                     <span ng-bind-html="item.html"></span>
                   </li>
                 </ul>
