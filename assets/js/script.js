@@ -67,7 +67,7 @@ var schedule = [
         }, {
           title: 'The Psychopathology of Everyday Things',
           url: 'https://bcourses.berkeley.edu/courses/1454557/files/69530519/download?wrap=1',
-          html: 'Chapter 1 from <em>The Psychology of Everyday Things</em> by Don Norman.'
+          html: 'Chapter 1 from <em>The Design of Everyday Things</em> by Don Norman.'
         }, {
           title: 'Cognetics and the Locus of Attention',
           url: 'https://bcourses.berkeley.edu/courses/1454557/files/69530523/download?wrap=1',
