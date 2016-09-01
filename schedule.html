@@ -60,7 +60,8 @@
               <h3 class="lec-title" ng-repeat="topic in week.topics track by $index">
                 <span class="topic-num" ng-bind="$index + 1"></span>
                 <span ng-bind="topic.name"></span>
-                <a ng-if="topic.slides" ng-href="{{topic.slides}}" target="_blank">(slides)</a>
+                <a ng-if="topic.slideURL" ng-href="{{topic.slideURL}}" target="_blank">(slides)</a>
+                <a ng-if="topic.studioURL" ng-href="{{topic.studioURL}}" target="_blank">(studio activity)</a>
               </h3>
               <div class="lec-material" ng-repeat="material in week.material">
                 <h4 ng-bind="material.title"></h4>

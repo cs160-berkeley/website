@@ -24,7 +24,7 @@ var schedule = [
     lectureDay: "Aug 25",
     topics: [{
       name: 'Introduction',
-      slides: 'https://drive.google.com/open?id=0B7qiT-cxa1ayTlJCUXN0S2RXbHM'
+      slideURL: 'https://drive.google.com/open?id=0B7qiT-cxa1ayTlJCUXN0S2RXbHM',
     }],
     material: [{
       title: 'Readings',
@@ -50,14 +50,15 @@ var schedule = [
       }, {
         title: 'DESIGN 01: Interviewing',
         url: 'https://bcourses.berkeley.edu/courses/1454557/assignments/7736272',
-        html: '<span class="due-date">due Fri, Sep 2</span>'
+        html: '<span class="due-date">due Fri, Sep 2 at 11:59pm</span>'
       }]
     }]
   }, {
     lectureDay: "Sep 1",
     topics: [{
       name: 'Storyboards, Scenarios, and Personas',
-      slides: ''
+      slides: '',
+      studioURL: 'http://bit.ly/cs160-storyboard-activity'
     }, {
       name: 'Task Analysis & Contextual Inquiry',
       slides: ''
@@ -83,6 +84,10 @@ var schedule = [
         title: 'Reading Response 02',
         url: 'https://bcourses.berkeley.edu/courses/1454557/assignments/7739076',
         html: '<span class="due-date">due before class Thurs, Sep 8</span>'
+      }, {
+        title: 'PROG 01: Calorie Converter',
+        url: 'https://bcourses.berkeley.edu/courses/1454557/assignments/7739607',
+        html: '<span class="due-date">due Fri, Sep 9 at 11:59pm</span>'
       }]
     }]
   }, {
