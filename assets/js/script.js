@@ -22,11 +22,14 @@ function scrollBarHandler() {
 var schedule = [
   {
     lectureDay: "Aug 25",
-    topics: [{
-      name: 'Introduction',
-      slideURL: 'https://drive.google.com/open?id=0B7qiT-cxa1ayTlJCUXN0S2RXbHM',
-    }],
+    topics: ['Introduction'],
     material: [{
+      title: 'Lecture',
+      items: [{
+        title: 'Slides',
+        url: 'https://drive.google.com/open?id=0B7qiT-cxa1ayTlJCUXN0S2RXbHM'
+      }]
+    },{
       title: 'Readings',
       items: [{
         title: 'The Task-Centered Design Process',
@@ -55,15 +58,18 @@ var schedule = [
     }]
   }, {
     lectureDay: "Sep 1",
-    topics: [{
-      name: 'Storyboards, Scenarios, and Personas',
-      slides: '',
-      studioURL: 'http://bit.ly/cs160-storyboard-activity'
-    }, {
-      name: 'Task Analysis & Contextual Inquiry',
-      slides: ''
-    }],
+    topics: ['Storyboards, Scenarios, and Personas', 'Task Analysis & Contextual Inquiry'],
     material: [{
+      title: 'Lecture',
+      items: [{
+        title: 'Webcast',
+        url: 'https://www.youtube.com/watch?v=x5hAJINjfro',
+        html: '(sorry, second half only)'
+      }, {
+        title: 'Studio Activity',
+        url: 'http://bit.ly/cs160-storyboard-activity'
+      }]
+    },{
       title: 'Readings',
       items: [{
         title: 'Direct Manipulation Interfaces',
