@@ -98,14 +98,10 @@ var schedule = [
     }]
   }, {
     lectureDay: "Sep 8",
-    lectures: [
-
-    ]
+    topics: ['Conceptual Models', 'Design Implications of Conceptual Models'],
   }, {
     lectureDay: "Sep 15",
-    lectures: [
-
-    ]
+    topics: ['Connected Devices', 'In-Class Brainstorm'],
   }, {
     lectureDay: "Sep 22",
     lectures: [
