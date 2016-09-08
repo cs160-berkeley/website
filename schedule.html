@@ -54,6 +54,7 @@
           <h2 class="syllabus-week-label">
             <span class="week" ng-bind="'Week ' + ($index + 1)"></span>
             <span class="day" ng-bind="week.lectureDay"></span>
+            <span ng-if="week.required" class="required-label">REQUIRED</span>
           </h2>
           <div class="lec-container">
             <div class="lec-details">

@@ -62,12 +62,19 @@ var schedule = [
     material: [{
       title: 'Lecture',
       items: [{
+        title: 'Slides (Part 1)',
+        url: 'https://drive.google.com/open?id=0B7qiT-cxa1ayWTd2MmVBVTVOREU'
+      }, {
+        title: 'Slides (Part 2)',
+        url: 'https://drive.google.com/open?id=0B7qiT-cxa1ayUXpmb0Eza1d6Q2c'
+      }, {
         title: 'Webcast',
         url: 'https://www.youtube.com/watch?v=x5hAJINjfro',
-        html: '(sorry, second half only)'
+        html: '(sorry, part 2 only)'
       }, {
         title: 'Studio Activity',
-        url: 'http://bit.ly/cs160-storyboard-activity'
+        url: 'http://bit.ly/cs160-storyboard-activity',
+        html: 'Storyboarding'
       }]
     },{
       title: 'Readings',
@@ -99,19 +106,85 @@ var schedule = [
   }, {
     lectureDay: "Sep 8",
     topics: ['Conceptual Models', 'Design Implications of Conceptual Models'],
+    material: [{
+      title: 'Lecture',
+      items: [{
+        title: 'Studio Activity',
+        url: 'https://drive.google.com/open?id=1KlV5_0TFmRppnjJoh58pkehDAotYeGoY5NvLekFAUGw',
+        html: 'Conceptual Models & Metaphors'
+      }]
+    }, {
+      title: 'Readings',
+      items: [{
+        title: 'Cross-device interactions and interusability',
+        url: 'https://bcourses.berkeley.edu/courses/1454557/files/69574414/',
+        html: 'Chapter 9 from <em>Designing Connected Products</em>. Rowland, Goodman, Charlier, Lui & Light.'
+      }, {
+        title: 'Interoperability',
+        url: 'https://bcourses.berkeley.edu/courses/1454557/files/69574417/',
+        html: 'Chapter 10 from <em>Designing Connected Products</em>. Rowland, Goodman, Charlier, Lui & Light.'
+      }]
+    }, {
+      title: 'Assignments',
+      items: [{
+        title: 'Reading Response 03',
+        url: 'https://bcourses.berkeley.edu/courses/1454557/assignments/7741112',
+        html: '<span class="due-date">due before class Thurs, Sep 15</span>'
+      }, {
+        title: 'DESIGN 02',
+        url: 'https://bcourses.berkeley.edu/courses/1454557/assignments/7740218',
+        html: '<span class="due-date">due Tues, Sep 13 at 11:59pm</span>'
+      }]
+    }]
   }, {
     lectureDay: "Sep 15",
+    required: true,
     topics: ['Connected Devices', 'In-Class Brainstorm'],
+    material: [{
+      title: 'Lecture',
+      items: [{
+        title: 'Studio Activity',
+        html: 'In-Class Brainstorm'
+      }]
+    }]
   }, {
     lectureDay: "Sep 22",
-    lectures: [
-
-    ]
+    topics: ['Modality & Heuristic Evaluation', 'Human Models']
   }, {
     lectureDay: "Sep 29",
-    lectures: [
-
-    ]
+    topics: ['Input Devices', 'Prototyping']
+  }, {
+    lectureDay: "Oct 6",
+    topics: ['Usability Testing', 'Data Analysis']
+  }, {
+    lectureDay: "Oct 13",
+    topics: ['UI Engineering', 'Midterm Review']
+  }, {
+    lectureDay: "Oct 20",
+    required: true,
+    topics: ['Midterm']
+  }, {
+    lectureDay: "Oct 27",
+    topics: ['IOT Panel']
+  }, {
+    lectureDay: "Nov 3",
+    required: true,
+    topics: ['Visual Design', 'Information Visualization']
+  }, {
+    lectureDay: "Nov 10",
+    required: true,
+    topics: ['Group Prototype Presentations']
+  }, {
+    lectureDay: "Nov 17",
+    required: true,
+    topics: ['Historical Perspectives on HCI', 'Project Workshop']
+  }, {
+    lectureDay: "Nov 24",
+    topics: ['No Lecture']
+  }, {
+    lectureDay: "Dec 1",
+    required: true,
+    topics: ['Future Interactions & Course Summary', 'Project Workshop']
   }
 ]
 

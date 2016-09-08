@@ -3,9 +3,12 @@
 }
 
 .syllabus-week-label {
+  display: flex;
   font-size: 22px;
   margin-bottom: 18px;
   position: relative;
+  align-items: center;
+
   .week {
     background: $snow;
     float: left;
@@ -15,8 +18,9 @@
   .day {
     background: $snow;
     color: $slate;
+    float: left;
     font-weight: 400;
-    padding: 0 15px;
+    padding: 0 15px 0 20px;
     text-transform: none;
   }
 
@@ -31,6 +35,17 @@
     z-index: -1;
     @include transform(translateY(-50%));
   }
+}
+
+.required-label {
+  background: $snow;
+  color: #e74c3c;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  padding-left: 20px;
+  position: absolute;
+  right: 0;
 }
 
 .week-container {
