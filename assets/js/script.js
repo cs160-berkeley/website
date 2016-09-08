@@ -110,7 +110,7 @@ var schedule = [
       title: 'Lecture',
       items: [{
         title: 'Studio Activity',
-        url: 'https://drive.google.com/open?id=1KlV5_0TFmRppnjJoh58pkehDAotYeGoY5NvLekFAUGw',
+        url: 'http://bit.ly/cs160-models-activity',
         html: 'Conceptual Models & Metaphors'
       }]
     }, {
