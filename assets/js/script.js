@@ -109,6 +109,12 @@ var schedule = [
     material: [{
       title: 'Lecture',
       items: [{
+        title: 'Slides (Part 1)',
+        url: 'https://drive.google.com/open?id=0B7qiT-cxa1ayZWljazVFRHoyUmc',
+      }, {
+        title: 'Slides (Part 2)',
+        url: 'https://drive.google.com/open?id=0B7qiT-cxa1ayblR4ak9oMGNwUWM',
+      }, {
         title: 'Studio Activity',
         url: 'http://bit.ly/cs160-models-activity',
         html: 'Conceptual Models & Metaphors'
