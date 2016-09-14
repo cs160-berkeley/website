@@ -22,14 +22,12 @@ function scrollBarHandler() {
 var schedule = [
   {
     lectureDay: "Aug 25",
-    topics: ['Introduction'],
+    topics: [{
+      name: 'Introduction',
+      slides: 'https://drive.google.com/open?id=0B7qiT-cxa1ayTlJCUXN0S2RXbHM',
+      video: '',
+    }],
     material: [{
-      title: 'Lecture',
-      items: [{
-        title: 'Slides',
-        url: 'https://drive.google.com/open?id=0B7qiT-cxa1ayTlJCUXN0S2RXbHM'
-      }]
-    },{
       title: 'Readings',
       items: [{
         title: 'The Task-Centered Design Process',
@@ -58,25 +56,16 @@ var schedule = [
     }]
   }, {
     lectureDay: "Sep 1",
-    topics: ['Storyboards, Scenarios, and Personas', 'Task Analysis & Contextual Inquiry'],
+    topics: [{
+      name: 'Storyboards, Scenarios, and Personas',
+      slides: 'https://drive.google.com/open?id=0B7qiT-cxa1ayWTd2MmVBVTVOREU',
+      video: '',
+    }, {
+      name: 'Task Analysis & Contextual Inquiry',
+      slides: 'https://drive.google.com/open?id=0B7qiT-cxa1ayUXpmb0Eza1d6Q2c',
+      video: 'https://www.youtube.com/watch?v=x5hAJINjfro',
+    }],
     material: [{
-      title: 'Lecture',
-      items: [{
-        title: 'Slides (Part 1)',
-        url: 'https://drive.google.com/open?id=0B7qiT-cxa1ayWTd2MmVBVTVOREU'
-      }, {
-        title: 'Slides (Part 2)',
-        url: 'https://drive.google.com/open?id=0B7qiT-cxa1ayUXpmb0Eza1d6Q2c'
-      }, {
-        title: 'Webcast',
-        url: 'https://www.youtube.com/watch?v=x5hAJINjfro',
-        html: '(sorry, part 2 only)'
-      }, {
-        title: 'Studio Activity',
-        url: 'http://bit.ly/cs160-storyboard-activity',
-        html: 'Storyboarding'
-      }]
-    },{
       title: 'Readings',
       items: [{
         title: 'Direct Manipulation Interfaces',
@@ -104,22 +93,18 @@ var schedule = [
       }]
     }]
   }, {
+    isCurrent: true,
     lectureDay: "Sep 8",
-    topics: ['Conceptual Models', 'Design Implications of Conceptual Models'],
-    material: [{
-      title: 'Lecture',
-      items: [{
-        title: 'Slides (Part 1)',
-        url: 'https://drive.google.com/open?id=0B7qiT-cxa1ayZWljazVFRHoyUmc',
-      }, {
-        title: 'Slides (Part 2)',
-        url: 'https://drive.google.com/open?id=0B7qiT-cxa1ayblR4ak9oMGNwUWM',
-      }, {
-        title: 'Studio Activity',
-        url: 'http://bit.ly/cs160-models-activity',
-        html: 'Conceptual Models & Metaphors'
-      }]
+    topics: [{
+      name: 'Conceptual Models',
+      slides: 'https://drive.google.com/open?id=0B7qiT-cxa1ayZWljazVFRHoyUmc',
+      video: '',
     }, {
+      name: 'Design Implications of Conceptual Models',
+      slides: 'https://drive.google.com/open?id=0B7qiT-cxa1ayblR4ak9oMGNwUWM',
+      video: '',
+    }],
+    material: [{
       title: 'Readings',
       items: [{
         title: 'Cross-device interactions and interusability',
@@ -145,57 +130,209 @@ var schedule = [
   }, {
     lectureDay: "Sep 15",
     required: true,
-    topics: ['Connected Devices', 'In-Class Brainstorm'],
+    topics: [{
+      name: 'Connected Devices',
+    }, {
+      name: 'In-Class Brainstorm',
+    }],
     material: [{
-      title: 'Lecture',
+      title: 'Reading',
       items: [{
-        title: 'Studio Activity',
-        html: 'In-Class Brainstorm'
+        title: 'How to Conduct a Heuristic Evaluation',
+        url: 'https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/',
+      }, {
+        title: 'Ten Recommended Heuristics',
+        url: 'https://www.nngroup.com/articles/ten-usability-heuristics/',
+      }, {
+        title: 'Severity Ratings for Usability Problems',
+        url: 'http://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/',
+      }, {
+        title: 'The Model Human Processor',
+        url: 'https://bcourses.berkeley.edu/courses/1454557/files/69618468/',
+        html: '<em>The Psychology of Human-Computer Interaction</em>. Chap 2. Card, Moran & Newell. Pages 24-76.'
+      }, {
+        title: 'Motor Behavior Models for HCI',
+        url: 'https://bcourses.berkeley.edu/courses/1454557/files/69618484/',
+        html: '<em>HCI Models, Theories, and Frameworks: Toward a Multidisciplinary Science</em>, Chapter 3 <strong>(260A students only)</strong>'
       }]
+    }, {
+      title: 'Assignments',
+      items: [{
+        title: 'Reading Response 04',
+        url: 'https://bcourses.berkeley.edu/courses/1454557/assignments/7742853',
+        html: '<span class="due-date">due before class Thurs, Sep 22</span>'
+      }, {
+        title: 'PROG 02',
+        url: '',
+        html: '<span class="due-date">due date TBA</span>'
+      }, ]
     }]
   }, {
     lectureDay: "Sep 22",
-    topics: ['Modality & Heuristic Evaluation', 'Human Models']
+    topics: [{
+      name: 'Modalit & Heuristic Evaluation',
+    }, {
+      name: 'Human Models',
+    }],
+    material: [{
+      title: 'Assignments',
+      items: [{
+        title: '[GROUP] Brainstorm',
+        url: '',
+        html: '<span class="due-date">due Fri, Sep 23</span>'
+      }]
+    }]
   }, {
     lectureDay: "Sep 29",
-    topics: ['Input Devices', 'Prototyping']
+    topics: [{
+      name: 'Input Devices',
+    }, {
+      name: 'Prototyping',
+    }],
+    material: [{
+      title: 'Assignments',
+      items: [{
+        title: 'Heuristic Evaluation',
+        url: '',
+        html: '<span class="due-date">due Fri, Sep 30</span>'
+      }]
+    }]
   }, {
     lectureDay: "Oct 6",
-    topics: ['Usability Testing', 'Data Analysis']
+    topics: [{
+      name: 'Usability Testing',
+    }, {
+      name: 'Data Analysis',
+    }],
+    material: [{
+      title: 'Assignments',
+      items: [{
+        title: 'PROG 03',
+        url: '',
+        html: '<span class="due-date">due week of Nov 3</span>'
+      }, {
+        title: '[GROUP] Contextual Inquiry, Task Analysis, Competitive Analysis',
+        url: '',
+        html: '<span class="due-date">due week of Oct 6</span>'
+      }]
+    }]
   }, {
     lectureDay: "Oct 13",
-    topics: ['UI Engineering', 'Midterm Review']
+    topics: [{
+      name: 'UI Engineering',
+    }, {
+      name: 'Midterm Review',
+    }],
+    material: [{
+      title: 'Assignments',
+      items: [{
+        title: '[GROUP] Low-Fi Prototype Video',
+        url: '',
+        html: '<span class="due-date">due Mon, Oct 17</span>'
+      }]
+    }]
   }, {
     lectureDay: "Oct 20",
     required: true,
-    topics: ['Midterm']
+    topics: [{
+      name: 'Midterm',
+    }],
   }, {
     lectureDay: "Oct 27",
-    topics: ['IOT Panel']
+    topics: [{
+      name: 'IOT Panel',
+    }],
+    material: [{
+      title: 'Assignments',
+      items: [{
+        title: '[GROUP] Low-Fi User Test',
+        url: '',
+        html: '<span class="due-date">due date TBD</span>'
+      }]
+    }]
   }, {
     lectureDay: "Nov 3",
     required: true,
-    topics: ['Visual Design', 'Information Visualization']
+    topics: [{
+      name: 'Visual Design',
+    }, {
+      name: 'Information Visualization',
+    }],
+    material: [{
+      title: 'Assignments',
+      items: [{
+        title: 'PROG 03',
+        url: '',
+        html: '<span class="due-date">due this week</span>'
+      }]
+    }]
   }, {
     lectureDay: "Nov 10",
     required: true,
-    topics: ['Group Prototype Presentations']
+    topics: [{
+      name: 'Group Prototype Presentations',
+    }],
+    material: [{
+      title: 'Assignments',
+      items: [{
+        title: '[GROUP] Interactive Prototype + Presentation',
+        url: '',
+        html: '<span class="due-date">due date TBD</span>'
+      }]
+    }]
   }, {
     lectureDay: "Nov 17",
     required: true,
-    topics: ['Historical Perspectives on HCI', 'Project Workshop']
+    topics: [{
+      name: 'Historical Perspectives on HCI',
+    }, {
+      name: 'Project Workshop',
+    }],
   }, {
     lectureDay: "Nov 24",
-    topics: ['No Lecture']
+    topics: [{
+      name: 'No Lecture (Thanksgiving)',
+    }],
+    material: [{
+      title: 'Assignments',
+      items: [{
+        title: '[GROUP] Usability Study',
+        url: '',
+        html: '<span class="due-date">due date TBD</span>'
+      }]
+    }]
   }, {
     lectureDay: "Dec 1",
     required: true,
-    topics: ['Future Interactions & Course Summary', 'Project Workshop']
+    topics: [{
+      name: 'Future Interactions & Course Summary',
+    }, {
+      name: 'Project Workshop',
+    }],
   }
+]
+
+
+
+var upcoming = [
+{
+  name: 'Group Brainstorm',
+  url: '',
+  due: 'due Fri, Sep 16'
+}, {
+  name: 'Programming 02',
+  url: '',
+  due: 'due week of Sep 22'
+}, {
+  name: 'Heuristic Evaluation',
+  url: '',
+  due: 'due Fri, Sep 30'
+}
 ]
 
 var app = angular.module('app', ['ngSanitize']);
 
 app.controller('ScheduleController', ['$scope', function($scope) {
   this.schedule = schedule;
+  //this.upcoming = upcoming;
 }]);

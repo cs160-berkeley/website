@@ -47,9 +47,10 @@
     <div class="container">
       <div class="col-md-9 col-sm-9 schedule-col">
         <a class="week-anchor-link" href="#week3">Jump to current week</a>
-        <!-- WEEK 1 -->
 
-        <div class="week-container" ng-repeat="week in controller.schedule track by $index">
+        <!-- Loop through the weeks -->
+        <div class="week-container" ng-repeat="week in controller.schedule track by $index"
+             ng-class="{ 'active-week': week.isCurrent }">
           <a class="anchor" id="week{{$index + 1}}"></a>
           <h2 class="syllabus-week-label">
             <span class="week" ng-bind="'Week ' + ($index + 1)"></span>
@@ -60,7 +61,9 @@
             <div class="lec-details">
               <h3 class="lec-title" ng-repeat="topic in week.topics track by $index">
                 <span class="topic-num" ng-bind="$index + 1"></span>
-                <span ng-bind="topic"></span>
+                <span ng-bind="topic.name"></span>
+                <a ng-if="topic.slides" ng-href="{{topic.slides}}" target="_blank"> (slides)</a>
+                <a ng-if="topic.video" ng-href="{{topic.video}}" target="_blank"> (webcast)</a>
               </h3>
               <div class="lec-material" ng-repeat="material in week.material">
                 <h4 ng-bind="material.title"></h4>
@@ -79,6 +82,15 @@
       </div>
 
       <div class="col-md-3 col-sm-3">
+        <!--
+        <h3 class="subsection-title">Upcoming</h3>
+        <ul class="upcoming-assignments-list" ng-repeat="item in controller.upcoming">
+          <li>
+            <a ng-href="{ item.url }" ng-bind="item.name"></a>
+            <div class="due" ng-bind="item.due"></div>
+          </li>
+        </ul>
+        -->
         <h3 class="subsection-title">Section Slides</h3>
         <ul>
           <li><a href="https://drive.google.com/open?id=0B7qiT-cxa1ayckVuVTRVYWh2LTQ">Angira</a></li>

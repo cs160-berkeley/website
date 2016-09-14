@@ -50,9 +50,26 @@
 
 .week-container {
   margin-bottom: 45px;
+  position: relative;
 }
 
 .active-week {
+
+  &:before {
+    background-color: $blue-60;
+    content: '';
+    height: 100%;
+    left: -30px;
+    position: absolute;
+    top: 0;
+    transition: 250ms;
+    width: 3px;
+  }
+
+  &:hover:before {
+    background-color: $blue;
+  }
+
   .week {
     color: $blue;
   }
@@ -114,6 +131,19 @@
 .week-anchor-link {
   display: inline-block;
   margin-bottom: 30px;
+}
+
+.upcoming-assignments-list {
+
+  li {
+    margin-bottom: 8px;
+  }
+
+  .due {
+    color: $slate;
+    font-size: 13px;
+    font-weight: 600;
+  }
 }
 
 @media (max-width: 768px) {
