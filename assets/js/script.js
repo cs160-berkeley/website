@@ -313,26 +313,8 @@ var schedule = [
 ]
 
 
-
-var upcoming = [
-{
-  name: 'Group Brainstorm',
-  url: '',
-  due: 'due Fri, Sep 16'
-}, {
-  name: 'Programming 02',
-  url: '',
-  due: 'due week of Sep 22'
-}, {
-  name: 'Heuristic Evaluation',
-  url: '',
-  due: 'due Fri, Sep 30'
-}
-]
-
 var app = angular.module('app', ['ngSanitize']);
 
 app.controller('ScheduleController', ['$scope', function($scope) {
   this.schedule = schedule;
-  //this.upcoming = upcoming;
 }]);
