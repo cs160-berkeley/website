@@ -93,7 +93,6 @@ var schedule = [
       }]
     }]
   }, {
-    isCurrent: true,
     lectureDay: "Sep 8",
     topics: [{
       name: 'Conceptual Models',
@@ -128,6 +127,7 @@ var schedule = [
       }]
     }]
   }, {
+    isCurrent: true,
     lectureDay: "Sep 15",
     required: true,
     topics: [{
@@ -136,6 +136,12 @@ var schedule = [
       name: 'In-Class Brainstorm',
     }],
     material: [{
+      title: 'Studio Activity',
+      items: [{
+        title: 'Group Brainstorm Warmup & Prompt',
+        url: 'http://bit.ly/cs160fa16-brainstorming'
+      }]
+    }, {
       title: 'Reading',
       items: [{
         title: 'How to Conduct a Heuristic Evaluation',
