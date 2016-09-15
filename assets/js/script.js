@@ -176,7 +176,7 @@ var schedule = [
   }, {
     lectureDay: "Sep 22",
     topics: [{
-      name: 'Modalit & Heuristic Evaluation',
+      name: 'Modality & Heuristic Evaluation',
     }, {
       name: 'Human Models',
     }],
