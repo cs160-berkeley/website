@@ -93,7 +93,6 @@ var schedule = [
       }]
     }]
   }, {
-    isCurrent: true,
     lectureDay: "Sep 8",
     topics: [{
       name: 'Conceptual Models',
@@ -128,6 +127,7 @@ var schedule = [
       }]
     }]
   }, {
+    isCurrent: true,
     lectureDay: "Sep 15",
     required: true,
     topics: [{
@@ -138,6 +138,12 @@ var schedule = [
       slides: 'https://drive.google.com/open?id=0B7qiT-cxa1ayeEhYRjRGUndyWHc',
     }],
     material: [{
+      title: 'Studio Activity',
+      items: [{
+        title: 'Group Brainstorm Warmup & Prompt',
+        url: 'http://bit.ly/cs160fa16-brainstorming'
+      }]
+    }, {
       title: 'Reading',
       items: [{
         title: 'How to Conduct a Heuristic Evaluation',
@@ -172,7 +178,7 @@ var schedule = [
   }, {
     lectureDay: "Sep 22",
     topics: [{
-      name: 'Modalit & Heuristic Evaluation',
+      name: 'Modality & Heuristic Evaluation',
     }, {
       name: 'Human Models',
     }],
