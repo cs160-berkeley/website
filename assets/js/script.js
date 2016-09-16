@@ -132,8 +132,10 @@ var schedule = [
     required: true,
     topics: [{
       name: 'Connected Devices',
+      slides: 'https://drive.google.com/open?id=0B7qiT-cxa1ayV3FEU0F1aW5NTXM',
     }, {
       name: 'In-Class Brainstorm',
+      slides: 'https://drive.google.com/open?id=0B7qiT-cxa1ayeEhYRjRGUndyWHc',
     }],
     material: [{
       title: 'Reading',
