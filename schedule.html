@@ -10,6 +10,16 @@
 
     <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/stylesheets/application.css">
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-83159314-1', 'auto');
+      ga('send', 'pageview');
+    </script>
   </head>
   <body ng-controller="ScheduleController as controller">
     <nav class="scroll-nav">
@@ -46,7 +56,7 @@
     </div>
     <div class="container">
       <div class="col-md-9 col-sm-9 schedule-col">
-        <a class="week-anchor-link" href="#week4">Jump to current week</a>
+        <a class="week-anchor-link" href="#week4" onclick="ga('send','event','Link','click','Jump to current week');">Jump to current week</a>
 
         <!-- Loop through the weeks -->
         <div class="week-container" ng-repeat="week in controller.schedule track by $index"
@@ -84,10 +94,10 @@
       <div class="col-md-3 col-sm-3">
         <h3 class="subsection-title">Section Slides</h3>
         <ul>
-          <li><a href="https://drive.google.com/open?id=0B7qiT-cxa1ayckVuVTRVYWh2LTQ">Angira</a></li>
-          <li><a href="https://drive.google.com/open?id=0B7qiT-cxa1ayTGZnWDFPck5YeWs">Eric</a></li>
-          <li><a href="https://drive.google.com/open?id=0B7qiT-cxa1ayQ0czZFpaeHBZdlE">Jasper</a></li>
-          <li><a href="https://drive.google.com/open?id=0B7qiT-cxa1ayUlhVdVZhRzFlUTg">Sreesha</a></li>
+          <li><a onclick="ga('send','event','Outbound Link','click','Angira Slides');" href="https://drive.google.com/open?id=0B7qiT-cxa1ayckVuVTRVYWh2LTQ">Angira</a></li>
+          <li><a onclick="ga('send','event','Outbound Link','click','Eric Slides');" href="https://drive.google.com/open?id=0B7qiT-cxa1ayTGZnWDFPck5YeWs">Eric</a></li>
+          <li><a onclick="ga('send','event','Outbound Link','click','Jasper Slides');" href="https://drive.google.com/open?id=0B7qiT-cxa1ayQ0czZFpaeHBZdlE">Jasper</a></li>
+          <li><a onclick="ga('send','event','Outbound Link','click','Sreesha Slides');" href="https://drive.google.com/open?id=0B7qiT-cxa1ayUlhVdVZhRzFlUTg">Sreesha</a></li>
         </ul>
         <h3 class="subsection-title">KinomaJS Resources</h3>
         <ul>
@@ -102,14 +112,5 @@
     <script src="assets/js/angular.min.js"></script>
     <script src="assets/js/angular-sanitize.js"></script>
     <script src="assets/js/script.js"></script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-83159314-1', 'auto');
-      ga('send', 'pageview');
-    </script>
   </body>
 </html>
