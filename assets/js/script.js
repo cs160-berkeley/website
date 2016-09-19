@@ -186,8 +186,12 @@ var schedule = [
       title: 'Assignments',
       items: [{
         title: '[GROUP] Brainstorm',
+        url: 'https://bcourses.berkeley.edu/courses/1454557/assignments/7743278',
+        html: '<span class="due-date">due Fri, Sep 23 at 11:59pm</span>'
+      }, {
+        title: 'Reading Response 05',
         url: '',
-        html: '<span class="due-date">due Fri, Sep 23</span>'
+        html: '<span class="due-date">due before class Thurs, Sep 29</span>'
       }]
     }]
   }, {
