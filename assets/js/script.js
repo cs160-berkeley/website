@@ -127,7 +127,6 @@ var schedule = [
       }]
     }]
   }, {
-    isCurrent: true,
     lectureDay: "Sep 15",
     required: true,
     topics: [{
@@ -176,6 +175,7 @@ var schedule = [
       }, ]
     }]
   }, {
+    isCurrent: true,
     lectureDay: "Sep 22",
     topics: [{
       name: 'Modality & Heuristic Evaluation',
@@ -183,6 +183,17 @@ var schedule = [
       name: 'Human Models',
     }],
     material: [{
+      title: 'Readings',
+      items: [{
+        title: 'Input Technologies and Techniques',
+        url: 'http://research.microsoft.com/en-us/um/people/kenh/papers/input-technologies-and-techniques-2006.pdf',
+        html: 'by Ken Hinckley, in <em>Handbook of Human-Computer Interaction</em>, ed. by A. Sears & J. Jacko. <strong>(Pages 1-19 only!)</strong>'
+      }, {
+        title: 'What do Prototypes Prototype?',
+        url: 'https://courses.cs.washington.edu/courses/cse440/12au/readings_files/Houde-Prototypes.pdf',
+        html: 'by Stephanie Houde and Charles Hill, 1997.'
+      }]
+    }, {
       title: 'Assignments',
       items: [{
         title: '[GROUP] Brainstorm',
@@ -190,7 +201,7 @@ var schedule = [
         html: '<span class="due-date">due Fri, Sep 23 at 11:59pm</span>'
       }, {
         title: 'Reading Response 05',
-        url: '',
+        url: 'https://bcourses.berkeley.edu/courses/1454557/assignments/7744639',
         html: '<span class="due-date">due before class Thurs, Sep 29</span>'
       }]
     }]
