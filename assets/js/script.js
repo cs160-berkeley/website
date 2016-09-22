@@ -183,6 +183,12 @@ var schedule = [
       name: 'Human Models',
     }],
     material: [{
+      title: 'Studio Activity',
+      items: [{
+        title: 'Heuristic Evaluation',
+        url: 'http://bit.ly/2cUHs29'
+      }]
+    }, {
       title: 'Readings',
       items: [{
         title: 'Input Technologies and Techniques',
