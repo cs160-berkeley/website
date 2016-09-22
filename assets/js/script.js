@@ -127,7 +127,6 @@ var schedule = [
       }]
     }]
   }, {
-    isCurrent: true,
     lectureDay: "Sep 15",
     required: true,
     topics: [{
@@ -176,6 +175,7 @@ var schedule = [
       }, ]
     }]
   }, {
+    isCurrent: true,
     lectureDay: "Sep 22",
     topics: [{
       name: 'Modality & Heuristic Evaluation',
@@ -183,6 +183,12 @@ var schedule = [
       name: 'Human Models',
     }],
     material: [{
+      title: 'Studio Activity',
+      items: [{
+        title: 'Heuristic Evaluation',
+        url: 'http://bit.ly/2cUHs29'
+      }]
+    }, {
       title: 'Assignments',
       items: [{
         title: '[GROUP] Brainstorm',
