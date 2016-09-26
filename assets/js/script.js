@@ -179,8 +179,10 @@ var schedule = [
     lectureDay: "Sep 22",
     topics: [{
       name: 'Modality & Heuristic Evaluation',
+      slides: 'https://drive.google.com/open?id=0B7qiT-cxa1ayNnJjTHFsYTR4eG8'
     }, {
       name: 'Human Models',
+      slides: 'https://drive.google.com/open?id=0B7qiT-cxa1ayUDdXUXo1S2JmTTQ'
     }],
     material: [{
       title: 'Studio Activity',
@@ -242,7 +244,7 @@ var schedule = [
       }, {
         title: '[GROUP] Contextual Inquiry, Task Analysis, Competitive Analysis',
         url: '',
-        html: '<span class="due-date">due week of Oct 6</span>'
+        html: '<span class="due-date">due Thurs, Oct 6</span>'
       }]
     }]
   }, {
