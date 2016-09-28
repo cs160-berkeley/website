@@ -216,9 +216,9 @@ var schedule = [
   }, {
     lectureDay: "Sep 29",
     topics: [{
-      name: 'Input Devices',
-    }, {
       name: 'Prototyping',
+    }, {
+      name: 'Input Devices & UI Engineering',
     }],
     material: [{
       title: 'Readings',
@@ -241,6 +241,10 @@ var schedule = [
         title: 'Heuristic Evaluation',
         url: 'https://bcourses.berkeley.edu/courses/1454557/assignments/7744556',
         html: '<span class="due-date">due Wed, Sep 28 at 11:59pm</span>'
+      }, {
+        title: 'Reading Response 06',
+        url: 'https://bcourses.berkeley.edu/courses/1454557/assignments/7746148',
+        html: '<span class="due-date">due before class Thurs, <Oct></Oct> 6</span>'
       }]
     }]
   }, {
@@ -265,7 +269,7 @@ var schedule = [
   }, {
     lectureDay: "Oct 13",
     topics: [{
-      name: 'UI Engineering',
+      name: 'Guest Lecture',
     }, {
       name: 'Midterm Review',
     }],
