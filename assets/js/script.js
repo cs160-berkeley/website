@@ -224,8 +224,8 @@ var schedule = [
       title: 'Assignments',
       items: [{
         title: 'Heuristic Evaluation',
-        url: '',
-        html: '<span class="due-date">due Fri, Sep 30</span>'
+        url: 'https://bcourses.berkeley.edu/courses/1454557/assignments/7744556',
+        html: '<span class="due-date">due Wed, Sep 28 at 11:59pm</span>'
       }]
     }]
   }, {
