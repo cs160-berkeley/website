@@ -221,6 +221,21 @@ var schedule = [
       name: 'Prototyping',
     }],
     material: [{
+      title: 'Readings',
+      items: [{
+        title: 'How to Do Experiments',
+        url: 'https://bcourses.berkeley.edu/courses/1454557/files/69722152/',
+        html: 'Chapter 2 from <em>Doing Psychology Experiments</em> by David Martin.'
+      }, {
+        title: 'How to Interpret Experiment Results',
+        url: 'https://bcourses.berkeley.edu/courses/1454557/files/69722155/',
+        html: 'Chapter 12 from <em>Doing Psychology Experiments</em> by David Martin.'
+      }, {
+        title: 'Psychology Journal Bans Significance Testing',
+        url: 'https://www.sciencebasedmedicine.org/psychology-journal-bans-significance-testing/',
+        html: ''
+      }]
+    }, {
       title: 'Assignments',
       items: [{
         title: 'Heuristic Evaluation',
@@ -243,7 +258,7 @@ var schedule = [
         html: '<span class="due-date">due week of Nov 3</span>'
       }, {
         title: '[GROUP] Contextual Inquiry, Task Analysis, Competitive Analysis',
-        url: '',
+        url: 'https://bcourses.berkeley.edu/courses/1454557/assignments/7745606',
         html: '<span class="due-date">due Thurs, Oct 6</span>'
       }]
     }]
