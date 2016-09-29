@@ -175,7 +175,6 @@ var schedule = [
       }, ]
     }]
   }, {
-    isCurrent: true,
     lectureDay: "Sep 22",
     topics: [{
       name: 'Modality & Heuristic Evaluation',
@@ -214,6 +213,7 @@ var schedule = [
       }]
     }]
   }, {
+    isCurrent: true,
     lectureDay: "Sep 29",
     topics: [{
       name: 'Prototyping',
@@ -221,6 +221,12 @@ var schedule = [
       name: 'Input Devices & UI Engineering',
     }],
     material: [{
+      title: 'Studio Activity',
+      items: [{
+        title: 'Prototypes & Wizard of Oz Studies',
+        url: 'http://bit.ly/2cZsiG9',
+      }]
+    }, {
       title: 'Readings',
       items: [{
         title: 'How to Do Experiments',
