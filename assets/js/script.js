@@ -217,8 +217,10 @@ var schedule = [
     lectureDay: "Sep 29",
     topics: [{
       name: 'Prototyping',
+      slides: 'https://drive.google.com/open?id=0B7qiT-cxa1ayZTNJVTE1WkFtcmM'
     }, {
       name: 'Input Devices & UI Engineering',
+      slides: 'https://drive.google.com/open?id=0B7qiT-cxa1aycEJma1RuZFNjRnM'
     }],
     material: [{
       title: 'Studio Activity',
