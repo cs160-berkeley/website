@@ -213,7 +213,6 @@ var schedule = [
       }]
     }]
   }, {
-    isCurrent: true,
     lectureDay: "Sep 29",
     topics: [{
       name: 'Prototyping',
@@ -257,6 +256,7 @@ var schedule = [
     }]
   }, {
     lectureDay: "Oct 6",
+    isCurrent: true,
     topics: [{
       name: 'Usability Testing',
     }, {
