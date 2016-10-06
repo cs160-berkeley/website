@@ -263,6 +263,12 @@ var schedule = [
       name: 'Data Analysis',
     }],
     material: [{
+      title: 'Studio Activity',
+      items: [{
+        title: 'Usability Testing Activity',
+        url: 'http://bit.ly/user-test-studio',
+      }]
+    }, {
       title: 'Assignments',
       items: [{
         title: 'PROG 03',
