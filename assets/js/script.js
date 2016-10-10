@@ -291,7 +291,7 @@ var schedule = [
       title: 'Assignments',
       items: [{
         title: '[GROUP] Low-Fi Prototype Video',
-        url: '',
+        url: 'https://bcourses.berkeley.edu/courses/1454557/assignments/7748005',
         html: '<span class="due-date">due Mon, Oct 17</span>'
       }]
     }]
