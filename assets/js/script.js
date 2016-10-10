@@ -256,7 +256,6 @@ var schedule = [
     }]
   }, {
     lectureDay: "Oct 6",
-    isCurrent: true,
     topics: [{
       name: 'Usability Testing',
     }, {
@@ -282,6 +281,7 @@ var schedule = [
     }]
   }, {
     lectureDay: "Oct 13",
+    isCurrent: true,
     topics: [{
       name: 'Guest Lecture',
     }, {
@@ -310,7 +310,7 @@ var schedule = [
       title: 'Assignments',
       items: [{
         title: '[GROUP] Low-Fi User Test',
-        url: '',
+        url: 'https://bcourses.berkeley.edu/courses/1454557/assignments/7748005',
         html: '<span class="due-date">due date TBD</span>'
       }]
     }]
