@@ -251,7 +251,7 @@ var schedule = [
       }, {
         title: 'Reading Response 06',
         url: 'https://bcourses.berkeley.edu/courses/1454557/assignments/7746148',
-        html: '<span class="due-date">due before class Thurs, <Oct></Oct> 6</span>'
+        html: '<span class="due-date">due before class Thurs, Oct 6</span>'
       }]
     }]
   }, {
@@ -271,7 +271,7 @@ var schedule = [
       title: 'Assignments',
       items: [{
         title: 'PROG 03',
-        url: '',
+        url: 'https://bcourses.berkeley.edu/courses/1454557/assignments/7748010',
         html: '<span class="due-date">due week of Nov 3</span>'
       }, {
         title: '[GROUP] Contextual Inquiry, Task Analysis, Competitive Analysis',
