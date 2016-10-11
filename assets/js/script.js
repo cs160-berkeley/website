@@ -258,8 +258,10 @@ var schedule = [
     lectureDay: "Oct 6",
     topics: [{
       name: 'Usability Testing',
+      slides: 'https://drive.google.com/open?id=0B7qiT-cxa1ayZG8tR0p0dlhzd3M'
     }, {
       name: 'Data Analysis',
+      slides: 'https://drive.google.com/open?id=0B7qiT-cxa1ayQXNQYW9NNGpvR1k'
     }],
     material: [{
       title: 'Studio Activity',
