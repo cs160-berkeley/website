@@ -288,6 +288,7 @@ var schedule = [
       name: 'Guest Lecture',
     }, {
       name: 'Midterm Review',
+      slides: 'https://docs.google.com/a/berkeley.edu/presentation/d/1_T2vYqB9Y0pGp6-KdA6IUnrtAQ50K5zss-_8BWLviqI/edit?usp=sharing'
     }],
     material: [{
       title: 'Assignments',
