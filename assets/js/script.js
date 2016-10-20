@@ -66,7 +66,7 @@ var schedule = [
       video: 'https://www.youtube.com/watch?v=x5hAJINjfro',
     }],
     material: [{
-    	itle: 'Studio Activity',
+    	title: 'Studio Activity',
     	  items: [{
     	    title: 'Storyboarding',
     	    url: 'hhttp://bit.ly/cs160-storyboard-activity'
