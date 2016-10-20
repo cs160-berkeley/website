@@ -66,6 +66,12 @@ var schedule = [
       video: 'https://www.youtube.com/watch?v=x5hAJINjfro',
     }],
     material: [{
+    	itle: 'Studio Activity',
+    	  items: [{
+    	    title: 'Storyboarding',
+    	    url: 'hhttp://bit.ly/cs160-storyboard-activity'
+    	  }]
+    	}, {
       title: 'Readings',
       items: [{
         title: 'Direct Manipulation Interfaces',
@@ -104,6 +110,12 @@ var schedule = [
       video: '',
     }],
     material: [{
+    	 title: 'Studio Activity',
+    	  items: [{
+    	    title: 'Conceptual Models',
+    	    url: 'http://bit.ly/cs160-models-activity'
+    	  }]
+    	}, {
       title: 'Readings',
       items: [{
         title: 'Cross-device interactions and interusability',
