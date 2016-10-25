@@ -66,6 +66,12 @@ var schedule = [
       video: 'https://www.youtube.com/watch?v=x5hAJINjfro',
     }],
     material: [{
+    	title: 'Studio Activity',
+    	  items: [{
+    	    title: 'Storyboarding',
+    	    url: 'hhttp://bit.ly/cs160-storyboard-activity'
+    	  }]
+    	}, {
       title: 'Readings',
       items: [{
         title: 'Direct Manipulation Interfaces',
@@ -104,6 +110,12 @@ var schedule = [
       video: '',
     }],
     material: [{
+    	 title: 'Studio Activity',
+    	  items: [{
+    	    title: 'Conceptual Models',
+    	    url: 'http://bit.ly/cs160-models-activity'
+    	  }]
+    	}, {
       title: 'Readings',
       items: [{
         title: 'Cross-device interactions and interusability',
@@ -288,6 +300,7 @@ var schedule = [
       name: 'Guest Lecture',
     }, {
       name: 'Midterm Review',
+      slides: 'https://docs.google.com/a/berkeley.edu/presentation/d/1_T2vYqB9Y0pGp6-KdA6IUnrtAQ50K5zss-_8BWLviqI/edit?usp=sharing'
     }],
     material: [{
       title: 'Assignments',
