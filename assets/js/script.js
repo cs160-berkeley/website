@@ -274,7 +274,7 @@ var schedule = [
       items: [{
         title: 'PROG 03',
         url: 'https://bcourses.berkeley.edu/courses/1454557/assignments/7748010',
-        html: '<span class="due-date">due week of Nov 3</span>'
+        html: '<span class="due-date">due Tues, Nov 1</span>'
       }, {
         title: '[GROUP] Contextual Inquiry, Task Analysis, Competitive Analysis',
         url: 'https://bcourses.berkeley.edu/courses/1454557/assignments/7745606',
@@ -306,14 +306,14 @@ var schedule = [
   }, {
     lectureDay: "Oct 27",
     topics: [{
-      name: 'IOT Panel',
+      name: 'Kinoma Hardware Workshop',
     }],
     material: [{
       title: 'Assignments',
       items: [{
         title: '[GROUP] Low-Fi User Test',
         url: 'https://bcourses.berkeley.edu/courses/1454557/assignments/7748005',
-        html: '<span class="due-date">due date TBD</span>'
+        html: '<span class="due-date">due Fri, Oct 28</span>'
       }]
     }]
   }, {
