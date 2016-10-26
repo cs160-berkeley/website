@@ -458,8 +458,7 @@ app.controller('ScheduleController', ['$scope', function($scope) {
 }]);
 
 app.controller('ShowcaseController', ['$scope', function($scope) {
-  this.projects = projects;
-  this.calculateInnerHeight = () => {
+  projectContainerHeight = () => {
     let totalHeight = 0;
     let mainContainer = document.querySelector(".all-projects-container");
     let innerList = mainContainer.querySelectorAll(".project-container");
@@ -471,4 +470,14 @@ app.controller('ShowcaseController', ['$scope', function($scope) {
     height = totalHeight / 3 + "px";
     return height;
   }
+
+  this.projects = projects;
+  this.calculateInnerHeight = projectContainerHeight;
+
+  let mainContainer = document.querySelector(".all-projects-container");
+
+  window.addEventListener("resize", () => {
+    let newHeight = projectContainerHeight();
+    mainContainer.style.height = newHeight;
+  })
 }]);
