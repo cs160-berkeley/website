@@ -392,8 +392,83 @@ var schedule = [
 ]
 
 
+var projects = [
+  {
+    title: "MedAgenda",
+    tagline: "Smart wear meets health care",
+    description: "MedAgenda is a smartphone and smartwatch app that helps nurses take better care of their patients. MedAgenda modernizes current hospital technology through integration with the hospital’s electronic record system to bring patient to do lists and reminders directly into a nurse's hands.",
+    imgURL: "",
+    externalURL: "",
+  }, {
+    title: "Pillpal",
+    tagline: "Everything is under control",
+    description: "Pillpal is a mobile and smartwatch app that allows women to monitor the effects of birth control on their body through built­in sensors on the smartwatch. It analyzes the user’s hormone levels to give them accurate and timely information about their body. Pillpal also allows users to request refills for birth control and other contraceptives, all in the comfort of their own homes. Shipping is quick and stress­free.",
+    imgURL: "",
+    externalURL: "",
+  }, {
+    title: "First Steps",
+    tagline: "Find yourself with First Steps",
+    description: "First Steps is an Android application aiding those who suffer from alcohol addiction. By providing an easy and efficient method to finding local AA meetings, users are more inclined to attend and participate in their AA community. First Steps allows users to search for AA meetings by location, time, day, and even by average age or number of attendees. We rely on user­generated feedback to review meetings, giving us a rich database of detailed AA meeting information to improve every user’s experience. Personally, a user may save an unlimited number of AA meetings for future reminders and smartwatch notifications.",
+    imgURL: "",
+    externalURL: "",
+  }, {
+    title: "Scratch That Habit!",
+    tagline: "Don't scratch that itch, scratch that habit!",
+    description: "The physical symptoms of eczema are a burden on their own, but their impact on a person’s self-esteem can be even greater. We hope that by helping people develop the habits that eczema management often necessitates, we can also relieve them of the mental burden of a physical condition.",
+    imgURL: "",
+    externalURL: "",
+  }, {
+    title: "Pensieve",
+    tagline: "Forget the Worries. Remember Yourself.",
+    description: "The idea behind Pensieve is to create an application that helps dementia patients in a number of ways. Most obviously, it reminds patients about daily tasks and gives family members the ability to view and update the patient's schedule. But we also intend for Pensieve to be a tool to help families better take care of their loved ones that are effected by dementia, and help strengthen the patient's support group. We do this by giving family members real-time updates about the status of the patient, allowing them to more effectively organize help. By tracking how well the patient remembers to do their daily tasks, we can provide family members and medical professionals with valuable data about the progression of the patient's symptoms, hopefully allowing them to tailor treatment specifically to the individual.",
+    imgURL: "",
+    externalURL: "",
+  }, {
+    title: "A Buddie",
+    tagline: "A comforting hand wherever and whenever you need it",
+    description: "A Buddie helps parents to encourage autistic kids to complete tasks that they are nervous about with games, trivia, and a reminder system.",
+    imgURL: "",
+    externalURL: "",
+  }, {
+    title: "Ally",
+    tagline: "Alzheimer's with Autonomy",
+    description: "Ally is an application that provides an Alzheimer’s caregivers peace of mind, even when they’re not with their patients. It enables caregivers to be promptly notified when a loved one becomes lost, confused, or simply needs help. Alzheimer’s disease is the most common cause of dementia. Dementia is a broad category that includes many aspects of cognitive impairment, especially memory loss and judgment. Caring for someone with Alzheimer’s can be overwhelming. Unlike our competitors, Ally is free, designed for modern smartphones, and combines 4 essential features: caregiver profiles, a patient help button, patient location tracking, and medication reminders. We are confident that Ally is the most accessible and powerful Alzheimer's assistance app on the market.",
+    imgURL: "",
+    externalURL: "",
+  }, {
+    title: "Have?",
+    tagline: "STD testing that doesn't suck",
+    description: "When you have concerns about your sexual health, have? Experts are there to set your mind at ease. Just enter your symptoms and upload a photo, and let your Experts take care of the rest.",
+    imgURL: "",
+    externalURL: "",
+  }, {
+    title: "Glucose Bonds",
+    tagline: "Being together can be pretty sweet",
+    description: "A mobile and wear social app designed for caretakers with diabetic children. We target the fundamental problem of getting the proper connections and resources to deal with many of the underlying struggles of having a diabetic child. This includes, but not limited to: developing close connections, reassuring child’s normalcy, and understanding insurance policies. We solve this problem by offering several features that allow the user to connect with the community. One major feature is our mentoring system that allows more experienced caretakers to mentor those who are newer. Other features include a forum section and a generalized education section. You should not feel alone when taking care of your diabetic child. We provide the resources for you to have the strong personal community to support you the whole way.",
+    imgURL: "",
+    externalURL: "",
+  },
+]
+
+
 var app = angular.module('app', ['ngSanitize']);
 
 app.controller('ScheduleController', ['$scope', function($scope) {
   this.schedule = schedule;
+}]);
+
+app.controller('ShowcaseController', ['$scope', function($scope) {
+  this.projects = projects;
+  this.calculateInnerHeight = () => {
+    let totalHeight = 0;
+    let mainContainer = document.querySelector(".all-projects-container");
+    let innerList = mainContainer.querySelectorAll(".project-container");
+
+    innerList.forEach((item) => {
+      totalHeight += (item.offsetHeight * 1.2);
+    })
+
+    height = totalHeight / 3 + "px";
+    return height;
+  }
 }]);
