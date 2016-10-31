@@ -295,7 +295,6 @@ var schedule = [
     }]
   }, {
     lectureDay: "Oct 13",
-    isCurrent: true,
     topics: [{
       name: 'Guest Lecture',
     }, {
@@ -318,6 +317,7 @@ var schedule = [
     }],
   }, {
     lectureDay: "Oct 27",
+    isCurrent: true,
     topics: [{
       name: 'Kinoma Hardware Workshop',
     }],
