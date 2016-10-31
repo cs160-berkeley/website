@@ -341,8 +341,12 @@ var schedule = [
       title: 'Assignments',
       items: [{
         title: 'PROG 03',
+        url: 'https://bcourses.berkeley.edu/courses/1454557/assignments/7748010',
+        html: '<span class="due-date">due Tues, Nov 1</span>'
+      }, {
+        title: '[GROUP] Interactive Prototype',
         url: '',
-        html: '<span class="due-date">due this week</span>'
+        html: '<span class="due-date">due Wed, Nov 9</span>'
       }]
     }]
   }, {
@@ -351,14 +355,6 @@ var schedule = [
     topics: [{
       name: 'Group Prototype Presentations',
     }],
-    material: [{
-      title: 'Assignments',
-      items: [{
-        title: '[GROUP] Interactive Prototype + Presentation',
-        url: '',
-        html: '<span class="due-date">due date TBD</span>'
-      }]
-    }]
   }, {
     lectureDay: "Nov 17",
     required: true,
