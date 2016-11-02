@@ -317,7 +317,6 @@ var schedule = [
     }],
   }, {
     lectureDay: "Oct 27",
-    isCurrent: true,
     topics: [{
       name: 'Kinoma Hardware Workshop',
     }],
@@ -331,6 +330,7 @@ var schedule = [
     }]
   }, {
     lectureDay: "Nov 3",
+    isCurrent: true,
     required: true,
     topics: [{
       name: 'Visual Design',
@@ -345,7 +345,7 @@ var schedule = [
         html: '<span class="due-date">due Tues, Nov 1</span>'
       }, {
         title: '[GROUP] Interactive Prototype',
-        url: '',
+        url: 'https://bcourses.berkeley.edu/courses/1454557/assignments/7753719',
         html: '<span class="due-date">due Wed, Nov 9</span>'
       }]
     }]
@@ -353,8 +353,16 @@ var schedule = [
     lectureDay: "Nov 10",
     required: true,
     topics: [{
-      name: 'Group Prototype Presentations',
+      name: 'Interactive Prototype Presentations'
     }],
+    material: [{
+      title: 'Assignments',
+      items: [{
+        title: '[GROUP] Interactive Prototype',
+        url: 'https://bcourses.berkeley.edu/courses/1454557/assignments/7753719',
+        html: '<span class="due-date">due Wed, Nov 9</span>'
+      }]
+    }]
   }, {
     lectureDay: "Nov 17",
     required: true,
