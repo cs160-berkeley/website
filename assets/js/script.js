@@ -333,9 +333,9 @@ var schedule = [
     isCurrent: true,
     required: true,
     topics: [{
-      name: 'Visual Design',
+      name: 'Human Learning and Learning Technologies',
     }, {
-      name: 'Information Visualization',
+      name: 'Project Check-in',
     }],
     material: [{
       title: 'Assignments',
