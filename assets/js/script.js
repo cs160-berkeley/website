@@ -338,6 +338,12 @@ var schedule = [
       name: 'Project Check-in',
     }],
     material: [{
+        title: 'Check-In',
+        items: [{
+          title: 'Kinoma Prototype',
+          url: 'http://bit.ly/cs160-kinoma-checkin',
+        }]
+      }, {
       title: 'Assignments',
       items: [{
         title: 'PROG 03',
