@@ -338,10 +338,13 @@ var schedule = [
       name: 'Project Check-in',
     }],
     material: [{
-      title: 'Github Usernames',
+      title: 'Forms',
       items: [{
-        title: 'Please fill out this form!',
+        title: 'Github Username',
         url: 'http://bit.ly/github-usernames',
+      }, {
+        title: 'Kinoma Prototype',
+        url: 'http://bit.ly/cs160-kinoma-checkin',
       }]
     }, {
       title: 'Assignments',
