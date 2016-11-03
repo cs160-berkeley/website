@@ -338,6 +338,12 @@ var schedule = [
       name: 'Project Check-in',
     }],
     material: [{
+      title: 'Github Usernames',
+      items: [{
+        title: 'Please fill out this form!',
+        url: 'http://bit.ly/github-usernames',
+      }]
+    }, {
       title: 'Assignments',
       items: [{
         title: 'PROG 03',
