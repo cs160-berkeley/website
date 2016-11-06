@@ -19,6 +19,23 @@ function scrollBarHandler() {
   })
 }
 
+let keypressString = "";
+let comic = false;
+
+window.onkeyup = function(e) {
+  keypressString += e.key;
+
+  if (keypressString == "design" && !comic) {
+    keypressString = "";
+    document.querySelector("body").style.fontFamily = "Comic Sans MS";
+    comic = true;
+  } else if (keypressString == "design") {
+    keypressString = "";
+    document.querySelector("body").style.fontFamily = "Lato";
+    comic = false;
+  }
+}
+
 var schedule = [
   {
     lectureDay: "Aug 25",
