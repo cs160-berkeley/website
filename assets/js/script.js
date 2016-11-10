@@ -347,7 +347,6 @@ var schedule = [
     }]
   }, {
     lectureDay: "Nov 3",
-    isCurrent: true,
     required: true,
     topics: [{
       name: 'Human Learning and Learning Technologies',
@@ -377,11 +376,21 @@ var schedule = [
     }]
   }, {
     lectureDay: "Nov 10",
+    isCurrent: true,
     required: true,
     topics: [{
       name: 'Interactive Prototype Presentations'
     }],
     material: [{
+      title: 'Forms',
+      items: [{
+        title: 'Feedback Form [Blue]',
+        url: 'https://docs.google.com/a/berkeley.edu/forms/d/e/1FAIpQLScZrW4Y5Huh-TEpw_QRamRtloWP6hTTBygns-pFRaOslzkkaw/viewform'
+      }, {
+        title: 'Feedback Form [Gold]',
+        url: 'https://docs.google.com/a/berkeley.edu/forms/d/e/1FAIpQLSeamW8LOi3hTfeWEA6knyniiL7Rr5heMlVn8QooVu1OxSktUQ/viewform'
+      }]
+    }, {
       title: 'Assignments',
       items: [{
         title: '[GROUP] Interactive Prototype',
