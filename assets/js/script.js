@@ -376,7 +376,6 @@ var schedule = [
     }]
   }, {
     lectureDay: "Nov 10",
-    isCurrent: true,
     required: true,
     topics: [{
       name: 'Interactive Prototype Presentations'
@@ -400,6 +399,7 @@ var schedule = [
     }]
   }, {
     lectureDay: "Nov 17",
+    isCurrent: true,
     required: true,
     topics: [{
       name: 'Historical Perspectives on HCI',
