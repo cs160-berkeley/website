@@ -415,8 +415,8 @@ var schedule = [
       title: 'Assignments',
       items: [{
         title: '[GROUP] Usability Study',
-        url: '',
-        html: '<span class="due-date">due date TBD</span>'
+        url: 'https://bcourses.berkeley.edu/courses/1454557/assignments/7755746',
+        html: '<span class="due-date">due Wed, Nov 23</span>'
       }]
     }]
   }, {
