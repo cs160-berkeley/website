@@ -390,11 +390,22 @@ var schedule = [
         url: 'https://docs.google.com/a/berkeley.edu/forms/d/e/1FAIpQLSeamW8LOi3hTfeWEA6knyniiL7Rr5heMlVn8QooVu1OxSktUQ/viewform'
       }]
     }, {
+      title: 'Readings',
+      items: [{
+        title: 'As We May Think',
+        url: 'http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/',
+        html: 'by Vannevar Bush. From <em>The Atlantic Magazine</em>, July 1945.'
+      }]
+    }, {
       title: 'Assignments',
       items: [{
         title: '[GROUP] Interactive Prototype',
         url: 'https://bcourses.berkeley.edu/courses/1454557/assignments/7753719',
         html: '<span class="due-date">due Wed, Nov 9</span>'
+      }, {
+        title: 'Reading Response 07',
+        url: 'https://bcourses.berkeley.edu/courses/1454557/assignments/7756253',
+        html: '<span class="due-date">due before class Thurs, Nov 17</span>'
       }]
     }]
   }, {
