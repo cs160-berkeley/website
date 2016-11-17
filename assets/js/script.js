@@ -417,12 +417,21 @@ var schedule = [
     }, {
       name: 'Project Workshop',
     }],
+    material: [{
+    	
+      title: 'Studio Activity',
+      items: [{
+        title: 'Identity Design',
+        url: 'http://bit.ly/2fB1fp1',
+      }]
+    }]
   }, {
     lectureDay: "Nov 24",
     topics: [{
       name: 'No Lecture (Thanksgiving)',
     }],
     material: [{
+    	
       title: 'Assignments',
       items: [{
         title: '[GROUP] Usability Study',
