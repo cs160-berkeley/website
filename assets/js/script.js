@@ -394,60 +394,84 @@ var schedule = [
 
 var projects = [
   {
-    title: "MedAgenda",
-    tagline: "Smart wear meets health care",
-    description: "MedAgenda is a smartphone and smartwatch app that helps nurses take better care of their patients. MedAgenda modernizes current hospital technology through integration with the hospital’s electronic record system to bring patient to do lists and reminders directly into a nurse's hands.",
-    imgURL: "",
+    title: "Greener House",
+    tagline: "An automated greenhouse",
+    description: "The Greener House helps gardeners better grow their plants through the use of an IoT greenhouse and companion mobile application. We hope that with a mobile application that can remotely monitor and change greenhouse settings, users will be able to remotely grow their plants just as well as if they were physically tending to their plants.",
+    imgURL: "https://lh4.googleusercontent.com/EH5U_TxFV3njVowokA2FB108U60THXR_lKcQm3opr91L6-qPErt_N8HhTX0gAlJWcw1FxKErQV2sYSs=w2880-h1554-rw",
     externalURL: "",
   }, {
-    title: "Pillpal",
-    tagline: "Everything is under control",
-    description: "Pillpal is a mobile and smartwatch app that allows women to monitor the effects of birth control on their body through built­in sensors on the smartwatch. It analyzes the user’s hormone levels to give them accurate and timely information about their body. Pillpal also allows users to request refills for birth control and other contraceptives, all in the comfort of their own homes. Shipping is quick and stress­free.",
-    imgURL: "",
+    title: "PillSense",
+    tagline: "For Doctors. For Patients. For You.",
+    description: "PillSense is a internet connected portable pill dispenser that has the ability to issue the correct medication at the correct time and track and record whether pills are taken on time using a variety of sensors. It has a reminder alarm and pill dispensing calendar built in that will work even if the unit has no connection. Companion app included.",
+    imgURL: "https://s3-us-west-2.amazonaws.com/ment2reachwebsiteimages/PillSenseLogo.png",
     externalURL: "",
   }, {
-    title: "First Steps",
-    tagline: "Find yourself with First Steps",
-    description: "First Steps is an Android application aiding those who suffer from alcohol addiction. By providing an easy and efficient method to finding local AA meetings, users are more inclined to attend and participate in their AA community. First Steps allows users to search for AA meetings by location, time, day, and even by average age or number of attendees. We rely on user­generated feedback to review meetings, giving us a rich database of detailed AA meeting information to improve every user’s experience. Personally, a user may save an unlimited number of AA meetings for future reminders and smartwatch notifications.",
-    imgURL: "",
+    title: "HoM: Household Monitor",
+    tagline: "A busy parent's dream to monitoring a smart home",
+    description: "HoM lets busy parents use a smartphone to monitor their household appliances when they’re not there. They can perform tasks like turn a light off, unlock a door, or even customize the timing they want their oven to turn on, all with the push of a button. Through the use of HoM, users can live life more at ease.",
+    imgURL: "http://i.imgur.com/s7dNf92.png",
     externalURL: "",
   }, {
-    title: "Scratch That Habit!",
-    tagline: "Don't scratch that itch, scratch that habit!",
-    description: "The physical symptoms of eczema are a burden on their own, but their impact on a person’s self-esteem can be even greater. We hope that by helping people develop the habits that eczema management often necessitates, we can also relieve them of the mental burden of a physical condition.",
-    imgURL: "",
-    externalURL: "",
+    title: "Upstream",
+    tagline: "A fish tank that keeps your aquarium fish healthy",
+    description: "Many people choose to own fish because they can be low maintenance animals compared to other pets. However, several studies have shown that fish often die from careless actions due to fish owners forgetting to feed them, or from changes in the tank that can be hard to detect. Upstream will help fish owners monitor the health of their fish.",
+    imgURL: "https://lh3.google.com/u/1/d/0B-cwVDsF_RGaWGxjVkpva1Y4OWM=w2654-h1554-iv1",
   }, {
-    title: "Pensieve",
-    tagline: "Forget the Worries. Remember Yourself.",
-    description: "The idea behind Pensieve is to create an application that helps dementia patients in a number of ways. Most obviously, it reminds patients about daily tasks and gives family members the ability to view and update the patient's schedule. But we also intend for Pensieve to be a tool to help families better take care of their loved ones that are effected by dementia, and help strengthen the patient's support group. We do this by giving family members real-time updates about the status of the patient, allowing them to more effectively organize help. By tracking how well the patient remembers to do their daily tasks, we can provide family members and medical professionals with valuable data about the progression of the patient's symptoms, hopefully allowing them to tailor treatment specifically to the individual.",
-    imgURL: "",
-    externalURL: "",
+    title: "Smart Window",
+    tagline: "Say Goodbye to Lighting Issues!",
+    description: "Smart Window is a product that will revolutionize the way photographers take their pictures. Smart Window allows photographers to customize the light, color, and display settings of their personal window, all via an easy to use companion application. Smart Window will save time and money for its users, and make lighting issues a thing of the past.",
+    imgURL: "http://i.imgur.com/KHHxvmL.jpg",
   }, {
-    title: "A Buddie",
-    tagline: "A comforting hand wherever and whenever you need it",
-    description: "A Buddie helps parents to encourage autistic kids to complete tasks that they are nervous about with games, trivia, and a reminder system.",
-    imgURL: "",
-    externalURL: "",
+    title: "Shoereo",
+    tagline: "Dance With the World",
+    description: "Shoereo is a companion app and insole worn by users in their shoes that tracks and records movements, allowing users to create and record choreography that they can share with friends. Shoereo allows for remote dance collaboration and automized feedback, helping to address the problem of spaces and scheduling that many dance teams face.",
+    imgURL: "http://i.imgur.com/1lJ4SYZ.jpg",
   }, {
-    title: "Ally",
-    tagline: "Alzheimer's with Autonomy",
-    description: "Ally is an application that provides an Alzheimer’s caregivers peace of mind, even when they’re not with their patients. It enables caregivers to be promptly notified when a loved one becomes lost, confused, or simply needs help. Alzheimer’s disease is the most common cause of dementia. Dementia is a broad category that includes many aspects of cognitive impairment, especially memory loss and judgment. Caring for someone with Alzheimer’s can be overwhelming. Unlike our competitors, Ally is free, designed for modern smartphones, and combines 4 essential features: caregiver profiles, a patient help button, patient location tracking, and medication reminders. We are confident that Ally is the most accessible and powerful Alzheimer's assistance app on the market.",
-    imgURL: "",
-    externalURL: "",
+    title: "Splitsies",
+    tagline: "Mi Casa Es Su Casa, except my food",
+    description: "The Smart Fridge will be everyone’s fridge management application that solves food waste issues and organize communal consumables. Our product aims to help roommates solve issues over food ownership and fridge clutter by looking to improve the way users interact with their fridge. ",
+    imgURL: "http://i.imgur.com/X5fDBCq.png",
   }, {
-    title: "Have?",
-    tagline: "STD testing that doesn't suck",
-    description: "When you have concerns about your sexual health, have? Experts are there to set your mind at ease. Just enter your symptoms and upload a photo, and let your Experts take care of the rest.",
-    imgURL: "",
-    externalURL: "",
+    title: "EZ Garden",
+    tagline: "Become a master gardener in minutes",
+    description: "EZ Garden is a connected device and app that seeks to teach career-focused young adults how to grow and maintain a personal garden. Our goal is to enable gardening for students and professionals who lack time, physical space, and knowledge of plants. Users learn to plant, water, and care for gardens with the app’s guidance.",
+    imgURL: "http://i.imgur.com/4wFhN55.png",
   }, {
-    title: "Glucose Bonds",
-    tagline: "Being together can be pretty sweet",
-    description: "A mobile and wear social app designed for caretakers with diabetic children. We target the fundamental problem of getting the proper connections and resources to deal with many of the underlying struggles of having a diabetic child. This includes, but not limited to: developing close connections, reassuring child’s normalcy, and understanding insurance policies. We solve this problem by offering several features that allow the user to connect with the community. One major feature is our mentoring system that allows more experienced caretakers to mentor those who are newer. Other features include a forum section and a generalized education section. You should not feel alone when taking care of your diabetic child. We provide the resources for you to have the strong personal community to support you the whole way.",
+    title: "iQuarium",
+    tagline: "What is your aquarium IQ?",
+    description: "iQuarium is the companion app to a smart aquarium which addresses is the difficulty for busy fish owners to care for their fish. Our interface will provide various ways for fish owners to care for their aquatic life such as allowing scheduled feeding times and being able to view data about their aquarium on demand while miles away from home.",
+    imgURL: "http://i.imgur.com/h563De9.png",
+  }, {
+    title: "Offspring",
+    tagline: "Ensure your child’s safety",
+    description: "Offspring is a mobile companion app and a dedicated, durable low-cost watch device for children that allows parents, guardians, and caretakers to track and communicate with their kids. Offspring puts the safety of children first in an unobtrusive and seamless way while also acting as a fun wearable in their favorite styles!",
+    imgURL: "http://imgur.com/a/qAFif",
+  }, {
+    title: "STYLR",
+    tagline: "THE MODERN DAY CLOSET, REINVENTED",
+    description: "STYLR is an application that pairs with a smart closet to allow remote access and seamless interaction with closet inventory. It also provides stylists a design space to brainstorm outfit ideas. STYLR enables stylists to be less hampered by operational tasks and instead invest more on the creative design process.",
+    imgURL: "http://i.imgur.com/4h1bH7E.png",
+  }, {
+    title: "hype!",
+    tagline: "Hype it up without getting locked up",
+    description: "When throwing a party, you often need to choose between playing loud, energetic music and not causing a noise disturbance. hype! offers an alternative by playing loud music that partygoers will love, while ensuring the party doesn’t get too noisy. hype! deals with the noise so you can focus on having fun.",
+    imgURL: "http://i.imgur.com/FhXJvlZ.jpg",
+  }, {
+    title: "Alert Me",
+    tagline: "Items Stolen? We got you.",
+    description: "Personal belongings can be stolen within a split second, and retrieving those lost items can be extremely burdensome. Alert Me is an anti-theft device that is attachable to any kind of belonging. It works with your phone app to notify you if anyone tries to move or take away your items and tracks the location of all your items.",
+    imgURL: "http://i.imgur.com/Mm61h2i.png",
+  }, {
+    title: "Budget Buddy",
+    tagline: "Shop faster and easier on a budget",
+    description: "Make your experience shopping on a budget easier! The Budget Buddy keeps track of your budget for you as you grab items and scan them into the connected SmartCart. Make a list and shop with our handy app to make your shopping trip a breeze!",
     imgURL: "",
-    externalURL: "",
-  },
+  }, {
+    title: "QueueTip",
+    tagline: "Make music festivals less about the lines and more about the music.",
+    description: "At music festivals, why spend so much time waiting in line for food or the restroom when you could be enjoying your favorite artist performing instead? With QueueTip, our goal is to enhance the concert experience by providing concertgoers with line wait times that enable them to plan accordingly and have more time to enjoy the music.",
+    imgURL: "http://i.imgur.com/yNvo5mp.png",
+  }
 ]
 
 
@@ -458,13 +482,13 @@ app.controller('ScheduleController', ['$scope', function($scope) {
 }]);
 
 app.controller('ShowcaseController', ['$scope', function($scope) {
-  projectContainerHeight = () => {
+  let projectContainerHeight = () => {
     let totalHeight = 0;
     let mainContainer = document.querySelector(".all-projects-container");
     let innerList = mainContainer.querySelectorAll(".project-container");
 
     innerList.forEach((item) => {
-      totalHeight += (item.offsetHeight * 1.2);
+      totalHeight += (item.offsetHeight * 1.3);
     })
 
     height = totalHeight / 3 + "px";

@@ -58,11 +58,13 @@
     </div>
     <div class="container all-projects-container" ng-style="{height: controller.calculateInnerHeight()}">
       <div class="project-container" ng-repeat="project in controller.projects">
-        <div class="project-image"></div>
+        <div class="project-image">
+          <img class="project-img" ng-src={{project.imgURL}} alt="">
+        </div>
         <h1 class="project-title" ng-bind="project.title"></h1>
         <h2 class="project-tagline" ng-bind="project.tagline"></h2>
         <p class="project-description" ng-bind="project.description"></p>
-        <a class="project-link" ng-href="{{project.externalURL}}">read more</a>
+        <!-- <a class="project-link" ng-href="{{project.externalURL}}">read more</a> -->
       </div>
     </div>
 
