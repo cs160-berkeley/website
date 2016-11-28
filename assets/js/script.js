@@ -451,8 +451,116 @@ var schedule = [
 ]
 
 
+var projects = [
+  {
+    title: "Greener House",
+    tagline: "An automated greenhouse",
+    description: "The Greener House helps gardeners better grow their plants through the use of an IoT greenhouse and companion mobile application. We hope that with a mobile application that can remotely monitor and change greenhouse settings, users will be able to remotely grow their plants just as well as if they were physically tending to their plants.",
+    imgURL: "https://lh4.googleusercontent.com/EH5U_TxFV3njVowokA2FB108U60THXR_lKcQm3opr91L6-qPErt_N8HhTX0gAlJWcw1FxKErQV2sYSs=w2880-h1554-rw",
+    externalURL: "",
+  }, {
+    title: "PillSense",
+    tagline: "For Doctors. For Patients. For You.",
+    description: "PillSense is a internet connected portable pill dispenser that has the ability to issue the correct medication at the correct time and track and record whether pills are taken on time using a variety of sensors. It has a reminder alarm and pill dispensing calendar built in that will work even if the unit has no connection. Companion app included.",
+    imgURL: "https://s3-us-west-2.amazonaws.com/ment2reachwebsiteimages/PillSenseLogo.png",
+    externalURL: "",
+  }, {
+    title: "HoM: Household Monitor",
+    tagline: "A busy parent's dream to monitoring a smart home",
+    description: "HoM lets busy parents use a smartphone to monitor their household appliances when they’re not there. They can perform tasks like turn a light off, unlock a door, or even customize the timing they want their oven to turn on, all with the push of a button. Through the use of HoM, users can live life more at ease.",
+    imgURL: "http://i.imgur.com/s7dNf92.png",
+    externalURL: "",
+  }, {
+    title: "Upstream",
+    tagline: "A fish tank that keeps your aquarium fish healthy",
+    description: "Many people choose to own fish because they can be low maintenance animals compared to other pets. However, several studies have shown that fish often die from careless actions due to fish owners forgetting to feed them, or from changes in the tank that can be hard to detect. Upstream will help fish owners monitor the health of their fish.",
+    imgURL: "https://lh3.google.com/u/1/d/0B-cwVDsF_RGaWGxjVkpva1Y4OWM=w2654-h1554-iv1",
+  }, {
+    title: "Smart Window",
+    tagline: "Say Goodbye to Lighting Issues!",
+    description: "Smart Window is a product that will revolutionize the way photographers take their pictures. Smart Window allows photographers to customize the light, color, and display settings of their personal window, all via an easy to use companion application. Smart Window will save time and money for its users, and make lighting issues a thing of the past.",
+    imgURL: "http://i.imgur.com/KHHxvmL.jpg",
+  }, {
+    title: "Shoereo",
+    tagline: "Dance With the World",
+    description: "Shoereo is a companion app and insole worn by users in their shoes that tracks and records movements, allowing users to create and record choreography that they can share with friends. Shoereo allows for remote dance collaboration and automized feedback, helping to address the problem of spaces and scheduling that many dance teams face.",
+    imgURL: "http://i.imgur.com/1lJ4SYZ.jpg",
+  }, {
+    title: "Splitsies",
+    tagline: "Mi Casa Es Su Casa, except my food",
+    description: "The Smart Fridge will be everyone’s fridge management application that solves food waste issues and organize communal consumables. Our product aims to help roommates solve issues over food ownership and fridge clutter by looking to improve the way users interact with their fridge. ",
+    imgURL: "http://i.imgur.com/X5fDBCq.png",
+  }, {
+    title: "EZ Garden",
+    tagline: "Become a master gardener in minutes",
+    description: "EZ Garden is a connected device and app that seeks to teach career-focused young adults how to grow and maintain a personal garden. Our goal is to enable gardening for students and professionals who lack time, physical space, and knowledge of plants. Users learn to plant, water, and care for gardens with the app’s guidance.",
+    imgURL: "http://i.imgur.com/4wFhN55.png",
+  }, {
+    title: "iQuarium",
+    tagline: "What is your aquarium IQ?",
+    description: "iQuarium is the companion app to a smart aquarium which addresses is the difficulty for busy fish owners to care for their fish. Our interface will provide various ways for fish owners to care for their aquatic life such as allowing scheduled feeding times and being able to view data about their aquarium on demand while miles away from home.",
+    imgURL: "http://i.imgur.com/h563De9.png",
+  }, {
+    title: "Offspring",
+    tagline: "Ensure your child’s safety",
+    description: "Offspring is a mobile companion app and a dedicated, durable low-cost watch device for children that allows parents, guardians, and caretakers to track and communicate with their kids. Offspring puts the safety of children first in an unobtrusive and seamless way while also acting as a fun wearable in their favorite styles!",
+    imgURL: "http://imgur.com/a/qAFif",
+  }, {
+    title: "STYLR",
+    tagline: "THE MODERN DAY CLOSET, REINVENTED",
+    description: "STYLR is an application that pairs with a smart closet to allow remote access and seamless interaction with closet inventory. It also provides stylists a design space to brainstorm outfit ideas. STYLR enables stylists to be less hampered by operational tasks and instead invest more on the creative design process.",
+    imgURL: "http://i.imgur.com/4h1bH7E.png",
+  }, {
+    title: "hype!",
+    tagline: "Hype it up without getting locked up",
+    description: "When throwing a party, you often need to choose between playing loud, energetic music and not causing a noise disturbance. hype! offers an alternative by playing loud music that partygoers will love, while ensuring the party doesn’t get too noisy. hype! deals with the noise so you can focus on having fun.",
+    imgURL: "http://i.imgur.com/FhXJvlZ.jpg",
+  }, {
+    title: "Alert Me",
+    tagline: "Items Stolen? We got you.",
+    description: "Personal belongings can be stolen within a split second, and retrieving those lost items can be extremely burdensome. Alert Me is an anti-theft device that is attachable to any kind of belonging. It works with your phone app to notify you if anyone tries to move or take away your items and tracks the location of all your items.",
+    imgURL: "http://i.imgur.com/Mm61h2i.png",
+  }, {
+    title: "Budget Buddy",
+    tagline: "Shop faster and easier on a budget",
+    description: "Make your experience shopping on a budget easier! The Budget Buddy keeps track of your budget for you as you grab items and scan them into the connected SmartCart. Make a list and shop with our handy app to make your shopping trip a breeze!",
+    imgURL: "",
+  }, {
+    title: "QueueTip",
+    tagline: "Make music festivals less about the lines and more about the music.",
+    description: "At music festivals, why spend so much time waiting in line for food or the restroom when you could be enjoying your favorite artist performing instead? With QueueTip, our goal is to enhance the concert experience by providing concertgoers with line wait times that enable them to plan accordingly and have more time to enjoy the music.",
+    imgURL: "http://i.imgur.com/yNvo5mp.png",
+  }
+]
+
+
 var app = angular.module('app', ['ngSanitize']);
 
 app.controller('ScheduleController', ['$scope', function($scope) {
   this.schedule = schedule;
+}]);
+
+app.controller('ShowcaseController', ['$scope', function($scope) {
+  let projectContainerHeight = () => {
+    let totalHeight = 0;
+    let mainContainer = document.querySelector(".all-projects-container");
+    let innerList = mainContainer.querySelectorAll(".project-container");
+
+    innerList.forEach((item) => {
+      totalHeight += (item.offsetHeight * 1.3);
+    })
+
+    height = totalHeight / 3 + "px";
+    return height;
+  }
+
+  this.projects = projects;
+  this.calculateInnerHeight = projectContainerHeight;
+
+  let mainContainer = document.querySelector(".all-projects-container");
+
+  window.addEventListener("resize", () => {
+    let newHeight = projectContainerHeight();
+    mainContainer.style.height = newHeight;
+  })
 }]);

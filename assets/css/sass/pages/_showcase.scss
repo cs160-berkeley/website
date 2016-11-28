@@ -1,0 +1,86 @@
+.all-projects-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.project-container {
+  background: white;
+  border-radius: 3px;
+  margin: 20px 15px;
+  overflow: hidden;
+  padding-bottom: 20px;
+  transition: 100ms;
+  width: calc(33.33% - 30px);
+
+  &:hover {
+    box-shadow: 0 4px 25px $black-10;
+    @include transform(translateY(-5px));
+
+    .project-link {
+      color: $blue;
+    }
+  }
+}
+
+.project-image {
+  min-height: 130px;
+  margin-bottom: 20px;
+  width: 100%;
+
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.project-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 15px 3px;
+}
+
+.project-tagline {
+  color: $slate;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 15px 15px;
+  text-transform: uppercase;
+}
+
+.project-description {
+  color: $black-60;
+  font-size: 14px;
+  margin: 0 15px 8px;
+}
+
+.project-link {
+  color: $slate;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 15px;
+}
+
+@media (max-width: 991px) {
+  .project-container {
+    margin-left: 8px;
+    margin-right: 8px;
+    width: calc(33.333% - 16px);
+  }
+}
+
+@media (max-width: 768px) {
+  .all-projects-container {
+    display: block;
+  }
+
+  .project-container {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+}
+
+
