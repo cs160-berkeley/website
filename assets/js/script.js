@@ -418,7 +418,7 @@ var schedule = [
       name: 'Project Workshop',
     }],
     material: [{
-    	
+
       title: 'Studio Activity',
       items: [{
         title: 'Identity Design',
@@ -431,7 +431,7 @@ var schedule = [
       name: 'No Lecture (Thanksgiving)',
     }],
     material: [{
-    	
+
       title: 'Assignments',
       items: [{
         title: '[GROUP] Usability Study',
@@ -488,7 +488,7 @@ var projects = [
   }, {
     title: "Splitsies",
     tagline: "Mi Casa Es Su Casa, except my food",
-    description: "The Smart Fridge will be everyone’s fridge management application that solves food waste issues and organize communal consumables. Our product aims to help roommates solve issues over food ownership and fridge clutter by looking to improve the way users interact with their fridge. ",
+    description: "Splitsies will be everyone’s fridge management application that solves food waste issues and organize communal consumables. Our product aims to help roommates solve issues over food ownership and fridge clutter by looking to improve the way users interact with their fridge. ",
     imgURL: "http://i.imgur.com/X5fDBCq.png",
   }, {
     title: "EZ Garden",
