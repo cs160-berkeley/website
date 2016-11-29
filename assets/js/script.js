@@ -456,7 +456,7 @@ var projects = [
     title: "Greener House",
     tagline: "An automated greenhouse",
     description: "The Greener House helps gardeners better grow their plants through the use of an IoT greenhouse and companion mobile application. We hope that with a mobile application that can remotely monitor and change greenhouse settings, users will be able to remotely grow their plants just as well as if they were physically tending to their plants.",
-    imgURL: "https://lh4.googleusercontent.com/EH5U_TxFV3njVowokA2FB108U60THXR_lKcQm3opr91L6-qPErt_N8HhTX0gAlJWcw1FxKErQV2sYSs=w2880-h1554-rw",
+    imgURL: "",
     externalURL: "",
   }, {
     title: "PillSense",
@@ -474,7 +474,7 @@ var projects = [
     title: "Upstream",
     tagline: "A fish tank that keeps your aquarium fish healthy",
     description: "Many people choose to own fish because they can be low maintenance animals compared to other pets. However, several studies have shown that fish often die from careless actions due to fish owners forgetting to feed them, or from changes in the tank that can be hard to detect. Upstream will help fish owners monitor the health of their fish.",
-    imgURL: "https://lh3.google.com/u/1/d/0B-cwVDsF_RGaWGxjVkpva1Y4OWM=w2654-h1554-iv1",
+    imgURL: "",
   }, {
     title: "Smart Window",
     tagline: "Say Goodbye to Lighting Issues!",
@@ -504,7 +504,7 @@ var projects = [
     title: "Offspring",
     tagline: "Ensure your child’s safety",
     description: "Offspring is a mobile companion app and a dedicated, durable low-cost watch device for children that allows parents, guardians, and caretakers to track and communicate with their kids. Offspring puts the safety of children first in an unobtrusive and seamless way while also acting as a fun wearable in their favorite styles!",
-    imgURL: "http://imgur.com/a/qAFif",
+    imgURL: "http://i.imgur.com/EgtzfXL.jpg",
   }, {
     title: "STYLR",
     tagline: "THE MODERN DAY CLOSET, REINVENTED",
@@ -530,6 +530,11 @@ var projects = [
     tagline: "Make music festivals less about the lines and more about the music.",
     description: "At music festivals, why spend so much time waiting in line for food or the restroom when you could be enjoying your favorite artist performing instead? With QueueTip, our goal is to enhance the concert experience by providing concertgoers with line wait times that enable them to plan accordingly and have more time to enjoy the music.",
     imgURL: "http://i.imgur.com/yNvo5mp.png",
+  }, {
+    title: "A La Carte",
+    tagline: "Modernizing the shopping experience",
+    description: "A La Carte is a smartphone and shopping cart sensor combination that makes shopping more intuitive and fun! With A La Carte, you can checkout faster, find the best deals, boost your health, and save money. This is all done by revamping the shopping experience using smart technology.",
+    imgURL: "https://i.imgur.com/OXftaUY.jpg",
   }
 ]
 
@@ -547,7 +552,7 @@ app.controller('ShowcaseController', ['$scope', function($scope) {
     let innerList = mainContainer.querySelectorAll(".project-container");
 
     innerList.forEach((item) => {
-      totalHeight += (item.offsetHeight * 1.3);
+      totalHeight += (item.offsetHeight * 1.2);
     })
 
     height = totalHeight / 3 + "px";
@@ -560,6 +565,11 @@ app.controller('ShowcaseController', ['$scope', function($scope) {
   let mainContainer = document.querySelector(".all-projects-container");
 
   window.addEventListener("resize", () => {
+    let newHeight = projectContainerHeight();
+    mainContainer.style.height = newHeight;
+  })
+
+  document.querySelector("body").addEventListener("mouseover", () => {
     let newHeight = projectContainerHeight();
     mainContainer.style.height = newHeight;
   })
