@@ -456,7 +456,7 @@ var projects = [
     title: "Greener House",
     tagline: "An automated greenhouse",
     description: "The Greener House helps gardeners better grow their plants through the use of an IoT greenhouse and companion mobile application. We hope that with a mobile application that can remotely monitor and change greenhouse settings, users will be able to remotely grow their plants just as well as if they were physically tending to their plants.",
-    imgURL: "",
+    imgURL: "http://i.imgur.com/GuYFpcd.jpg",
     externalURL: "",
   }, {
     title: "PillSense",
