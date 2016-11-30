@@ -569,6 +569,11 @@ app.controller('ShowcaseController', ['$scope', function($scope) {
     mainContainer.style.height = newHeight;
   })
 
+  setTimeout(() => {
+    let newHeight = projectContainerHeight();
+    mainContainer.style.height = newHeight;
+  }, 1000)
+
   document.querySelector("body").addEventListener("mouseover", () => {
     let newHeight = projectContainerHeight();
     mainContainer.style.height = newHeight;
