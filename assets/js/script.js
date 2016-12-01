@@ -555,6 +555,16 @@ var projects = [
     tagline: "Modernizing the shopping experience",
     description: "A La Carte is a smartphone and shopping cart sensor combination that makes shopping more intuitive and fun! With A La Carte, you can checkout faster, find the best deals, boost your health, and save money. This is all done by revamping the shopping experience using smart technology.",
     imgURL: "https://i.imgur.com/OXftaUY.jpg",
+  }, {
+    title: "Vibe",
+    tagline: "A dating app built for your active lifestyle!",
+    description: "Vibe aims to reach out to busy, young singles who want a dating app that plays the role of a companion in their dating life while maintaining the traditional dating app anonymity and discretion. Vibe brings people together in the real world, addressing issues that appear in other dating applications such as misrepresentation/catfishing.",
+    imgURL: "http://i.imgur.com/bznLwsW.png",
+  }, {
+    title: "Aromafy",
+    tagline: "The smell you want, the convenience you need",
+    description: "Aromafy is a smart phone app that pairs with an aroma diffuser to allow users to customize the scent of their rooms in order to promote rest and relaxation. The frequency and intensity of several pre-installed fragrances can be regulated through the app to give users full control of their room's scent.",
+    imgURL: "http://i.imgur.com/Bl0lUR5.jpg",
   }
 ]
 
