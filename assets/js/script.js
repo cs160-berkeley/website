@@ -410,7 +410,6 @@ var schedule = [
     }]
   }, {
     lectureDay: "Nov 17",
-    isCurrent: true,
     required: true,
     topics: [{
       name: 'Historical Perspectives on HCI',
@@ -441,12 +440,33 @@ var schedule = [
     }]
   }, {
     lectureDay: "Dec 1",
+    isCurrent: true,
     required: true,
     topics: [{
       name: 'Future Interactions & Course Summary',
     }, {
       name: 'Project Workshop',
     }],
+    material: [{
+      title: 'Assignments',
+      items: [{
+        title: 'Final Presentation',
+        url: 'https://bcourses.berkeley.edu/courses/1454557/assignments/7757138',
+        html: '<span class="due-date">due Mon, Dec 5</span>'
+      }, {
+        title: 'Final Poster',
+        url: 'https://bcourses.berkeley.edu/courses/1454557/assignments/7757136',
+        html: '<span class="due-date">due Wed, Dec 7</span>'
+      }, {
+        title: 'Final Video & Code',
+        url: 'https://bcourses.berkeley.edu/courses/1454557/assignments/7757140',
+        html: '<span class="due-date">due Mon, Dec 12</span>'
+      }, {
+        title: 'Final Report',
+        url: 'https://bcourses.berkeley.edu/courses/1454557/assignments/7757557',
+        html: '<span class="due-date">due Mon, Dec 12</span>'
+      }]
+    }]
   }
 ]
 
