@@ -448,6 +448,15 @@ var schedule = [
       name: 'Project Workshop',
     }],
     material: [{
+      title: 'Forms',
+      items: [{
+        title: 'Feedback Form [Blue]',
+        url: 'http://bit.ly/cs160-final-pres-blue'
+      }, {
+        title: 'Feedback Form [Gold]',
+        url: 'http://bit.ly/cs160-final-pres-gold'
+      }]
+    }, {
       title: 'Assignments',
       items: [{
         title: 'Final Presentation',
