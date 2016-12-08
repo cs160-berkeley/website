@@ -77,9 +77,14 @@
   }
 
   .project-container {
+    box-shadow: 0 0 14px $black-20;
     margin-left: 0;
     margin-right: 0;
     width: 100%;
+
+    &:hover {
+      transform: none;
+    }
   }
 }
 
