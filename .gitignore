@@ -1,1 +1,16 @@
-.sass-cache
+# folders
+.sass-cache/
+_site/
+f16/
+
+# files
+*docx
+*xlsx
+*pptx
+*xls
+*ppt
+*doc
+*pdf
+*rtf
+*swp
+*swo
