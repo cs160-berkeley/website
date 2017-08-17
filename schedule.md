@@ -1,20 +1,11 @@
 ---
-schedule:
-  -  Class: test data
-     Date: 1/1/11
-     Label: test data
-     Topic: test data
-     Reading: test data
-     Assignment: test data
-     Studio: test data
-     Notes: test data
+layout: default
+title: schedule
 ---
-
-# schedule
 
 <!--probably make partial template render here-->
 
-{% for class in page.schedule %}
+{% for class in site.data.schedule %}
     Class: {{ class.Class }}
     Date: {{ class.Date }}
     Label: {{ class.Label }}
