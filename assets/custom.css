@@ -1,0 +1,27 @@
+body {
+}
+
+.nav {
+    float: right;
+}
+
+.nav a {
+    font-size: 16px;
+}
+
+.wrap {
+    max-width: 100%;
+    padding: 2em;
+}
+
+.masthead, .container {
+    max-width: 800px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

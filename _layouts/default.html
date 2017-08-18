@@ -12,9 +12,9 @@
     <meta name="description" content="{{ site.desc }}">
     <title>
       {% if page.title %}
-        {{ site.title | downcase }} - {{ page.title | downcase }}
+        {{ site.title }} - {{ page.title }}
       {% else %}
-        {{ site.title | downcase }}
+        {{ site.title }}
       {% endif %}
     </title>
 
@@ -29,17 +29,21 @@
 
     <div class="wrap">
 
-      <!-- responsive masthead -->
-      <div class="masthead">
-        <h1 id="site-title"> <a href="/">{{ site.title }}</a> </h1>
-        <div class="container">
-          <div class="nav">
-            <a href="/" title="home">home</a>
-            <a href="/schedule" title="schedule">schedule</a>
-            <a href="/grading" title="grading">grading</a>
-            <a href="/details" title="details">details</a>
-          </div>
+      <div class="masthead"><!-- responsive masthead -->
+        <div class="nav">
+          <a href="/" title="home">home</a><br/>
+          <a href="/schedule" title="schedule">schedule</a><br/>
+          <a href="/grading" title="grading">grading</a><br/>
+          <a href="/details" title="details">details</a>
         </div>
+        <h1 id="site-title">
+          <a href="/">{{ site.title }}</a>
+          <small> /
+          {{ page.title }}
+          </small>
+        </h1>
+        <h3 id="page-title">
+        </h3>
       </div>
 
       <div class="container">
