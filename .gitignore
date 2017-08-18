@@ -4,6 +4,7 @@ _site/
 f16/
 
 # files
+.DS_Store
 *docx
 *xlsx
 *pptx
