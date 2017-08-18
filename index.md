@@ -40,4 +40,4 @@ will be the quickest way to get a response.
 | Paige Plander | | | | |
 | Jeremy Warner | | | | |
 
-[archived fall 2016 course](/f16)
+[archived F16 site](/f16)
