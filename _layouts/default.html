@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
     <!-- site info -->
-    <meta name="author" content="Jeremy Warner">
+    <meta name="author" content="CS 160">
     <meta name="robots" content="index, follow">
     <meta name="keywords" content="{{ site.keywords }}">
     <meta name="description" content="{{ site.desc }}">
     <title>
       {% if page.title %}
-        {{ site.title }} - {{ page.title }}
+        {{ site.title }} - {{ page.title | capitalize }}
       {% else %}
         {{ site.title }}
       {% endif %}
@@ -29,21 +29,21 @@
 
     <div class="wrap">
 
-      <div class="masthead"><!-- responsive masthead -->
-        <div class="nav">
-          <a href="/" title="home">home</a><br/>
-          <a href="/schedule" title="schedule">schedule</a><br/>
-          <a href="/grading" title="grading">grading</a><br/>
-          <a href="/details" title="details">details</a>
-        </div>
+      <div class="masthead">
+        <p class="site-info">
+          UC Berkeley<br/>
+          Fall 2017
+        </p>
         <h1 id="site-title">
           <a href="/">{{ site.title }}</a>
-          <small> /
-          {{ page.title }}
-          </small>
+          <small> / {{ page.title }} </small>
         </h1>
-        <h3 id="page-title">
-        </h3>
+        <div class="nav">
+          <a href="/" title="home">home</a> ::
+          <a href="/schedule" title="schedule">schedule</a> ::
+          <a href="/grading" title="grading">grading</a> ::
+          <a href="/details" title="details">details</a>
+        </div>
       </div>
 
       <div class="container">

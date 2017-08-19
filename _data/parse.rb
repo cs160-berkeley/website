@@ -2,14 +2,31 @@ require "yaml"
 require "CSV"
 require "pp"
 
-csv_sch = CSV.read "./schedule.csv"
-header = csv_sch.shift # first row
 
-# zip csv header with result
-full_yaml = csv_sch.map do |y|
-  row = Hash.new # for this class
-  y.each_with_index { |c, i| row[header[i]] = c }
-  row
+class ClassList
+  attr_reader :header, :list
+  def initialize(csv)
+    csv_list = CSV.read csv # first row is header
+    @header = csv_list.shift.map {|h| h.gsub " ", "" }
+    @list = csv_list
+  end
+
+  def parseDate(fields)
+    Hash[fields
+      .each_with_index
+      .map { |c, i| (c.nil? || c == " ") ? nil : [header[i], c] }
+      .reject {|c| c.nil? }
+    ]
+  end
+
+  def generate
+    full = @list
+      .map {|f| parseDate f  }
+      .reject {|f| f.empty? }
+  end
 end
 
-puts full_yaml.to_yaml
+# zip csv header with processed result
+cl = ClassList.new "./schedule.csv"
+full = cl.generate
+puts full.to_yaml

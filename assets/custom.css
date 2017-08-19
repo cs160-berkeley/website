@@ -1,8 +1,28 @@
 body {
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 35px;
+    line-height: 35px;
+}
+
+.site-info {
+	font-weight: 100;
+	text-align: right;
+	padding: 2em;
+	float: right;	
+}
+
 .nav {
-    float: right;
+	padding-bottom: 1em;
 }
 
 .nav a {
@@ -16,12 +36,5 @@ body {
 
 .masthead, .container {
     max-width: 800px;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
+	margin: auto;
 }

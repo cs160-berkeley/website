@@ -1,436 +1,414 @@
 ---
-- Class: 1W
-  Date: 23-Aug
-  Web site Label: 'Introduction: HCI and the Design Process'
-  Topic: |-
-    Why take this class
-    Design Process: Needs, Design, Prototype, Evaluate (Iterate)
-    Introduce teaching team & office hours
-    Class logistics, qualitative grading
-    Break
-    Sketching in class
-    - dots, lines, squares, circles, 2 point perspective, collab doodle, making something out of 10 circles, people
-  Reading: Rapid Viz
-  Assignment: 'Assign: Berkeley Highlights sketching'
-  Studio: TA leads studio section, presents own design for critique. More drawing
-    exercises, focus on people
-  Notes: bring at least 3 packets (1500 sheets) of paper (TA) and pens (me) to class
-- Class: 2M
-  Date: 28-Aug
-  Web site Label: 'Design Process: Empathize and Need Finding'
-  Topic: |-
-    Images Exercise
-    HCI Bloopers
-    Design Process: Needs, Design, Implement, Evaluate (Iterate)
-    IDEO shopping cart
-    break
-    Images recognition exercise
-    Design Process: Empathize
-    Needs - Need-finding
-    Contextual Inquiry
-    Direct Observation
-    In class exercise of watching perform a task, interview
-  Reading: |-
-    Design of Everyday Things
-    Working through Task-Centered System Design
-    d.school's empathy field guide
-  Assignment: |-
-    Due: Berkeley Highlight
-    Assign: Need Finding
-  Studio: 
-  Notes: 
-- Class: 2W
-  Date: 30-Aug
-  Web site Label: |-
-    Design Process: Define
-    Design Process: Ideate
-  Topic: |-
-    Review highlight sketches
-    Design Process: Define
-    Identifying bugs, pain points
-    Personas
-    Design Process: Ideate
-    Brainstorming
-    In-class brainstorming exercise--list of 20 ways to do task, then sketch 10 ways to do it
-    Affordance
-    Conceptual Models
-    Signifiers
-  Reading: "Contextual Design (Holtzblatt & Beyer), up through 8.2.4\n[Landay] Contextual
-    Design, "
-  Assignment: 
-  Studio: 'Due in Studio: Need finding presentation (2 minutes each)'
-  Notes: 
-- Class: 3M
-  Date: 4-Sep
-  Web site Label: 
-  Topic: HOLIDAY
-  Reading: " "
-  Assignment: 
-  Studio: 
-  Notes: 
-- Class: 3W
-  Date: 6-Sep
-  Web site Label: |2-
+- !ruby/object:ClassDate
+  row:
+    Class: 1W
+    Date: 23-Aug
+    WebsiteLabel: 'Introduction: HCI and the Design Process'
+    Topic: |-
+      Why take this class
+      Design Process: Needs, Design, Prototype, Evaluate (Iterate)
+      Introduce teaching team & office hours
+      Class logistics, qualitative grading
+      Break
+      Sketching in class
+      - dots, lines, squares, circles, 2 point perspective, collab doodle, making something out of 10 circles, people
+    Reading: Rapid Viz
+    Assignment: 'Assign: Berkeley Highlights sketching'
+    Studio: TA leads studio section, presents own design for critique. More drawing
+      exercises, focus on people
+    Notes: bring at least 3 packets (1500 sheets) of paper (TA) and pens (me) to class
+- !ruby/object:ClassDate
+  row:
+    Class: 2M
+    Date: 28-Aug
+    WebsiteLabel: 'Design Process: Empathize and Need Finding'
+    Topic: |-
+      Images Exercise
+      HCI Bloopers
+      Design Process: Needs, Design, Implement, Evaluate (Iterate)
+      IDEO shopping cart
+      break
+      Images recognition exercise
+      Design Process: Empathize
+      Needs - Need-finding
+      Contextual Inquiry
+      Direct Observation
+      In class exercise of watching perform a task, interview
+    Reading: |-
+      Design of Everyday Things
+      Working through Task-Centered System Design
+      d.school's empathy field guide
+    Assignment: |-
+      Due: Berkeley Highlight
+      Assign: Need Finding
+- !ruby/object:ClassDate
+  row:
+    Class: 2W
+    Date: 30-Aug
+    WebsiteLabel: |-
+      Design Process: Define
+      Design Process: Ideate
+    Topic: |-
+      Review highlight sketches
+      Design Process: Define
+      Identifying bugs, pain points
+      Personas
+      Design Process: Ideate
+      Brainstorming
+      In-class brainstorming exercise--list of 20 ways to do task, then sketch 10 ways to do it
+      Affordance
+      Conceptual Models
+      Signifiers
+    Reading: "Contextual Design (Holtzblatt & Beyer), up through 8.2.4\n[Landay] Contextual
+      Design, "
+    Studio: 'Due in Studio: Need finding presentation (2 minutes each)'
+- !ruby/object:ClassDate
+  row:
+    Class: 3M
+    Date: 4-Sep
+    Topic: HOLIDAY
+- !ruby/object:ClassDate
+  row:
+    Class: 3W
+    Date: 6-Sep
+    WebsiteLabel: |2-
 
-    Programming Tools in Social Media
-  Topic: |+
-    Introduce project space
-    Introduce programming tools
-    Using APIs
-    Programming exercise
-    Break
+      Programming Tools in Social Media
+    Topic: |+
+      Introduce project space
+      Introduce programming tools
+      Using APIs
+      Programming exercise
+      Break
 
-  Reading: "\n"
-  Assignment: 'Assign: Initial programming task'
-  Studio: Programming tutorial
-  Notes: I'm away Th-Sun
-- Class: 4M
-  Date: 11-Sep
-  Web site Label: Interaction Design
-  Topic: |-
-    Interaction Design
-    Modes
-    Metaphors
-    Buttons, widgets
-    Input devices
-    Soft vs. hard buttons
-    Stylus, touch screen
-    Speech, natural language
-    gesture (Kinect)
-    In-class exercise, work around tables, design using web, phone, speech, gesture
-    Break
-    Layout: Visual design--white space
-    Compare/contrast among blurred NYTimes, Bing, Craigslist
-  Reading: |-
-    Interface Metaphors
-    https://webdesign.tutsplus.com/articles/all-about-grid-systems--webdesign-14471
-  Assignment: 
-  Studio: 
-  Notes: 
-- Class: 4W
-  Date: 13-Sep
-  Web site Label: 'Design Process: Ideating'
-  Topic: |
-    Design Process: Design - Ideating
-    Representing
-    Scenarios
-    Storyboarding
-    Role playing
-    Break
-    Social effects, social leveraging, tagging
-    Crowd source work
-    Agents, AI
-  Reading: |-
-    AboutFaceChap5
-    AboutFaceChap6
-  Assignment: |-
-    Due: Initial Programming task
-    Assign: Design a UI in pairs, taking an idea from Bug List
-  Studio: Sketching with hands, screens, interfaces
-  Notes: 
-- Class: 5M
-  Date: 18-Sep
-  Web site Label: Human Models
-  Topic: |-
-    Human Models (Eric's slides 16-08)
-    Human Information Processing
-    Fitts' Law--in class exercise of Fitts' Law
-    Fitts' exercise
-    Break
-    GOMS
-    Hick's Law of choice
-  Reading: CardMoranNewell
-  Assignment: 
-  Studio: 
-  Notes: 
-- Class: 5W
-  Date: 20-Sep
-  Web site Label: |-
-    Design Process: Prototyping
-    Design Process: Test
-  Topic: |-
-    Design Process: Prototyping
-    Low-fidelity prototyping
+    Reading: "\n"
+    Assignment: 'Assign: Initial programming task'
+    Studio: Programming tutorial
+    Notes: I'm away Th-Sun
+- !ruby/object:ClassDate
+  row:
+    Class: 4M
+    Date: 11-Sep
+    WebsiteLabel: Interaction Design
+    Topic: |-
+      Interaction Design
+      Modes
+      Metaphors
+      Buttons, widgets
+      Input devices
+      Soft vs. hard buttons
+      Stylus, touch screen
+      Speech, natural language
+      gesture (Kinect)
+      In-class exercise, work around tables, design using web, phone, speech, gesture
+      Break
+      Layout: Visual design--white space
+      Compare/contrast among blurred NYTimes, Bing, Craigslist
+    Reading: |-
+      Interface Metaphors
+      https://webdesign.tutsplus.com/articles/all-about-grid-systems--webdesign-14471
+- !ruby/object:ClassDate
+  row:
+    Class: 4W
+    Date: 13-Sep
+    WebsiteLabel: 'Design Process: Ideating'
+    Topic: |
+      Design Process: Design - Ideating
+      Representing
+      Scenarios
+      Storyboarding
+      Role playing
+      Break
+      Social effects, social leveraging, tagging
+      Crowd source work
+      Agents, AI
+    Reading: |-
+      AboutFaceChap5
+      AboutFaceChap6
+    Assignment: |-
+      Due: Initial Programming task
+      Assign: Design a UI in pairs, taking an idea from Bug List
+    Studio: Sketching with hands, screens, interfaces
+- !ruby/object:ClassDate
+  row:
+    Class: 5M
+    Date: 18-Sep
+    WebsiteLabel: Human Models
+    Topic: |-
+      Human Models (Eric's slides 16-08)
+      Human Information Processing
+      Fitts' Law--in class exercise of Fitts' Law
+      Fitts' exercise
+      Break
+      GOMS
+      Hick's Law of choice
+    Reading: CardMoranNewell
+- !ruby/object:ClassDate
+  row:
+    Class: 5W
+    Date: 20-Sep
+    WebsiteLabel: |-
+      Design Process: Prototyping
+      Design Process: Test
+    Topic: |-
+      Design Process: Prototyping
+      Low-fidelity prototyping
 
-    Mockups game in-class
-    Break
-    Heuristic Evaluation - in class exercise of pairing up with user walking through a favorite app
-    Describing the studio environment
-  Reading: |-
-    Contextual Design 8.2.5-8.2.8
-    https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/
-    https://www.nngroup.com/articles/ten-usability-heuristics/
-    https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/
-    [Eric]How to Run a Design Critique
-    How to Give and Receive Criticism
-  Assignment: |-
-    Due: Design a UI
-    Assign: Heuristic Evaluation (individual)
-  Studio: TA leads critique in studio section of selected UI designs
-  Notes: Bring paper and PostIts to class for Mockups materials
-- Class: 6M
-  Date: 25-Sep
-  Web site Label: Visual Design
-  Topic: |-
-    Visual Design
-    Typography
-    Design Language
-    Color
-    Break
+      Mockups game in-class
+      Break
+      Heuristic Evaluation - in class exercise of pairing up with user walking through a favorite app
+      Describing the studio environment
+    Reading: |-
+      Contextual Design 8.2.5-8.2.8
+      https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/
+      https://www.nngroup.com/articles/ten-usability-heuristics/
+      https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/
+      [Eric]How to Run a Design Critique
+      How to Give and Receive Criticism
+    Assignment: |-
+      Due: Design a UI
+      Assign: Heuristic Evaluation (individual)
+    Studio: TA leads critique in studio section of selected UI designs
+    Notes: Bring paper and PostIts to class for Mockups materials
+- !ruby/object:ClassDate
+  row:
+    Class: 6M
+    Date: 25-Sep
+    WebsiteLabel: Visual Design
+    Topic: |-
+      Visual Design
+      Typography
+      Design Language
+      Color
+      Break
 
-    Mid-course check-in
-  Reading: " "
-  Assignment: 
-  Studio: 
-  Notes: 
-- Class: 6W
-  Date: 27-Sep
-  Web site Label: 'Project Theme: Bursting Echo Chambers in Social Media'
-  Topic: |-
-    Introduce Group Project
-      Echo Chambers
-    Working in teams
-    Break
-    What to expect on the midterm
-  Reading: |-
-    [Landay] Working in teams
-    [Landay] Tips for Working Successfully in a Group
-  Assignment: 'Due: Heuristic Evaluation'
-  Studio: Midterm review
-  Notes: 
-- Class: 7M
-  Date: 2-Oct
-  Web site Label: Midterm
-  Topic: Midterm
-  Reading: " "
-  Assignment: 
-  Studio: 
-  Notes: 
-- Class: 7W
-  Date: 4-Oct
-  Web site Label: 'Project: Need Finding and Contextual Inquiry'
-  Topic: |-
-    Need finding
-    Contextual Inquiry
-    Needfinding: Direct Observation + Interviews
-    (Ethnography)
-    Break
-    Likert questions
-    Surveys
-    Amazon Mechanical Turk
-  Reading: 
-  Assignment: 'Assign: Form teams of 4 in section, Need finding: observe 2 situations,
-    interview, define need'
-  Studio: More Mockups game rounds, mix it up among teams, reflection on what works
-    and what doesn't, Form teams due by end of Studio
-  Notes: Bring paper and PostIts to Studio for Mockups materials
-- Class: 8M
-  Date: 9-Oct
-  Web site Label: 'Project: From Observations --> Needs'
-  Topic: |-
-    Defining Need from Observations
-    Synthesizing needs from observations
-  Reading: 
-  Assignment: 'Due: Form teams'
-  Studio: 
-  Notes: 
-- Class: 8W
-  Date: 11-Oct
-  Web site Label: 'Project: Design and Prototyping'
-  Topic: |-
-    Design concept
-    Lo-fi prototyping
-    Paper prototypes
-    Wizard of Oz
-    Digital: Sreenshots/Web-based/Flash/PowerPoint
-    Break
-    Need finding checkpoint (in Studios, 40-minutes)
-  Reading: " "
-  Assignment: 'Assign: Design & lo-fi prototyping'
-  Studio: 'Due: Need finding presentation'
-  Notes: 
-- Class: 9M
-  Date: 16-Oct
-  Web site Label: 'Project: Design and Prototyping checkpoint'
-  Topic: |-
-    Design & prototyping checkpoint (in Studios)
-    Possible guest lecture
-  Reading: " "
-  Assignment: 
-  Studio: 
-  Notes: 
-- Class: 9W
-  Date: 18-Oct
-  Web site Label: Prototype Demo (grading)
-  Topic: |-
-    In-class demo of lo-fi prototypes (in Studios, 5 minutes each team) Students see each others' prototypes, even across studios
-    Dark horse prototype (15 minutes)
-  Reading: 'Dark Horse '
-  Assignment: |-
-    Due: Design & Prototype demo
-    Assign:  Dark horse Prototype
-  Studio: Dark horse coaching on ideas, Mockups games
-  Notes: 
-- Class: 10M
-  Date: 23-Oct
-  Web site Label: 'Project: Conceptual Use Study'
-  Topic: |-
-    Conceptual use study
-    Focusing in on the biggest question
-    Lo-fi prototypes of concepts
-    Task analysis
-    Interviews of user study participants
-  Reading: " "
-  Assignment: 'Due: Dark horse prototype description Assign: Conceptual use study'
-  Studio: 
-  Notes: 
-- Class: 10W
-  Date: 25-Oct
-  Web site Label: 'Project: Working Prototyping'
-  Topic: |-
-    Design and working prototype lecture (Tom Chi guest?)
-    Human abilities
-  Reading: 
-  Assignment: 'Assign: Re-design and implement working prototype'
-  Studio: 'Due: Conceptual use study presentation'
-  Notes: 
-- Class: 11M
-  Date: 30-Oct
-  Web site Label: Guest lecture (TBD)
-  Topic: |-
-    Prototyping tools (guest lecture)?
-    Advanced topics on implementation
-    Possible guest lecture
-  Reading: 
-  Assignment: 
-  Studio: 
-  Notes: 
-- Class: 11W
-  Date: 1-Nov
-  Web site Label: 'Project: Evaluation'
-  Topic: |-
-    Evaluation--designing a study
-    Collecting data
-    Analyzing data
-    Visualizing data
-    Break
-    Assign Pilot study and Evaluation
-    Define core task
-    Metrics to collect
-    Short interview
-  Reading: " "
-  Assignment: 'Assign: Pilot user study evaluation'
-  Studio: 
-  Notes: 
-- Class: 12M
-  Date: 6-Nov
-  Web site Label: Working Prototype Demo (grading)
-  Topic: 'In-class demo of working prototypes (5 minutes each team, TA grades Studio,
-    I circulate among Studios, when not presenting to teaching team, running pilot
-    user study, should be able to collect data fromat least 2 pilot studies)
+      Mid-course check-in
+- !ruby/object:ClassDate
+  row:
+    Class: 6W
+    Date: 27-Sep
+    WebsiteLabel: 'Project Theme: Bursting Echo Chambers in Social Media'
+    Topic: |-
+      Introduce Group Project
+        Echo Chambers
+      Working in teams
+      Break
+      What to expect on the midterm
+    Reading: |-
+      [Landay] Working in teams
+      [Landay] Tips for Working Successfully in a Group
+    Assignment: 'Due: Heuristic Evaluation'
+    Studio: Midterm review
+- !ruby/object:ClassDate
+  row:
+    Class: 7M
+    Date: 2-Oct
+    WebsiteLabel: Midterm
+    Topic: Midterm
+- !ruby/object:ClassDate
+  row:
+    Class: 7W
+    Date: 4-Oct
+    WebsiteLabel: 'Project: Need Finding and Contextual Inquiry'
+    Topic: |-
+      Need finding
+      Contextual Inquiry
+      Needfinding: Direct Observation + Interviews
+      (Ethnography)
+      Break
+      Likert questions
+      Surveys
+      Amazon Mechanical Turk
+    Assignment: 'Assign: Form teams of 4 in section, Need finding: observe 2 situations,
+      interview, define need'
+    Studio: More Mockups game rounds, mix it up among teams, reflection on what works
+      and what doesn't, Form teams due by end of Studio
+    Notes: Bring paper and PostIts to Studio for Mockups materials
+- !ruby/object:ClassDate
+  row:
+    Class: 8M
+    Date: 9-Oct
+    WebsiteLabel: 'Project: From Observations --> Needs'
+    Topic: |-
+      Defining Need from Observations
+      Synthesizing needs from observations
+    Assignment: 'Due: Form teams'
+- !ruby/object:ClassDate
+  row:
+    Class: 8W
+    Date: 11-Oct
+    WebsiteLabel: 'Project: Design and Prototyping'
+    Topic: |-
+      Design concept
+      Lo-fi prototyping
+      Paper prototypes
+      Wizard of Oz
+      Digital: Sreenshots/Web-based/Flash/PowerPoint
+      Break
+      Need finding checkpoint (in Studios, 40-minutes)
+    Assignment: 'Assign: Design & lo-fi prototyping'
+    Studio: 'Due: Need finding presentation'
+- !ruby/object:ClassDate
+  row:
+    Class: 9M
+    Date: 16-Oct
+    WebsiteLabel: 'Project: Design and Prototyping checkpoint'
+    Topic: |-
+      Design & prototyping checkpoint (in Studios)
+      Possible guest lecture
+- !ruby/object:ClassDate
+  row:
+    Class: 9W
+    Date: 18-Oct
+    WebsiteLabel: Prototype Demo (grading)
+    Topic: |-
+      In-class demo of lo-fi prototypes (in Studios, 5 minutes each team) Students see each others' prototypes, even across studios
+      Dark horse prototype (15 minutes)
+    Reading: 'Dark Horse '
+    Assignment: |-
+      Due: Design & Prototype demo
+      Assign:  Dark horse Prototype
+    Studio: Dark horse coaching on ideas, Mockups games
+- !ruby/object:ClassDate
+  row:
+    Class: 10M
+    Date: 23-Oct
+    WebsiteLabel: 'Project: Conceptual Use Study'
+    Topic: |-
+      Conceptual use study
+      Focusing in on the biggest question
+      Lo-fi prototypes of concepts
+      Task analysis
+      Interviews of user study participants
+    Assignment: 'Due: Dark horse prototype description Assign: Conceptual use study'
+- !ruby/object:ClassDate
+  row:
+    Class: 10W
+    Date: 25-Oct
+    WebsiteLabel: 'Project: Working Prototyping'
+    Topic: |-
+      Design and working prototype lecture (Tom Chi guest?)
+      Human abilities
+    Assignment: 'Assign: Re-design and implement working prototype'
+    Studio: 'Due: Conceptual use study presentation'
+- !ruby/object:ClassDate
+  row:
+    Class: 11M
+    Date: 30-Oct
+    WebsiteLabel: Guest lecture (TBD)
+    Topic: |-
+      Prototyping tools (guest lecture)?
+      Advanced topics on implementation
+      Possible guest lecture
+- !ruby/object:ClassDate
+  row:
+    Class: 11W
+    Date: 1-Nov
+    WebsiteLabel: 'Project: Evaluation'
+    Topic: |-
+      Evaluation--designing a study
+      Collecting data
+      Analyzing data
+      Visualizing data
+      Break
+      Assign Pilot study and Evaluation
+      Define core task
+      Metrics to collect
+      Short interview
+    Assignment: 'Assign: Pilot user study evaluation'
+- !ruby/object:ClassDate
+  row:
+    Class: 12M
+    Date: 6-Nov
+    WebsiteLabel: Working Prototype Demo (grading)
+    Topic: 'In-class demo of working prototypes (5 minutes each team, TA grades Studio,
+      I circulate among Studios, when not presenting to teaching team, running pilot
+      user study, should be able to collect data fromat least 2 pilot studies)
 
 '
-  Reading: " "
-  Assignment: |-
-    Due: Working Prototype & user study pilot
-    Assign: Evaluation
-  Studio: 
-  Notes: 
-- Class: 12W
-  Date: 8-Nov
-  Web site Label: Guest lecture (TBD) & group work time
-  Topic: |2-
+    Assignment: |-
+      Due: Working Prototype & user study pilot
+      Assign: Evaluation
+- !ruby/object:ClassDate
+  row:
+    Class: 12W
+    Date: 8-Nov
+    WebsiteLabel: Guest lecture (TBD) & group work time
+    Topic: |2-
 
-    Guest lecture mobile, voice or  AI/cognitive services
-    Break
-    Group work time
-  Reading: " "
-  Assignment: 
-  Studio: No sections due to holiday
-  Notes: 11/10 Holiday
-- Class: 13M
-  Date: 13-Nov
-  Web site Label: Future Visions of HCI & group work time
-  Topic: |-
-    Designing the Future: Visions of HCI
-    Break
-    Group work time
-  Reading: 
-  Assignment: 
-  Studio: 
-  Notes: 
-- Class: 13W
-  Date: 15-Nov
-  Web site Label: 'Project: Presenting Your Work'
-  Topic: |-
-    Presenting Work
-    Oral presentations/demo
-    Poster
-    Presenting as a team (each person should have a role in final presentation)
-    Critically and constructively reviewing others' work
-  Reading: " "
-  Assignment: 'Assign: Final presentations'
-  Studio: 'Due: Evaluation presentation'
-  Notes: 
-- Class: 14M
-  Date: 20-Nov
-  Web site Label: |-
-    Project: Design Showcase
-    HCI in Industry Panel
-  Topic: |-
-    HCI in Industry panel (Tamas, Sabi/Chagla, Fern, Frank Bentley, Aruna, Tara, Henriette Cramer, Alex Leavitt, Roeber)
-    Where does HCI happen in industry? PM, marketing, centralized, embedded
-    Living in an engineering-driven world
-    Getting involved early: definining utility, not just usability
-    Dealing with pushback: Evidence to convince, ally with dev
-    Break
-    Assign Design Showcase
-    45-second video
-    Poster Design
-    Demo routine
-  Reading: " "
-  Assignment: |-
-    Due: Evaluation
-    Assign: Design Showcase
-  Studio: 
-  Notes: 
-- Class: 14W
-  Date: 22-Nov
-  Web site Label: 
-  Topic: No instruction
-  Reading: " "
-  Assignment: 
-  Studio: No sections due to holiday
-  Notes: Thanksgiving
-- Class: 15M
-  Date: 27-Nov
-  Web site Label: Final Presentations (grading)
-  Topic: Final Presentations
-  Reading: " "
-  Assignment: 
-  Studio: 
-  Notes: 
-- Class: 15W
-  Date: 29-Nov
-  Web site Label: Final Presentations (grading)
-  Topic: Final Presentations
-  Reading: " "
-  Assignment: 
-  Studio: Design Showcase coaching
-  Notes: 
-- Class: 
-  Date: " "
-  Web site Label: 
-  Topic: " "
-  Reading: " "
-  Assignment: 
-  Studio: 
-  Notes: 
-- Class: '16'
-  Date: 6-7-Dec
-  Web site Label: Design Showcase (grading)
-  Topic: Design Showcase
-  Reading: " "
-  Assignment: 
-  Studio: 
-  Notes: 
+      Guest lecture mobile, voice or  AI/cognitive services
+      Break
+      Group work time
+    Studio: No sections due to holiday
+    Notes: 11/10 Holiday
+- !ruby/object:ClassDate
+  row:
+    Class: 13M
+    Date: 13-Nov
+    WebsiteLabel: Future Visions of HCI & group work time
+    Topic: |-
+      Designing the Future: Visions of HCI
+      Break
+      Group work time
+- !ruby/object:ClassDate
+  row:
+    Class: 13W
+    Date: 15-Nov
+    WebsiteLabel: 'Project: Presenting Your Work'
+    Topic: |-
+      Presenting Work
+      Oral presentations/demo
+      Poster
+      Presenting as a team (each person should have a role in final presentation)
+      Critically and constructively reviewing others' work
+    Assignment: 'Assign: Final presentations'
+    Studio: 'Due: Evaluation presentation'
+- !ruby/object:ClassDate
+  row:
+    Class: 14M
+    Date: 20-Nov
+    WebsiteLabel: |-
+      Project: Design Showcase
+      HCI in Industry Panel
+    Topic: |-
+      HCI in Industry panel (Tamas, Sabi/Chagla, Fern, Frank Bentley, Aruna, Tara, Henriette Cramer, Alex Leavitt, Roeber)
+      Where does HCI happen in industry? PM, marketing, centralized, embedded
+      Living in an engineering-driven world
+      Getting involved early: definining utility, not just usability
+      Dealing with pushback: Evidence to convince, ally with dev
+      Break
+      Assign Design Showcase
+      45-second video
+      Poster Design
+      Demo routine
+    Assignment: |-
+      Due: Evaluation
+      Assign: Design Showcase
+- !ruby/object:ClassDate
+  row:
+    Class: 14W
+    Date: 22-Nov
+    Topic: No instruction
+    Studio: No sections due to holiday
+    Notes: Thanksgiving
+- !ruby/object:ClassDate
+  row:
+    Class: 15M
+    Date: 27-Nov
+    WebsiteLabel: Final Presentations (grading)
+    Topic: Final Presentations
+- !ruby/object:ClassDate
+  row:
+    Class: 15W
+    Date: 29-Nov
+    WebsiteLabel: Final Presentations (grading)
+    Topic: Final Presentations
+    Studio: Design Showcase coaching
+- !ruby/object:ClassDate
+  row: {}
+- !ruby/object:ClassDate
+  row:
+    Class: '16'
+    Date: 6-7-Dec
+    WebsiteLabel: Design Showcase (grading)
+    Topic: Design Showcase

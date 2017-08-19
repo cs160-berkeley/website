@@ -51,7 +51,9 @@ We will be leveraging the [Graph API](https://developers.facebook.com/docs/graph
 and other developer tools that Facebook offers https://developers.facebook.com/
 to enable connecting with the user data that’s available within Facebook. While
 students are free to connect with other social media services, we will only be
-providing guidance on the Facebook APIs. ## Prerequisites
+providing guidance on the Facebook APIs.
+
+## Prerequisites
 
 CS160 is an upper division course, and one of few where you will work
 extensively on one significant programming project. To participate fully in
@@ -103,14 +105,13 @@ Cheating is not acceptable. All incidents will incur penalties in the course
 and will be reported to the Center for Student Conduct. Please take time to
 view the UC Berkeley Student [Code of Conduct][conduct] and the UC Berkeley
 [Honor Code][honor].
-
-[conduct]:http://sa.berkeley.edu/code-of-conduct
-[honor]:https://asuc.org/honorcode/index.php
-
-
 Forms of cheating include distributing or posting assignments or midterm
 questions outside of the class, or using such materials. Other forms of
-violation are described here: http://sa.berkeley.edu/conduct/faculty-staff/violations
+violation are described [here][others].
+
+[conduct]:http://sa.berkeley.edu/code-of-conduct
+[honor]:http://teaching.berkeley.edu/berkeley-honor-code
+[others]:http://sa.berkeley.edu/conduct/faculty-staff/violations
 
 You will also need to work directly with potential users to evaluate your
 ideas. You must deal with these potential users professionally and

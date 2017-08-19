@@ -11,11 +11,11 @@ title: schedule
 
 <p>{{ class.Topic }}</p>
 
-    Reading: {{ class.Reading }}
-    Assignment: {{ class.Assignment }}
-    Studio: {{ class.Studio }}
-    Label: {{ class.Label }}
-    Notes: {{ class.Notes }}
+    {{ if class.Reading }} Reading: {{ class.Reading }} {{ endif }}
+    {{ if class.Assignment }} Assignment: {{ class.Assignment }} {{ endif }}
+    {{ if class.Studio }} Studio: {{ class.Studio }} {{ endif }}
+    {{ if class.WebSiteLabel }} Label: {{ class.Label }} {{ endif }}
+    {{ if class.Notes }} Notes: {{ class.Notes }} {{ endif }}
 
 {% endif %}
 {% endfor %}
