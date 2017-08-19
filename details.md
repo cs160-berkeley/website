@@ -5,6 +5,8 @@ title: details
 
 ## Class Format
 
+[Berkeley CS Course Page](https://www2.eecs.berkeley.edu/Courses/CS160/)
+
 In Fall 2017 we will be aiming accommodate around 100 students. Lectures will
 be held Monday and Wednesday, 11:00am-12:30pm in Jacobs 310. There will be
 sections as well once a week. There will be a midterm. There will not be a
