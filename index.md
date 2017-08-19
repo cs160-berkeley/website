@@ -3,6 +3,8 @@ layout: default
 title: home
 ---
 
+## User Interface Design and Development
+
 CS160/260A is an introduction to Human Computer Interaction (HCI). You will
 learn to prototype, evaluate, and design a user interface. You will be expected
 to work within a group of about four students in this project-based course.
@@ -32,12 +34,8 @@ will be the quickest way to get a response.
 ## staff
 
 | Staff | Contact | Office Hours | OH Location | Section |
-|:----- | ------- | ------------ | ----------- | ------- |
-| John Tang | [mail](mailto:johntang@microsoft.com) | Friday 1:30-2:30pm <br/> and by appointment. | [Google+ Hangouts](http://bit.ly/2jEzqP5) | |
-| Daniel Li | | | | |
-| Christine Munar | | | | |
-| Emily Pedersen | | | | |
-| Paige Plander | | | | |
-| Jeremy Warner | [mail](mailto:jeremy.warner@berkeley.edu)| | | |
+|:----- | ------- | ------------ | ----------- | ------- | {% for s in site.data.staff %}
+| {{ s.name}} | [mail](mailto:{{ s.mail }}) | {{ s.ohour }} | {{ s.olink }} | {{ s.sect }} |
+{% endfor %}
 
-[archived F16 site](/f16)
+<small>[archived F16 site](/f16)</small>

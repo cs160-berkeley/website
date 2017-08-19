@@ -59,19 +59,9 @@
 - Class: 3M
   Date: 4-Sep
   Topic: HOLIDAY
+  Reading: " "
 - Class: 3W
   Date: 6-Sep
-  WebsiteLabel: |2-
-
-    Programming Tools in Social Media
-  Topic: |+
-    Introduce project space
-    Introduce programming tools
-    Using APIs
-    Programming exercise
-    Break
-
-  Reading: "\n"
   Assignment: 'Assign: Initial programming task'
   Studio: Programming tutorial
   Notes: I'm away Th-Sun
@@ -132,14 +122,6 @@
   WebsiteLabel: |-
     Design Process: Prototyping
     Design Process: Test
-  Topic: |-
-    Design Process: Prototyping
-    Low-fidelity prototyping
-
-    Mockups game in-class
-    Break
-    Heuristic Evaluation - in class exercise of pairing up with user walking through a favorite app
-    Describing the studio environment
   Reading: |-
     Contextual Design 8.2.5-8.2.8
     https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/
@@ -155,14 +137,7 @@
 - Class: 6M
   Date: 25-Sep
   WebsiteLabel: Visual Design
-  Topic: |-
-    Visual Design
-    Typography
-    Design Language
-    Color
-    Break
-
-    Mid-course check-in
+  Reading: " "
 - Class: 6W
   Date: 27-Sep
   WebsiteLabel: 'Project Theme: Bursting Echo Chambers in Social Media'
@@ -181,6 +156,7 @@
   Date: 2-Oct
   WebsiteLabel: Midterm
   Topic: Midterm
+  Reading: " "
 - Class: 7W
   Date: 4-Oct
   WebsiteLabel: 'Project: Need Finding and Contextual Inquiry'
@@ -216,6 +192,7 @@
     Digital: Sreenshots/Web-based/Flash/PowerPoint
     Break
     Need finding checkpoint (in Studios, 40-minutes)
+  Reading: " "
   Assignment: 'Assign: Design & lo-fi prototyping'
   Studio: 'Due: Need finding presentation'
 - Class: 9M
@@ -224,6 +201,7 @@
   Topic: |-
     Design & prototyping checkpoint (in Studios)
     Possible guest lecture
+  Reading: " "
 - Class: 9W
   Date: 18-Oct
   WebsiteLabel: Prototype Demo (grading)
@@ -244,6 +222,7 @@
     Lo-fi prototypes of concepts
     Task analysis
     Interviews of user study participants
+  Reading: " "
   Assignment: 'Due: Dark horse prototype description Assign: Conceptual use study'
 - Class: 10W
   Date: 25-Oct
@@ -273,6 +252,7 @@
     Define core task
     Metrics to collect
     Short interview
+  Reading: " "
   Assignment: 'Assign: Pilot user study evaluation'
 - Class: 12M
   Date: 6-Nov
@@ -282,17 +262,14 @@
     user study, should be able to collect data fromat least 2 pilot studies)
 
 '
+  Reading: " "
   Assignment: |-
     Due: Working Prototype & user study pilot
     Assign: Evaluation
 - Class: 12W
   Date: 8-Nov
   WebsiteLabel: Guest lecture (TBD) & group work time
-  Topic: |2-
-
-    Guest lecture mobile, voice or  AI/cognitive services
-    Break
-    Group work time
+  Reading: " "
   Studio: No sections due to holiday
   Notes: 11/10 Holiday
 - Class: 13M
@@ -311,6 +288,7 @@
     Poster
     Presenting as a team (each person should have a role in final presentation)
     Critically and constructively reviewing others' work
+  Reading: " "
   Assignment: 'Assign: Final presentations'
   Studio: 'Due: Evaluation presentation'
 - Class: 14M
@@ -329,24 +307,32 @@
     45-second video
     Poster Design
     Demo routine
+  Reading: " "
   Assignment: |-
     Due: Evaluation
     Assign: Design Showcase
 - Class: 14W
   Date: 22-Nov
   Topic: No instruction
+  Reading: " "
   Studio: No sections due to holiday
   Notes: Thanksgiving
 - Class: 15M
   Date: 27-Nov
   WebsiteLabel: Final Presentations (grading)
   Topic: Final Presentations
+  Reading: " "
 - Class: 15W
   Date: 29-Nov
   WebsiteLabel: Final Presentations (grading)
   Topic: Final Presentations
+  Reading: " "
   Studio: Design Showcase coaching
+- Date: " "
+  Topic: " "
+  Reading: " "
 - Class: '16'
   Date: 6-7-Dec
   WebsiteLabel: Design Showcase (grading)
   Topic: Design Showcase
+  Reading: " "

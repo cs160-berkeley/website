@@ -1,4 +1,5 @@
 body {
+
 }
 
 a {
@@ -10,19 +11,19 @@ a:hover {
 }
 
 h2 {
-    font-size: 35px;
-    line-height: 35px;
+    font-size: 30px;
+    line-height: 30px;
 }
 
 .site-info {
-	font-weight: 100;
-	text-align: right;
-	padding: 2em;
-	float: right;	
+    font-weight: 100;
+    text-align: right;
+    padding: 2em;
+    float: right;
 }
 
 .nav {
-	padding-bottom: 1em;
+    padding-bottom: 1em;
 }
 
 .nav a {
@@ -34,7 +35,8 @@ h2 {
     padding: 2em;
 }
 
-.masthead, .container {
+.masthead,
+.container {
     max-width: 800px;
-	margin: auto;
+    margin: auto;
 }

@@ -1,0 +1,37 @@
+---
+- name: John Tang
+  mail: x
+  site: x
+  sect: x
+  ohour: Friday 1:30-2:30pm and by appointment.
+  olink: '[Google+ Hangouts](http://bit.ly/2jEzqP5)'
+- name: Daniel Li
+  mail: x
+  site: x
+  sect: x
+  ohour: x
+  olink: x
+- name: Christine Munar
+  mail: x
+  site: x
+  sect: x
+  ohour: x
+  olink: x
+- name: Emily Pedersen
+  mail: x
+  site: x
+  sect: x
+  ohour: x
+  olink: x
+- name: Paige Plander
+  mail: x
+  site: x
+  sect: x
+  ohour: x
+  olink: x
+- name: Jeremy Warner
+  mail: jeremy.warner@berkeley.edu
+  site: x
+  sect: x
+  ohour: x
+  olink: x
