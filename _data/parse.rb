@@ -14,15 +14,15 @@ class ClassList
   def parseDate(fields)
     Hash[fields
       .each_with_index
-      .map { |c, i| (c.nil? || c =~ /^\s*$/) ? nil : [header[i], c] }
-      .reject {|hc| hc.nil? }
+      .map { |c, i| c.nil?? nil : [header[i], c] }
+      .reject {|hc| hc.nil? || hc[1] =~ /^\s*$/ || hc[1] == " "}
     ]
   end
 
   def generate
     @list
       .map {|f| parseDate f  }
-      .reject {|f| f.empty? }
+      .reject {|f| f["Class"].nil? }
   end
 end
 
