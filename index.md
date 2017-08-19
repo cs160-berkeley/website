@@ -32,12 +32,12 @@ will be the quickest way to get a response.
 ## staff
 
 | Staff | Contact | Office Hours | OH Location | Section |
-| ----- | ------- | ------------ | ----------- | ------- |
-| John Tang | johntang@microsoft.com | F 1:30-2:30pm and by appointment. | [Over Google+ Hangouts](http://bit.ly/2jEzqP5) | |
+|:----- | ------- | ------------ | ----------- | ------- |
+| John Tang | [mail](mailto:johntang@microsoft.com) | Friday 1:30-2:30pm <br/> and by appointment. | [Google+ Hangouts](http://bit.ly/2jEzqP5) | |
 | Daniel Li | | | | |
 | Christine Munar | | | | |
 | Emily Pedersen | | | | |
 | Paige Plander | | | | |
-| Jeremy Warner | | | | |
+| Jeremy Warner | [mail](mailto:jeremy.warner@berkeley.edu)| | | |
 
 [archived F16 site](/f16)

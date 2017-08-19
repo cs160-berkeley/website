@@ -20,7 +20,7 @@ class ClassList
   end
 
   def generate
-    full = @list
+    @list
       .map {|f| parseDate f  }
       .reject {|f| f.empty? }
   end
