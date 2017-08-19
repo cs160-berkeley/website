@@ -11,11 +11,12 @@ title: schedule
 
 <p>{{ class.Topic }}</p>
 
-    {{ if class.Reading }} Reading: {{ class.Reading }} {{ endif }}
-    {{ if class.Assignment }} Assignment: {{ class.Assignment }} {{ endif }}
-    {{ if class.Studio }} Studio: {{ class.Studio }} {{ endif }}
-    {{ if class.WebSiteLabel }} Label: {{ class.Label }} {{ endif }}
-    {{ if class.Notes }} Notes: {{ class.Notes }} {{ endif }}
+{% if class.Reading %} Reading: {{ class.Reading }} <br/>{% endif %}
+{% if class.Assignment %} Assignment: {{ class.Assignment }} <br/>{% endif %}
+{% if class.Studio %} Studio: {{ class.Studio }} <br/>{% endif %}
+{% if class.WebsiteLabel %} Label: {{ class.WebsiteLabel }} <br/>{% endif %}
+
+<!--{% if class.Notes %} Notes: {{ class.Notes }} <br/>{% endif %}-->
 
 {% endif %}
 {% endfor %}
