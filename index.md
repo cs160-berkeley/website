@@ -21,21 +21,41 @@ communication, rapid prototyping, algorithmic implementation and evaluation.
 
 ## logistics
 
-- Course Number: CS 160/260A Fall 2017, UC Berkeley
-- Lecture Time: Monday, Wednesday 11:00am-12:30pm
-- Location: Jacobs 310
+- Course: CS 160/260A Fall 2017, UC Berkeley
+- Lecture: Monday, Wednesday 11:00am-12:30pm
+- Location: [Jacobs 310](http://jacobsinstitute.berkeley.edu/)
 - Discussion: [Piazza](https://piazza.com/class/j6fjvh1geib77c)
 
 
-Join Piazza for announcements and to ask questions about the
-course. Share publicly so others with the same question can benefit. Piazza
-will be the quickest way to get a response.
+Join Piazza for announcements and to ask questions about the course. Share
+publicly so others with the same question can benefit. Piazza will be the
+quickest way to get a response.
 
 ## staff
 
-| Staff | Contact | Office Hours | OH Location | Section |
-|:----- | ------- | ------------ | ----------- | ------- | {% for s in site.data.staff %}
-| {{ s.name}} | [mail](mailto:{{ s.mail }}) | {{ s.ohour }} | {{ s.olink }} | {{ s.sect }} |
+<table id="staff" class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+  <thead>
+    <tr>
+      <th class="mdl-data-table__cell--non-numeric">Staff</th>
+      <th>Contact</th>
+      <th>Office Hours</th>
+      <th>Location</th>
+      <th>Section</th>
+    </tr>
+  </thead>
+  <tbody>
+{% for s in site.data.staff %}
+    <tr>
+      <td>{{ s.name}}</td>
+      <td><a href="mailto:{{ s.mail }}"><i class="icon material-icons">mail</i></a></td>
+      <td>{{ s.ohour }}</td>
+      <td>{{ s.olink }}</td>
+      <td>{{ s.sect }}</td>
+    </tr>
 {% endfor %}
+  </tbody>
+</table>
 
+<br/>
 <small>[archived F16 site](/f16)</small>
+
