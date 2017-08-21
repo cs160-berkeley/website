@@ -3,8 +3,8 @@
   mail: x
   site: x
   sect: x
-  ohour: Friday 1:30-2:30pm and by appointment.
-  olink: '[Google+ Hangouts](http://bit.ly/2jEzqP5)'
+  ohour: Friday 1:30-2:30pm, by appointment
+  olink: '<a href="http://bit.ly/2jEzqP5">Google+ Hangouts</a>'
 - name: Daniel Li
   mail: x
   site: x
@@ -31,7 +31,7 @@
   olink: x
 - name: Jeremy Warner
   mail: jeremy.warner@berkeley.edu
-  site: x
+  site: http://jeremywrnr.com
   sect: x
   ohour: x
   olink: x
