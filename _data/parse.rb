@@ -14,7 +14,7 @@ class ClassList
   def parseDate(fields)
     Hash[fields
       .each_with_index
-      .map { |c, i| c.nil?? nil : [header[i], c] }
+      .map { |c, i| c.nil?? nil : [@header[i], c] }
       .reject {|hc| hc.nil? || hc[1] =~ /^\s*$/ || hc[1] == " "}
     ]
   end
