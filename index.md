@@ -54,7 +54,7 @@ we will only be providing guidance on the Facebook APIs.
       <th></th>
       <th class="mdl-data-table__cell--non-numeric">Contact</th>
       <th class="mdl-data-table__cell--non-numeric">Office Hours</th>
-      <th class="mdl-data-table__cell--non-numeric">Location</th>
+      <th class="mdl-data-table__cell--non-numeric">OH Location</th>
       <th class="mdl-data-table__cell--non-numeric">Section</th>
     </tr>
   </thead>
