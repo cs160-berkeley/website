@@ -11,7 +11,7 @@ class ClassList
     @list = csv_list
   end
 
-  def parseDate(fields)
+  def filterDate(fields)
     Hash[fields
       .each_with_index
       .map { |c, i| c.nil?? nil : [@header[i], c] }
@@ -19,10 +19,16 @@ class ClassList
     ]
   end
 
+  def parseDate(d)
+    d["Date"] = "2017 " + d["Date"].split("-").reverse.join(" ")
+    return d
+  end
+
   def generate
     @list
-      .map {|f| parseDate f  }
+      .map {|f| filterDate f  }
       .reject {|f| f["Class"].nil? }
+      .map { |f| parseDate f  }
   end
 end
 

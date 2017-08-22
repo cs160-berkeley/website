@@ -36,18 +36,21 @@ quickest way to get a response.
 <table id="staff" class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
   <thead>
     <tr>
-      <th class="mdl-data-table__cell--non-numeric">Staff</th>
-      <th>Contact</th>
-      <th>Office Hours</th>
-      <th>Location</th>
-      <th>Section</th>
+      <th></th>
+      <th class="mdl-data-table__cell--non-numeric">Contact</th>
+      <th class="mdl-data-table__cell--non-numeric">Office Hours</th>
+      <th class="mdl-data-table__cell--non-numeric">Location</th>
+      <th class="mdl-data-table__cell--non-numeric">Section</th>
     </tr>
   </thead>
   <tbody>
 {% for s in site.data.staff %}
     <tr>
       <td>{{ s.name}}</td>
-      <td><a href="mailto:{{ s.mail }}"><i class="icon material-icons">mail</i></a></td>
+      <td>
+          <a href="mailto:{{ s.mail }}"><i class="icon material-icons">mail</i></a>
+          <!--<a href="{{ s.site }}" target="_blank"><i class="icon material-icons">launch</i></a>-->
+      </td>
       <td>{{ s.ohour }}</td>
       <td>{{ s.olink }}</td>
       <td>{{ s.sect }}</td>

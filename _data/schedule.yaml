@@ -1,6 +1,6 @@
 ---
 - Class: 1W
-  Date: 23-Aug
+  Date: 2017 Aug 23
   WebsiteLabel: 'Introduction: HCI and the Design Process'
   Topic: |-
     Why take this class
@@ -16,7 +16,7 @@
     exercises, focus on people
   Notes: bring at least 3 packets (1500 sheets) of paper (TA) and pens (me) to class
 - Class: 2M
-  Date: 28-Aug
+  Date: 2017 Aug 28
   WebsiteLabel: 'Design Process: Empathize and Need Finding'
   Topic: |-
     Images Exercise
@@ -38,7 +38,7 @@
     Due: Berkeley Highlight
     Assign: Need Finding
 - Class: 2W
-  Date: 30-Aug
+  Date: 2017 Aug 30
   WebsiteLabel: |-
     Design Process: Define
     Design Process: Ideate
@@ -57,15 +57,15 @@
     Design, "
   Studio: 'Due in Studio: Need finding presentation (2 minutes each)'
 - Class: 3M
-  Date: 4-Sep
+  Date: 2017 Sep 4
   Topic: HOLIDAY
 - Class: 3W
-  Date: 6-Sep
+  Date: 2017 Sep 6
   Assignment: 'Assign: Initial programming task'
   Studio: Programming tutorial
   Notes: I'm away Th-Sun
 - Class: 4M
-  Date: 11-Sep
+  Date: 2017 Sep 11
   WebsiteLabel: Interaction Design
   Topic: |-
     Interaction Design
@@ -85,7 +85,7 @@
     Interface Metaphors
     https://webdesign.tutsplus.com/articles/all-about-grid-systems--webdesign-14471
 - Class: 4W
-  Date: 13-Sep
+  Date: 2017 Sep 13
   WebsiteLabel: 'Design Process: Ideating'
   Topic: |
     Design Process: Design - Ideating
@@ -105,7 +105,7 @@
     Assign: Design a UI in pairs, taking an idea from Bug List
   Studio: Sketching with hands, screens, interfaces
 - Class: 5M
-  Date: 18-Sep
+  Date: 2017 Sep 18
   WebsiteLabel: Human Models
   Topic: |-
     Human Models (Eric's slides 16-08)
@@ -117,7 +117,7 @@
     Hick's Law of choice
   Reading: CardMoranNewell
 - Class: 5W
-  Date: 20-Sep
+  Date: 2017 Sep 20
   WebsiteLabel: |-
     Design Process: Prototyping
     Design Process: Test
@@ -134,10 +134,10 @@
   Studio: TA leads critique in studio section of selected UI designs
   Notes: Bring paper and PostIts to class for Mockups materials
 - Class: 6M
-  Date: 25-Sep
+  Date: 2017 Sep 25
   WebsiteLabel: Visual Design
 - Class: 6W
-  Date: 27-Sep
+  Date: 2017 Sep 27
   WebsiteLabel: 'Project Theme: Bursting Echo Chambers in Social Media'
   Topic: |-
     Introduce Group Project
@@ -151,11 +151,11 @@
   Assignment: 'Due: Heuristic Evaluation'
   Studio: Midterm review
 - Class: 7M
-  Date: 2-Oct
+  Date: 2017 Oct 2
   WebsiteLabel: Midterm
   Topic: Midterm
 - Class: 7W
-  Date: 4-Oct
+  Date: 2017 Oct 4
   WebsiteLabel: 'Project: Need Finding and Contextual Inquiry'
   Topic: |-
     Need finding
@@ -172,14 +172,14 @@
     and what doesn't, Form teams due by end of Studio
   Notes: Bring paper and PostIts to Studio for Mockups materials
 - Class: 8M
-  Date: 9-Oct
+  Date: 2017 Oct 9
   WebsiteLabel: 'Project: From Observations --> Needs'
   Topic: |-
     Defining Need from Observations
     Synthesizing needs from observations
   Assignment: 'Due: Form teams'
 - Class: 8W
-  Date: 11-Oct
+  Date: 2017 Oct 11
   WebsiteLabel: 'Project: Design and Prototyping'
   Topic: |-
     Design concept
@@ -192,13 +192,13 @@
   Assignment: 'Assign: Design & lo-fi prototyping'
   Studio: 'Due: Need finding presentation'
 - Class: 9M
-  Date: 16-Oct
+  Date: 2017 Oct 16
   WebsiteLabel: 'Project: Design and Prototyping checkpoint'
   Topic: |-
     Design & prototyping checkpoint (in Studios)
     Possible guest lecture
 - Class: 9W
-  Date: 18-Oct
+  Date: 2017 Oct 18
   WebsiteLabel: Prototype Demo (grading)
   Topic: |-
     In-class demo of lo-fi prototypes (in Studios, 5 minutes each team) Students see each others' prototypes, even across studios
@@ -209,7 +209,7 @@
     Assign:  Dark horse Prototype
   Studio: Dark horse coaching on ideas, Mockups games
 - Class: 10M
-  Date: 23-Oct
+  Date: 2017 Oct 23
   WebsiteLabel: 'Project: Conceptual Use Study'
   Topic: |-
     Conceptual use study
@@ -219,7 +219,7 @@
     Interviews of user study participants
   Assignment: 'Due: Dark horse prototype description Assign: Conceptual use study'
 - Class: 10W
-  Date: 25-Oct
+  Date: 2017 Oct 25
   WebsiteLabel: 'Project: Working Prototyping'
   Topic: |-
     Design and working prototype lecture (Tom Chi guest?)
@@ -227,14 +227,14 @@
   Assignment: 'Assign: Re-design and implement working prototype'
   Studio: 'Due: Conceptual use study presentation'
 - Class: 11M
-  Date: 30-Oct
+  Date: 2017 Oct 30
   WebsiteLabel: Guest lecture (TBD)
   Topic: |-
     Prototyping tools (guest lecture)?
     Advanced topics on implementation
     Possible guest lecture
 - Class: 11W
-  Date: 1-Nov
+  Date: 2017 Nov 1
   WebsiteLabel: 'Project: Evaluation'
   Topic: |-
     Evaluation--designing a study
@@ -248,7 +248,7 @@
     Short interview
   Assignment: 'Assign: Pilot user study evaluation'
 - Class: 12M
-  Date: 6-Nov
+  Date: 2017 Nov 6
   WebsiteLabel: Working Prototype Demo (grading)
   Topic: 'In-class demo of working prototypes (5 minutes each team, TA grades Studio,
     I circulate among Studios, when not presenting to teaching team, running pilot
@@ -259,19 +259,19 @@
     Due: Working Prototype & user study pilot
     Assign: Evaluation
 - Class: 12W
-  Date: 8-Nov
+  Date: 2017 Nov 8
   WebsiteLabel: Guest lecture (TBD) & group work time
   Studio: No sections due to holiday
   Notes: 11/10 Holiday
 - Class: 13M
-  Date: 13-Nov
+  Date: 2017 Nov 13
   WebsiteLabel: Future Visions of HCI & group work time
   Topic: |-
     Designing the Future: Visions of HCI
     Break
     Group work time
 - Class: 13W
-  Date: 15-Nov
+  Date: 2017 Nov 15
   WebsiteLabel: 'Project: Presenting Your Work'
   Topic: |-
     Presenting Work
@@ -282,7 +282,7 @@
   Assignment: 'Assign: Final presentations'
   Studio: 'Due: Evaluation presentation'
 - Class: 14M
-  Date: 20-Nov
+  Date: 2017 Nov 20
   WebsiteLabel: |-
     Project: Design Showcase
     HCI in Industry Panel
@@ -301,20 +301,20 @@
     Due: Evaluation
     Assign: Design Showcase
 - Class: 14W
-  Date: 22-Nov
+  Date: 2017 Nov 22
   Topic: No instruction
   Studio: No sections due to holiday
   Notes: Thanksgiving
 - Class: 15M
-  Date: 27-Nov
+  Date: 2017 Nov 27
   WebsiteLabel: Final Presentations (grading)
   Topic: Final Presentations
 - Class: 15W
-  Date: 29-Nov
+  Date: 2017 Nov 29
   WebsiteLabel: Final Presentations (grading)
   Topic: Final Presentations
   Studio: Design Showcase coaching
 - Class: '16'
-  Date: 6-7-Dec
+  Date: 2017 Dec 7 6
   WebsiteLabel: Design Showcase (grading)
   Topic: Design Showcase
