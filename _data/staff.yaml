@@ -1,37 +1,37 @@
 ---
 - name: John Tang
-  mail: x
-  site: x
+  mail: johntang@microsoft.com 
+  site: https://www.microsoft.com/en-us/research/people/johntang/
   sect: x
-  ohour: Friday 1:30-2:30pm, by appointment
+  ohour: Fri 1:30-2:30p, by appt.
   olink: '<a href="http://bit.ly/2jEzqP5">Google+ Hangouts</a>'
-- name: Daniel Li
-  mail: x
-  site: x
-  sect: x
-  ohour: x
-  olink: x
-- name: Christine Munar
-  mail: x
-  site: x
-  sect: x
-  ohour: x
-  olink: x
-- name: Emily Pedersen
-  mail: x
-  site: x
-  sect: x
-  ohour: x
-  olink: x
-- name: Paige Plander
-  mail: x
-  site: x
-  sect: x
-  ohour: x
-  olink: x
 - name: Jeremy Warner
   mail: jeremy.warner@berkeley.edu
-  site: http://jeremywrnr.com
+  site: https://jeremywrnr.com
   sect: x
-  ohour: x
-  olink: x
+  ohour: Tues 10-11a
+  olink: '<a href="http://bid.berkeley.edu/directions/">360 HMMB</a>'
+- name: Daniel Li
+  mail: li.daniel@berkeley.edu
+  site: http://daniel-li.me/
+  sect: Fri 11a-12p, Etcheverry 3119
+  ohour: TBA
+  olink: 626 Soda Hall
+- name: Christine Munar
+  mail: chrismunar@berkeley.edu
+  site: http://www.christinemunar.com/
+  sect: Fri 10-11a, Stanley 179
+  ohour: TBA
+  olink: TBA
+- name: Emily Pedersen
+  mail: epedersen@berkeley.edu
+  site: https://www.linkedin.com/in/epedersen1
+  sect: Fri 9-10a, Latimer 102
+  ohour: Tues 3-4p
+  olink: TBA
+- name: Paige Plander
+  mail: paigeplan@berkeley.edu
+  site: https://paigeplan.github.io/
+  sect: Fri 10-11a, TBA
+  ohour: Tues 4-5p
+  olink: TBA

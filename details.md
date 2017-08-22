@@ -42,19 +42,6 @@ need to attend the Studio section that you are scheduled in, and project teams
 will form within each Studio. Transfers among sections must be approved by the
 teaching team.
 
-## Project Theme
-
-The theme of this semester’s projects will be “Bursting Echo Chambers in Social
-Media”. We will be developing web-based applications (either on mobile or
-desktop) to enable people encounter more diverse information through social
-media. Another aspect of our theme is to encourage more constructive
-conversation or interaction among differing perspectives through social media.
-We will be leveraging the [Graph API](https://developers.facebook.com/docs/graph-api/)
-and other developer tools that Facebook offers https://developers.facebook.com/
-to enable connecting with the user data that’s available within Facebook. While
-students are free to connect with other social media services, we will only be
-providing guidance on the Facebook APIs.
-
 ## Prerequisites
 
 CS160 is an upper division course, and one of few where you will work

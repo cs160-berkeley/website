@@ -19,19 +19,34 @@ Instead, the focus of the course is on developing a broad set of skills needed
 for user-centered design. These skills include ideation, needs assessment,
 communication, rapid prototyping, algorithmic implementation and evaluation.
 
+
 ## logistics
 
-- Course: CS 160/260A Fall 2017, UC Berkeley
-- Lecture: Monday, Wednesday 11:00am-12:30pm
-- Location: [Jacobs 310](http://jacobsinstitute.berkeley.edu/)
-- Discussion: [Piazza](https://piazza.com/class/j6fjvh1geib77c)
+Lecture will be on Mondays and Wednesdays from 11a - 12:30p, in [Jacobs
+310](http://jacobsinstitute.berkeley.edu/). See the [full schedule](/schedule).
+
+Join the [CS 160 Piazza](https://piazza.com/berkeley/fall2017/cs160/home) for
+announcements and to ask questions about the course. Share publicly so others
+with the same question can benefit. Piazza will be the quickest way to get a
+response.
+
+<!--insert bcourses link once open-->
 
 
-Join Piazza for announcements and to ask questions about the course. Share
-publicly so others with the same question can benefit. Piazza will be the
-quickest way to get a response.
+## project theme
 
-## staff
+The theme of this semester’s projects will be *Bursting Echo Chambers in Social
+Media*. We will be developing web-based applications (either on mobile or
+desktop) to enable people encounter more diverse information through social
+media. Another aspect of our theme is to encourage more constructive
+conversation or interaction among differing perspectives through social media.
+We will be leveraging the [Graph API](https://developers.facebook.com/docs/graph-api/)
+and other [developer tools]( https://developers.facebook.com/) that Facebook
+offers to enable connecting with the user data that’s available within
+Facebook. While students are free to connect with other social media services,
+we will only be providing guidance on the Facebook APIs.
+
+## course staff
 
 <table id="staff" class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
   <thead>
@@ -49,7 +64,7 @@ quickest way to get a response.
       <td>{{ s.name}}</td>
       <td>
           <a href="mailto:{{ s.mail }}"><i class="icon material-icons">mail</i></a>
-          <!--<a href="{{ s.site }}" target="_blank"><i class="icon material-icons">launch</i></a>-->
+          <a href="{{ s.site }}" target="_blank"><i class="icon material-icons">launch</i></a>
       </td>
       <td>{{ s.ohour }}</td>
       <td>{{ s.olink }}</td>
@@ -58,6 +73,7 @@ quickest way to get a response.
 {% endfor %}
   </tbody>
 </table>
+
 
 <br/>
 <small>[archived F16 site](/f16)</small>
