@@ -3,10 +3,6 @@ layout: default
 title: details
 ---
 
-## Class Format
-
-[Berkeley CS Course Page](https://www2.eecs.berkeley.edu/Courses/CS160/)
-
 In Fall 2017 we will be aiming accommodate around 100 students. Lectures will
 be held Monday and Wednesday, 11:00am-12:30pm in Jacobs 310. There will be
 sections as well once a week. There will be a midterm. There will not be a
@@ -46,11 +42,14 @@ teaching team.
 
 CS160 is an upper division course, and one of few where you will work
 extensively on one significant programming project. To participate fully in
-this course, you are required to have taken CS61B or have equivalent knowledge.
+this course, you are required to have taken CS61B or have equivalent knowledge
+as noted in the [Berkeley CS Course Page](https://www2.eecs.berkeley.edu/Courses/CS160/).
 We will assume that you are familiar with Java and are comfortable coding a
 large-scale project. While you can choose to code in any platform that you and
 your team agree, we will only be providing training and technical support for
 the Facebook APIs.
+
+
 
 ## Texts and Readings
 
