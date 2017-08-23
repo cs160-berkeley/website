@@ -26,7 +26,8 @@ title: schedule
             <a href="{{ r.link}}" target="_blank">{{ r.name }}</a>
             {% endfor %}
         {% endif %}
-        {% if class.Assign %} <br/><span class="schedule-item-out">Assigned: {{ class.Assign }} </span>{% endif %}
+        {% if class.StudioWebSiteLabel %} <br/>Studio: {{ class.StudioWebSiteLabel }} {% endif %}
+        {% if class.Assign %} <br/><span class="schedule-item-out">Out: {{ class.Assign }} </span>{% endif %}
         {% if class.Due %} <br/><span class="schedule-item-due">Due: {{ class.Due }} </span>{% endif %}
         <!--{% if class.Studio %} <br/> Studio: {{ class.Studio }} {% endif %}-->
         <!--{% if class.Notes %} <br/>Notes: {{ class.Notes }}{% endif %}-->

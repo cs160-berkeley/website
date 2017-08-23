@@ -15,7 +15,8 @@
   Reading:
   - name: Rapid Viz
     link: https://drive.google.com/open?id=0Bw5c_JsRiheEQ1M0WkFyTkIyUmM
-  Assign: Berkeley Highlights sketching
+  Assign: 'A1: Berkeley Highlights sketching'
+  StudioWebSiteLabel: Studio Section Intro (must attend!)
   Studio: TA leads studio section, presents own design for critique. More drawing
     exercises, focus on people
   Notes: bring at least 3 packets (1500 sheets) of paper (TA) and pens (me) to class
@@ -29,12 +30,10 @@
   Reading:
   - name: Design of Everyday Things
     link: https://drive.google.com/open?id=0Bw5c_JsRiheESUxXMWZZOVA0dWs
-  - name: Working through Task-Centered System Design
-    link: https://drive.google.com/open?id=0Bw5c_JsRiheEaFVGVHdUOWVvMVk
   - name: d.school's empathy field guide
     link: https://drive.google.com/open?id=0Bw5c_JsRiheEbW5ZSHZ2aFJpTWM
-  Assign: Need Finding
-  Due: Berkeley Highlight
+  Assign: 'A1: Need Finding'
+  Due: 'A2: Berkeley Highlight'
 - Class: 2W
   Date: 2017 Aug 30
   WebsiteLabel: |-
@@ -51,6 +50,7 @@
     Affordance
     Conceptual Models
     Signifiers
+  StudioWebSiteLabel: 'A2 Part3: Point of View Presentation (grading)'
   Studio: 'Due in Studio: POV presentation (90 seconds each)'
 - Class: 3M
   Date: 2017 Sep 4
@@ -70,8 +70,9 @@
     link: Contextual Design (Holtzblatt & Beyer) up through 8.2.4
   - name: "[Landay] Contextual Design"
     link: "[Landay] Contextual Design"
-  Assign: Initial programming task
-  Due: Need Finding
+  Assign: 'A3: Initial programming task'
+  Due: 'A2: Need Finding'
+  StudioWebSiteLabel: Programming tutorial
   Studio: Programming tutorial
   Notes: I'm away Th-Sun
 - Class: 4M
@@ -112,8 +113,9 @@
     link: AboutFaceChap5
   - name: AboutFaceChap6
     link: AboutFaceChap6
-  Assign: Design a UI in pairs, taking an idea from Bug List
-  Due: Initial Programming task
+  Assign: 'A4: Design a UX in pairs, taking an idea from A2'
+  Due: 'A3: Initial Programming task'
+  StudioWebSiteLabel: Sketching with hands, screens, interfaces
   Studio: Sketching with hands, screens, interfaces
 - Class: 5M
   Date: 2017 Sep 18
@@ -147,8 +149,9 @@
     link: "[Eric]How to Run a Design Critique"
   - name: How to Give and Receive Criticism
     link: How to Give and Receive Criticism
-  Assign: Heuristic Evaluation (individual)
-  Due: Design a UI
+  Assign: 'A5: Heuristic Evaluation (individual)'
+  Due: 'A4: Design a UI'
+  StudioWebSiteLabel: Critique of UI designs
   Studio: TA leads critique in studio section of selected UI designs
   Notes: Bring paper and PostIts to class for Mockups materials
 - Class: 6M
@@ -171,6 +174,7 @@
   - name: "[Landay] Tips for Working Successfully in a Group"
     link: "[Landay] Tips for Working Successfully in a Group"
   Due: Heuristic Evaluation
+  StudioWebSiteLabel: Midterm review
   Studio: Midterm review
 - Class: 7M
   Date: 2017 Oct 2
@@ -189,8 +193,9 @@
     Likert questions
     Surveys
     Amazon Mechanical Turk
-  Assign: 'Form teams of 4 in section, Need finding: observe 2 situations, interview,
+  Assign: 'P1: Form teams of 4 in section, Need finding: observe 2 situations, interview,
     define need'
+  StudioWebSiteLabel: Final project team formation
   Studio: More Mockups game rounds, mix it up among teams, reflection on what works
     and what doesn't, Form teams due by end of Studio
   Notes: Bring paper and PostIts to Studio for Mockups materials
@@ -212,7 +217,8 @@
     Digital: Sreenshots/Web-based/Flash/PowerPoint
     Break
     Need finding checkpoint (in Studios, 40-minutes)
-  Assign: Design & lo-fi prototyping
+  Assign: 'P2: Design & lo-fi prototyping'
+  StudioWebSiteLabel: 'P1: Need finding presentation (grading)'
   Studio: 'Due: Need finding presentation'
 - Class: 9M
   Date: 2017 Oct 16
@@ -228,8 +234,9 @@
   Reading:
   - name: Dark Horse
     link: Dark Horse
-  Assign: Dark horse Prototype
-  Due: Design & Prototype demo
+  Assign: 'P3: Dark horse Prototype'
+  Due: 'P2: Design & Prototype demo'
+  StudioWebSiteLabel: Dark horse prototype coaching
   Studio: Dark horse coaching on ideas, Mockups games
 - Class: 10M
   Date: 2017 Oct 23
@@ -240,15 +247,16 @@
     Lo-fi prototypes of concepts
     Task analysis
     Interviews of user study participants
-  Assign: Conceptual use study
-  Due: Dark horse prototype description
+  Assign: 'P4: Conceptual use study'
+  Due: 'P3: Dark horse prototype description'
 - Class: 10W
   Date: 2017 Oct 25
   WebsiteLabel: 'Project: Working Prototyping'
   Topic: |-
     Design and working prototype lecture (Tom Chi guest?)
     Human abilities
-  Assign: Re-design and implement working prototype
+  Assign: 'P5: Re-design and implement working prototype'
+  StudioWebSiteLabel: 'P4: Conceptual use study plan (grading)'
   Studio: 'Due: Conceptual use study presentation'
 - Class: 11M
   Date: 2017 Oct 30
@@ -270,7 +278,7 @@
     Define core task
     Metrics to collect
     Short interview
-  Assign: Pilot user study evaluation
+  Assign: 'P6 Part 1: Pilot user study evaluation'
 - Class: 12M
   Date: 2017 Nov 6
   WebsiteLabel: Working Prototype Demo (grading)
@@ -278,8 +286,8 @@
     I circulate among Studios, when not presenting to teaching team, running pilot
     user study, should be able to collect data fromat least 2 pilot studies)
   Required: T
-  Assign: Evaluation
-  Due: Working Prototype & user study pilot
+  Assign: 'P6: Evaluation'
+  Due: 'P5 & P6 Part 1: Working Prototype & user study pilot'
 - Class: 12W
   Date: 2017 Nov 8
   WebsiteLabel: Guest lecture (TBD) & group work time
@@ -287,6 +295,7 @@
     Guest lecture mobile, voice or  AI/cognitive services
     Break
     Group work time
+  StudioWebSiteLabel: 'Holiday: No Studios'
   Studio: No sections due to holiday
   Notes: 11/10 Holiday
 - Class: 13M
@@ -305,7 +314,8 @@
     Poster
     Presenting as a team (each person should have a role in final presentation)
     Critically and constructively reviewing others' work
-  Assign: Final presentations
+  Assign: 'P7 Part 1: Final presentations'
+  StudioWebSiteLabel: Evaluation presentation (grading)
   Studio: 'Due: Evaluation presentation'
 - Class: 14M
   Date: 2017 Nov 20
@@ -323,26 +333,29 @@
     45-second video
     Poster Design
     Demo routine
-  Assign: Design Showcase
-  Due: Evaluation
+  Assign: 'P7 Part 2: Design Showcase'
+  Due: 'P6: Evaluation'
 - Class: 14W
   Date: 2017 Nov 22
+  WebsiteLabel: 'Thanksgiving Holiday: No Class'
   Topic: No instruction
+  StudioWebSiteLabel: 'Holiday: No Studios'
   Studio: No sections due to holiday
   Notes: Thanksgiving
 - Class: 15M
   Date: 2017 Nov 27
   WebsiteLabel: Final Presentations (grading)
-  Topic: Final Presentations
+  Topic: 'P7 Part1: Final Presentations (2 Studios)'
   Required: T
 - Class: 15W
   Date: 2017 Nov 29
   WebsiteLabel: Final Presentations (grading)
-  Topic: Final Presentations
+  Topic: 'P7 Part1: Final Presentations (2 Studios)'
   Required: T
+  StudioWebSiteLabel: Design Showcase coaching
   Studio: Design Showcase coaching
 - Class: '16'
-  Date: 2017 Dec 7 6
+  Date: 2017 Dec (TBD) 7 6
   WebsiteLabel: Design Showcase (grading)
-  Topic: Design Showcase
+  Topic: 'P7: Part2: Design Showcase'
   Required: T

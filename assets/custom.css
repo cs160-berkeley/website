@@ -15,10 +15,10 @@ h2 {
 }
 
 .site-info {
+    padding-top: 2em;
     font-weight: 100;
     text-align: right;
     font-size: 18px;
-    padding: 2em;
     float: right;
 }
 
