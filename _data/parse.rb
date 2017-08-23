@@ -48,7 +48,7 @@ class ClassList
   end
 
   def parseLink(r)
-    s = r.split(",")
+    s = r.strip.split(",")
     if s.length == 1
       r
     else

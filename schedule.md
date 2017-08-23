@@ -22,12 +22,21 @@ title: schedule
         {{ class.WebsiteLabel }}
         {% if class.Reading %}
             {% for r in class.Reading %}
-            <br/>Reading:
-            <a href="{{ r.link}}" target="_blank">{{ r.name }}</a>
+            {% if class.Reading.name %}
+            <br/>Reading: <a href="{{ r.link}}" target="_blank">{{ r.name }}</a>
+            {% else %}
+            <br/>Reading: {{ r.name }}
+            {% endif %}
             {% endfor %}
         {% endif %}
         {% if class.StudioWebSiteLabel %} <br/>Studio: {{ class.StudioWebSiteLabel }} {% endif %}
-        {% if class.Assign %} <br/><span class="schedule-item-out">Out: {{ class.Assign }} </span>{% endif %}
+        {% if class.Assign %}
+            {% if class.Assign.name %}
+            <br/><span class="schedule-item-out">Out: <a href="{{ class.Assign.link }}">{{ class.Assign.name }}</a> </span>
+            {% else %}
+            <br/><span class="schedule-item-out">Out: {{ class.Assign }} </span>
+            {% endif %}
+        {% endif %}
         {% if class.Due %} <br/><span class="schedule-item-due">Due: {{ class.Due }} </span>{% endif %}
         <!--{% if class.Studio %} <br/> Studio: {{ class.Studio }} {% endif %}-->
         <!--{% if class.Notes %} <br/>Notes: {{ class.Notes }}{% endif %}-->
