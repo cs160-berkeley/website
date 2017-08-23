@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: grading
 ---
 
@@ -37,7 +37,7 @@ time to this topic. Your project assignments include self-reports of effort by
 all team members. It’s very important that team members contribute equally. If
 issues arise around group work, please contact the staff promptly.
 
-## Late Policy
+## late policy
 
 Group project assignments may not be turned in late, as we want to give quick
 and timely feedback, and you should be able to work together as a group to turn
@@ -50,7 +50,7 @@ points as follows:
 
 This does not apply to reading responses; there is a zero-tolerance for late reading responses.
 
-## Regrading Policy
+## regrading policy
 
 As mentioned earlier, grading design projects is largely qualitative, and may
 give rise to disagreements. We encourage you to discuss grading concerns

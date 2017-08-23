@@ -1,21 +1,39 @@
 ---
-layout: default
+layout: page
 title: schedule
 ---
 
-<!--todo: probably make partial template render here-->
+<span style="float:left;">*subject to updates*</span>
+<span class="schedule-item-notice">mandatory</span>
+<br/>
 
+<ul class="schedule-list">
 {% for class in site.data.schedule %}
 {% if class.Class %}
-#### {{ class.Date | date: "%b %-d" }} {% if class.WebsiteLabel %} :: {{ class.WebsiteLabel }} <br/>{% endif %}
-
-{{ class.Class }}.
-{% if class.Reading %} Reading: {{ class.Reading }} <br/>{% endif %}
-    {% if class.Assignment %} {{ class.Assignment }} {% endif %}
-
-<!--{% if class.Studio %} Studio: {{ class.Studio }} <br/>{% endif %}-->
-<!--<p>{{ class.Topic }}</p>-->
-<!--{% if class.Notes %} Notes: {{ class.Notes }} <br/>{% endif %}-->
-
+  <li class="schedule-item {% if class.Active %}schedule-item-active{% endif %}">
+      <span class="schedule-sep">{{ class.Date | date: "%b %-d" | downcase }}
+        <span class="schedule-item-notice">
+          {% if class.Required %}
+          <a href="#"><i class="material-icons">feedback</i></a>
+          {% endif %}
+        </span>
+      </span>
+      <span class="schedule-item-text">
+        {{ class.WebsiteLabel }}
+        {% if class.Reading %}
+            {% for r in class.Reading %}
+            <br/>Reading:
+            <a href="{{ r.link}}" target="_blank">{{ r.name }}</a>
+            {% endfor %}
+        {% endif %}
+        {% if class.Assign %} <br/><span class="schedule-item-out">Assigned: {{ class.Assign }} </span>{% endif %}
+        {% if class.Due %} <br/><span class="schedule-item-due">Due: {{ class.Due }} </span>{% endif %}
+        <!--{% if class.Studio %} <br/> Studio: {{ class.Studio }} {% endif %}-->
+        <!--{% if class.Notes %} <br/>Notes: {{ class.Notes }}{% endif %}-->
+        <!--{{ class.Class }}.-->
+        <!--<p>{{ class.Topic }}</p>-->
+      </span>
+  </li>
 {% endif %}
 {% endfor %}
+</ul>

@@ -27,8 +27,7 @@ Lecture will be on Mondays and Wednesdays from 11a - 12:30p, in [Jacobs
 
 Join the [CS 160 Piazza](https://piazza.com/berkeley/fall2017/cs160/home) for
 announcements and to ask questions about the course. Share publicly so others
-with the same question can benefit. Piazza will be the quickest way to get a
-response.
+with the same question can benefit.
 
 <!--insert bcourses link once open-->
 
@@ -76,5 +75,5 @@ we will only be providing guidance on the Facebook APIs.
 
 
 <br/>
-<small>[archived F16 site](/f16)</small>
+<small>[archived f16 site](/f16)</small>
 

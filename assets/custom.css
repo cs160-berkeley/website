@@ -1,5 +1,4 @@
 body {
-
 }
 
 a {
@@ -43,7 +42,7 @@ h2 {
 }
 
 #staff {
-    width: 100%;
+    width: 97%;
 }
 
 #staff a {
@@ -52,4 +51,55 @@ h2 {
 
 #staff a:hover {
     color: #ff4081;
+}
+
+/* schedule styling */
+
+.schedule-list {
+    list-style-type: none;
+    margin-top: 1em;
+    padding: 0em;
+}
+
+.schedule-item:hover {
+    background-color: lightgrey;
+}
+
+.schedule-item {
+    padding: 0.5em 0.5em 0.5em 1em;
+}
+
+.schedule-item:hover > .schedule-sep {
+    border-bottom: solid 1px #ff4081;
+    margin-bottom: 0px;
+}
+
+.schedule-sep {
+    margin-bottom: 1px;
+    font-weight: 100;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+}
+
+.schedule-item-text {
+    font-size: 14px;
+}
+
+.schedule-item-active {
+    background: rgba(255, 64, 129, 0.25);
+}
+
+.schedule-item-notice {
+    float: right;
+}
+
+.schedule-item-out {
+    border-left: #9dff40 solid 1em;
+    padding-left: 0.5em;
+}
+
+.schedule-item-due {
+    border-left: rgb(255, 64, 129) solid 1em;
+    padding-left: 0.5em;
 }

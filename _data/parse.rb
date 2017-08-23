@@ -10,6 +10,15 @@ class ClassList
     @list = csv_list
   end
 
+  def generate
+    @list
+      .map {|f| filterDate f  }
+      .reject {|f| f["Class"].nil? }
+      .map { |f| parseDate f  }
+      .map { |f| parseRead f  }
+  end
+
+  private
   def filterDate(fields)
     Hash[fields
       .each_with_index
@@ -26,21 +35,12 @@ class ClassList
   def parseRead(d)
     return d if d["Reading"].nil?
     d["Reading"] = d["Reading"].split("\n").map { |r|
-
       {
-        :name => r.split(",").first.strip,
-        :link => r.split(",").last.strip,
+        "name" => r.split(",").first.strip,
+        "link" => r.split(",").last.strip,
       }
     }.reject { |r| r.nil? || r.empty? }
     return d
-  end
-
-  def generate
-    @list
-      .map {|f| filterDate f  }
-      .reject {|f| f["Class"].nil? }
-      .map { |f| parseDate f  }
-      .map { |f| parseRead f  }
   end
 end
 

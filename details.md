@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: details
 ---
 
@@ -30,7 +30,7 @@ dropping the course before the end of the semester has negative consequences
 for your other group members. Once you have joined a group please make sure you
 are committed to staying in the course.
 
-## Sections ~ Studios
+## sections ~ studios
 
 Sections will function as Studios—a consistent TA that grades your work
 throughout the semester and group of students to get feedback from. You will
@@ -38,7 +38,7 @@ need to attend the Studio section that you are scheduled in, and project teams
 will form within each Studio. Transfers among sections must be approved by the
 teaching team.
 
-## Prerequisites
+## prerequisites
 
 CS160 is an upper division course, and one of few where you will work
 extensively on one significant programming project. To participate fully in
@@ -49,9 +49,7 @@ large-scale project. While you can choose to code in any platform that you and
 your team agree, we will only be providing training and technical support for
 the Facebook APIs.
 
-
-
-## Texts and Readings
+## texts and readings
 
 There is no textbook for the course. Online readings will be available before
 each class. You are expected to read the assigned readings and post a
@@ -59,7 +57,7 @@ substantive reading response before class. Late comments will NOT be given
 credit. There will be plenty of opportunities in class and in the assignments
 to apply that knowledge and in-class participation will be part of your grade.
 
-## Assignments
+## assignments
 
 There will be both individual assignments and project assignments. Individual
 assignments (including some programming assignments) will be done by each
@@ -71,7 +69,7 @@ written documentation at each stage of your project. You will also turn in
 working code. Each group member must participate in giving an oral presentation
 about your project. Most assignments will be turned in online through bCourses.
 
-## Attendance
+## attendance
 
 You are encouraged to attend all of the lectures and a weekly discussion
 section. We expect to do many in-class, group activities which cannot be made
@@ -87,7 +85,7 @@ accordingly and do not miss these classes. Due to the size of the class, we
 won't be "catching up" students on missed assignments or details. It is your
 responsibility to obtain that information from fellow classmates.
 
-## Conduct
+## conduct
 
 Cheating is not acceptable. All incidents will incur penalties in the course
 and will be reported to the Center for Student Conduct. Please take time to
@@ -108,7 +106,7 @@ what to expect in terms of activities to do and time required (and allow them
 to opt out during the process), respect their time, and respect their privacy
 regarding any information that they share with you.
 
-## Acknowledgements
+## acknowledgements
 
 The lectures, format and syllabus of this class are based on HCI classes taught
 by Eric Paulos, Bjoern Hartmann, Andy Carle, Jodi Forlizzi, John Zimmerman,
