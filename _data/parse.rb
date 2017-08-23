@@ -16,6 +16,7 @@ class ClassList
       .reject {|f| f["Class"].nil? }
       .map { |f| parseDate f  }
       .map { |f| parseRead f  }
+      .map { |f| parseAssign f  }
   end
 
   private
@@ -35,16 +36,31 @@ class ClassList
   def parseRead(d)
     return d if d["Reading"].nil?
     d["Reading"] = d["Reading"].split("\n").map { |r|
-      {
-        "name" => r.split(",").first.strip,
-        "link" => r.split(",").last.strip,
-      }
+      parseLink r
     }.reject { |r| r.nil? || r.empty? }
     return d
+  end
+
+  def parseAssign(d)
+    return d if d["Assign"].nil?
+    d["Assign"] = parseLink d["Assign"]
+    return d
+  end
+
+  def parseLink(r)
+    s = r.split(",")
+    if s.length == 1
+      r
+    else
+      {
+        "name" => s.first.strip,
+        "link" => s.last.strip,
+      }
+    end
   end
 end
 
 # zip csv header with processed result
 cl = ClassList.new "./schedule.csv"
 full = cl.generate
-puts full.to_yaml
+puts full[0..2].to_yaml
