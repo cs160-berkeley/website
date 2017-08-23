@@ -63,4 +63,4 @@ end
 # zip csv header with processed result
 cl = ClassList.new "./schedule.csv"
 full = cl.generate
-puts full[0..2].to_yaml
+puts full.to_yaml
