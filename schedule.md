@@ -48,3 +48,6 @@ title: schedule
 {% endif %}
 {% endfor %}
 </ul>
+
+[all course slides](https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00)
+
