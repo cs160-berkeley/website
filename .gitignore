@@ -5,6 +5,7 @@ f16/
 
 # files
 .DS_Store
+*json
 *docx
 *xlsx
 *pptx
