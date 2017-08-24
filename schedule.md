@@ -20,7 +20,7 @@ title: schedule
       </span>
       <span class="schedule-item-text">
         {{ class.WebsiteLabel }}
-        {% if class.Slides %} <a href="{{ class.Slides }}" target="_blank">slides</a> {% endif %}
+        {% if class.Slides %} :: <a href="{{ class.Slides }}" target="_blank">slides</a> {% endif %}
         {% if class.Reading %}
             {% for r in class.Reading %}
             {% if r.name %}
@@ -39,10 +39,6 @@ title: schedule
             {% endif %}
         {% endif %}
         {% if class.Due %} <br/><span class="schedule-item-due">Due: {{ class.Due }} </span>{% endif %}
-        <!--{% if class.Studio %} <br/> Studio: {{ class.Studio }} {% endif %}-->
-        <!--{% if class.Notes %} <br/>Notes: {{ class.Notes }}{% endif %}-->
-        <!--{{ class.Class }}.-->
-        <!--<p>{{ class.Topic }}</p>-->
       </span>
   </li>
 {% endif %}
