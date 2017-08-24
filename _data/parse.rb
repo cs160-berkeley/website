@@ -2,6 +2,11 @@ require "yaml"
 require "CSV"
 require "pp"
 
+schedule = "./CS160Schedule.csv"
+
+# script to turn the shared google spreadsheet-turned-csv into yaml for
+# rendering in the jekyll front-end, in schedule.md (using liquid)
+
 class ClassList
   attr_reader :header, :list
   def initialize(csv)
@@ -60,7 +65,7 @@ class ClassList
   end
 end
 
-# zip csv header with processed result
-cl = ClassList.new "./schedule.csv"
+# generate processed result
+cl = ClassList.new schedule
 full = cl.generate
 puts full.to_yaml

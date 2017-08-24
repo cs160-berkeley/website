@@ -1,4 +1,5 @@
 schedule:
+	ruby download.rb
 	ruby parse.rb > schedule.yaml
 
 develop:
