@@ -1,6 +1,6 @@
 ---
 - name: John Tang
-  mail: johntang@microsoft.com 
+  mail: johntang@microsoft.com
   site: https://www.microsoft.com/en-us/research/people/johntang/
   sect: x
   ohour: Fri 1:30-2:30p, by appt.
@@ -10,7 +10,7 @@
   site: https://jeremywrnr.com
   sect: x
   ohour: Tues 10-11a
-  olink: '<a href="http://bid.berkeley.edu/directions/">360 HMMB</a>'
+  olink: 'Jacobs 310A'
 - name: Daniel Li
   mail: li.daniel@berkeley.edu
   site: http://daniel-li.me/
