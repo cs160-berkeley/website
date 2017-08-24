@@ -20,12 +20,13 @@ title: schedule
       </span>
       <span class="schedule-item-text">
         {{ class.WebsiteLabel }}
+        {% if class.Slides %} <a href="{{ class.Slides }}" target="_blank">slides</a> {% endif %}
         {% if class.Reading %}
             {% for r in class.Reading %}
-            {% if class.Reading.name %}
+            {% if r.name %}
             <br/>Reading: <a href="{{ r.link}}" target="_blank">{{ r.name }}</a>
             {% else %}
-            <br/>Reading: {{ r.name }}
+            <br/>Reading: {{ r }}
             {% endif %}
             {% endfor %}
         {% endif %}
