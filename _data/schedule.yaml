@@ -69,7 +69,8 @@
     Programming exercise
     Break
   Reading:
-  - Contextual Design (Holtzblatt & Beyer) up through 8.2.4
+  - name: Contextual Design (Holtzblatt & Beyer) up through 8.2.4
+    link: https://drive.google.com/open?id=0Bw5c_JsRiheEd0l2U2lTT0xLMTA
   - "[Landay] Contextual Design"
   Assign: 'A3: Initial programming task'
   Due: 'A2: Need Finding'
@@ -111,7 +112,8 @@
     Agents, AI
   Reading:
   - AboutFaceChap5
-  - AboutFaceChap6
+  - name: AboutFaceChap6
+    link: https://drive.google.com/open?id=0Bw5c_JsRiheEMUFaOERvV3hKZm8
   Assign:
     name: 'A4: Design a UX in pairs'
     link: taking an idea from A2
@@ -130,7 +132,8 @@
     GOMS
     Hick's Law of choice
   Reading:
-  - CardMoranNewell
+  - name: CardMoranNewell
+    link: https://drive.google.com/open?id=0Bw5c_JsRiheEOWtTMGtsMVdaSk0
 - Class: 5W
   Date: 2017 Sep 20
   WebsiteLabel: |-
