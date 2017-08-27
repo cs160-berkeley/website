@@ -68,7 +68,7 @@ we will only be providing guidance on the Facebook APIs.
       <td>{{ s.ohour }}</td>
       <td>{{ s.olink }}</td>
       <td>{{ s.sect }}
-      {% if s.slide %} 
+      {% if s.slide %}
           :: <a href="{{ s.slide }}" target="_blank">slides</a>
       {% endif  %}
       </td>
