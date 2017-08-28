@@ -35,7 +35,9 @@
     link: https://drive.google.com/open?id=0Bw5c_JsRiheESUxXMWZZOVA0dWs
   - name: d.school's empathy field guide
     link: https://drive.google.com/open?id=0Bw5c_JsRiheEbW5ZSHZ2aFJpTWM
-  Assign: A2 Need Finding
+  Assign:
+    name: A2 Need Finding
+    link: "/assign/2/"
   Due: A1 Berkeley Highlight
 - Class: 2W
   Date: 2017 Aug 30
