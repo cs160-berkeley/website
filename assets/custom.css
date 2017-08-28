@@ -46,6 +46,16 @@ h3 {
     margin: auto;
 }
 
+table {
+    max-width: 100%;
+}
+
+table.rubric td, th {
+    table-layout: fixed;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
 #staff {
     width: 97%;
 }
