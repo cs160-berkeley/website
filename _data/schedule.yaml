@@ -18,7 +18,7 @@
   Assign:
     name: A1 Berkeley Highlights sketching
     link: "/assign/1/"
-  StudioWebSiteLabel: Studio Section Intro (must attend!)
+  StudioWebSiteLabel: Section Intro (must attend!)
   Studio: TA leads studio section, presents own design for critique. More drawing
     exercises, focus on people
   Notes: bring at least 3 packets (1500 sheets) of paper (TA) and pens (me) to class
@@ -29,7 +29,6 @@
     Evaluate (Iterate)\nIDEO shopping cart\nbreak\nImages recognition exercise\nDesign
     Process: Empathize\nNeeds - Need-finding\nContextual Inquiry\nDirect Observation
     \nIn class exercise of watching perform a task, interview"
-  Active: T
   Reading:
   - name: Design of Everyday Things
     link: https://drive.google.com/open?id=0Bw5c_JsRiheESUxXMWZZOVA0dWs
@@ -38,7 +37,9 @@
   Assign:
     name: A2 Need Finding
     link: "/assign/2/"
-  Due: A1 Berkeley Highlight
+  Due:
+    name: A1 Berkeley Highlight
+    link: "/assign/1/"
 - Class: 2W
   Date: 2017 Aug 30
   WebsiteLabel: |-
@@ -55,6 +56,7 @@
     Affordance
     Conceptual Models
     Signifiers
+  Active: T
   StudioWebSiteLabel: 'A2 Part3: Point of View Presentation (grading)'
   Studio: 'Due in Studio: POV presentation (90 seconds each)'
 - Class: 3M
@@ -75,7 +77,9 @@
     link: https://drive.google.com/open?id=0Bw5c_JsRiheEd0l2U2lTT0xLMTA
   - "[Landay] Contextual Design"
   Assign: 'A3: Initial programming task'
-  Due: 'A2: Need Finding'
+  Due:
+    name: 'A2: Need Finding'
+    link: "/assign/2/"
   StudioWebSiteLabel: Programming tutorial
   Studio: Programming tutorial
   Notes: I'm away Th-Sun
@@ -134,7 +138,7 @@
     GOMS
     Hick's Law of choice
   Reading:
-  - name: CardMoranNewell
+  - name: The Model Human Processor
     link: https://drive.google.com/open?id=0Bw5c_JsRiheEOWtTMGtsMVdaSk0
 - Class: 5W
   Date: 2017 Sep 20

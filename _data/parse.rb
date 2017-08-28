@@ -19,9 +19,10 @@ class ClassList
     @list
       .map {|f| filterDate f  }
       .reject {|f| f["Class"].nil? }
-      .map { |f| parseDate f  }
-      .map { |f| parseRead f  }
-      .map { |f| parseAssign f  }
+      .map {|f| parseDate f }
+      .map {|f| parseRead f }
+      .map {|f| parseAssign f }
+      .map {|f| parseDue f }
   end
 
   private
@@ -49,6 +50,12 @@ class ClassList
   def parseAssign(d)
     return d if d["Assign"].nil?
     d["Assign"] = parseLink d["Assign"]
+    return d
+  end
+
+  def parseDue(d)
+    return d if d["Due"].nil?
+    d["Due"] = parseLink d["Due"]
     return d
   end
 

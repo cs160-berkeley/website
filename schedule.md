@@ -38,7 +38,13 @@ title: schedule
             <br/><span class="schedule-item-out">Out: {{ class.Assign }} </span>
             {% endif %}
         {% endif %}
-        {% if class.Due %} <br/><span class="schedule-item-due">Due: {{ class.Due }} </span>{% endif %}
+        {% if class.Due %}
+            {% if class.Due.name %}
+            <br/><span class="schedule-item-out">Due: <a href="{{ class.Due.link }}">{{ class.Due.name }}</a> </span>
+            {% else %}
+            <br/><span class="schedule-item-due">Due: {{ class.Due }} </span>
+            {% endif %}
+        {% endif %}
       </span>
   </li>
 {% endif %}
