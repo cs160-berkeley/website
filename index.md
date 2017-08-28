@@ -19,12 +19,8 @@ Instead, the focus of the course is on developing a broad set of skills needed
 for user-centered design. These skills include ideation, needs assessment,
 communication, rapid prototyping, algorithmic implementation and evaluation.
 
-
-## logistics
-
 Lecture will be on Mondays and Wednesdays from 11a - 12:30p, in [Jacobs
 310](http://jacobsinstitute.berkeley.edu/). See the [full schedule](/schedule).
-
 Join the [CS 160 Piazza](https://piazza.com/berkeley/fall2017/cs160/home) for
 announcements and to ask questions about the course. Share publicly so others
 with the same question can benefit.

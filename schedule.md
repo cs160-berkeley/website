@@ -3,14 +3,17 @@ layout: page
 title: schedule
 ---
 
-<span style="float:left;">*subject to updates*</span>
+<span style="float:left;">
+[current class](#current-class) :: *subject to updates*</span>
 <span class="schedule-item-notice">mandatory</span>
 <br/>
+
 
 <ul class="schedule-list">
 {% for class in site.data.schedule %}
 {% if class.Class %}
-  <li class="schedule-item {% if class.Active %}schedule-item-active{% endif %}">
+    <li {% if class.Active %}id="current-class"{% endif %}
+    class="schedule-item {% if class.Active %}schedule-item-active{% endif %}">
       <span class="schedule-sep">{{ class.Date | date: "%b %-d" | downcase }}
         <span class="schedule-item-notice">
           {% if class.Required %}

@@ -30,9 +30,9 @@ dropping the course before the end of the semester has negative consequences
 for your other group members. Once you have joined a group please make sure you
 are committed to staying in the course.
 
-## sections ~ studios
+## sections :: studios
 
-Sections will function as Studios—a consistent TA that grades your work
+Sections will function as **Studios**—a consistent TA that grades your work
 throughout the semester and group of students to get feedback from. You will
 need to attend the Studio section that you are scheduled in, and project teams
 will form within each Studio. Transfers among sections must be approved by the
@@ -62,12 +62,11 @@ to apply that knowledge and in-class participation will be part of your grade.
 There will be both individual assignments and project assignments. Individual
 assignments (including some programming assignments) will be done by each
 student; their main goal is to teach you the skills needed to successfully
-execute on your project.
-
-Project assignments will be done in groups. You will be expected to turn in
-written documentation at each stage of your project. You will also turn in
-working code. Each group member must participate in giving an oral presentation
-about your project. Most assignments will be turned in online through bCourses.
+execute on your project. Project assignments will be done in groups. You will
+be expected to turn in written documentation at each stage of your project. You
+will also turn in working code. Each group member must participate in giving an
+oral presentation about your project. Most assignments will be turned in online
+through bCourses.
 
 ## attendance
 
@@ -75,14 +74,13 @@ You are encouraged to attend all of the lectures and a weekly discussion
 section. We expect to do many in-class, group activities which cannot be made
 up if you miss class.  Furthermore, class and section attendance is part of the
 class participation grade. Feel free to contact the teaching staff in advance
-to discuss any issues that arise affecting your attendance.
-
-There are several mandatory class sessions identified in the syllabus: Midterm,
-grading sessions in class, final critique during RRR week (date and time TBD),
-and Final Presentation that is part of the Berkeley Design Showcase (Dec. 6-7).
-We may identify other required attendance dates in advance.  Please plan
-accordingly and do not miss these classes. Due to the size of the class, we
-won't be "catching up" students on missed assignments or details. It is your
+to discuss any issues that arise affecting your attendance. There are several
+mandatory class sessions identified in the syllabus: Midterm, grading sessions
+in class, final critique during RRR week (date and time TBD), and Final
+Presentation that is part of the Berkeley Design Showcase (Dec. 6-7). We may
+identify other required attendance dates in advance.  Please plan accordingly
+and do not miss these classes. Due to the size of the class, we won't be
+"catching up" students on missed assignments or details. It is your
 responsibility to obtain that information from fellow classmates.
 
 ## conduct
@@ -90,21 +88,19 @@ responsibility to obtain that information from fellow classmates.
 Cheating is not acceptable. All incidents will incur penalties in the course
 and will be reported to the Center for Student Conduct. Please take time to
 view the UC Berkeley Student [Code of Conduct][conduct] and the UC Berkeley
-[Honor Code][honor].
-Forms of cheating include distributing or posting assignments or midterm
-questions outside of the class, or using such materials. Other forms of
-violation are described [here][others].
+[Honor Code][honor]. Forms of cheating include distributing or posting
+assignments or midterm questions outside of the class, or using such materials.
+Other forms of violation are described [here][others]. You will also need to
+work directly with potential users to evaluate your ideas. You must deal with
+these potential users professionally and respectfully. We will cover this is
+lecture, but make sure you let them know what to expect in terms of activities
+to do and time required (and allow them to opt out during the process), respect
+their time, and respect their privacy regarding any information that they share
+with you.
 
 [conduct]:http://sa.berkeley.edu/code-of-conduct
 [honor]:http://teaching.berkeley.edu/berkeley-honor-code
 [others]:http://sa.berkeley.edu/conduct/faculty-staff/violations
-
-You will also need to work directly with potential users to evaluate your
-ideas. You must deal with these potential users professionally and
-respectfully. We will cover this is lecture, but make sure you let them know
-what to expect in terms of activities to do and time required (and allow them
-to opt out during the process), respect their time, and respect their privacy
-regarding any information that they share with you.
 
 ## acknowledgements
 
