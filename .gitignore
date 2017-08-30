@@ -5,6 +5,7 @@ f16/
 
 # files
 .DS_Store
+*webloc
 *json
 *docx
 *xlsx
