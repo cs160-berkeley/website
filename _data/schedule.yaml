@@ -67,10 +67,6 @@
   Topic: "Introduce project space\nIntroduce programming tools\nUsing APIs\nProgramming
     exercise\nBreak\nAffordance\r\nConceptual Models\r\nSignifiers"
   Active: T
-  Reading:
-  - name: Contextual Design (Holtzblatt & Beyer) up through 8.2.4
-    link: https://drive.google.com/open?id=0Bw5c_JsRiheEd0l2U2lTT0xLMTA
-  - "[Landay] Contextual Design"
   Assign: 'A3: Initial programming task'
   Due:
     name: 'A2: Need Finding'
@@ -98,6 +94,8 @@
   Reading:
   - name: Interface Metaphors
     link: https://webdesign.tutsplus.com/articles/all-about-grid-systems--webdesign-14471
+  Notes: Contextual Design (Holtzblatt & Beyer) up through 8.2.4,https://drive.google.com/open?id=0Bw5c_JsRiheEd0l2U2lTT0xLMTA
+    [Landay] Contextual Design
 - Class: 4W
   Date: 2017 Sep 13
   WebsiteLabel: 'Design Process: Ideating'
