@@ -49,7 +49,9 @@ gesture (Kinect)
 In-class exercise, work around tables, design using web, phone, speech, gesture
 Break
 Layout: Visual design--white space
-Compare/contrast among blurred NYTimes, Bing, Craigslist",,,,"Interface Metaphors, https://webdesign.tutsplus.com/articles/all-about-grid-systems--webdesign-14471",,,,,"Contextual Design (Holtzblatt & Beyer) up through 8.2.4,https://drive.google.com/open?id=0Bw5c_JsRiheEd0l2U2lTT0xLMTA [Landay] Contextual Design"
+Compare/contrast among blurred NYTimes, Bing, Craigslist",,,,,,,,,"Contextual Design (Holtzblatt & Beyer) up through 8.2.4,https://drive.google.com/open?id=0Bw5c_JsRiheEd0l2U2lTT0xLMTA
+[Landay] Contextual Design
+Interface Metaphors, https://webdesign.tutsplus.com/articles/all-about-grid-systems--webdesign-14471"
 4W,13-Sep,Design Process: Ideating,"Design Process: Design - Ideating
 Representing
 Scenarios
@@ -59,9 +61,9 @@ Break
 Social effects, social leveraging, tagging
 Crowd source work
 Agents, AI
-",,,,"AboutFaceChap5
-AboutFaceChap6,https://drive.google.com/open?id=0Bw5c_JsRiheEMUFaOERvV3hKZm8","A4: Design a UX in pairs, taking an idea from A2","A3: Initial Programming task
-","Sketching with hands, screens, interfaces","Sketching with hands, screens, interfaces", 
+",,,,,"A4: Design a UX in pairs, taking an idea from A2","A3: Initial Programming task
+","Sketching with hands, screens, interfaces","Sketching with hands, screens, interfaces","Working-through-task-centered-design
+AboutFaceChap6,https://drive.google.com/open?id=0Bw5c_JsRiheEMUFaOERvV3hKZm8"
 5M,18-Sep,Human Models,"Human Models (Eric's slides 16-08)
 Human Information Processing
 Fitts' Law--in class exercise of Fitts' Law
@@ -76,13 +78,15 @@ Low-fidelity prototyping
 Mockups game in-class
 Break
 Heuristic Evaluation - in class exercise of pairing up with user walking through a favorite app
-Describing the studio environment",,,,"How to Conduct a Heuristic Evaluation,https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/ 
+Describing the studio environment",,,,,A5: Heuristic Evaluation (individual),"A4: Design a UI 
+",Critique of UI designs,TA leads critique in studio section of selected UI designs,"Bring paper and PostIts to class for Mockups materials
+
+""How to Conduct a Heuristic Evaluation,https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/ 
 Ten Usability Heuristics,https://www.nngroup.com/articles/ten-usability-heuristics/
 Rating the Severity of Usability Problems,https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/
 Contextual Design 8.2.5-8.2.8
-[Eric]How to Run a Design Critique
-How to Give and Receive Criticism",A5: Heuristic Evaluation (individual),"A4: Design a UI 
-",Critique of UI designs,TA leads critique in studio section of selected UI designs,Bring paper and PostIts to class for Mockups materials
+How to Run a Design Critique http://scottberkun.com/essays/23-how-to-run-a-design-critique/
+How to Give and Receive Criticism"""
 6M,25-Sep,Visual Design,"Visual Design
 Typography
 Design Language
@@ -94,9 +98,9 @@ Mid-course check-in",,,, ,,,,, 
   Echo Chambers
 Working in teams
 Break
-What to expect on the midterm",,,,"DiversePoliticalOpinions
+What to expect on the midterm",,,,,,Heuristic Evaluation,Midterm review,Midterm review,"DiversePoliticalOpinions
 [Landay] Working in teams
-[Landay] Tips for Working Successfully in a Group",,Heuristic Evaluation,Midterm review,Midterm review, 
+[Landay] Tips for Working Successfully in a Group"
 7M,2-Oct,Midterm,Midterm,,T,, ,,,,, 
 7W,4-Oct,Project: Need Finding and Contextual Inquiry,"Need finding
 Contextual Inquiry
@@ -118,8 +122,10 @@ Need finding checkpoint (in Studios, 40-minutes)",,,, ,P2: Design & lo-fi proto
 9M,16-Oct,Project: Design and Prototyping checkpoint,"Design & prototyping checkpoint (in Studios) 
 Possible guest lecture",,,, ,,,,,
 9W,18-Oct,Prototype Demo (grading),"In-class demo of lo-fi prototypes (in Studios, 5 minutes each team) Students see each others' prototypes, even across studios
-Dark horse prototype (15 minutes)",,T,,Dark Horse ,P3: Dark horse Prototype,"P2: Design & Prototype demo
-",Dark horse prototype coaching,"Dark horse coaching on ideas, Mockups games",
+Dark horse prototype (15 minutes)",,T,,,P3: Dark horse Prototype,"P2: Design & Prototype demo
+",Dark horse prototype coaching,"Dark horse coaching on ideas, Mockups games
+
+Dark Horse ",
 10M,23-Oct,Project: Conceptual Use Study,"Conceptual use study
 Focusing in on the biggest question
 Lo-fi prototypes of concepts
@@ -155,7 +161,7 @@ Poster
 Presenting as a team (each person should have a role in final presentation)
 Critically and constructively reviewing others' work",,,, ,P7 Part 1: Final presentations,,Evaluation presentation (grading),Due: Evaluation presentation,
 14M,20-Nov,"Project: Design Showcase
-HCI in Industry Panel","HCI in Industry panel (Tamas, Sabi/Chagla, Fern, Frank Bentley, Aruna, Tara, Henriette Cramer, Alex Leavitt, Roeber)
+HCI in Industry Panel","HCI in Industry panel (Tamas, Sabi/Chagla, Fern, Frank Bentley, Aruna, Tara, Henriette Cramer, Alex Leavitt, Helena Roeber, Molly Mackinlay)
 Where does HCI happen in industry? PM, marketing, centralized, embedded
 Living in an engineering-driven world
 Getting involved early: definining utility, not just usability

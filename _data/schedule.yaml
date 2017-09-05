@@ -91,11 +91,10 @@
     Break
     Layout: Visual design--white space
     Compare/contrast among blurred NYTimes, Bing, Craigslist
-  Reading:
-  - name: Interface Metaphors
-    link: https://webdesign.tutsplus.com/articles/all-about-grid-systems--webdesign-14471
-  Notes: Contextual Design (Holtzblatt & Beyer) up through 8.2.4,https://drive.google.com/open?id=0Bw5c_JsRiheEd0l2U2lTT0xLMTA
+  Notes: |-
+    Contextual Design (Holtzblatt & Beyer) up through 8.2.4,https://drive.google.com/open?id=0Bw5c_JsRiheEd0l2U2lTT0xLMTA
     [Landay] Contextual Design
+    Interface Metaphors, https://webdesign.tutsplus.com/articles/all-about-grid-systems--webdesign-14471
 - Class: 4W
   Date: 2017 Sep 13
   WebsiteLabel: 'Design Process: Ideating'
@@ -109,16 +108,15 @@
     Social effects, social leveraging, tagging
     Crowd source work
     Agents, AI
-  Reading:
-  - AboutFaceChap5
-  - name: AboutFaceChap6
-    link: https://drive.google.com/open?id=0Bw5c_JsRiheEMUFaOERvV3hKZm8
   Assign:
     name: 'A4: Design a UX in pairs'
     link: taking an idea from A2
   Due: 'A3: Initial Programming task'
   StudioWebSiteLabel: Sketching with hands, screens, interfaces
   Studio: Sketching with hands, screens, interfaces
+  Notes: |-
+    Working-through-task-centered-design
+    AboutFaceChap6,https://drive.google.com/open?id=0Bw5c_JsRiheEMUFaOERvV3hKZm8
 - Class: 5M
   Date: 2017 Sep 18
   WebsiteLabel: Human Models
@@ -138,21 +136,10 @@
   WebsiteLabel: |-
     Design Process: Prototyping
     Design Process: Test
-  Reading:
-  - name: How to Conduct a Heuristic Evaluation
-    link: https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/
-  - name: Ten Usability Heuristics
-    link: https://www.nngroup.com/articles/ten-usability-heuristics/
-  - name: Rating the Severity of Usability Problems
-    link: https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/
-  - Contextual Design 8.2.5-8.2.8
-  - "[Eric]How to Run a Design Critique"
-  - How to Give and Receive Criticism
   Assign: 'A5: Heuristic Evaluation (individual)'
   Due: 'A4: Design a UI'
   StudioWebSiteLabel: Critique of UI designs
   Studio: TA leads critique in studio section of selected UI designs
-  Notes: Bring paper and PostIts to class for Mockups materials
 - Class: 6M
   Date: 2017 Sep 25
   WebsiteLabel: Visual Design
@@ -165,13 +152,13 @@
     Working in teams
     Break
     What to expect on the midterm
-  Reading:
-  - DiversePoliticalOpinions
-  - "[Landay] Working in teams"
-  - "[Landay] Tips for Working Successfully in a Group"
   Due: Heuristic Evaluation
   StudioWebSiteLabel: Midterm review
   Studio: Midterm review
+  Notes: |-
+    DiversePoliticalOpinions
+    [Landay] Working in teams
+    [Landay] Tips for Working Successfully in a Group
 - Class: 7M
   Date: 2017 Oct 2
   WebsiteLabel: Midterm
@@ -227,12 +214,9 @@
     In-class demo of lo-fi prototypes (in Studios, 5 minutes each team) Students see each others' prototypes, even across studios
     Dark horse prototype (15 minutes)
   Required: T
-  Reading:
-  - Dark Horse
   Assign: 'P3: Dark horse Prototype'
   Due: 'P2: Design & Prototype demo'
   StudioWebSiteLabel: Dark horse prototype coaching
-  Studio: Dark horse coaching on ideas, Mockups games
 - Class: 10M
   Date: 2017 Oct 23
   WebsiteLabel: 'Project: Conceptual Use Study'
@@ -318,7 +302,7 @@
     Project: Design Showcase
     HCI in Industry Panel
   Topic: |-
-    HCI in Industry panel (Tamas, Sabi/Chagla, Fern, Frank Bentley, Aruna, Tara, Henriette Cramer, Alex Leavitt, Roeber)
+    HCI in Industry panel (Tamas, Sabi/Chagla, Fern, Frank Bentley, Aruna, Tara, Henriette Cramer, Alex Leavitt, Helena Roeber, Molly Mackinlay)
     Where does HCI happen in industry? PM, marketing, centralized, embedded
     Living in an engineering-driven world
     Getting involved early: definining utility, not just usability
