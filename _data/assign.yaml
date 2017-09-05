@@ -1,0 +1,7 @@
+---
+- name: "a1: sketch a berkeley highlight"
+  link: /assign/1
+  valu: 2
+- name: "a2: need finding"
+  link: /assign/2
+  valu: 6

@@ -3,13 +3,20 @@ layout: default
 title: home
 ---
 
+
 ## User Interface Design and Development
 
-[bcourses][bcourses] :: [piazza][piazza]
+[bcourses][bcourses]{:target="_blank"} ::
+[piazza][piazza]{:target="_blank"} ::
+[slides][slides]{:target="_blank"} ::
+[readings][readin]{:target="_blank"} ::
+[assignments](/assign)
 
+[cs160]:https://www2.eecs.berkeley.edu/Courses/CS160/
 [bcourses]:https://bcourses.berkeley.edu/courses/1466271
 [piazza]:https://piazza.com/class/j6fjvh1geib77c
-[cs160]:https://www2.eecs.berkeley.edu/Courses/CS160/
+[slides]:https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
+[readin]:https://drive.google.com/open?id=0Bw5c_JsRiheEYUFUUDdKOXlCTDQ
 
 CS160/260A is an introduction to Human Computer Interaction (HCI). You will
 learn to prototype, evaluate, and design a user interface. You will be expected
