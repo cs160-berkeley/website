@@ -64,9 +64,16 @@
 - Class: 3W
   Date: 2017 Sep 6
   WebsiteLabel: Programming Tools in Social Media
-  Topic: "Introduce project space\nIntroduce programming tools\nUsing APIs\nProgramming
-    exercise\nBreak\nAffordance\r\nConceptual Models\r\nSignifiers"
-  Active: T
+  Topic: |-
+    Introduce project space
+    Introduce programming tools
+    Using APIs
+    Programming exercise
+    Break
+    Affordance
+    Conceptual Models
+    Signifiers
+    Metaphors
   Slides: https://drive.google.com/open?id=0B3rmOUWm5OBlRGNvVk56Y1JZRG8
   Assign:
     name: 'A3: Working with APIs'
@@ -83,7 +90,6 @@
   Topic: |-
     Interaction Design
     Modes
-    Metaphors
     Buttons, widgets
     Input devices
     Soft vs. hard buttons
@@ -94,6 +100,7 @@
     Break
     Layout: Visual design--white space
     Compare/contrast among blurred NYTimes, Bing, Craigslist
+  Active: T
   Reading:
   - name: Interface Metaphors
     link: https://webdesign.tutsplus.com/articles/all-about-grid-systems--webdesign-14471
@@ -113,6 +120,8 @@
     Social effects, social leveraging, tagging
     Crowd source work
     Agents, AI
+  Reading:
+  - Understanding Comics Chapter 3
   Assign:
     name: 'A4: Design a UX in pairs'
     link: taking an idea from A2
