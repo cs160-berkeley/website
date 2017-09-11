@@ -47,11 +47,12 @@ Media*. We will be developing web-based applications (either on mobile or
 desktop) to enable people encounter more diverse information through social
 media. Another aspect of our theme is to encourage more constructive
 conversation or interaction among differing perspectives through social media.
-We will be leveraging the [Graph API](https://developers.facebook.com/docs/graph-api/) and other [developer
-tools]( https://developers.facebook.com/) that Facebook offers to enable
-connecting with the user data that’s available within Facebook. While students
-are free to connect with other social media services, we will only be providing
-guidance on the Facebook APIs.
+
+<!--We will be leveraging the [Graph API](https://developers.facebook.com/docs/graph-api/) and other [developer-->
+<!--tools]( https://developers.facebook.com/) that Facebook offers to enable-->
+<!--connecting with the user data that’s available within Facebook. While students-->
+<!--are free to connect with other social media services, we will only be providing-->
+<!--guidance on the Facebook APIs.-->
 
 
 ## course staff
