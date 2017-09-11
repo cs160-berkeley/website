@@ -100,7 +100,7 @@
     Break
     Layout: Visual design--white space
     Compare/contrast among blurred NYTimes, Bing, Craigslist
-  Active: T
+  Slides: https://drive.google.com/open?id=0B3rmOUWm5OBlbWowWExGYVhkYk0
   Reading:
   - name: Interface Metaphors
     link: https://webdesign.tutsplus.com/articles/all-about-grid-systems--webdesign-14471
@@ -120,13 +120,14 @@
     Social effects, social leveraging, tagging
     Crowd source work
     Agents, AI
+  Active: T
   Reading:
   - Understanding Comics Chapter 3
   Assign:
     name: 'A4: Design a UX in pairs'
     link: taking an idea from A2
   Due:
-    name: 'A3: Working with APIs'
+    name: 'A3: Working with APIs Part B'
     link: https://drive.google.com/open?id=1zmvlGO5PD1oi0q1kFFE6l0wZOqwDeVw71w-t0LrFmIw
   StudioWebSiteLabel: Sketching with hands, screens, interfaces
   Studio: Sketching with hands, screens, interfaces
