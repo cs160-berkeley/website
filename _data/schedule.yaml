@@ -122,10 +122,9 @@
     Agents, AI
   Active: T
   Reading:
-  - Understanding Comics Chapter 3
-  Assign:
-    name: 'A4: Design a UX in pairs'
-    link: taking an idea from A2
+  - name: Understanding Comics Chapter 3
+    link: https://drive.google.com/open?id=0Bw5c_JsRiheEby1YNGFiUGRXa1E
+  Assign: 'A4: Design a UX in pairs - taking an idea from A2'
   Due:
     name: 'A3: Working with APIs Part B'
     link: https://drive.google.com/open?id=1zmvlGO5PD1oi0q1kFFE6l0wZOqwDeVw71w-t0LrFmIw
