@@ -121,9 +121,6 @@
     Crowd source work
     Agents, AI
   Active: T
-  Reading:
-  - name: Understanding Comics Chapter 3
-    link: https://drive.google.com/open?id=0Bw5c_JsRiheEby1YNGFiUGRXa1E
   Assign: 'A4: Design a UX in pairs - taking an idea from A2'
   Due:
     name: 'A3: Working with APIs Part B'
@@ -133,6 +130,7 @@
   Notes: |-
     Working-through-task-centered-design
     AboutFaceChap6,https://drive.google.com/open?id=0Bw5c_JsRiheEMUFaOERvV3hKZm8
+    Understanding Comics Chapter 3,https://drive.google.com/open?id=0Bw5c_JsRiheEby1YNGFiUGRXa1E
 - Class: 5M
   Date: 2017 Sep 18
   WebsiteLabel: Human Models
@@ -168,7 +166,7 @@
     Working in teams
     Break
     What to expect on the midterm
-  Due: Heuristic Evaluation
+  Due: 'A5: Heuristic Evaluation'
   StudioWebSiteLabel: Midterm review
   Studio: Midterm review
   Notes: |-
