@@ -121,16 +121,15 @@
     Crowd source work
     Agents, AI
   Active: T
-  Assign: 'A4: Design a UX in pairs - taking an idea from A2'
+  Assign:
+    name: 'A4: Design a UX in pairs - taking an idea from A2'
+    link: https://docs.google.com/document/d/e/2PACX-1vRg2g3oNobxZ0fdlRFOr8eqvjScy9VZtaP5FNdQSM8Z2gKG5Hj6XawpLu0VokOHm5WP-02f6C8n2qnQ/pub
   Due:
     name: 'A3: Working with APIs Part B'
     link: https://drive.google.com/open?id=1zmvlGO5PD1oi0q1kFFE6l0wZOqwDeVw71w-t0LrFmIw
   StudioWebSiteLabel: Sketching with hands, screens, interfaces
   Studio: Sketching with hands, screens, interfaces
-  Notes: |-
-    Working-through-task-centered-design
-    AboutFaceChap6,https://drive.google.com/open?id=0Bw5c_JsRiheEMUFaOERvV3hKZm8
-    Understanding Comics Chapter 3,https://drive.google.com/open?id=0Bw5c_JsRiheEby1YNGFiUGRXa1E
+  Notes: Working-through-task-centered-design
 - Class: 5M
   Date: 2017 Sep 18
   WebsiteLabel: Human Models
@@ -143,15 +142,20 @@
     GOMS
     Hick's Law of choice
   Reading:
-  - name: The Model Human Processor
-    link: https://drive.google.com/open?id=0Bw5c_JsRiheEOWtTMGtsMVdaSk0
+  - name: About Face Chap 6
+    link: https://drive.google.com/open?id=0Bw5c_JsRiheEMUFaOERvV3hKZm8
+  - name: Understanding Comics Chapter 3
+    link: https://drive.google.com/open?id=0Bw5c_JsRiheEby1YNGFiUGRXa1E
+  Notes: The Model Human Processor,https://drive.google.com/open?id=0Bw5c_JsRiheEOWtTMGtsMVdaSk0
 - Class: 5W
   Date: 2017 Sep 20
   WebsiteLabel: |-
     Design Process: Prototyping
     Design Process: Test
   Assign: 'A5: Heuristic Evaluation (individual)'
-  Due: 'A4: Design a UI'
+  Due:
+    name: 'A4: Design a UI'
+    link: https://docs.google.com/document/d/e/2PACX-1vRg2g3oNobxZ0fdlRFOr8eqvjScy9VZtaP5FNdQSM8Z2gKG5Hj6XawpLu0VokOHm5WP-02f6C8n2qnQ/pub
   StudioWebSiteLabel: Critique of UI designs
   Studio: TA leads critique in studio section of selected UI designs
 - Class: 6M
