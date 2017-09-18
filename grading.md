@@ -48,7 +48,7 @@ points as follows:
 - 24 hours — 48 hours:  -20%
 - 48 hours — 72 hours:  -40%
 
-This does not apply to reading responses; there is a zero-tolerance for late reading responses.
+Assignments submitted more than 72 hours late will not be accepted. This does not apply to reading responses; there is a zero-tolerance for late reading responses.
 
 ## regrading policy
 
