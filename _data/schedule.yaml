@@ -141,7 +141,6 @@
     Break
     GOMS
     Hick's Law of choice
-  Active: T
   Reading:
   - name: About Face Chap 6
     link: https://drive.google.com/open?id=0Bw5c_JsRiheEMUFaOERvV3hKZm8
@@ -153,6 +152,7 @@
   WebsiteLabel: |-
     Design Process: Prototyping
     Design Process: Test
+  Active: T
   Assign: 'A5: Heuristic Evaluation (individual)'
   Due:
     name: 'A4: Design a UI'
