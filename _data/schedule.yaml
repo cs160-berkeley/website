@@ -154,7 +154,9 @@
     Design Process: Prototyping
     Design Process: Test
   Active: T
-  Assign: 'A5: Heuristic Evaluation (individual)'
+  Assign:
+    name: 'A5: Heuristic Evaluation (individual)'
+    link: https://docs.google.com/document/d/1u2ZAcu7-j8lVMj190chQM3lxeSWzuTdSYPyPwqYES38/edit#heading=h.3c0lw37ub23a
   Due:
     name: 'A4: Design a UI'
     link: https://docs.google.com/document/d/16RtvHeEAE6rSG9Z4piGjPchPWn86Bz8P9n1TXJ4sZRU/
@@ -172,7 +174,9 @@
     Working in teams
     Break
     What to expect on the midterm
-  Due: 'A5: Heuristic Evaluation'
+  Due:
+    name: 'A5: Heuristic Evaluation'
+    link: https://docs.google.com/document/d/1u2ZAcu7-j8lVMj190chQM3lxeSWzuTdSYPyPwqYES38/edit#heading=h.3c0lw37ub23a
   StudioWebSiteLabel: Midterm review
   Studio: Midterm review
   Notes: |-
