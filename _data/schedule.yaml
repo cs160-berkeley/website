@@ -153,7 +153,7 @@
   WebsiteLabel: |-
     Design Process: Prototyping
     Design Process: Test
-  Active: T
+  Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
   Assign:
     name: 'A5: Heuristic Evaluation (individual)'
     link: https://docs.google.com/document/d/1u2ZAcu7-j8lVMj190chQM3lxeSWzuTdSYPyPwqYES38/edit#heading=h.3c0lw37ub23a
@@ -165,9 +165,11 @@
 - Class: 6M
   Date: 2017 Sep 25
   WebsiteLabel: Visual Design
+  Active: T
+  Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X01
   Reading:
-  - http://practicaltypography.com/
-  - Why Typography Matters chapter
+  - name: http://practicaltypography.com/
+    link: "(ONLY read the chapter on Why Typography Matters)"
 - Class: 6W
   Date: 2017 Sep 27
   WebsiteLabel: 'Project Theme: Bursting Echo Chambers in Social Media'
@@ -177,6 +179,7 @@
     Working in teams
     Break
     What to expect on the midterm
+  Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X02
   Due:
     name: 'A5: Heuristic Evaluation'
     link: https://docs.google.com/document/d/1u2ZAcu7-j8lVMj190chQM3lxeSWzuTdSYPyPwqYES38/edit#heading=h.3c0lw37ub23a
@@ -191,6 +194,7 @@
   WebsiteLabel: Midterm
   Topic: Midterm
   Required: T
+  Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X03
 - Class: 7W
   Date: 2017 Oct 4
   WebsiteLabel: 'Project: Need Finding and Contextual Inquiry'
@@ -203,6 +207,7 @@
     Likert questions
     Surveys
     Amazon Mechanical Turk
+  Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X04
   Assign: 'P1: Form teams of 4 in section. Need finding: observe 2 situations + interview
     + define need'
   StudioWebSiteLabel: Final project team formation
@@ -215,6 +220,7 @@
   Topic: |-
     Defining Need from Observations
     Synthesizing needs from observations
+  Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X05
   Due: Form teams
 - Class: 8W
   Date: 2017 Oct 11
@@ -227,6 +233,7 @@
     Digital: Sreenshots/Web-based/Flash/PowerPoint
     Break
     Need finding checkpoint (in Studios, 40-minutes)
+  Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X06
   Assign: 'P2: Design & lo-fi prototyping'
   StudioWebSiteLabel: 'P1: Need finding presentation (grading)'
   Studio: 'Due: Need finding presentation'
@@ -234,6 +241,7 @@
   Date: 2017 Oct 16
   WebsiteLabel: 'Project: Design and Prototyping checkpoint'
   Topic: "Design & prototyping checkpoint (in Studios) \nPossible guest lecture"
+  Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X07
 - Class: 9W
   Date: 2017 Oct 18
   WebsiteLabel: Prototype Demo (grading)
@@ -241,6 +249,7 @@
     In-class demo of lo-fi prototypes (in Studios, 5 minutes each team) Students see each others' prototypes, even across studios
     Dark horse prototype (15 minutes)
   Required: T
+  Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X08
   Assign: 'P3: Dark horse Prototype'
   Due: 'P2: Design & Prototype demo'
   StudioWebSiteLabel: Dark horse prototype coaching
@@ -253,6 +262,7 @@
     Lo-fi prototypes of concepts
     Task analysis
     Interviews of user study participants
+  Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X09
   Assign: 'P4: Conceptual use study'
   Due: 'P3: Dark horse prototype description'
 - Class: 10W
@@ -261,6 +271,7 @@
   Topic: |-
     Design and working prototype lecture (Tom Chi guest?)
     Human abilities
+  Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X10
   Assign: 'P5: Re-design and implement working prototype'
   StudioWebSiteLabel: 'P4: Conceptual use study plan (grading)'
   Studio: 'Due: Conceptual use study presentation'
@@ -271,6 +282,7 @@
     Prototyping tools (guest lecture)?
     Advanced topics on implementation
     Possible guest lecture
+  Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X11
 - Class: 11W
   Date: 2017 Nov 1
   WebsiteLabel: 'Project: Evaluation'
@@ -284,6 +296,7 @@
     Define core task
     Metrics to collect
     Short interview
+  Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X12
   Assign: 'P6 Part 1: Pilot user study evaluation'
 - Class: 12M
   Date: 2017 Nov 6
@@ -292,6 +305,7 @@
     I circulate among Studios, when not presenting to teaching team, running pilot
     user study, should be able to collect data fromat least 2 pilot studies)
   Required: T
+  Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X13
   Assign: 'P6: Evaluation'
   Due: 'P5 & P6 Part 1: Working Prototype & user study pilot'
 - Class: 12W
@@ -301,6 +315,7 @@
     Guest lecture mobile, voice or  AI/cognitive services
     Break
     Group work time
+  Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X14
   StudioWebSiteLabel: 'Holiday: No Studios'
   Studio: No sections due to holiday
   Notes: 11/10 Holiday
@@ -311,6 +326,7 @@
     Designing the Future: Visions of HCI
     Break
     Group work time
+  Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X15
 - Class: 13W
   Date: 2017 Nov 15
   WebsiteLabel: 'Project: Presenting Your Work'
@@ -320,6 +336,7 @@
     Poster
     Presenting as a team (each person should have a role in final presentation)
     Critically and constructively reviewing others' work
+  Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X16
   Assign: 'P7 Part 1: Final presentations'
   StudioWebSiteLabel: Evaluation presentation (grading)
   Studio: 'Due: Evaluation presentation'
@@ -339,12 +356,14 @@
     45-second video
     Poster Design
     Demo routine
+  Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X17
   Assign: 'P7 Part 2: Design Showcase'
   Due: 'P6: Evaluation'
 - Class: 14W
   Date: 2017 Nov 22
   WebsiteLabel: 'Thanksgiving Holiday: No Class'
   Topic: No instruction
+  Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X18
   StudioWebSiteLabel: 'Holiday: No Studios'
   Studio: No sections due to holiday
   Notes: Thanksgiving
@@ -353,11 +372,13 @@
   WebsiteLabel: Final Presentations (grading)
   Topic: 'P7 Part1: Final Presentations (2 Studios)'
   Required: T
+  Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X19
 - Class: 15W
   Date: 2017 Nov 29
   WebsiteLabel: Final Presentations (grading)
   Topic: 'P7 Part1: Final Presentations (2 Studios)'
   Required: T
+  Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X20
   StudioWebSiteLabel: Design Showcase coaching
   Studio: Design Showcase coaching
 - Class: '16'
@@ -365,4 +386,5 @@
   WebsiteLabel: Design Showcase (grading)
   Topic: 'P7: Part2: Design Showcase'
   Required: T
+  Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X22
   Due: 'Final Showcase: 3:30-6:00pm in 310 Jacobs'
