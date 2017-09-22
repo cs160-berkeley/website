@@ -1,11 +1,11 @@
-Class,Date,Web site Label,Topic,Active,Required,Slides,Reading,Assign,Due,Studio Web Site Label,Studio,Notes
+Class,Date,Web site Label,Topic,Active,Required,Studio,Slides,Reading,Assign,Due,Studio Web Site Label,Studio Notes,Notes
 1W,23-Aug,Introduction: HCI and the Design Process,"Why take this class
 Design Process: Needs, Design, Prototype, Evaluate (Iterate)
 Introduce teaching team & office hours
 Class logistics, qualitative grading
 Break
 Sketching in class
-- dots, lines, squares, circles, 2 point perspective, collab doodle, making something out of 10 circles, people",,T,https://docs.google.com/presentation/d/1ZGSrZ_x_98gGthVtQaqHU_3BN9KCTY8vvEaS3Kt18x8/edit#slide=id.p4,"Rapid Viz, https://drive.google.com/open?id=0Bw5c_JsRiheEQ1M0WkFyTkIyUmM","A1 Berkeley Highlights sketching,/assign/1/",,Section Intro (must attend!),"TA leads studio section, presents own design for critique. More drawing exercises, focus on people",bring at least 3 packets (1500 sheets) of paper (TA) and pens (me) to class
+- dots, lines, squares, circles, 2 point perspective, collab doodle, making something out of 10 circles, people",,T,,https://docs.google.com/presentation/d/1ZGSrZ_x_98gGthVtQaqHU_3BN9KCTY8vvEaS3Kt18x8/edit#slide=id.p4,"Rapid Viz, https://drive.google.com/open?id=0Bw5c_JsRiheEQ1M0WkFyTkIyUmM","A1 Berkeley Highlights sketching,/assign/1/",,Section Intro (must attend!),"TA leads studio section, presents own design for critique. More drawing exercises, focus on people",bring at least 3 packets (1500 sheets) of paper (TA) and pens (me) to class
 2M,28-Aug,Design Process: Empathize and Need Finding,"Images Exercise
 HCI Bloopers
 Design Process: Needs, Design, Implement, Evaluate (Iterate)
@@ -16,7 +16,7 @@ Design Process: Empathize
 Needs - Need-finding
 Contextual Inquiry
 Direct Observation 
-In class exercise of watching perform a task, interview",,,https://docs.google.com/presentation/d/15WqebhyNSk2tWunmXcFQFmQeL1PGnXx0ACAgkoP6Yhs/edit?usp=sharing,"Design of Everyday Things, https://drive.google.com/open?id=0Bw5c_JsRiheESUxXMWZZOVA0dWs
+In class exercise of watching perform a task, interview",,,,https://docs.google.com/presentation/d/15WqebhyNSk2tWunmXcFQFmQeL1PGnXx0ACAgkoP6Yhs/edit?usp=sharing,"Design of Everyday Things, https://drive.google.com/open?id=0Bw5c_JsRiheESUxXMWZZOVA0dWs
 d.school's empathy field guide, https://drive.google.com/open?id=0Bw5c_JsRiheEbW5ZSHZ2aFJpTWM","A2 Need Finding,/assign/2/","A1 Berkeley Highlight,/assign/1/",,, 
 2W,30-Aug,"Design Process: Define
 Design Process: Ideate","Review highlight sketches
@@ -26,8 +26,8 @@ Personas
 Design Process: Ideate
 Brainstorming
 In-class brainstorming exercise--list of 20 ways to do task, then sketch 10 ways to do it
-",,,https://docs.google.com/presentation/d/1zDLT46-lbWS3xQDpC3U758fr_RcF5-W6U_ANOhvolls/edit?usp=sharing,,,,A2 Part3: Point of View Presentation (grading),Due in Studio: POV presentation (90 seconds each), 
-3M,4-Sep,No Class - Holiday,HOLIDAY,,,, ,,,,, 
+",,,,https://docs.google.com/presentation/d/1zDLT46-lbWS3xQDpC3U758fr_RcF5-W6U_ANOhvolls/edit?usp=sharing,,,,A2 Part3: Point of View Presentation (grading),Due in Studio: POV presentation (90 seconds each), 
+3M,4-Sep,No Class - Holiday,HOLIDAY,,,,, ,,,,, 
 3W,6-Sep,Programming Tools in Social Media,"Introduce project space
 Introduce programming tools
 Using APIs
@@ -36,7 +36,7 @@ Break
 Affordance
 Conceptual Models
 Signifiers
-Metaphors",,,https://drive.google.com/open?id=0B3rmOUWm5OBlRGNvVk56Y1JZRG8,,"A3: Working with APIs,https://drive.google.com/open?id=1zmvlGO5PD1oi0q1kFFE6l0wZOqwDeVw71w-t0LrFmIw","A2: Need Finding,/assign/2/",Programming tutorial,Programming tutorial,I'm away Th-Sun
+Metaphors",,,,https://drive.google.com/open?id=0B3rmOUWm5OBlRGNvVk56Y1JZRG8,,"A3: Working with APIs,https://drive.google.com/open?id=1zmvlGO5PD1oi0q1kFFE6l0wZOqwDeVw71w-t0LrFmIw","A2: Need Finding,/assign/2/",Programming tutorial,Programming tutorial,I'm away Th-Sun
 4M,11-Sep,Interaction Design,"Interaction Design
 Modes
 Buttons, widgets
@@ -48,7 +48,7 @@ gesture (Kinect)
 In-class exercise, work around tables, design using web, phone, speech, gesture
 Break
 Layout: Visual design--white space
-Compare/contrast among blurred NYTimes, Bing, Craigslist",,,https://drive.google.com/open?id=0B3rmOUWm5OBlbWowWExGYVhkYk0,"Interface Metaphors, https://webdesign.tutsplus.com/articles/all-about-grid-systems--webdesign-14471",,,,,"Contextual Design (Holtzblatt & Beyer) up through 8.2.4,https://drive.google.com/open?id=0Bw5c_JsRiheEd0l2U2lTT0xLMTA
+Compare/contrast among blurred NYTimes, Bing, Craigslist",,,,https://drive.google.com/open?id=0B3rmOUWm5OBlbWowWExGYVhkYk0,"Interface Metaphors, https://webdesign.tutsplus.com/articles/all-about-grid-systems--webdesign-14471",,,,,"Contextual Design (Holtzblatt & Beyer) up through 8.2.4,https://drive.google.com/open?id=0Bw5c_JsRiheEd0l2U2lTT0xLMTA
 [Landay] Contextual Design
 "
 4W,13-Sep,Design Process: Ideating,"Design Process: Design - Ideating
@@ -60,7 +60,7 @@ Break
 Social effects, social leveraging, tagging
 Crowd source work
 Agents, AI
-",,,https://docs.google.com/presentation/d/1sllyn0WwWFzvQV28OpuoLbNd0XzmiwBhN9y68H6SdVw/,,"A4: Design a UX in pairs - taking an idea from A2,https://docs.google.com/document/d/16RtvHeEAE6rSG9Z4piGjPchPWn86Bz8P9n1TXJ4sZRU/","A3: Working with APIs Part B,https://drive.google.com/open?id=1zmvlGO5PD1oi0q1kFFE6l0wZOqwDeVw71w-t0LrFmIw
+",,,,https://docs.google.com/presentation/d/1sllyn0WwWFzvQV28OpuoLbNd0XzmiwBhN9y68H6SdVw/,,"A4: Design a UX in pairs - taking an idea from A2,https://docs.google.com/document/d/16RtvHeEAE6rSG9Z4piGjPchPWn86Bz8P9n1TXJ4sZRU/","A3: Working with APIs Part B,https://drive.google.com/open?id=1zmvlGO5PD1oi0q1kFFE6l0wZOqwDeVw71w-t0LrFmIw
 ","Sketching with hands, screens, interfaces","Sketching with hands, screens, interfaces","Working-through-task-centered-design
 "
 5M,18-Sep,Human Models,"Human Models (Eric's slides 16-08)
@@ -69,7 +69,7 @@ Fitts' Law--in class exercise of Fitts' Law
 Fitts' exercise
 Break
 GOMS
-Hick's Law of choice",,,https://drive.google.com/open?id=0Bw5c_JsRiheEa2p5RDNLdXZSNUE,"About Face Chap 6,https://drive.google.com/open?id=0Bw5c_JsRiheEMUFaOERvV3hKZm8
+Hick's Law of choice",,,,https://drive.google.com/open?id=0Bw5c_JsRiheEa2p5RDNLdXZSNUE,"About Face Chap 6,https://drive.google.com/open?id=0Bw5c_JsRiheEMUFaOERvV3hKZm8
 Understanding Comics Chapter 3,https://drive.google.com/open?id=0Bw5c_JsRiheEby1YNGFiUGRXa1E",,,,,"The Model Human Processor,https://drive.google.com/open?id=0Bw5c_JsRiheEOWtTMGtsMVdaSk0"
 5W,20-Sep,"Design Process: Prototyping
 Design Process: Test","Design Process: Prototyping
@@ -78,7 +78,7 @@ Low-fidelity prototyping
 Mockups game in-class
 Break
 Heuristic Evaluation - in class exercise of pairing up with user walking through a favorite app
-Describing the studio environment",,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00,,"A5: Heuristic Evaluation (individual),https://docs.google.com/document/d/1u2ZAcu7-j8lVMj190chQM3lxeSWzuTdSYPyPwqYES38/edit#heading=h.3c0lw37ub23a","A4: Design a UI,https://docs.google.com/document/d/16RtvHeEAE6rSG9Z4piGjPchPWn86Bz8P9n1TXJ4sZRU/",Critique of UI designs,TA leads critique in studio section of selected UI designs,"Bring paper and PostIts to class for Mockups materials
+Describing the studio environment",,,,https://drive.google.com/open?id=0Bw5c_JsRiheESmMtcm84Q3RVUkE,,"A5: Heuristic Evaluation (individual),https://docs.google.com/document/d/1u2ZAcu7-j8lVMj190chQM3lxeSWzuTdSYPyPwqYES38/edit#heading=h.3c0lw37ub23a","A4: Design a UI,https://docs.google.com/document/d/16RtvHeEAE6rSG9Z4piGjPchPWn86Bz8P9n1TXJ4sZRU/",,TA leads critique in studio section of selected UI designs,"Bring paper and PostIts to class for Mockups materials
 
 ""How to Conduct a Heuristic Evaluation,https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/ 
 Ten Usability Heuristics,https://www.nngroup.com/articles/ten-usability-heuristics/
@@ -86,21 +86,23 @@ Rating the Severity of Usability Problems,https://www.nngroup.com/articles/how-t
 Contextual Design 8.2.5-8.2.8
 How to Run a Design Critique http://scottberkun.com/essays/23-how-to-run-a-design-critique/
 How to Give and Receive Criticism"""
+5S,22-Sep,Critique of UI designs (STUDIO),,,T,T,,,,,,,
 6M,25-Sep,Visual Design,"Visual Design
 Typography
 Design Language
 Color
 Break
 
-Mid-course check-in",T,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00,"Practical Typography - ONLY the Why Typography Matters Chapter, https://practicaltypography.com/why-typography-matters.html",,,,, 
+Mid-course check-in",T,,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00,"Practical Typography - ONLY the Why Typography Matters Chapter, https://practicaltypography.com/why-typography-matters.html",,,,, 
 6W,27-Sep,Project Theme: Bursting Echo Chambers in Social Media,"Introduce Group Project
   Echo Chambers
 Working in teams
 Break
-What to expect on the midterm",,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00,,,"A5: Heuristic Evaluation,https://docs.google.com/document/d/1u2ZAcu7-j8lVMj190chQM3lxeSWzuTdSYPyPwqYES38/edit#heading=h.3c0lw37ub23a",Midterm review,Midterm review,"DiversePoliticalOpinions
+What to expect on the midterm",,,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00,,,"A5: Heuristic Evaluation,https://docs.google.com/document/d/1u2ZAcu7-j8lVMj190chQM3lxeSWzuTdSYPyPwqYES38/edit#heading=h.3c0lw37ub23a",,Midterm review,"DiversePoliticalOpinions
 [Landay] Working in teams
 [Landay] Tips for Working Successfully in a Group"
-7M,2-Oct,Midterm,Midterm,,T,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00, ,,,,, 
+6S,29-Sep,Midterm review,,,,T,,,,,,,
+7M,2-Oct,Midterm,Midterm,,T,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00, ,,,,, 
 7W,4-Oct,Project: Need Finding and Contextual Inquiry,"Need finding
 Contextual Inquiry
 Needfinding: Direct Observation + Interviews
@@ -108,33 +110,37 @@ Needfinding: Direct Observation + Interviews
 Break
 Likert questions
 Surveys
-Amazon Mechanical Turk",,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00,,P1: Form teams of 4 in section. Need finding: observe 2 situations + interview + define need,,Final project team formation,"More Mockups game rounds, mix it up among teams, reflection on what works and what doesn't, Form teams due by end of Studio",Bring paper and PostIts to Studio for Mockups materials
+Amazon Mechanical Turk",,,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00,,P1: Form teams of 4 in section. Need finding: observe 2 situations + interview + define need,,,"More Mockups game rounds, mix it up among teams, reflection on what works and what doesn't, Form teams due by end of Studio",Bring paper and PostIts to Studio for Mockups materials
+7S,6-Oct,Final project team formation,,,,T,,,,,,,
 8M,9-Oct,Project: From Observations --> Needs,"Defining Need from Observations
-Synthesizing needs from observations",,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00,,,Form teams,,, 
+Synthesizing needs from observations",,,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00,,,Form teams,,, 
 8W,11-Oct,Project: Design and Prototyping,"Design concept
 Lo-fi prototyping
 Paper prototypes
 Wizard of Oz
 Digital: Sreenshots/Web-based/Flash/PowerPoint
 Break
-Need finding checkpoint (in Studios, 40-minutes)",,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00, ,P2: Design & lo-fi prototyping,,P1: Need finding presentation (grading),Due: Need finding presentation,
+Need finding checkpoint (in Studios, 40-minutes)",,,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00, ,P2: Design & lo-fi prototyping,,,Due: Need finding presentation,
+8S,13-Oct,P1: Need finding presentation (grading),,,T,T,,,,,,,
 9M,16-Oct,Project: Design and Prototyping checkpoint,"Design & prototyping checkpoint (in Studios) 
-Possible guest lecture",,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00, ,,,,,
+Possible guest lecture",,,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00, ,,,,,
 9W,18-Oct,Prototype Demo (grading),"In-class demo of lo-fi prototypes (in Studios, 5 minutes each team) Students see each others' prototypes, even across studios
-Dark horse prototype (15 minutes)",,T,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00,,P3: Dark horse Prototype,"P2: Design & Prototype demo
-",Dark horse prototype coaching,"Dark horse coaching on ideas, Mockups games
+Dark horse prototype (15 minutes)",,T,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00,,P3: Dark horse Prototype,"P2: Design & Prototype demo
+",,"Dark horse coaching on ideas, Mockups games
 
 Dark Horse ",
+9S,20-Oct,Dark horse prototype coaching,,,,T,,,,,,,
 10M,23-Oct,Project: Conceptual Use Study,"Conceptual use study
 Focusing in on the biggest question
 Lo-fi prototypes of concepts
 Task analysis
-Interviews of user study participants",,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00, ,P4: Conceptual use study,P3: Dark horse prototype description ,,, 
+Interviews of user study participants",,,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00, ,P4: Conceptual use study,P3: Dark horse prototype description ,,, 
 10W,25-Oct,Project: Working Prototyping,"Design and working prototype lecture (Tom Chi guest?)
-Human abilities",,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00,,P5: Re-design and implement working prototype,,P4: Conceptual use study plan (grading),Due: Conceptual use study presentation, 
+Human abilities",,,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00,,P5: Re-design and implement working prototype,,,Due: Conceptual use study presentation, 
+10S,27-Oct,P4: Conceptual use study plan (grading),,,T,T,,,,,,,
 11M,30-Oct,Guest lecture (TBD),"Prototyping tools (guest lecture)?
 Advanced topics on implementation
-Possible guest lecture",,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00,,,,,, 
+Possible guest lecture",,,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00,,,,,, 
 11W,1-Nov,Project: Evaluation,"Evaluation--designing a study
 Collecting data
 Analyzing data
@@ -143,22 +149,23 @@ Break
 Assign Pilot study and Evaluation
 Define core task
 Metrics to collect
-Short interview",,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00, ,P6 Part 1: Pilot user study evaluation,,,, 
+Short interview",,,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00, ,P6 Part 1: Pilot user study evaluation,,,, 
 12M,6-Nov,Working Prototype Demo (grading),"In-class demo of working prototypes (5 minutes each team, TA grades Studio, I circulate among Studios, when not presenting to teaching team, running pilot user study, should be able to collect data fromat least 2 pilot studies)
-",,T,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00, ,P6: Evaluation,"P5 & P6 Part 1: Working Prototype & user study pilot
+",,T,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00, ,P6: Evaluation,"P5 & P6 Part 1: Working Prototype & user study pilot
 ",,, 
 12W,8-Nov,Guest lecture (TBD) & group work time,"
 Guest lecture mobile, voice or  AI/cognitive services
 Break
-Group work time",,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00, ,,,Holiday: No Studios,No sections due to holiday,11/10 Holiday 
+Group work time",,,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00, ,,,Holiday: No Studios,No sections due to holiday,11/10 Holiday 
 13M,13-Nov,Future Visions of HCI & group work time,"Designing the Future: Visions of HCI
 Break
-Group work time",,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00,,,,,, 
+Group work time",,,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00,,,,,, 
 13W,15-Nov,Project: Presenting Your Work,"Presenting Work
 Oral presentations/demo
 Poster
 Presenting as a team (each person should have a role in final presentation)
-Critically and constructively reviewing others' work",,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00, ,P7 Part 1: Final presentations,,Evaluation presentation (grading),Due: Evaluation presentation,
+Critically and constructively reviewing others' work",,,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00, ,P7 Part 1: Final presentations,,,Due: Evaluation presentation,
+13S,17-Nov,Evaluation presentation (grading),,,T,T,,,,,,,
 14M,20-Nov,"Project: Design Showcase
 HCI in Industry Panel","HCI in Industry panel (Tamas, Sabi/Chagla, Fern, Frank Bentley, Aruna, Tara, Henriette Cramer, Alex Leavitt, Helena Roeber, Molly Mackinlay)
 Where does HCI happen in industry? PM, marketing, centralized, embedded
@@ -169,10 +176,11 @@ Break
 Assign Design Showcase
 45-second video
 Poster Design
-Demo routine",,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00, ,P7 Part 2: Design Showcase,"P6: Evaluation
+Demo routine",,,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00, ,P7 Part 2: Design Showcase,"P6: Evaluation
 ",,, 
-14W,22-Nov,Thanksgiving Holiday: No Class,No instruction,,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00, ,,,Holiday: No Studios,No sections due to holiday,Thanksgiving
-15M,27-Nov,Final Presentations (grading),P7 Part1: Final Presentations (2 Studios),,T,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00, ,,,,, 
-15W,29-Nov,Final Presentations (grading),P7 Part1: Final Presentations (2 Studios) ,,T,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00, ,,,Design Showcase coaching,Design Showcase coaching, 
-, ,, ,,,, ,,,,, 
-16,6-Dec,Design Showcase (grading),P7: Part2: Design Showcase,,T,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00, ,,Final Showcase: 3:30-6:00pm in 310 Jacobs,,, 
+14W,22-Nov,Thanksgiving Holiday: No Class,No instruction,,,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00, ,,,Holiday: No Studios,No sections due to holiday,Thanksgiving
+15M,27-Nov,Final Presentations (grading),P7 Part1: Final Presentations (2 Studios),,T,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00, ,,,,, 
+15W,29-Nov,Final Presentations (grading),P7 Part1: Final Presentations (2 Studios) ,,T,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00, ,,,,Design Showcase coaching, 
+15S,1-Dec,Design Showcase coaching,,,,T,,,,,,,
+, ,, ,,,,, ,,,,, 
+16,6-Dec,Design Showcase (grading),P7: Part2: Design Showcase,,T,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00, ,,Final Showcase: 3:30-6:00pm in 310 Jacobs,,, 

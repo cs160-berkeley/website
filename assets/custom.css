@@ -101,6 +101,10 @@ table.rubric td, th {
     font-size: 14px;
 }
 
+.schedule-item-studio {
+    background: rgba(211,211,211, 0.2);
+}
+
 .schedule-item-active {
     background: rgba(255, 64, 129, 0.25);
 }

@@ -19,7 +19,7 @@
     name: A1 Berkeley Highlights sketching
     link: "/assign/1/"
   StudioWebSiteLabel: Section Intro (must attend!)
-  Studio: TA leads studio section, presents own design for critique. More drawing
+  StudioNotes: TA leads studio section, presents own design for critique. More drawing
     exercises, focus on people
   Notes: bring at least 3 packets (1500 sheets) of paper (TA) and pens (me) to class
 - Class: 2M
@@ -56,7 +56,7 @@
     In-class brainstorming exercise--list of 20 ways to do task, then sketch 10 ways to do it
   Slides: https://docs.google.com/presentation/d/1zDLT46-lbWS3xQDpC3U758fr_RcF5-W6U_ANOhvolls/edit?usp=sharing
   StudioWebSiteLabel: 'A2 Part3: Point of View Presentation (grading)'
-  Studio: 'Due in Studio: POV presentation (90 seconds each)'
+  StudioNotes: 'Due in Studio: POV presentation (90 seconds each)'
 - Class: 3M
   Date: 2017 Sep 4
   WebsiteLabel: No Class - Holiday
@@ -82,7 +82,7 @@
     name: 'A2: Need Finding'
     link: "/assign/2/"
   StudioWebSiteLabel: Programming tutorial
-  Studio: Programming tutorial
+  StudioNotes: Programming tutorial
   Notes: I'm away Th-Sun
 - Class: 4M
   Date: 2017 Sep 11
@@ -128,7 +128,7 @@
     name: 'A3: Working with APIs Part B'
     link: https://drive.google.com/open?id=1zmvlGO5PD1oi0q1kFFE6l0wZOqwDeVw71w-t0LrFmIw
   StudioWebSiteLabel: Sketching with hands, screens, interfaces
-  Studio: Sketching with hands, screens, interfaces
+  StudioNotes: Sketching with hands, screens, interfaces
   Notes: Working-through-task-centered-design
 - Class: 5M
   Date: 2017 Sep 18
@@ -153,15 +153,19 @@
   WebsiteLabel: |-
     Design Process: Prototyping
     Design Process: Test
-  Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
+  Slides: https://drive.google.com/open?id=0Bw5c_JsRiheESmMtcm84Q3RVUkE
   Assign:
     name: 'A5: Heuristic Evaluation (individual)'
     link: https://docs.google.com/document/d/1u2ZAcu7-j8lVMj190chQM3lxeSWzuTdSYPyPwqYES38/edit#heading=h.3c0lw37ub23a
   Due:
     name: 'A4: Design a UI'
     link: https://docs.google.com/document/d/16RtvHeEAE6rSG9Z4piGjPchPWn86Bz8P9n1TXJ4sZRU/
-  StudioWebSiteLabel: Critique of UI designs
-  Studio: TA leads critique in studio section of selected UI designs
+  StudioNotes: TA leads critique in studio section of selected UI designs
+- Class: 5S
+  Date: 2017 Sep 22
+  WebsiteLabel: Critique of UI designs (STUDIO)
+  Required: T
+  Studio: T
 - Class: 6M
   Date: 2017 Sep 25
   WebsiteLabel: Visual Design
@@ -183,12 +187,15 @@
   Due:
     name: 'A5: Heuristic Evaluation'
     link: https://docs.google.com/document/d/1u2ZAcu7-j8lVMj190chQM3lxeSWzuTdSYPyPwqYES38/edit#heading=h.3c0lw37ub23a
-  StudioWebSiteLabel: Midterm review
-  Studio: Midterm review
+  StudioNotes: Midterm review
   Notes: |-
     DiversePoliticalOpinions
     [Landay] Working in teams
     [Landay] Tips for Working Successfully in a Group
+- Class: 6S
+  Date: 2017 Sep 29
+  WebsiteLabel: Midterm review
+  Studio: T
 - Class: 7M
   Date: 2017 Oct 2
   WebsiteLabel: Midterm
@@ -210,10 +217,13 @@
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
   Assign: 'P1: Form teams of 4 in section. Need finding: observe 2 situations + interview
     + define need'
-  StudioWebSiteLabel: Final project team formation
-  Studio: More Mockups game rounds, mix it up among teams, reflection on what works
-    and what doesn't, Form teams due by end of Studio
+  StudioNotes: More Mockups game rounds, mix it up among teams, reflection on what
+    works and what doesn't, Form teams due by end of Studio
   Notes: Bring paper and PostIts to Studio for Mockups materials
+- Class: 7S
+  Date: 2017 Oct 6
+  WebsiteLabel: Final project team formation
+  Studio: T
 - Class: 8M
   Date: 2017 Oct 9
   WebsiteLabel: 'Project: From Observations --> Needs'
@@ -235,8 +245,12 @@
     Need finding checkpoint (in Studios, 40-minutes)
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
   Assign: 'P2: Design & lo-fi prototyping'
-  StudioWebSiteLabel: 'P1: Need finding presentation (grading)'
-  Studio: 'Due: Need finding presentation'
+  StudioNotes: 'Due: Need finding presentation'
+- Class: 8S
+  Date: 2017 Oct 13
+  WebsiteLabel: 'P1: Need finding presentation (grading)'
+  Required: T
+  Studio: T
 - Class: 9M
   Date: 2017 Oct 16
   WebsiteLabel: 'Project: Design and Prototyping checkpoint'
@@ -252,7 +266,10 @@
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
   Assign: 'P3: Dark horse Prototype'
   Due: 'P2: Design & Prototype demo'
-  StudioWebSiteLabel: Dark horse prototype coaching
+- Class: 9S
+  Date: 2017 Oct 20
+  WebsiteLabel: Dark horse prototype coaching
+  Studio: T
 - Class: 10M
   Date: 2017 Oct 23
   WebsiteLabel: 'Project: Conceptual Use Study'
@@ -273,8 +290,12 @@
     Human abilities
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
   Assign: 'P5: Re-design and implement working prototype'
-  StudioWebSiteLabel: 'P4: Conceptual use study plan (grading)'
-  Studio: 'Due: Conceptual use study presentation'
+  StudioNotes: 'Due: Conceptual use study presentation'
+- Class: 10S
+  Date: 2017 Oct 27
+  WebsiteLabel: 'P4: Conceptual use study plan (grading)'
+  Required: T
+  Studio: T
 - Class: 11M
   Date: 2017 Oct 30
   WebsiteLabel: Guest lecture (TBD)
@@ -317,7 +338,7 @@
     Group work time
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
   StudioWebSiteLabel: 'Holiday: No Studios'
-  Studio: No sections due to holiday
+  StudioNotes: No sections due to holiday
   Notes: 11/10 Holiday
 - Class: 13M
   Date: 2017 Nov 13
@@ -338,8 +359,12 @@
     Critically and constructively reviewing others' work
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
   Assign: 'P7 Part 1: Final presentations'
-  StudioWebSiteLabel: Evaluation presentation (grading)
-  Studio: 'Due: Evaluation presentation'
+  StudioNotes: 'Due: Evaluation presentation'
+- Class: 13S
+  Date: 2017 Nov 17
+  WebsiteLabel: Evaluation presentation (grading)
+  Required: T
+  Studio: T
 - Class: 14M
   Date: 2017 Nov 20
   WebsiteLabel: |-
@@ -365,7 +390,7 @@
   Topic: No instruction
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
   StudioWebSiteLabel: 'Holiday: No Studios'
-  Studio: No sections due to holiday
+  StudioNotes: No sections due to holiday
   Notes: Thanksgiving
 - Class: 15M
   Date: 2017 Nov 27
@@ -379,8 +404,11 @@
   Topic: 'P7 Part1: Final Presentations (2 Studios)'
   Required: T
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
-  StudioWebSiteLabel: Design Showcase coaching
-  Studio: Design Showcase coaching
+  StudioNotes: Design Showcase coaching
+- Class: 15S
+  Date: 2017 Dec 1
+  WebsiteLabel: Design Showcase coaching
+  Studio: T
 - Class: '16'
   Date: 2017 Dec 6
   WebsiteLabel: Design Showcase (grading)

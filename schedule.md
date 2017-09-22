@@ -13,8 +13,11 @@ title: schedule
 {% for class in site.data.schedule %}
 {% if class.Class %}
     <li {% if class.Active %}id="current-class"{% endif %}
-    class="schedule-item {% if class.Active %}schedule-item-active{% endif %}">
+    class="schedule-item
+    {% if class.Studio %}schedule-item-studio{% endif %}
+    {% if class.Active %}schedule-item-active{% endif %}">
       <span class="schedule-sep">{{ class.Date | date: "%b %-d" | downcase }}
+      {% if class.Studio %} :: studio {% endif %}
         <span class="schedule-item-notice">
           {% if class.Required %}
           <a href="#"><i class="material-icons">feedback</i></a>
