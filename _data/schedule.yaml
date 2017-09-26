@@ -163,31 +163,24 @@
   StudioNotes: TA leads critique in studio section of selected UI designs
 - Class: 5S
   Date: 2017 Sep 22
-  WebsiteLabel: Critique of UI designs (STUDIO)
+  WebsiteLabel: Critique of UI designs
   Required: T
   Studio: T
 - Class: 6M
   Date: 2017 Sep 25
-  WebsiteLabel: Visual Design
+  WebsiteLabel: Graphic Design and Teamwork
   Active: T
-  Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
+  Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEVG1yU3Nmd0NhNm8
   Reading:
   - name: Practical Typography - ONLY the Why Typography Matters Chapter
     link: https://practicaltypography.com/why-typography-matters.html
 - Class: 6W
   Date: 2017 Sep 27
-  WebsiteLabel: 'Project Theme: Bursting Echo Chambers in Social Media'
-  Topic: |-
-    Introduce Group Project
-      Echo Chambers
-    Working in teams
-    Break
-    What to expect on the midterm
+  WebsiteLabel: 'Surveys and Project Theme: Bursting Echo Chambers in Social Media'
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
   Due:
     name: 'A5: Heuristic Evaluation'
     link: https://docs.google.com/document/d/1u2ZAcu7-j8lVMj190chQM3lxeSWzuTdSYPyPwqYES38/edit#heading=h.3c0lw37ub23a
-  StudioNotes: Midterm review
   Notes: |-
     DiversePoliticalOpinions
     [Landay] Working in teams
@@ -196,6 +189,7 @@
   Date: 2017 Sep 29
   WebsiteLabel: Midterm review
   Studio: T
+  StudioNotes: Midterm review
 - Class: 7M
   Date: 2017 Oct 2
   WebsiteLabel: Midterm
@@ -207,23 +201,21 @@
   WebsiteLabel: 'Project: Need Finding and Contextual Inquiry'
   Topic: |-
     Need finding
+    Task analysis
     Contextual Inquiry
     Needfinding: Direct Observation + Interviews
     (Ethnography)
     Break
-    Likert questions
-    Surveys
-    Amazon Mechanical Turk
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
   Assign: 'P1: Form teams of 4 in section. Need finding: observe 2 situations + interview
     + define need'
-  StudioNotes: More Mockups game rounds, mix it up among teams, reflection on what
-    works and what doesn't, Form teams due by end of Studio
   Notes: Bring paper and PostIts to Studio for Mockups materials
 - Class: 7S
   Date: 2017 Oct 6
   WebsiteLabel: Final project team formation
   Studio: T
+  StudioNotes: More Mockups game rounds, mix it up among teams, reflection on what
+    works and what doesn't, Form teams due by end of Studio
 - Class: 8M
   Date: 2017 Oct 9
   WebsiteLabel: 'Project: From Observations --> Needs'
@@ -245,12 +237,12 @@
     Need finding checkpoint (in Studios, 40-minutes)
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
   Assign: 'P2: Design & lo-fi prototyping'
-  StudioNotes: 'Due: Need finding presentation'
 - Class: 8S
   Date: 2017 Oct 13
   WebsiteLabel: 'P1: Need finding presentation (grading)'
   Required: T
   Studio: T
+  StudioNotes: 'Due: Need finding presentation'
 - Class: 9M
   Date: 2017 Oct 16
   WebsiteLabel: 'Project: Design and Prototyping checkpoint'
@@ -290,12 +282,12 @@
     Human abilities
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
   Assign: 'P5: Re-design and implement working prototype'
-  StudioNotes: 'Due: Conceptual use study presentation'
 - Class: 10S
   Date: 2017 Oct 27
   WebsiteLabel: 'P4: Conceptual use study plan (grading)'
   Required: T
   Studio: T
+  StudioNotes: 'Due: Conceptual use study presentation'
 - Class: 11M
   Date: 2017 Oct 30
   WebsiteLabel: Guest lecture (TBD)
@@ -359,12 +351,12 @@
     Critically and constructively reviewing others' work
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
   Assign: 'P7 Part 1: Final presentations'
-  StudioNotes: 'Due: Evaluation presentation'
 - Class: 13S
   Date: 2017 Nov 17
   WebsiteLabel: Evaluation presentation (grading)
   Required: T
   Studio: T
+  StudioNotes: 'Due: Evaluation presentation'
 - Class: 14M
   Date: 2017 Nov 20
   WebsiteLabel: |-
@@ -404,11 +396,11 @@
   Topic: 'P7 Part1: Final Presentations (2 Studios)'
   Required: T
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
-  StudioNotes: Design Showcase coaching
 - Class: 15S
   Date: 2017 Dec 1
   WebsiteLabel: Design Showcase coaching
   Studio: T
+  StudioNotes: Design Showcase coaching
 - Class: '16'
   Date: 2017 Dec 6
   WebsiteLabel: Design Showcase (grading)
