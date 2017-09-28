@@ -188,8 +188,8 @@
 - Class: 6S
   Date: 2017 Sep 29
   WebsiteLabel: Midterm review
+  Topic: Midterm review
   Studio: T
-  StudioNotes: Midterm review
 - Class: 7M
   Date: 2017 Oct 2
   WebsiteLabel: Midterm
@@ -213,9 +213,9 @@
 - Class: 7S
   Date: 2017 Oct 6
   WebsiteLabel: Final project team formation
+  Topic: More Mockups game rounds, mix it up among teams, reflection on what works
+    and what doesn't, Form teams due by end of Studio
   Studio: T
-  StudioNotes: More Mockups game rounds, mix it up among teams, reflection on what
-    works and what doesn't, Form teams due by end of Studio
 - Class: 8M
   Date: 2017 Oct 9
   WebsiteLabel: 'Project: From Observations --> Needs'
@@ -240,9 +240,9 @@
 - Class: 8S
   Date: 2017 Oct 13
   WebsiteLabel: 'P1: Need finding presentation (grading)'
+  Topic: 'Due: Need finding presentation'
   Required: T
   Studio: T
-  StudioNotes: 'Due: Need finding presentation'
 - Class: 9M
   Date: 2017 Oct 16
   WebsiteLabel: 'Project: Design and Prototyping checkpoint'
@@ -285,9 +285,9 @@
 - Class: 10S
   Date: 2017 Oct 27
   WebsiteLabel: 'P4: Conceptual use study plan (grading)'
+  Topic: 'Due: Conceptual use study presentation'
   Required: T
   Studio: T
-  StudioNotes: 'Due: Conceptual use study presentation'
 - Class: 11M
   Date: 2017 Oct 30
   WebsiteLabel: Guest lecture (TBD)
@@ -354,9 +354,9 @@
 - Class: 13S
   Date: 2017 Nov 17
   WebsiteLabel: Evaluation presentation (grading)
+  Topic: 'Due: Evaluation presentation'
   Required: T
   Studio: T
-  StudioNotes: 'Due: Evaluation presentation'
 - Class: 14M
   Date: 2017 Nov 20
   WebsiteLabel: |-
@@ -399,8 +399,8 @@
 - Class: 15S
   Date: 2017 Dec 1
   WebsiteLabel: Design Showcase coaching
+  Topic: Design Showcase coaching
   Studio: T
-  StudioNotes: Design Showcase coaching
 - Class: '16'
   Date: 2017 Dec 6
   WebsiteLabel: Design Showcase (grading)
