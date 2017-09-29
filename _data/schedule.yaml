@@ -169,7 +169,6 @@
 - Class: 6M
   Date: 2017 Sep 25
   WebsiteLabel: Graphic Design and Teamwork
-  Active: T
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEVG1yU3Nmd0NhNm8
   Reading:
   - name: Practical Typography - ONLY the Why Typography Matters Chapter
@@ -189,6 +188,7 @@
   Date: 2017 Sep 29
   WebsiteLabel: Midterm review
   Topic: Midterm review
+  Active: T
   Studio: T
 - Class: 7M
   Date: 2017 Oct 2
