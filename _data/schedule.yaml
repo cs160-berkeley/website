@@ -188,7 +188,6 @@
   Date: 2017 Sep 29
   WebsiteLabel: Midterm review
   Topic: Midterm review
-  Active: T
   Studio: T
 - Class: 7M
   Date: 2017 Oct 2
@@ -206,6 +205,9 @@
     Needfinding: Direct Observation + Interviews
     (Ethnography)
     Break
+    Mockups game
+    Distribute group forming survey
+  Active: T
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
   Assign: 'P1: Form teams of 4 in section. Need finding: observe 2 situations + interview
     + define need'
@@ -216,14 +218,16 @@
   Topic: More Mockups game rounds, mix it up among teams, reflection on what works
     and what doesn't, Form teams due by end of Studio
   Studio: T
+  Due: Form teams
 - Class: 8M
   Date: 2017 Oct 9
   WebsiteLabel: 'Project: From Observations --> Needs'
   Topic: |-
     Defining Need from Observations
     Synthesizing needs from observations
+    Break
+    Need finding checkpoint (Grouped by Studios, 40-minutes)
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
-  Due: Form teams
 - Class: 8W
   Date: 2017 Oct 11
   WebsiteLabel: 'Project: Design and Prototyping'
@@ -234,7 +238,6 @@
     Wizard of Oz
     Digital: Sreenshots/Web-based/Flash/PowerPoint
     Break
-    Need finding checkpoint (in Studios, 40-minutes)
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
   Assign: 'P2: Design & lo-fi prototyping'
 - Class: 8S
@@ -243,6 +246,7 @@
   Topic: 'Due: Need finding presentation'
   Required: T
   Studio: T
+  Due: 'P1: Need finding'
 - Class: 9M
   Date: 2017 Oct 16
   WebsiteLabel: 'Project: Design and Prototyping checkpoint'
@@ -288,6 +292,7 @@
   Topic: 'Due: Conceptual use study presentation'
   Required: T
   Studio: T
+  Due: 'P4: Conceptual use study'
 - Class: 11M
   Date: 2017 Oct 30
   WebsiteLabel: Guest lecture (TBD)
@@ -357,6 +362,7 @@
   Topic: 'Due: Evaluation presentation'
   Required: T
   Studio: T
+  Due: 'P6: Evaluation'
 - Class: 14M
   Date: 2017 Nov 20
   WebsiteLabel: |-
@@ -375,7 +381,6 @@
     Demo routine
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
   Assign: 'P7 Part 2: Design Showcase'
-  Due: 'P6: Evaluation'
 - Class: 14W
   Date: 2017 Nov 22
   WebsiteLabel: 'Thanksgiving Holiday: No Class'
@@ -411,3 +416,4 @@
 - Class: '17'
   Date: 2017 Dec 11
   WebsiteLabel: Final Report due
+  Topic: 5:00pm online submission deadline
