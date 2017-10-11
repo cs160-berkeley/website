@@ -209,7 +209,7 @@
     Distribute group forming survey
   Slides: https://drive.google.com/open?id=1BzDGrMGYiF04F3s6HBdLvF-_T_IePtaRl_78lyr79B4
   Assign:
-    name: 'P1: Form teams of 4 in section. Need finding: observe 2 situations + interview
+    name: 'P1: Form teams of 4 in section. Need finding. Observe 2 situations + interview
       + define need'
     link: https://docs.google.com/document/d/1NFo329Ben-2aX0j0qH6jmfUQI4VuO54nTFY7WxLsdNQ/
   Notes: Bring paper and PostIts to Studio for Mockups materials
@@ -218,7 +218,6 @@
   WebsiteLabel: Final project team formation
   Topic: More Mockups game rounds, mix it up among teams, reflection on what works
     and what doesn't, Form teams due by end of Studio
-  Active: T
   Studio: T
   Due: Form teams
 - Class: 8M
@@ -240,34 +239,45 @@
     Wizard of Oz
     Digital: Sreenshots/Web-based/Flash/PowerPoint
     Break
+    Launch P2
+  Active: T
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
-  Assign: 'P2: Design & lo-fi prototyping'
+  Assign:
+    name: 'P2: Design & lo-fi prototyping'
+    link: https://docs.google.com/document/d/1WWlICecbVL8XdVkPEJXpUOhKE3_bSY1mENoiZP4qLtE/edit?usp=sharing
 - Class: 8S
   Date: 2017 Oct 13
   WebsiteLabel: 'P1: Need finding presentation (grading)'
   Topic: 'Due: Need finding presentation'
   Required: T
   Studio: T
-  Due: 'P1: Need finding'
+  Due:
+    name: 'P1: Need finding'
+    link: https://docs.google.com/document/d/1NFo329Ben-2aX0j0qH6jmfUQI4VuO54nTFY7WxLsdNQ/
 - Class: 9M
   Date: 2017 Oct 16
   WebsiteLabel: 'Project: Design and Prototyping checkpoint'
-  Topic: "Design & prototyping checkpoint (in Studios) \nPossible guest lecture"
+  Topic: "Design & prototyping coaching (in Studio groups) \nPossible guest lecture"
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
 - Class: 9W
   Date: 2017 Oct 18
-  WebsiteLabel: Prototype Demo (grading)
+  WebsiteLabel: Dark horse prototyping
   Topic: |-
-    In-class demo of lo-fi prototypes (in Studios, 5 minutes each team) Students see each others' prototypes, even across studios
     Dark horse prototype (15 minutes)
-  Required: T
+    Launch P3
+    Design & prototyping coaching (in Studio groups)
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
   Assign: 'P3: Dark horse Prototype'
-  Due: 'P2: Design & Prototype demo'
 - Class: 9S
   Date: 2017 Oct 20
-  WebsiteLabel: Dark horse prototype coaching
+  WebsiteLabel: Prototype Demo (grading)
+  Topic: Demo of lo-fi prototype for a grade (in Studios, 5 minutes each team). When
+    not being graded, student teams demo to each other for practice and feedback.
+  Required: T
   Studio: T
+  Due:
+    name: 'P2: Design & Prototype demo'
+    link: https://docs.google.com/document/d/1WWlICecbVL8XdVkPEJXpUOhKE3_bSY1mENoiZP4qLtE/edit?usp=sharing
 - Class: 10M
   Date: 2017 Oct 23
   WebsiteLabel: 'Project: Conceptual Use Study'
@@ -277,32 +287,39 @@
     Lo-fi prototypes of concepts
     Task analysis
     Interviews of user study participants
+    Launch P4
+    Break
+    Dark horse coaching on ideas (in Studio groups), Perhaps more Mockups games
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
   Assign: 'P4: Conceptual use study'
-  Due: 'P3: Dark horse prototype description'
 - Class: 10W
   Date: 2017 Oct 25
   WebsiteLabel: 'Project: Working Prototyping'
   Topic: |-
-    Design and working prototype lecture (Tom Chi guest?)
-    Human abilities
+    Dark horse demo in class (grading)
+    Conceptual use study coaching (in Studio groups)
+  Required: T
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
-  Assign: 'P5: Re-design and implement working prototype'
+  Due: 'P3: Dark horse prototype demo and submission'
 - Class: 10S
   Date: 2017 Oct 27
   WebsiteLabel: 'P4: Conceptual use study plan (grading)'
-  Topic: 'Due: Conceptual use study presentation'
+  Topic: 'Due: Conduct conceptual use study'
   Required: T
   Studio: T
-  Due: 'P4: Conceptual use study'
+  Due: 'P4: Conduct Conceptual use study'
 - Class: 11M
   Date: 2017 Oct 30
   WebsiteLabel: Guest lecture (TBD)
   Topic: |-
+    Programming lecture?
     Prototyping tools (guest lecture)?
     Advanced topics on implementation
     Possible guest lecture
+    Launch P5
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
+  Assign: 'P5: Re-design and implement working prototype'
+  Due: 'P4: Submit conceptual use study results'
 - Class: 11W
   Date: 2017 Nov 1
   WebsiteLabel: 'Project: Evaluation'
@@ -312,12 +329,17 @@
     Analyzing data
     Visualizing data
     Break
-    Assign Pilot study and Evaluation
+    Launch P6 Part 1: Pilot study and Evaluation
     Define core task
     Metrics to collect
     Short interview
+    Working prototype coaching (in Studio groups)
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
   Assign: 'P6 Part 1: Pilot user study evaluation'
+- Class: 11S
+  Date: 2017 Nov 3
+  WebsiteLabel: Pilot User Study Coaching
+  Topic: Coaching on how to design a pilot user study
 - Class: 12M
   Date: 2017 Nov 6
   WebsiteLabel: Working Prototype Demo (grading)
@@ -334,7 +356,7 @@
   Topic: |-
     Guest lecture mobile, voice or  AI/cognitive services
     Break
-    Group work time
+    Group coaching time
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
   StudioWebSiteLabel: 'Holiday: No Studios'
   StudioNotes: No sections due to holiday
@@ -345,19 +367,19 @@
   Topic: |-
     Designing the Future: Visions of HCI
     Break
-    Group work time
+    Group coaching time
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
 - Class: 13W
   Date: 2017 Nov 15
-  WebsiteLabel: 'Project: Presenting Your Work'
-  Topic: |-
-    Presenting Work
-    Oral presentations/demo
-    Poster
-    Presenting as a team (each person should have a role in final presentation)
-    Critically and constructively reviewing others' work
+  WebsiteLabel: |-
+    Project: Design Showcase
+    HCI in Industry Panel
+  Topic: "HCI in Industry panel (Tamas, Sabi/Chagla, Fern, \nFrank Bentley, Aruna,
+    Tara, Henriette Cramer, Alex Leavitt, \nHelena Roeber, Molly Mackinlay) \nWhere
+    does HCI happen in industry? PM, marketing, centralized, embedded \nLiving in
+    an engineering-driven world \nGetting involved early: definining utility, not
+    just usability \nDealing with pushback: Evidence to convince, ally with dev"
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
-  Assign: 'P7 Part 1: Final presentations'
 - Class: 13S
   Date: 2017 Nov 17
   WebsiteLabel: Evaluation presentation (grading)
@@ -367,22 +389,19 @@
   Due: 'P6: Evaluation'
 - Class: 14M
   Date: 2017 Nov 20
-  WebsiteLabel: |-
-    Project: Design Showcase
-    HCI in Industry Panel
-  Topic: |-
-    HCI in Industry panel (Tamas, Sabi/Chagla, Fern, Frank Bentley, Aruna, Tara, Henriette Cramer, Alex Leavitt, Helena Roeber, Molly Mackinlay)
-    Where does HCI happen in industry? PM, marketing, centralized, embedded
-    Living in an engineering-driven world
-    Getting involved early: definining utility, not just usability
-    Dealing with pushback: Evidence to convince, ally with dev
-    Break
-    Assign Design Showcase
-    45-second video
-    Poster Design
-    Demo routine
+  WebsiteLabel: 'Project: Presenting Your Work'
+  Topic: "Presenting Work\nOral presentations/demo\nPoster\nPresenting as a team (each
+    person should have a role in final presentation)\nCritically and constructively
+    reviewing others' work\nBreak\nLaunch P7: \nFinal Presentation (in 2 class sessions)\nDesign
+    Showcase\n45-second video\nPoster Design\nDemo routine\nFinal Report"
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
-  Assign: 'P7 Part 2: Design Showcase'
+  Assign:
+    name: |-
+      P7 Part 1: Final presentations
+      Part 2: Design Showcase (poster
+    link: |-
+      demo)
+      Part 3: Final Report
 - Class: 14W
   Date: 2017 Nov 22
   WebsiteLabel: 'Thanksgiving Holiday: No Class'
@@ -397,12 +416,14 @@
   Topic: 'P7 Part1: Final Presentations (2 Studios)'
   Required: T
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
+  Due: 'P7 Part 2: Final Presentations'
 - Class: 15W
   Date: 2017 Nov 29
   WebsiteLabel: Final Presentations (grading)
   Topic: 'P7 Part1: Final Presentations (2 Studios)'
   Required: T
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
+  Due: 'P7 Part 2: Final Presentations'
 - Class: 15S
   Date: 2017 Dec 1
   WebsiteLabel: Design Showcase coaching
