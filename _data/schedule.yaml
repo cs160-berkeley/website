@@ -240,8 +240,7 @@
     Digital: Sreenshots/Web-based/Flash/PowerPoint
     Break
     Launch P2
-  Active: T
-  Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
+  Slides: https://drive.google.com/open?id=1rlDCkgbqCR82ad11V1gn8yTRsniDld-U22QOwAsg1N8
   Assign:
     name: 'P2: Design & lo-fi prototyping'
     link: https://docs.google.com/document/d/1WWlICecbVL8XdVkPEJXpUOhKE3_bSY1mENoiZP4qLtE/edit?usp=sharing
@@ -258,6 +257,7 @@
   Date: 2017 Oct 16
   WebsiteLabel: 'Project: Design and Prototyping checkpoint'
   Topic: "Design & prototyping coaching (in Studio groups) \nPossible guest lecture"
+  Active: T
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
 - Class: 9W
   Date: 2017 Oct 18
@@ -310,7 +310,9 @@
   Due: 'P4: Conduct Conceptual use study'
 - Class: 11M
   Date: 2017 Oct 30
-  WebsiteLabel: Guest lecture (TBD)
+  WebsiteLabel: |-
+    Guest lecture
+    Frank Bentley
   Topic: |-
     Programming lecture?
     Prototyping tools (guest lecture)?
@@ -374,11 +376,12 @@
   WebsiteLabel: |-
     Project: Design Showcase
     HCI in Industry Panel
-  Topic: "HCI in Industry panel (Tamas, Sabi/Chagla, Fern, \nFrank Bentley, Aruna,
-    Tara, Henriette Cramer, Alex Leavitt, \nHelena Roeber, Molly Mackinlay) \nWhere
-    does HCI happen in industry? PM, marketing, centralized, embedded \nLiving in
-    an engineering-driven world \nGetting involved early: definining utility, not
-    just usability \nDealing with pushback: Evidence to convince, ally with dev"
+  Topic: "Careers in HCI panel (Tamas, Sabi/Chagla, Fern, \nFrank Bentley, Aruna,
+    Tara, Henriette Cramer, Alex Leavitt, Moira Burke, Lauren Scissors\nHelena Roeber,
+    Molly Mackinlay) \nWhere does HCI happen in industry? PM, marketing, centralized,
+    embedded \nLiving in an engineering-driven world \nGetting involved early: definining
+    utility, not just usability \nDealing with pushback: Evidence to convince, ally
+    with dev"
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
 - Class: 13S
   Date: 2017 Nov 17
