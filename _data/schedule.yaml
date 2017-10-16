@@ -257,7 +257,6 @@
   Date: 2017 Oct 16
   WebsiteLabel: 'Project: Design and Prototyping checkpoint'
   Topic: "Design & prototyping coaching (in Studio groups) \nPossible guest lecture"
-  Active: T
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
 - Class: 9W
   Date: 2017 Oct 18
@@ -266,6 +265,7 @@
     Dark horse prototype (15 minutes)
     Launch P3
     Design & prototyping coaching (in Studio groups)
+  Active: t
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
   Assign: 'P3: Dark horse Prototype'
 - Class: 9S
@@ -398,13 +398,10 @@
     reviewing others' work\nBreak\nLaunch P7: \nFinal Presentation (in 2 class sessions)\nDesign
     Showcase\n45-second video\nPoster Design\nDemo routine\nFinal Report"
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
-  Assign:
-    name: |-
-      P7 Part 1: Final presentations
-      Part 2: Design Showcase (poster
-    link: |-
-      demo)
-      Part 3: Final Report
+  Assign: |-
+    P7 Part 1: Final presentations
+    Part 2: Design Showcase (poster + demo)
+    Part 3: Final Report
 - Class: 14W
   Date: 2017 Nov 22
   WebsiteLabel: 'Thanksgiving Holiday: No Class'
