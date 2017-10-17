@@ -264,10 +264,13 @@
   Topic: |-
     Dark horse prototype (15 minutes)
     Launch P3
+    break
     Design & prototyping coaching (in Studio groups)
-  Active: t
+  Active: T
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
-  Assign: 'P3: Dark horse Prototype'
+  Assign:
+    name: 'P3: Dark horse Prototype'
+    link: https://docs.google.com/document/d/1KQ_sj9vjlnGjpapQsgNHHdmTKIFS6cHMJFnrb4onvvs/edit#
 - Class: 9S
   Date: 2017 Oct 20
   WebsiteLabel: Prototype Demo (grading)
@@ -285,6 +288,10 @@
     Conceptual use study
     Focusing in on the biggest question
     Lo-fi prototypes of concepts
+    Utility vs. usability
+    Within condition vs. between condition
+    Conducting studies in parallel
+    Pilot test
     Task analysis
     Interviews of user study participants
     Launch P4
@@ -300,7 +307,9 @@
     Conceptual use study coaching (in Studio groups)
   Required: T
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
-  Due: 'P3: Dark horse prototype demo and submission'
+  Due:
+    name: 'P3: Dark horse prototype demo and submission'
+    link: https://docs.google.com/document/d/1KQ_sj9vjlnGjpapQsgNHHdmTKIFS6cHMJFnrb4onvvs/edit#
 - Class: 10S
   Date: 2017 Oct 27
   WebsiteLabel: 'P4: Conceptual use study plan (grading)'
@@ -311,39 +320,46 @@
 - Class: 11M
   Date: 2017 Oct 30
   WebsiteLabel: |-
-    Guest lecture
-    Frank Bentley
+    Frank Bentley, guest lecture
+    Programming tips for the Final Project
   Topic: |-
-    Programming lecture?
-    Prototyping tools (guest lecture)?
-    Advanced topics on implementation
-    Possible guest lecture
+    Guest lecture: Frank Bentley, Sharing news over social media
+    Programming lecture, Jeremy
     Launch P5
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
   Assign: 'P5: Re-design and implement working prototype'
   Due: 'P4: Submit conceptual use study results'
 - Class: 11W
   Date: 2017 Nov 1
-  WebsiteLabel: 'Project: Evaluation'
+  WebsiteLabel: |-
+    Project: Evaluation
+    Programming tips for the Final Project
   Topic: |-
     Evaluation--designing a study
     Collecting data
     Analyzing data
     Visualizing data
-    Break
     Launch P6 Part 1: Pilot study and Evaluation
     Define core task
     Metrics to collect
     Short interview
-    Working prototype coaching (in Studio groups)
+    Break
+    Programming lecture, Jeremy
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
   Assign: 'P6 Part 1: Pilot user study evaluation'
 - Class: 11S
   Date: 2017 Nov 3
   WebsiteLabel: Pilot User Study Coaching
-  Topic: Coaching on how to design a pilot user study
+  Topic: "Figma introduction? \nCoaching on how to design a pilot user study"
+  Studio: T
 - Class: 12M
   Date: 2017 Nov 6
+  WebsiteLabel: Molly Mackinlay guest lecture & group work time
+  Topic: "Molly Mackinlay, Google guest lecture \nBreak \nGroup coaching time on defining
+    pilot study"
+  Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
+- Class: 12W
+  Date: 2017 Nov 8
   WebsiteLabel: Working Prototype Demo (grading)
   Topic: In-class demo of working prototypes (5 minutes each team, TA grades Studio,
     I circulate among Studios, when not presenting to teaching team, running pilot
@@ -352,14 +368,6 @@
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
   Assign: 'P6: Evaluation'
   Due: 'P5 & P6 Part 1: Working Prototype & user study pilot'
-- Class: 12W
-  Date: 2017 Nov 8
-  WebsiteLabel: Guest lecture (TBD) & group work time
-  Topic: |-
-    Guest lecture mobile, voice or  AI/cognitive services
-    Break
-    Group coaching time
-  Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
   StudioWebSiteLabel: 'Holiday: No Studios'
   StudioNotes: No sections due to holiday
   Notes: 11/10 Holiday
@@ -367,21 +375,21 @@
   Date: 2017 Nov 13
   WebsiteLabel: Future Visions of HCI & group work time
   Topic: |-
-    Designing the Future: Visions of HCI
+    Guest lecture or Designing the Future: Visions of HCI
     Break
     Group coaching time
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
 - Class: 13W
   Date: 2017 Nov 15
-  WebsiteLabel: |-
-    Project: Design Showcase
-    HCI in Industry Panel
+  WebsiteLabel: 'HCI in Industry Panel, Project: Design Showcase'
   Topic: "Careers in HCI panel (Tamas, Sabi/Chagla, Fern, \nFrank Bentley, Aruna,
     Tara, Henriette Cramer, Alex Leavitt, Moira Burke, Lauren Scissors\nHelena Roeber,
     Molly Mackinlay) \nWhere does HCI happen in industry? PM, marketing, centralized,
-    embedded \nLiving in an engineering-driven world \nGetting involved early: definining
-    utility, not just usability \nDealing with pushback: Evidence to convince, ally
-    with dev"
+    embedded \nDescribe a memorable project where HCI had an impact\nWorking in an
+    engineering-driven world \nGetting involved early: definining utility, not just
+    usability, how does HCI help define a product \nDealing with pushback: Evidence
+    to convince, ally with dev\nWhat advice would you give to graduating students\nBreak\nGroup
+    coaching time"
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
 - Class: 13S
   Date: 2017 Nov 17
