@@ -17,7 +17,7 @@
     link: https://drive.google.com/open?id=0Bw5c_JsRiheEQ1M0WkFyTkIyUmM
   Assign:
     name: A1 Berkeley Highlights sketching
-    link: "/assign/1/"
+    link: /assign/1/
   StudioWebSiteLabel: Section Intro (must attend!)
   StudioNotes: TA leads studio section, presents own design for critique. More drawing
     exercises, focus on people
@@ -37,10 +37,10 @@
     link: https://drive.google.com/open?id=0Bw5c_JsRiheEbW5ZSHZ2aFJpTWM
   Assign:
     name: A2 Need Finding
-    link: "/assign/2/"
+    link: /assign/2/
   Due:
     name: A1 Berkeley Highlight
-    link: "/assign/1/"
+    link: /assign/1/
 - Class: 2W
   Date: 2017 Aug 30
   WebsiteLabel: |-
@@ -80,7 +80,7 @@
     link: https://drive.google.com/open?id=1zmvlGO5PD1oi0q1kFFE6l0wZOqwDeVw71w-t0LrFmIw
   Due:
     name: 'A2: Need Finding'
-    link: "/assign/2/"
+    link: /assign/2/
   StudioWebSiteLabel: Programming tutorial
   StudioNotes: Programming tutorial
   Notes: I'm away Th-Sun
@@ -298,7 +298,9 @@
     Break
     Dark horse coaching on ideas (in Studio groups), Perhaps more Mockups games
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
-  Assign: 'P4: Conceptual use study'
+  Assign:
+    name: 'P4: Conceptual use study'
+    link: https://docs.google.com/document/d/1YeEacupctezlLfCruNBQ6hGDK7lZCa_CAV15nUFpZlQ/edit
 - Class: 10W
   Date: 2017 Oct 25
   WebsiteLabel: 'Project: Working Prototyping'
