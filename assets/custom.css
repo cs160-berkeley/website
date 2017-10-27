@@ -76,6 +76,7 @@ table.rubric td, th {
     padding: 0em;
 }
 
+pre:hover,
 .schedule-item:hover {
     background-color: rgba(211,211,211, 0.5);
 }
@@ -121,4 +122,14 @@ table.rubric td, th {
 .schedule-item-due {
     border-left: rgb(255, 64, 129) solid 1em;
     padding-left: 0.5em;
+}
+
+pre {
+    border-left: #9dff40 solid 1em;
+    padding: 1em 3em 1em 1em;
+    margin-bottom: 1em;
+}
+
+img {
+    max-width: 100%;
 }
