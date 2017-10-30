@@ -137,7 +137,7 @@ Possible guest lecture",,,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ
 Dark horse prototype (15 minutes)
 Launch P3
 break
-Design & prototyping coaching (in Studio groups) ",T,,,https://drive.google.com/open?id=1klzxMSGET6V_m9umAn0Ezhbi-1h2rzzEk9svQMTH_YA,,"P3: Dark horse Prototype,https://docs.google.com/document/d/1KQ_sj9vjlnGjpapQsgNHHdmTKIFS6cHMJFnrb4onvvs/edit#",,,,
+Design & prototyping coaching (in Studio groups) ",,,,https://drive.google.com/open?id=1klzxMSGET6V_m9umAn0Ezhbi-1h2rzzEk9svQMTH_YA,,"P3: Dark horse Prototype,https://docs.google.com/document/d/1KQ_sj9vjlnGjpapQsgNHHdmTKIFS6cHMJFnrb4onvvs/edit#",,,,
 9S,20-Oct,Prototype Demo (grading),"Demo of lo-fi prototype for a grade (in Studios, 5 minutes each team). When not being graded, student teams demo to each other for practice and feedback.
 ",,T,T,,,,"P2: Design & Prototype demo,https://docs.google.com/document/d/1WWlICecbVL8XdVkPEJXpUOhKE3_bSY1mENoiZP4qLtE/edit?usp=sharing
 ",,,
@@ -152,14 +152,14 @@ Task analysis
 Interviews of user study participants
 Launch P4
 Break
-Dark horse coaching on ideas (in Studio groups), Perhaps more Mockups games",,,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00, ,"P4: Conceptual use study,https://docs.google.com/document/d/1YeEacupctezlLfCruNBQ6hGDK7lZCa_CAV15nUFpZlQ/edit",,,, 
+Dark horse coaching on ideas (in Studio groups), Perhaps more Mockups games",,,,https://drive.google.com/open?id=10e-LUwaG-FtQAxIxjZ8Rm1anexMLXvQwq8aEo30_snE, ,"P4: Conceptual use study,https://docs.google.com/document/d/1YeEacupctezlLfCruNBQ6hGDK7lZCa_CAV15nUFpZlQ/edit",,,, 
 10W,25-Oct,Project: Working Prototyping,"Dark horse demo in class (grading)
 Conceptual use study coaching (in Studio groups) ",,T,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00,,,"P3: Dark horse prototype demo and submission,https://docs.google.com/document/d/1KQ_sj9vjlnGjpapQsgNHHdmTKIFS6cHMJFnrb4onvvs/edit#",,, 
-10S,27-Oct,P4: Conceptual use study plan (grading),Due: Conduct conceptual use study ,,T,T,,,,P4: Conduct Conceptual use study,,,
+10S,27-Oct,P4: Conceptual use study plan (grading),Due: Conduct conceptual use study ,,T,T,,,,"P4: Conduct Conceptual use study,https://docs.google.com/document/d/1YeEacupctezlLfCruNBQ6hGDK7lZCa_CAV15nUFpZlQ/edit",,,
 11M,30-Oct,"Frank Bentley, guest lecture
 Programming tips for the Final Project","Guest lecture: Frank Bentley, Sharing news over social media
 Programming lecture, Jeremy
-Launch P5",,,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00,,P5: Re-design and implement working prototype,P4: Submit conceptual use study results,,, 
+Launch P5",T,,,http://cs160.ninja/js-guide/,,P5: Re-design and implement working prototype,"P4: Submit conceptual use study results,https://docs.google.com/document/d/1YeEacupctezlLfCruNBQ6hGDK7lZCa_CAV15nUFpZlQ/edit",,, 
 11W,1-Nov,"Project: Evaluation
 Programming tips for the Final Project","Evaluation--designing a study
 Collecting data
@@ -178,12 +178,12 @@ Break
 Group coaching time on defining pilot study",,,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00, ,,,,, 
 12W,8-Nov,Working Prototype Demo (grading),"In-class demo of working prototypes (5 minutes each team, TA grades Studio, I circulate among Studios, when not presenting to teaching team, running pilot user study, should be able to collect data fromat least 2 pilot studies)",,T,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00, ,P6: Evaluation,"P5 & P6 Part 1: Working Prototype & user study pilot
 ",Holiday: No Studios,No sections due to holiday,11/10 Holiday 
-13M,13-Nov,Future Visions of HCI & group work time,"Guest lecture or Designing the Future: Visions of HCI
+13M,13-Nov,Guest lecture Morgan Ames & group work time,"Guest lecture Morgan Ames
 Break
 Group coaching time",,,,https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00,,,,,, 
 13W,15-Nov,"HCI in Industry Panel, Project: Design Showcase
-","Careers in HCI panel (Tamas, Sabi/Chagla, Fern, 
-Frank Bentley, Aruna, Tara, Henriette Cramer, Alex Leavitt, Moira Burke, Lauren Scissors
+","Careers in HCI panel (Frank Bentley, Aruna Balakrishnan, Nick Matsakis, 
+Tamas, Sabi/Chagla, Fern, Tara, Henriette Cramer, Alex Leavitt, Moira Burke, Lauren Scissors
 Helena Roeber, Molly Mackinlay) 
 Where does HCI happen in industry? PM, marketing, centralized, embedded 
 Describe a memorable project where HCI had an impact

@@ -17,7 +17,7 @@
     link: https://drive.google.com/open?id=0Bw5c_JsRiheEQ1M0WkFyTkIyUmM
   Assign:
     name: A1 Berkeley Highlights sketching
-    link: /assign/1/
+    link: "/assign/1/"
   StudioWebSiteLabel: Section Intro (must attend!)
   StudioNotes: TA leads studio section, presents own design for critique. More drawing
     exercises, focus on people
@@ -37,10 +37,10 @@
     link: https://drive.google.com/open?id=0Bw5c_JsRiheEbW5ZSHZ2aFJpTWM
   Assign:
     name: A2 Need Finding
-    link: /assign/2/
+    link: "/assign/2/"
   Due:
     name: A1 Berkeley Highlight
-    link: /assign/1/
+    link: "/assign/1/"
 - Class: 2W
   Date: 2017 Aug 30
   WebsiteLabel: |-
@@ -80,7 +80,7 @@
     link: https://drive.google.com/open?id=1zmvlGO5PD1oi0q1kFFE6l0wZOqwDeVw71w-t0LrFmIw
   Due:
     name: 'A2: Need Finding'
-    link: /assign/2/
+    link: "/assign/2/"
   StudioWebSiteLabel: Programming tutorial
   StudioNotes: Programming tutorial
   Notes: I'm away Th-Sun
@@ -266,7 +266,6 @@
     Launch P3
     break
     Design & prototyping coaching (in Studio groups)
-  Active: T
   Slides: https://drive.google.com/open?id=1klzxMSGET6V_m9umAn0Ezhbi-1h2rzzEk9svQMTH_YA
   Assign:
     name: 'P3: Dark horse Prototype'
@@ -297,7 +296,7 @@
     Launch P4
     Break
     Dark horse coaching on ideas (in Studio groups), Perhaps more Mockups games
-  Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
+  Slides: https://drive.google.com/open?id=10e-LUwaG-FtQAxIxjZ8Rm1anexMLXvQwq8aEo30_snE
   Assign:
     name: 'P4: Conceptual use study'
     link: https://docs.google.com/document/d/1YeEacupctezlLfCruNBQ6hGDK7lZCa_CAV15nUFpZlQ/edit
@@ -318,7 +317,9 @@
   Topic: 'Due: Conduct conceptual use study'
   Required: T
   Studio: T
-  Due: 'P4: Conduct Conceptual use study'
+  Due:
+    name: 'P4: Conduct Conceptual use study'
+    link: https://docs.google.com/document/d/1YeEacupctezlLfCruNBQ6hGDK7lZCa_CAV15nUFpZlQ/edit
 - Class: 11M
   Date: 2017 Oct 30
   WebsiteLabel: |-
@@ -328,9 +329,12 @@
     Guest lecture: Frank Bentley, Sharing news over social media
     Programming lecture, Jeremy
     Launch P5
-  Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
+  Active: T
+  Slides: http://cs160.ninja/js-guide/
   Assign: 'P5: Re-design and implement working prototype'
-  Due: 'P4: Submit conceptual use study results'
+  Due:
+    name: 'P4: Submit conceptual use study results'
+    link: https://docs.google.com/document/d/1YeEacupctezlLfCruNBQ6hGDK7lZCa_CAV15nUFpZlQ/edit
 - Class: 11W
   Date: 2017 Nov 1
   WebsiteLabel: |-
@@ -375,23 +379,23 @@
   Notes: 11/10 Holiday
 - Class: 13M
   Date: 2017 Nov 13
-  WebsiteLabel: Future Visions of HCI & group work time
+  WebsiteLabel: Guest lecture Morgan Ames & group work time
   Topic: |-
-    Guest lecture or Designing the Future: Visions of HCI
+    Guest lecture Morgan Ames
     Break
     Group coaching time
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
 - Class: 13W
   Date: 2017 Nov 15
   WebsiteLabel: 'HCI in Industry Panel, Project: Design Showcase'
-  Topic: "Careers in HCI panel (Tamas, Sabi/Chagla, Fern, \nFrank Bentley, Aruna,
-    Tara, Henriette Cramer, Alex Leavitt, Moira Burke, Lauren Scissors\nHelena Roeber,
-    Molly Mackinlay) \nWhere does HCI happen in industry? PM, marketing, centralized,
-    embedded \nDescribe a memorable project where HCI had an impact\nWorking in an
-    engineering-driven world \nGetting involved early: definining utility, not just
-    usability, how does HCI help define a product \nDealing with pushback: Evidence
-    to convince, ally with dev\nWhat advice would you give to graduating students\nBreak\nGroup
-    coaching time"
+  Topic: "Careers in HCI panel (Frank Bentley, Aruna Balakrishnan, Nick Matsakis,
+    \nTamas, Sabi/Chagla, Fern, Tara, Henriette Cramer, Alex Leavitt, Moira Burke,
+    Lauren Scissors\nHelena Roeber, Molly Mackinlay) \nWhere does HCI happen in industry?
+    PM, marketing, centralized, embedded \nDescribe a memorable project where HCI
+    had an impact\nWorking in an engineering-driven world \nGetting involved early:
+    definining utility, not just usability, how does HCI help define a product \nDealing
+    with pushback: Evidence to convince, ally with dev\nWhat advice would you give
+    to graduating students\nBreak\nGroup coaching time"
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
 - Class: 13S
   Date: 2017 Nov 17
