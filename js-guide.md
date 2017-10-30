@@ -241,7 +241,7 @@ The source for this page is open and on [GitHub][gh].
 [node]:https://nodejs.org/en/
 [soln]:https://github.com/cs160-berkeley/twitter-graph-solution/blob/master/client/main.js#L36-L46
 [meteor]:https://www.meteor.com/
-[mchat]:https://angular-meteor.com/tutorials/whatsapp/meteor/bootstrapping
+[mchat]:https://themeteorchef.com/tutorials/building-a-chat-application
 [marr]:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 [mobj]:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
 [mfil]:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Filter
