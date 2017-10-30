@@ -331,7 +331,9 @@
     Launch P5
   Active: T
   Slides: http://cs160.ninja/js-guide/
-  Assign: 'P5: Re-design and implement working prototype'
+  Assign:
+    name: 'P5: Re-design and implement working prototype'
+    link: https://docs.google.com/document/d/1sIRac--Qpj_zkPdCInkFS4zWLHXlrKF5iiKR_kfHK3I/edit#
   Due:
     name: 'P4: Submit conceptual use study results'
     link: https://docs.google.com/document/d/1YeEacupctezlLfCruNBQ6hGDK7lZCa_CAV15nUFpZlQ/edit
@@ -373,7 +375,9 @@
   Required: T
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
   Assign: 'P6: Evaluation'
-  Due: 'P5 & P6 Part 1: Working Prototype & user study pilot'
+  Due:
+    name: 'P5 & P6 Part 1: Working Prototype & user study pilot'
+    link: https://docs.google.com/document/d/1sIRac--Qpj_zkPdCInkFS4zWLHXlrKF5iiKR_kfHK3I/edit#
   StudioWebSiteLabel: 'Holiday: No Studios'
   StudioNotes: No sections due to holiday
   Notes: 11/10 Holiday
