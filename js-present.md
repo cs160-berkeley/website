@@ -1,9 +1,7 @@
----
-layout: page
-title: JavaScript Guide
----
+# JavaScript Guide
 
 **These notes support the in-class programming lecture on Oct. 30th.**
+
 JavaScript is a popular programming language used initially for providing
 interactivity to webpages, but now also is used for programming server
 applications (see [NodeJS][node] or [Meteor][meteor]). As web standards shift,
@@ -11,13 +9,30 @@ popular JavaScript frameworks come and go quite [often][web]. We will focus
 more on the basics of the language and common application patterns of get you
 started quickly than detailing all of the insides of a specific framework.
 
-To get started: start up a JS console (in Chrome you can use Opt-Cmd-J).
+***
+
+To get started: start up a JS console. In Chrome you can use Opt-Cmd-J, or if
+you have node installed you can open that from the command line.
 
 ![console](./assets/images/console.png)
+
+***
+
+# Getting Started
 
 Running hello world:
 
     console.log('hello world')
+
+***
+
+There are multiple types of console logging methods (`log`, `warn`, `error`),
+but log is standard. To save data, use `var` or `let`:
+
+    var str = 'cs'
+    let num = 160
+
+***
 
 Comments follow a C-like standard:
 
@@ -27,11 +42,9 @@ Comments follow a C-like standard:
     I am also a comment which spans multiple lines
     */
 
-There are multiple types of console logging methods (`log`, `warn`, `error`),
-but log is standard. To save data, use `var`:
+***
 
-    var str = 'cs'
-    var num = 160
+# Data Types
 
 By default, JS does not have a strict typing system (though there is
 [TypeScript][ts]), but it usually handles common data combination cases well.
@@ -41,6 +54,8 @@ lines?
     var sn = str + num
     var ns = num + str
     console.log(sn, ns)
+
+***
 
 We can also check the type of data using `typeof`.
 
@@ -52,6 +67,8 @@ We can also check the type of data using `typeof`.
     console.log(st == nt)
     console.log(nt == ft)
     console.log(ft == st)
+
+***
 
 The last two cases are the same, since JS uses just one representation for
 numeric data (`number`). Further, JavaScript has two types of equality
@@ -66,9 +83,13 @@ generated from the code below?
         1 === '1'
     )
 
-Control flow is delegated similar to that of C or Python, with standard ifs,
-case statements. There are addition patterns like asynchronous functions,
-callbacks, and event handlers which we will touch on later.
+***
+
+# Control Flow
+
+Control flow is delegated in a manner similar to that of C or Python, with
+standard ifs, case statements. There are addition patterns like asynchronous
+functions, callbacks, and event handlers which we will touch on later.
 
     var wearJacket
     var temp = 75
@@ -78,6 +99,10 @@ callbacks, and event handlers which we will touch on later.
     } else {
         wearJacket = False
     }
+
+***
+
+# Arrays
 
 [Arrays][marr] and [Objects][mobj] are used frequently to organize data. There
 are multiple ways to instantiate these data types:
@@ -93,12 +118,18 @@ are multiple ways to instantiate these data types:
     console.log(arr_1, arr_2)
     console.log(arr_1 == arr_2)
 
+***
+
 The last line actually returns false, as the equality operator cannot be used
 to compare Arrays or Objects - their data would have to be compared
 element-wise for equality checks. There are also external library functions
 which facilitate this process, like Underscore's isEqual.
 
-Objects have key-value pairs, and align closely to the JSON data format
+***
+
+# Objects
+
+Objects (`{}`) have key-value pairs, and align closely to the JSON data format
 (JavaScript Object Notation) that many API endpoints use to structure their
 responses. Note that it is possible to build complex structures out of
 combinations of these structures (Array of Objects, Object with Array fields).
@@ -115,7 +146,9 @@ combinations of these structures (Array of Objects, Object with Array fields).
     console.log(arr_1, arr_2)
     console.log(arr_1 == arr_2)
 
-### Functions
+***
+
+# Working With Functions
 
 Defining a function can be done like this:
 
@@ -130,9 +163,13 @@ Defining a function can be done like this:
     console.log(add(2, 1))
     console.log(sub(2, 1))
 
+***
+
 JavaScript relies heavily on functions. Functions are first-class data types,
 meaning that they can be passed into other functions. This is seen in the
 asynchronous data callback pattern.
+
+***
 
 Data iteration and manipulation is often done in a functional pattern, as
 opposed to the imperative style of using for loops. This can improve
@@ -146,6 +183,8 @@ hold?
     var arr_1 = [2, 3, 5, 7, 11]
     var arr_2 = arr_1.map(square)
 
+***
+
 This is also a handy way to select a subset of attributes of a list of verbose
 objects.
 
@@ -155,10 +194,15 @@ objects.
         link: o.user_profile,
     }) // arrow function is ES2016 syntax
 
+
 `filterTw` will have a subset of the data which can make debugging much easier.
 You may have use this pattern while working on assignment 3, and it is in the
-[staff solution][soln] for assignment 3. Similar to modifying data, we can
-[filter][mfil] and [reduce][mred] data in a functional fashion.
+[staff solution][soln] for assignment 3.
+
+***
+
+Similar to modifying data, we can [filter][mfil] and [reduce][mred] data in a
+functional fashion.
 
     var arr = [2, 3, 5, 7, 11]
 
@@ -182,6 +226,8 @@ You may have use this pattern while working on assignment 3, and it is in the
     console.log(filtered)
     console.log(found)
 
+***
+
 Finally, since background computation and DOM computations share a single
 thread, it is a bad idea to have blocking parts of your code. One concrete
 example: using `while` loops to wait for an event to occur will often freeze
@@ -198,12 +244,16 @@ event handlers.
     var btn = document.getElementById("myBtn")
     btn.addEventListener("click", myClick)
 
+***
+
 [Here][dom] is the list of HTML DOM (document-object-model) events.
 
 A good way to think of this is giving advance instructions on how to handle the
 result of your request. Imagine if you ordered a burrito, and then you just
 couldn't move or think until you are handed the finished burrito. That is what
 you would be doing to your code if you wait with `while` loops. Don't do this!
+
+***
 
 We also saw this callback pattern with Meteor client/server function calls:
 
@@ -218,12 +268,15 @@ We also saw this callback pattern with Meteor client/server function calls:
         Meteor.call("query", "friends/list", { user_id: tId, count: 15   }, getUserFriends)
     }
 
+***
+
 I suggest checking out the reference materials to further familiarize yourself
 with JavaScript since it will be leveraged for building your final projects. On
 Wednesday, we will work through building an example Chat app in Meteor.
 
+***
 
-### references
+# References
 
 - [meteor chat app][mchat]
 - [codecademy JS track][codecad]
@@ -236,6 +289,10 @@ If you have questions, would like to add material, or see errors in this guide,
 please [email](/#course-staff) Jeremy Warner. Thanks!
 
 The source for this page is open and on [GitHub][gh].
+
+***
+
+# Links
 
 [ajs]:https://github.com/airbnb/javascript
 [node]:https://nodejs.org/en/
