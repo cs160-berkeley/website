@@ -322,14 +322,11 @@
     link: https://docs.google.com/document/d/1YeEacupctezlLfCruNBQ6hGDK7lZCa_CAV15nUFpZlQ/edit
 - Class: 11M
   Date: 2017 Oct 30
-  WebsiteLabel: |-
-    Frank Bentley, guest lecture
-    Programming tips for the Final Project
+  WebsiteLabel: "Guest: Frank Bentley | \nJavascript Guide"
   Topic: |-
     Guest lecture: Frank Bentley, Sharing news over social media
     Programming lecture, Jeremy
     Launch P5
-  Active: T
   Slides: http://cs160.ninja/js-guide/
   Assign:
     name: 'P5: Re-design and implement working prototype'
@@ -339,9 +336,7 @@
     link: https://docs.google.com/document/d/1YeEacupctezlLfCruNBQ6hGDK7lZCa_CAV15nUFpZlQ/edit
 - Class: 11W
   Date: 2017 Nov 1
-  WebsiteLabel: |-
-    Project: Evaluation
-    Programming tips for the Final Project
+  WebsiteLabel: 'Project: Evaluation | Chat App Walkthrough'
   Topic: |-
     Evaluation--designing a study
     Collecting data
@@ -353,6 +348,7 @@
     Short interview
     Break
     Programming lecture, Jeremy
+  Active: T
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
   Assign: 'P6 Part 1: Pilot user study evaluation'
 - Class: 11S
