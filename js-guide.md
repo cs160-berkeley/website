@@ -223,14 +223,14 @@ with JavaScript since it will be leveraged for building your final projects. On
 Wednesday, we will work through building an example Chat app in Meteor.
 
 
-### references
+### References
 
-- [meteor chat app][mchat]
-- [codecademy JS track][codecad]
+- [Meteor Chat App][mchat]
+- [Codecademy JS Track][codecad]
 - [Mozilla JS reference][mozilla]
 - [learn-you-node tutorial][learnyounode]
 - [AirBnb style guide][ajs]
-- [w3 node js guide][w3node]
+- [W3 NodeJS guide][w3node]
 
 If you have questions, would like to add material, or see errors in this guide,
 please [email](/#course-staff) Jeremy Warner. Thanks!
