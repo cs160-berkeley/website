@@ -3,6 +3,8 @@ layout: page
 title: JavaScript Guide
 ---
 
+### [PDF version of this guide](https://drive.google.com/file/d/0B3rmOUWm5OBlS19na3dPUGN2MFk/view)
+
 **These notes support the in-class programming lecture on Oct. 30th.**
 JavaScript is a popular programming language used initially for providing
 interactivity to webpages, but now also is used for programming server
