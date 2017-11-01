@@ -370,7 +370,9 @@
     user study, should be able to collect data fromat least 2 pilot studies)
   Required: T
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
-  Assign: 'P6: Evaluation'
+  Assign:
+    name: 'P6: Evaluation'
+    link: https://docs.google.com/document/d/1XKLG6AYqovLRsac1xhM8q4Q4O6GZ6UhYBBCSHg2cY60
   Due:
     name: 'P5 & P6 Part 1: Working Prototype & user study pilot'
     link: https://docs.google.com/document/d/1sIRac--Qpj_zkPdCInkFS4zWLHXlrKF5iiKR_kfHK3I/edit#
@@ -403,7 +405,9 @@
   Topic: 'Due: Evaluation presentation'
   Required: T
   Studio: T
-  Due: 'P6: Evaluation'
+  Due:
+    name: 'P6: Evaluation'
+    link: https://docs.google.com/document/d/1XKLG6AYqovLRsac1xhM8q4Q4O6GZ6UhYBBCSHg2cY60
 - Class: 14M
   Date: 2017 Nov 20
   WebsiteLabel: 'Project: Presenting Your Work'
