@@ -381,7 +381,7 @@
   Notes: 11/10 Holiday
 - Class: 13M
   Date: 2017 Nov 13
-  WebsiteLabel: Guest lecture Morgan Ames & group work time
+  WebsiteLabel: Guest lecture Morgan Ames & Studio team coaching time
   Topic: |-
     Guest lecture Morgan Ames
     Break
@@ -389,7 +389,7 @@
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
 - Class: 13W
   Date: 2017 Nov 15
-  WebsiteLabel: 'HCI in Industry Panel, Project: Design Showcase'
+  WebsiteLabel: Careers in HCI Panel & Studio team coaching time
   Topic: "Careers in HCI panel (Frank Bentley, Aruna Balakrishnan, Nick Matsakis,
     \nTamas, Sabi/Chagla, Fern, Tara, Henriette Cramer, Alex Leavitt, Moira Burke,
     Lauren Scissors\nHelena Roeber, Molly Mackinlay) \nWhere does HCI happen in industry?
@@ -397,7 +397,7 @@
     had an impact\nWorking in an engineering-driven world \nGetting involved early:
     definining utility, not just usability, how does HCI help define a product \nDealing
     with pushback: Evidence to convince, ally with dev\nWhat advice would you give
-    to graduating students\nBreak\nGroup coaching time"
+    to graduating students\nBreak\nPreview P7 Part A\nGroup coaching time"
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
 - Class: 13S
   Date: 2017 Nov 17
@@ -410,16 +410,16 @@
     link: https://docs.google.com/document/d/1XKLG6AYqovLRsac1xhM8q4Q4O6GZ6UhYBBCSHg2cY60
 - Class: 14M
   Date: 2017 Nov 20
-  WebsiteLabel: 'Project: Presenting Your Work'
-  Topic: "Presenting Work\nOral presentations/demo\nPoster\nPresenting as a team (each
-    person should have a role in final presentation)\nCritically and constructively
-    reviewing others' work\nBreak\nLaunch P7: \nFinal Presentation (in 2 class sessions)\nDesign
-    Showcase\n45-second video\nPoster Design\nDemo routine\nFinal Report"
+  WebsiteLabel: 'Project: Presenting Your Work & Studio team coaching time'
+  Topic: "Future of HCI\nPresenting Work\nOral presentations/demo\nPoster\nPresenting
+    as a team (each person should have a role in final presentation)\nCritically and
+    constructively reviewing others' work\nBreak\nLaunch P7: \nDesign Showcase\n45-second
+    video\nPoster Design\nDemo routine\nFinal Website"
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
   Assign: |-
-    P7 Part 1: Final presentations
-    Part 2: Design Showcase (poster + demo)
-    Part 3: Final Report
+    P7 Part A: Final presentations
+    Part B: Design Showcase (poster + demo)
+    Part C: Final Website
 - Class: 14W
   Date: 2017 Nov 22
   WebsiteLabel: 'Thanksgiving Holiday: No Class'
@@ -431,17 +431,17 @@
 - Class: 15M
   Date: 2017 Nov 27
   WebsiteLabel: Final Presentations (grading)
-  Topic: 'P7 Part1: Final Presentations (2 Studios)'
+  Topic: 'P7 PartA: Final Presentations (2 Studios)'
   Required: T
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
-  Due: 'P7 Part 2: Final Presentations'
+  Due: 'P7 Part A: Final Presentations'
 - Class: 15W
   Date: 2017 Nov 29
   WebsiteLabel: Final Presentations (grading)
-  Topic: 'P7 Part1: Final Presentations (2 Studios)'
+  Topic: 'P7 PartA: Final Presentations (2 Studios)'
   Required: T
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
-  Due: 'P7 Part 2: Final Presentations'
+  Due: 'P7 Part A: Final Presentations'
 - Class: 15S
   Date: 2017 Dec 1
   WebsiteLabel: Design Showcase coaching
@@ -450,11 +450,14 @@
 - Class: '16'
   Date: 2017 Dec 6
   WebsiteLabel: Design Showcase (grading)
-  Topic: 'P7: Part2: Design Showcase'
+  Topic: 'P7 PartB: Design Showcase'
   Required: T
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
-  Due: 'Final Showcase: 3:30-6:00pm in 310 Jacobs'
+  Due:
+    name: 'Design Showcase: P7 Part B'
+    link: 3:30-6:00pm in 310 Jacobs
 - Class: '17'
   Date: 2017 Dec 11
   WebsiteLabel: Final Report due
   Topic: 5:00pm online submission deadline
+  Due: 'P7 Part C: Final website'
