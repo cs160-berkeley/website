@@ -416,10 +416,12 @@
     constructively reviewing others' work\nBreak\nLaunch P7: \nDesign Showcase\n45-second
     video\nPoster Design\nDemo routine\nFinal Website"
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
-  Assign: |-
-    P7 Part A: Final presentations
-    Part B: Design Showcase (poster + demo)
-    Part C: Final Website
+  Assign:
+    name: |-
+      P7 Part A: Final presentations
+      Part B: Design Showcase (poster + demo)
+      Part C: Final Website
+    link: https://docs.google.com/document/d/1nd5v0xIqZsKxFc2HWunGYATcCRa8uDjGpBrLTiBqo3Q
 - Class: 14W
   Date: 2017 Nov 22
   WebsiteLabel: 'Thanksgiving Holiday: No Class'
@@ -434,14 +436,18 @@
   Topic: 'P7 PartA: Final Presentations (2 Studios)'
   Required: T
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
-  Due: 'P7 Part A: Final Presentations'
+  Due:
+    name: 'P7 Part A: Final Presentations'
+    link: https://docs.google.com/document/d/1nd5v0xIqZsKxFc2HWunGYATcCRa8uDjGpBrLTiBqo3Q
 - Class: 15W
   Date: 2017 Nov 29
   WebsiteLabel: Final Presentations (grading)
   Topic: 'P7 PartA: Final Presentations (2 Studios)'
   Required: T
   Slides: https://drive.google.com/open?id=0Bw5c_JsRiheEaEdVMWJ0cXJ6X00
-  Due: 'P7 Part A: Final Presentations'
+  Due:
+    name: 'P7 Part A: Final Presentations'
+    link: https://docs.google.com/document/d/1nd5v0xIqZsKxFc2HWunGYATcCRa8uDjGpBrLTiBqo3Q
 - Class: 15S
   Date: 2017 Dec 1
   WebsiteLabel: Design Showcase coaching
@@ -460,4 +466,6 @@
   Date: 2017 Dec 11
   WebsiteLabel: Final Report due
   Topic: 5:00pm online submission deadline
-  Due: 'P7 Part C: Final website'
+  Due:
+    name: 'P7 Part C: Final website'
+    link: https://docs.google.com/document/d/1nd5v0xIqZsKxFc2HWunGYATcCRa8uDjGpBrLTiBqo3Q
