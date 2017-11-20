@@ -58,9 +58,9 @@ When: *12/6/17, 4-6pm*
 ### theme
 
 The theme of this semester’s projects is Bursting Echo Chambers in Social
-Media. We developed web-based applications to enable people encounter more
+Media. We developed web-based applications to enable people to encounter more
 diverse information through social media. Another aspect of our theme is to
-encourage more constructive conversation or interaction among differing
+encourage more constructive conversation and interaction among differing
 perspectives through social media.
 
 ### [eventbrite][eb]{:target="_blank"}
