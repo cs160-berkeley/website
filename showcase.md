@@ -40,6 +40,10 @@ layout: null
     h1 {
       font-size: 3em;
     }
+    img {
+      max-width: 100%;
+      width: 500px;
+    }
 
     /* Project styles */
 
@@ -76,9 +80,11 @@ layout: null
   </style>
 </head>
 
-# [CS160](/) :: Public Design Showcase
+# [CS160](/) :: Human Computer Interaction
 
-### [eventbrite][eb]{:target="_blank"}
+### [Final Project :: Public Design Showcase][eb]{:target="_blank"}
+
+# <img class="showcase" src="/assets/images/showcase.jpg"/>
 
 Where: *310 Jacobs Hall* <br/>
 When: *12/6/17, 4-6pm*
@@ -97,11 +103,10 @@ diverse information through social media. Another aspect of our theme is to
 encourage more constructive conversation and interaction among differing
 perspectives through social media.
 
+{% comment %}
 ### projects
 
-{% comment %}
 ref for grouping: https://gist.github.com/budparr/0ad4a7449f9604f47eec
-{% endcomment %}
 
 {% for p in site.data.project %}
 <div class="project">
@@ -113,6 +118,7 @@ ref for grouping: https://gist.github.com/budparr/0ad4a7449f9604f47eec
 </div>
 
 {% endfor %}
+{% endcomment %}
 
 [eb]:https://www.eventbrite.com/e/jacobs-winter-design-showcase-2017-tickets-39925134151
 
