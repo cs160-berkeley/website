@@ -82,7 +82,7 @@ layout: null
 
 # [CS160](/) :: Human Computer Interaction
 
-### [Final Project :: Public Design Showcase][eb]{:target="_blank"}
+### [Public Design Showcase][eb]{:target="_blank"} :: Final Project 
 
 # <img class="showcase" src="/assets/images/showcase.jpg"/>
 
