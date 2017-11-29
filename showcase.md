@@ -7,7 +7,6 @@ layout: null
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <link rel="stylesheet" href="/assets/custom.css">
   <link rel="stylesheet" href="/assets/showcase.css">
-  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 </head>
 
 # [CS160](/) :: Human Computer Interaction
@@ -59,5 +58,6 @@ converting: https://www.browserling.com/tools/csv-to-yaml
 
 <footer>
     <a href="https://upload.wikimedia.org/wikipedia/commons/9/95/CampanileMtTamalpiasSunset-original.jpg">img</a>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js" async></script>
 </footer>
 
