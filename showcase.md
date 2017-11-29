@@ -8,6 +8,9 @@ layout: null
   <link rel="stylesheet" href="/assets/custom.css">
   <link rel="stylesheet" href="/assets/showcase.css">
   <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+  <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+        crossorigin="anonymous"></script>
 </head>
 
 # [CS160](/) :: Human Computer Interaction
@@ -59,6 +62,10 @@ converting: https://www.browserling.com/tools/csv-to-yaml
 
 <footer>
     <a href="https://upload.wikimedia.org/wikipedia/commons/9/95/CampanileMtTamalpiasSunset-original.jpg">img</a>
-    <script> var msnry = new Masonry( '.grid',  { "itemSelector": ".project", "columnWidth": 0 }) </script>
 </footer>
 
+<script>
+$(window).on("load", function() {
+    var msnry = new Masonry( '.grid',  { "itemSelector": ".project", "columnWidth": 0 })
+});
+</script>
