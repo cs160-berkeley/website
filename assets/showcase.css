@@ -19,6 +19,7 @@ a {
     color: white;
 }
 a:hover {
+    text-decoration: none;
     background-color: rgba(0, 0, 0, 0.1);
     color: white;
 }
@@ -65,9 +66,12 @@ img {
 }
 .project-desc {
     display: block;
-    margin: 1em;
+    padding: 1em;
 }
 .project:hover .project-name {
     border-left: rgb(255, 64, 129) solid 1em;
     color: black;
+}
+.project:hover .project-desc {
+    background-color: rgba(0, 0, 0, 0.4);
 }
