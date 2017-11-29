@@ -7,6 +7,7 @@ layout: null
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <link rel="stylesheet" href="/assets/custom.css">
   <link rel="stylesheet" href="/assets/showcase.css">
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
 </head>
 
 # [CS160](/) :: Human Computer Interaction
@@ -40,7 +41,7 @@ converting: https://www.browserling.com/tools/csv-to-yaml
 {% endcomment %}
 
 
-<div class="project-wrapper" class="grid" data-masonry='{ "itemSelector": ".project", "columnWidth": 0 }'>
+<div class="project-wrapper" class="grid">
 {% for p in site.data.project %}
 <div class="project">
     <a class="project-link" href="#">
@@ -58,6 +59,6 @@ converting: https://www.browserling.com/tools/csv-to-yaml
 
 <footer>
     <a href="https://upload.wikimedia.org/wikipedia/commons/9/95/CampanileMtTamalpiasSunset-original.jpg">img</a>
-    <script src="{{ site.base_url}}/assets/masonry.pkgd.min.js"></script>
+    <script> var msnry = new Masonry( '.grid',  { "itemSelector": ".project", "columnWidth": 0 }) </script>
 </footer>
 
