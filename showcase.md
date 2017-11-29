@@ -58,6 +58,6 @@ converting: https://www.browserling.com/tools/csv-to-yaml
 
 <footer>
     <a href="https://upload.wikimedia.org/wikipedia/commons/9/95/CampanileMtTamalpiasSunset-original.jpg">img</a>
-    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js" async></script>
+    <script src="{{ site.base_url}}/assets/masonry.pkgd.min.js"></script>
 </footer>
 
