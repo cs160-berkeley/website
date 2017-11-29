@@ -1,0 +1,73 @@
+html {
+    background: url(/assets/images/campanile.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body {
+    font-family: monospace;
+    padding: 0em 1em;
+    margin: 1em;
+}
+footer {
+    position: fixed;
+    bottom: 20;
+    right: 20;
+}
+a {
+    color: white;
+}
+a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+}
+p {
+    border-left: rgb(255, 64, 129) solid 1em;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    padding: 0.5em;
+    max-width: 100%;
+    width: 500px;
+}
+h1 {
+    font-size: 3em;
+}
+img {
+    max-width: 100%;
+    width: 500px;
+}
+
+/* Project styles */
+
+.project {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 2em;
+    margin-right: 2em;
+    max-width: 90vw;
+    width: 325px;
+}
+.project-name {
+    border-left: rgb(0, 0, 0) solid 1em;
+    padding: 0.25em 0.5em;
+    font-size: 15pt;
+    font-weight: bold;
+    display: block;
+}
+.project-link {
+    color: black;
+}
+.project-image {
+    background-color: rgba(0, 0, 0, 0.4);
+    max-width: calc(100% - 2em);
+    padding: 1em;
+    margin: auto;
+}
+.project-desc {
+    display: block;
+    margin: 1em;
+}
+.project:hover .project-name {
+    border-left: rgb(255, 64, 129) solid 1em;
+    color: black;
+}

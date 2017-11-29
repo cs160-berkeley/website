@@ -1,14 +1,100 @@
 ---
-- name: template-group
-  link: /
-  imag: /assets/images/jacobs.jpg
-  desc: Doloribus aut rerum et minima perferendis animi non. Vel sed temporibus eum enim facilis. Minima non et omnis dicta nisi. Commodi voluptatem ipsum consectetur dolorem cupiditate aut neque necessitatibus. Delectus repudiandae recusandae fugiat officiis enim est impedit incidunt.
-- name: template-group
-  link: /
-  imag: /assets/images/jacobs.jpg
-  desc: Doloribus aut rerum et minima perferendis animi non. Vel sed temporibus eum enim facilis. Minima non et omnis dicta nisi. Commodi voluptatem ipsum consectetur dolorem cupiditate aut neque necessitatibus. Delectus repudiandae recusandae fugiat officiis enim est impedit incidunt.
-- name: template-group
-  link: /
-  imag: /assets/images/jacobs.jpg
-  desc: Doloribus aut rerum et minima perferendis animi non. Vel sed temporibus eum enim facilis. Minima non et omnis dicta nisi. Commodi voluptatem ipsum consectetur dolorem cupiditate aut neque necessitatibus. Delectus repudiandae recusandae fugiat officiis enim est impedit incidunt.
-
+-
+  presenting: Monday
+  order: 1
+  name: QuizMe
+  'submitted?': y
+  tagline: 'Learn The News'
+  description: 'QuizMe is a platform designed around helping readers grasp a better understanding of the content they are reading, while at the same time exposing them to facts from news sources outside of their traditional political sphere.'
+  studio: paige
+  members: "Ruijing Li\nBiye Jiang\nJack Barnett\nStefan Steiner\nSoham Kudtarkar"
+-
+  presenting: Monday
+  order: 2
+  name: Insight
+  'submitted?': y
+  tagline: 'Thoughtful conversations to bridge the political divide'
+  description: 'Insight is a web application that enables users to discuss controversial political issues, with the humanizing influence of face-to-face interaction. Users can read one of six featured news articles and video chat instantaneously with another user of opposing political leaning.'
+  studio: christine
+  members: "Stefanus Hinardi\nJoseph Moon\nDaniel Zhang\nAnthony Kim\nLouis Zhang"
+-
+  presenting: Monday
+  order: 3
+  name: Chatrow
+  'submitted?': y
+  tagline: 'Bursting echo chambers in your social network with your social network'
+  description: 'It’s an app that lets you invite and chat with your friends, conduct a poll, and then chat with the friends who disagree with you on certain topics'
+  studio: paige
+  members: "Jincheng Liu \nDongning Wang \nDavid Zhang \nOmkar Raje \nMauricio Madrigal-Avina"
+-
+  presenting: Monday
+  order: 4
+  name: 'News with Friends'
+  'submitted?': y
+  tagline: 'Diverse news discussions with your friends'
+  description: 'Share an article, react, and discuss! Get the opportunity to read news with your friends, where you and each one of your friends will all get the same article of a different political perspective. Highlight and react to sentences that you agree with, are upset by, disappointed in, or disagree with to let your friends know how you feel. View their reactions and engage in a discussion!'
+  studio: christine
+  members: "Alexander Kamgar\nMehdi Kazi\nRochelle Shen\nJessica Chen"
+-
+  presenting: Monday
+  order: 5
+  name: ThoughtPop
+  'submitted?': y
+  tagline: 'Bursting bubbles, expanding horizons'
+  description: "Our  web  application  is  made  up  of  data  represented  visually  as  bubbles  or  within\nbubbles.\nThe  user  is  greeted  with  essentially  a  large  map  and  sees  a  gray  (boring)  bubble  that contains  data  from  within  their  friend  groups,  but  first  they  see  topics  on  the  outer bubble  that  contain  data  from  strangers  globally,  bursting  their  bubble  on  first  glance.\nThe  sizes  of  the  “Likes”  and  “Dislikes”  bubbles  show  the  ratio  and  magnitude  of  these reactions  to  the  article  that  can  be  clicked  through  the  article  image  bubble."
+  studio: paige
+  members: "Yulin Zheng \nCindy Martinez \nAlex Kierlanczyk \nNicholas Cowan \nCarlo Casalme"
+-
+  presenting: Monday
+  order: 6
+  name: FreeSwitch
+  'submitted?': y
+  tagline: 'A new perspective. Every hour.'
+  description: 'FreeSwitch  is  a  website  that  comprises  of  controversial  topics,  where  people  can  share  and learn  from  the  constructive  comments  of  other  sides.  For  each  topic,  a  most  upvoted  comment of  either  left  or  right  wing  will  be  displayed  at  the  top  bar,  and  is  forced  to  switch  sides  every hour.   The  user  would  first  identify  their  stance  on  the  issue  to  be  liberal  or  conservative,  and can  only  upvote  those  comments  from  opposite  side  and  downvote  their  own  side’s  claims,  so that  the  comments  that  receives  the  most  upvotes  are  the  most  fruitful  and  thought-provoking ones  from  both  sides.'
+  studio: christine
+  members: "Jing Hong\nHai Zhang\nYang Ding\nZhaoyu Cai"
+-
+  presenting: Monday
+  order: 7
+  name: 'Down to Discuss'
+  'submitted?': y
+  tagline: 'Broaden your perspectives while meeting new people'
+  description: 'Mobile application geared towards people who care about different perspectives. Meetup in person! Discuss fun and/or controversial topics, meet people with different perspectives. Gives users the ability to create and find meetups, has points system to encourage reusability.'
+  studio: paige
+  members: "Tiffany Yen \nLauren Martini \nNadia Aquil \nLinette Carissa"
+-
+  presenting: Monday
+  order: 8
+  name: BirdsEye
+  'submitted?': y
+  tagline: 'Expand your perspective by finding events near you.'
+  description: 'It  can  be  hard  to  breach  one’s  personal  sphere  to  learn  about  other  perspectives,  and  feel motivated  to  do  so.  Our  app,  BirdsEye,  aims  to  make  it  easy  to  find  and  participate  in  a  variety  of local  events  (talks,  panels,  discussions,  etc.)  that  will  not  only  deepen  your  understanding  of important  topics,  but  also  allow  you  earn  local  discounts  and  prizes  by  earning  points  for  each event  you  attend.  Get  more  points  for  going  to  events  you  wouldn’t  normally  go  to!'
+  studio: christine
+  members: "Andrea Liu\nJeffrey Wang\nKristine Lin\nFabiola Lopez"
+-
+  presenting: Monday
+  order: 9
+  name: 'Bias Free Me'
+  'submitted?': y
+  tagline: 'Talk to more people, have less bias.'
+  description: 'Gomeetpeople is a place for engaging, social interactions that promotes the discussion of important events both with people in a common network and strangers who are not in a common network who have different political opinions in a gamified manner. Users are incentivized to use the app more consistently by progressing through the app by leveling up, and can receive badges for their continuous use. The goal of physical interactions is to reduce the prevalence of echo chambers caused by online disagreements, allowing users to meet in person (putting a face to the Username) encourages users to discuss topics in a civilized manner.'
+  studio: paige
+  members: "Yifu Gu \nYao Yuan \nYidan Zhang \nLincoln Lin"
+-
+  presenting: Wednesday
+  order: 7
+  name: Debatable
+  'submitted?': y
+  tagline: 'Debate and discover in a daring new way'
+  description: 'Debatable allows users to learn and share new perspectives about controversial topics. We pride ourselves in creating a safe space by having a qualified mediator present in every conference to ensure lively, yet safe debates.'
+  studio: emily
+  members: "Caroline Kim\nCarrie Lin\nJamie Ni\nMelody Valdez"
+-
+  presenting: Wednesday
+  order: 10
+  name: 'Groups for Change'
+  'submitted?': y
+  tagline: 'Driving substantive conversations for controversial issues'
+  description: 'Groups for Change is a web-based application that allows users to sign up for events in their area, answer questions regarding their social/political orientation in the process, and be paired with 6-7 other diverse users that have different viewpoints. Through use of our Pre/Live/Post view which dynamically changes in relation to the event schedule, users can learn about, chat with, and engage in a forum-esque discussion with the users in their group. The result is an inclusive measure that allows people with potentially opposing views to discuss their ideas without fear of reprisal.'
+  studio: daniel
+  members: "Anoop Baliga\nNikhil Reddy\nAni Surumpudi\nAlex Aprea"
