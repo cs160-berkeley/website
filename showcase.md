@@ -17,16 +17,24 @@ layout: null
 
 ### [Public Design Showcase][eb]{:target="_blank"} :: Final Project
 
-# <img class="showcase" src="/assets/images/showcase.jpg"/>
-
-Where: *310 Jacobs Hall* <br/>
-When: *12/6/17, 4-6pm*
+<div class="showcase-details">
+<img src="{{ site.base_name }}/assets/images/showcase.jpg"/>
+<p>
+Where: <i>310 Jacobs Hall</i> <br/>
+When: <i>12/6/17, 4-6pm</i>
+</p>
+</div>
 
 ### schedule
 
-3:30-4:00 Student setup in Jacobs 310<br/>
-4:00-4:30 Class intro, 1-minute team pitches<br/>
-4:30-6:00 Open House - Posters and Demos
+<p class="event-timeline">
+<i>3:30-4:00 </i>
+<span class="event-details"> Student setup in Jacobs 310 </span>
+<i> <br/> 4:00-4:30 </i>
+<span class="event-details"> Class intro, 1-min team pitches </span>
+<i> <br/> 4:30-6:00 </i>
+<span class="event-details"> Open House - Posters and Demos </span>
+</p>
 
 ### theme
 
@@ -65,7 +73,5 @@ converting: https://www.browserling.com/tools/csv-to-yaml
 </footer>
 
 <script>
-$(window).on("load", function() {
-    var msnry = new Masonry( '.grid',  { "itemSelector": ".project", "columnWidth": 0 })
-});
+$(window).on("load", function() { new Masonry( '.grid',  { "itemSelector": ".project", "columnWidth": 0 }) });
 </script>

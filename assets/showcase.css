@@ -20,8 +20,11 @@ a {
 }
 a:hover {
     text-decoration: none;
-    background-color: rgba(0, 0, 0, 0.1);
     color: white;
+}
+h1 a:hover,
+h3 a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
 }
 p {
     border-left: rgb(255, 64, 129) solid 1em;
@@ -42,13 +45,13 @@ img {
 /* Project styles */
 
 .project {
-    background-color: rgba(255, 255, 255, 0.5);
     margin-bottom: 2em;
     margin-right: 2em;
     max-width: 90vw;
     width: 325px;
 }
 .project-name {
+    background-color: rgba(255, 255, 255, 0.5);
     border-left: rgb(0, 0, 0) solid 1em;
     padding: 0.25em 0.5em;
     font-size: 15pt;
@@ -61,10 +64,12 @@ img {
 .project-image {
     background-color: rgba(0, 0, 0, 0.4);
     max-width: calc(100% - 2em);
+    display: block;
     padding: 1em;
     margin: auto;
 }
 .project-desc {
+    background-color: rgba(255, 255, 255, 0.5);
     display: block;
     padding: 1em;
 }
@@ -74,4 +79,37 @@ img {
 }
 .project:hover .project-desc {
     background-color: rgba(0, 0, 0, 0.4);
+}
+.event-timeline {
+    overflow: auto;
+}
+.event-details {
+    float: right;
+}
+.showcase-details * {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+/* RESPONSIVE DESIGN **********
+ * so, houston, we have liftoff
+ * to the skys we soar *******/
+
+@media screen and (max-width : 500px) {
+    p,
+    img,
+    .project {
+        width: 100%;
+    }
+    h1 {
+        font-size: 3.5em;
+    }
+    h3,
+    .project-name {
+        font-size: 2em;
+    }
+    p,
+    .project-desc {
+        font-size: 1.25em;
+    }
 }
