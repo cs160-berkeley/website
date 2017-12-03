@@ -4,6 +4,7 @@ layout: null
 ---
 
 <head>
+  <title> CS160 Showcase </title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <link rel="stylesheet" href="/assets/custom.css">
   <link rel="stylesheet" href="/assets/showcase.css">
@@ -20,20 +21,22 @@ layout: null
 <div class="showcase-details">
 <img src="{{ site.base_name }}/assets/images/showcase.jpg"/>
 <p>
-Where: <i>310 Jacobs Hall</i> <br/>
-When: <i>12/6/17, 4-6pm</i>
+    <i> When: </i>
+    <span class="event-details"> 12/6/17, 4-6pm </span>
+    <br/> <i>Where: </i>
+    <span class="event-details"> <a href="http://jacobsinstitute.berkeley.edu/" target="_blank">Jacobs 310</a> </span>
 </p>
 </div>
 
 ### schedule
 
 <p class="event-timeline">
-<i>3:30-4:00 </i>
-<span class="event-details"> Student setup in Jacobs 310 </span>
-<i> <br/> 4:00-4:30 </i>
-<span class="event-details"> Class intro, 1-min team pitches </span>
-<i> <br/> 4:30-6:00 </i>
-<span class="event-details"> Open House - Posters and Demos </span>
+    <i>3:30-4:00 </i>
+    <span class="event-details"> Student setup in Jacobs 310 </span>
+    <i> <br/> 4:00-4:30 </i>
+    <span class="event-details"> Class intro, 1-min team pitches </span>
+    <i> <br/> 4:30-6:00 </i>
+    <span class="event-details"> Open House - Posters and Demos </span>
 </p>
 
 ### theme
@@ -53,13 +56,14 @@ converting: https://www.browserling.com/tools/csv-to-yaml
 
 
 <div class="project-wrapper" class="grid">
-{% for p in site.data.project %}
+{% assign studio_sort = site.data.project | sort: 'studio' %}
+{% for p in studio_sort %}
 <div class="project">
     <a class="project-link" href="#">
     <!--<a class="project-link" href="{{ p.link }}" target="_blank">-->
     <span class="project-name">{{ p.name }}</span>
     <img class="project-image" src="{{ site.base_name }}/assets/logos/{{ p.name | slugify }}.png"/>
-    <span class="project-desc">{{ p.description }}</span>
+    <span class="project-desc">{{ p.description }} [ta:  <i>{{ p.studio }}</i>]</span>
     </a>
 </div>
 
