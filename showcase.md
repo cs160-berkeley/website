@@ -3,7 +3,6 @@ title: showcase
 layout: null
 ---
 
-<html>
 <head>
   <title> CS160 Showcase </title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -81,4 +80,3 @@ converting: https://www.browserling.com/tools/csv-to-yaml
 <script>
 $(window).on("load", function() { new Masonry( '.grid',  { "itemSelector": ".project", "columnWidth": 0 }) });
 </script>
-</html>
