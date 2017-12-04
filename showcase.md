@@ -3,9 +3,11 @@ title: showcase
 layout: null
 ---
 
+<html>
 <head>
   <title> CS160 Showcase </title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/assets/custom.css">
   <link rel="stylesheet" href="/assets/showcase.css">
   <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
@@ -79,3 +81,4 @@ converting: https://www.browserling.com/tools/csv-to-yaml
 <script>
 $(window).on("load", function() { new Masonry( '.grid',  { "itemSelector": ".project", "columnWidth": 0 }) });
 </script>
+</html>
