@@ -194,8 +194,8 @@
     order: 11
     name: Paperboy
     submitted?: only submitted image
-    tagline: 
-    description: 
+    tagline: News at your doorstep.
+    description: A Facebook chat bot that provides users with a convenient way to regularly access diverse opinions on the news. It will send the user a daily digest of news at a present time, with articles arranged by political bias and broken into categories for them to further explore.
     link: 
     studio: christine
     members: "Amy Shan\nGrace Lightner\nJay Iyer\nMichael Ma\nDavid Choi"
