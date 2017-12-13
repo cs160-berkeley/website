@@ -16,3 +16,8 @@ UC Berkeley, Fall 2017
 - [Organization](https://github.com/cs160-berkeley)
 - [Source](https://github.com/cs160-berkeley/website)
 
+## todo:
+
+- make `/` forward to the current active semester
+- attach the relative request after that
+
