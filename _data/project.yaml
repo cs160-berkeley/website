@@ -1,231 +1,162 @@
 ---
 -
-    presenting: Monday
-    order: 1
     name: QuizMe
-    submitted?: y
     tagline: Learn The News
     description: QuizMe is a platform designed around helping readers grasp a better understanding of the content they are reading, while at the same time exposing them to facts from news sources outside of their traditional political sphere.
-    link: 
+    link: https://cal160quizme.weebly.com/
     studio: paige
     members: "Ruijing Li\nBiye Jiang\nJack Barnett\nStefan Steiner\nSoham Kudtarkar"
 -
-    presenting: Monday
-    order: 2
     name: Insight
-    submitted?: y
     tagline: Thoughtful conversations to bridge the political divide
     description: Insight is a web application that enables users to discuss controversial political issues, with the humanizing influence of face-to-face interaction. Users can read one of six featured news articles and video chat instantaneously with another user of opposing political leaning.
-    link: 
+    link: https://cs160final.github.io/
     studio: christine
     members: "Stefanus Hinardi\nJoseph Moon\nDaniel Zhang\nAnthony Kim\nLouis Zhang"
 -
-    presenting: Monday
-    order: 3
     name: Chatrow
-    submitted?: y
     tagline: Bursting echo chambers in your social network with your social network
     description: It’s an app that lets you invite and chat with your friends, conduct a poll, and then chat with the friends who disagree with you on certain topics
-    link: 
+    link: http://160-final-website.s3-website-us-east-1.amazonaws.com/
     studio: paige
     members: "Jincheng Liu \nDongning Wang \nDavid Zhang \nOmkar Raje \nMauricio Madrigal-Avina"
 -
-    presenting: Monday
-    order: 4
     name: News with Friends
-    submitted?: y
     tagline: Diverse news discussions with your friends
     description: Share an article, react, and discuss! Get the opportunity to read news with your friends, where you and each one of your friends will all get the same article of a different political perspective. Highlight and react to sentences that you agree with, are upset by, disappointed in, or disagree with to let your friends know how you feel. View their reactions and engage in a discussion!
-    link: 
+    link: https://jessxcachen.github.io/news-with-friends/
     studio: christine
     members: "Alexander Kamgar\nMehdi Kazi\nRochelle Shen\nJessica Chen"
 -
-    presenting: Monday
-    order: 5
     name: ThoughtPop
-    submitted?: y
     tagline: Bursting bubbles, expanding horizons
     description: "Our   web   application   is   made   up   of   data   represented   visually   as   bubbles   or   within\nbubbles.\nThe   user   is   greeted   with   essentially   a   large   map   and   sees   a   gray   (boring)   bubble   that contains   data   from   within   their   friend   groups,   but   first   they   see   topics   on   the   outer bubble   that   contain   data   from   strangers   globally,   bursting   their   bubble   on   first   glance.\nThe   sizes   of   the   “Likes”   and   “Dislikes”   bubbles   show   the   ratio   and   magnitude   of   these reactions   to   the   article   that   can   be   clicked   through   the   article   image   bubble."
-    link: 
+    link: https://www.ocf.berkeley.edu/~alkierlan/
     studio: paige
     members: "Yulin Zheng \nCindy Martinez \nAlex Kierlanczyk \nNicholas Cowan \nCarlo Casalme"
 -
-    presenting: Monday
-    order: 6
     name: FreeSwitch
-    submitted?: y
     tagline: A new perspective. Every hour.
     description: FreeSwitch   is   a   website   that   comprises   of   controversial   topics,   where   people   can   share   and learn   from   the   constructive   comments   of   other   sides.   For   each   topic,   a   most   upvoted   comment of   either   left   or   right   wing   will   be   displayed   at   the   top   bar,   and   is   forced   to   switch   sides   every hour.      The   user   would   first   identify   their   stance   on   the   issue   to   be   liberal   or   conservative,   and can   only   upvote   those   comments   from   opposite   side   and   downvote   their   own   side’s   claims,   so that   the   comments   that   receives   the   most   upvotes   are   the   most   fruitful   and   thought-provoking ones   from   both   sides.
-    link: 
+    link: https://jinghong3.wixsite.com/freeswitch
     studio: christine
     members: "Jing Hong\nHai Zhang\nYang Ding\nZhaoyu Cai"
 -
-    presenting: Monday
-    order: 7
     name: Down to Discuss
-    submitted?: y
     tagline: Broaden your perspectives while meeting new people
     description: Mobile application geared towards people who care about different perspectives. Meetup in person! Discuss fun and/or controversial topics, meet people with different perspectives. Gives users the ability to create and find meetups, has points system to encourage reusability.
-    link: 
+    link: https://linettej.wixsite.com/downtodiscuss
     studio: paige
     members: "Tiffany Yen \nLauren Martini \nNadia Aquil \nLinette Carissa"
 -
-    presenting: Monday
-    order: 8
     name: BirdsEye
-    submitted?: y
     tagline: Expand your perspective by finding events near you.
     description: It   can   be   hard   to   breach   one’s   personal   sphere   to   learn   about   other   perspectives,   and   feel motivated   to   do   so.   Our   app,   BirdsEye,   aims   to   make   it   easy   to   find   and   participate   in   a   variety   of local   events   (talks,   panels,   discussions,   etc.)   that   will   not   only   deepen   your   understanding   of important   topics,   but   also   allow   you   earn   local   discounts   and   prizes   by   earning   points   for   each event   you   attend.   Get   more   points   for   going   to   events   you   wouldn’t   normally   go   to!
-    link: 
+    link: https://andrealiu.github.io/160-final-website/
     studio: christine
     members: "Andrea Liu\nJeffrey Wang\nKristine Lin\nFabiola Lopez"
 -
-    presenting: Monday
-    order: 9
     name: Bias Free Me
-    submitted?: y
     tagline: Talk to more people, have less bias.
     description: A web application that motivates users to talk with others who hold different political opinions by keep track of their “Bias Score”. Users can view others who differ from them on trending political topics and engage in conversations. They can also browse news articles from diverse sources on the platform to balance their “Bias Score”
-    link: 
+    link: https://biasfreeme.github.io/
     studio: paige
     members: "Yifu Gu \nYao Yuan \nYidan Zhang \nLincoln Lin"
 -
-    presenting: Wednesday
-    order: 1
     name: Go Meet People
-    submitted?: y
     tagline: people with politics, conversations without conflict
     description: Gomeetpeople is a place for engaging, social interactions that promotes the discussion of important events both with people in a common network and strangers who are not in a common network who have different political opinions in a gamified manner. Users are incentivized to use the app more consistently by progressing through the app by leveling up, and can receive badges for their continuous use. The goal of physical interactions is to reduce the prevalence of echo chambers caused by online disagreements, allowing users to meet in person (putting a face to   the   Username)   encourages   users   to   discuss   topics   in   a   civilized   manner.
-    link: 
+    link: https://gomeetpeople.com/about/
     studio: emily
     members: "Michelle Chuang\nAndrew Halle\nAnna Leskova\nGabby Lin\nChristopher "
 -
-    presenting: Wednesday
-    order: 2
     name: Calmo
-    submitted?: y
     tagline: Keep calm and debate on
     description: A social media platform which allows users with different culture and background to learn about and discuss different news topics.  Users are able to join chat rooms allocated specifically for the given topic. Each chat room is a safe and moderated environment where  conflicts are controlled and users are made aware of their speech based on its level of offensiveness, meanings, and context, through sentiment analysis.
-    link: 
+    link: https://fragilerunescape.wixsite.com/calmo
     studio: daniel
     members: "Provi Zhang\nJiaqi Meng\nKien Phan\n Michael Zhang"
 -
-    presenting: Wednesday
-    order: 3
     name: Don’t Be Meme
-    submitted?: y
     tagline: Sorry, didn’t meme to offend you
     description: Don’t Be Meme provides a platform where people can view content and be exposed to opinions that is outside of their echo chambers, but at the same time retain a fun, instant-gratification aspect. This is inspired by BuzzFeed style polling quizzes and how people spend time on it while procrastinating. The idea is to get people to procrastinate on Don’t Be Meme and at the same time engage in controversial material
-    link: 
+    link: https://javi-heir.github.io/cs160website/
     studio: emily
     members: "Jason​ ​Chiau​\nDaniel​ ​Lee\nScott Johnson\nChristine Choi\nJavier "
 -
-    presenting: Wednesday
-    order: 4
     name: Discus
-    submitted?: y
     tagline: Debate, decentralized.
     description: Discus is a web app that connects people within a community through political discussions. Local political groups post question prompts that users discuss with other users. Users with diverse views are more likely to be grouped together, encouraging the sharing of different ideas.
-    link: 
+    link: https://discusly.weebly.com/
     studio: daniel
     members: "Max Johansen \nMorgan Ewing\nGordon Jake Kole\nDerek Ducharme\nHolly Luo"
 -
-    presenting: Wednesday
-    order: 5
     name: Chat with Me
-    submitted?: y
     tagline: Similar   People,   Separate   Perspectives.
     description: Our chat website “Chat with Me”, allows two similar individuals to discuss differing opinions on a topic in a chat room in front of an audience. Users have the option of creating a new chat with the topic of their choice and specifying their stance, or they can join a chat either as a chatter or as audience member. This allows them to explore more diverse opinions in a comfortable space.
-    link: 
+    link: https://akdeo.github.io/CS160_website/
     studio: emily
     members: "Kunal Chaudhary\nShanaaz Deo\nPurva Gupta\nRoshni Iyer"
 -
-    presenting: Wednesday
-    order: 6
     name: Project Integrity
-    submitted?: y
     tagline: News, with integrity.
     description: With the rise of social media, circular reporting and echo chambers have become increasingly pervasive issues in news reporting. Project Integrity seeks to address this issue by aggregating news articles from a curated set of reputable sources. We hope that Project Integrity will enable readers to browse the news without fear of inaccurate or misleading information, and expose them to a more diverse perspective of the world while maintaining the integrity of the content they consume.
-    link: 
+    link: http://www.phamcs.com/project-integrity-info-page/
     studio: daniel
     members: "Christine Zheng\nNathan Pham\n Michelle Ching\nHaotian Xu"
 -
-    presenting: Wednesday
-    order: 7
     name: Debatable
-    submitted?: y
     tagline: Debate and discover in a daring new way
     description: Debatable allows users to learn and share new perspectives about controversial topics. We pride ourselves in creating a safe space by having a qualified mediator present in every conference to ensure lively, yet safe debates.
-    link: 
+    link: https://cs160debatable.weebly.com/
     studio: emily
     members: "Caroline Kim\nCarrie Lin\nJamie Ni\nMelody Valdez"
 -
-    presenting: Wednesday
-    order: 8
     name: Stance
-    submitted?: y
     tagline: Listen and be heard.
     description: Stance provides a balanced environment for individuals to share their views on important topics and stories. Users can join a focused forum and clearly describe their thoughts on the issue within a running time limit. Responses from fellow users are hidden until a submission is made to encourage independent reflection, and subsequently to allow for free exploration of other viewpoints.
-    link: 
+    link: https://fragilerunescape.wixsite.com/calmo
     studio: daniel
     members: "Quang Luong\n Vinay Satish\nInan Husain\nJake Moskowitz\nSandy Papadimitriou"
 -
-    presenting: Wednesday
-    order: 9
     name: Socratic
-    submitted?: y
     tagline: Got discourse? Discuss?
     description: "Socratic   is   an   online   socratic   seminar   space   where   there   are   articles   from\ndifferent   political   backgrounds   related   to   one   event.   Guided   questions   facilitate   discussion and   push   readers   to   think   critically   with   others."
-    link: 
+    link: https://jenjijojuchi.github.io/
     studio: emily
     members: "Charles David Olivar\nGemma Guo\nTakara Satone\nGenji Noguchi"
 -
-    presenting: Wednesday
-    order: 10
     name: Groups for Change
-    submitted?: y
     tagline: Driving substantive conversations for controversial issues
     description: Groups for Change is a web-based application that allows users to sign up for events in their area, answer questions regarding their social/political orientation in the process, and be paired with 6-7 other diverse users that have different viewpoints. Through use of our Pre/Live/Post view which dynamically changes in relation to the event schedule, users can learn about, chat with, and engage in a forum-esque discussion with the users in their group. The result is an inclusive measure that allows people with potentially opposing views to discuss their ideas without fear of reprisal.
-    link: 
+    link: https://bignikhilreddy.github.io/cs160_finalproject/
     studio: daniel
     members: "Anoop Baliga\nNikhil Reddy\nAni Surumpudi\nAlex Aprea "
 -
-    presenting: Wednesday
-    order: 11
     name: Paperboy
-    submitted?: only submitted image
     tagline: News at your doorstep.
     description: A Facebook chat bot that provides users with a convenient way to regularly access diverse opinions on the news. It will send the user a daily digest of news at a preset time, with articles arranged by political bias and broken into categories for them to further explore.
-    link: 
+    link: https://paper-boy.weebly.com/
     studio: christine
     members: "Amy Shan\nGrace Lightner\nJay Iyer\nMichael Ma\nDavid Choi"
 -
-    presenting: Wednesday
-    order: 12
     name: Eventual
-    submitted?: y
     tagline: Putting the “u” in Eventual
     description: Eventual is a web application that acts as a central source for all upcoming events in one’s area and a platform on which event attendees can actively participate in the discussion. Eventual, first and foremost, allows users to view upcoming events in their area, and the recurring event dates every Monday allow for an easy way to know when events are happening. Secondly, by providing a live feed of questions and arguments from the audience, Eventual empowers the speaker to be aware of and choose thoughts to engage with from the audience in addition to empowering the audience members to field questions and opinions while remaining anonymous, which allows everyone, regardless of how comfortable they are with public speaking, to contribute actively to the discussion.
-    link: 
+    link: https://pranavshankar.github.io/eventual/
     studio: daniel
     members: "Larry Zhou\nSally Yen\nVincent Tseng\nPranav Shankar"
 -
-    presenting: Wednesday
-    order: 13
     name: Converse
-    submitted?: y
     tagline: Get to Know People with a Different Point of View
     description: Converse is an app designed to match people of opposing political viewpoints with the goal of engaging in a conversation. Converse aims to foster understanding and dialogue and encourages users to explore a world outside of their political bubble. 
-    link: 
+    link: https://sites.google.com/berkeley.edu/cs160-converse/
     studio: paige
     members: "Natalie Leuenberger\nMonica Kumaran\nBryan Alcorn     \nAnanth Agarwal\nJenny Li"
 -
-    presenting: Wednesday
-    order: 14
     name: NewsSwing
-    submitted?: y
     tagline: Personalized news that makes you smarter
     description: NewsSwing is a news digest based on your personal preferences, and at the beginning, your political bias based off your Facebook likes. Catered news gradually changes bias over time. Gently expose readers to more and more divergent political views without them noticing - which prevents immediate dismissal of new content and makes readers more tolerant.
-    link: 
+    link: http://newsswing.bitballoon.com/
     studio: christine
     members: "Vikram Baid\nMark Sun\nKevin Yu\nDerek Zhou\nChonghui Wu"

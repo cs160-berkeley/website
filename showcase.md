@@ -59,18 +59,11 @@ perspectives through social media.
 
 ### projects
 
-{% comment %}
-grouping: https://gist.github.com/budparr/0ad4a7449f9604f47eec
-converting: https://www.browserling.com/tools/csv-to-yaml
-{% endcomment %}
-
-
 <div class="project-wrapper" class="grid">
 {% assign studio_sort = site.data.project | sort: 'studio' %}
 {% for p in studio_sort %}
 <div class="project">
-    <a class="project-link" href="#">
-    <!--<a class="project-link" href="{{ p.link }}" target="_blank">-->
+    <a class="project-link" href="{{ p.link }}" target="_blank">
     <span class="project-name">{{ p.name }}</span>
     <img class="project-image" src="{{ site.base_name }}/assets/logos/{{ p.name | slugify }}.png"/>
     <span class="project-desc">{{ p.description }} [ta:  <i>{{ p.studio }}</i>]</span>
