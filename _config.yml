@@ -3,4 +3,4 @@ desc: user interface development and design
 keywords: cs160, cs260a, berkeley, ui, hci, fall 2017
 permalink: pretty
 markdown: kramdown
-base_name: '' # could change this to a subdomain later, like /f17
+base_name: 'f17' # could change this to a subdomain later, like /f17

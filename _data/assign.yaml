@@ -1,9 +1,9 @@
 ---
 - name: "a1: sketch a berkeley highlight"
-  link: /assign/1
+  link: /f17/assign/1
   valu: 2
 - name: "a2: need finding"
-  link: /assign/2
+  link: /f17/assign/2
   valu: 6
 - name: "a3: starting with apis"
   link: https://docs.google.com/document/d/1zmvlGO5PD1oi0q1kFFE6l0wZOqwDeVw71w-t0LrFmIw
