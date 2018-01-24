@@ -15,7 +15,7 @@ started quickly than detailing all of the insides of a specific framework.
 
 To get started: start up a JS console (in Chrome you can use Opt-Cmd-J).
 
-![console](./assets/images/console.png)
+![console](/assets/images/console.png)
 
 Running hello world:
 
