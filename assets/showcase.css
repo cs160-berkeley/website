@@ -1,5 +1,5 @@
 html {
-    background: url(/assets/images/campanile.jpg) no-repeat center fixed;
+    background: url(/assets/images/campanile-bw.jpg) no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -16,7 +16,7 @@ footer {
     right: 20;
 }
 a {
-    color: white;
+    color: rgb(255, 64, 129);
 }
 a:hover {
     text-decoration: none;
@@ -75,7 +75,7 @@ img {
 }
 .project:hover .project-name {
     border-left: rgb(255, 64, 129) solid 1em;
-    color: black;
+    color: rgb(255, 64, 129);
 }
 .project:hover .project-desc {
     background-color: rgba(0, 0, 0, 0.4);
